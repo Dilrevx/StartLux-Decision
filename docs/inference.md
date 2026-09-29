@@ -166,14 +166,14 @@ then leaks into real rows through attention. When we let FP8 run on padded batch
 
 ## GGUF and llama.cpp
 
-GGUF files of every size are in `startlux-models/Startlux-Decision-<size>-GGUF`: BF16, Q8_0 and Q4_K_M. They hold the
-text decoder only. The prompt format, the option-letter readout and the per-type temperatures stay in this package,
-and `startlux_decision.gguf_server` puts them in front of llama-server:
+GGUF files of every size are on Hugging Face, one repository per size and precision (BF16, Q8_0 and Q4_K_M), named
+`startlux-models/Startlux-Decision-<size>-<precision>-GGUF`. They hold the text decoder only. The prompt format, the
+option-letter readout and the per-type temperatures stay in this package, and `startlux_decision.gguf_server` puts them
+in front of llama-server:
 
 ```bash
-hf download startlux-models/Startlux-Decision-4B-GGUF --local-dir Startlux-Decision-4B-GGUF \
-    --include "*Q8_0.gguf" "*.json" "*.txt" "*.jinja" "LICENSE" "startlux_decision/*"
-cd Startlux-Decision-4B-GGUF
+hf download startlux-models/Startlux-Decision-4B-Q8_0-GGUF --local-dir Startlux-Decision-4B-Q8_0-GGUF
+cd Startlux-Decision-4B-Q8_0-GGUF
 pip install -r requirements.txt                     # transformers and torch; a CPU build of torch is enough
 llama-server -m Startlux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081
 python -m startlux_decision.gguf_server --model-dir . --llama http://127.0.0.1:8081 --port 8090
