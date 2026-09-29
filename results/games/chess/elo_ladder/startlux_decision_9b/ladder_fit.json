@@ -2,196 +2,196 @@
  "config": "tactical",
  "games": [
   [
-   "G_game_vs_elo1320_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_elo1320_tactical_s1_Startlux-Decision-9B.json",
    "elo1320",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_elo1320_tactical_s2b_StartLux-Decision-9B.json",
-   "elo1320",
-   "black",
-   "1-0",
-   0.0
-  ],
-  [
-   "G_game_vs_elo1320_tactical_s3_StartLux-Decision-9B.json",
-   "elo1320",
-   "white",
-   "1-0",
-   1.0
-  ],
-  [
-   "G_game_vs_elo1320_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_elo1320_tactical_s2b_Startlux-Decision-9B.json",
    "elo1320",
    "black",
    "1-0",
    0.0
   ],
   [
-   "G_game_vs_greedy_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_elo1320_tactical_s3_Startlux-Decision-9B.json",
+   "elo1320",
+   "white",
+   "1-0",
+   1.0
+  ],
+  [
+   "G_game_vs_elo1320_tactical_s4b_Startlux-Decision-9B.json",
+   "elo1320",
+   "black",
+   "1-0",
+   0.0
+  ],
+  [
+   "G_game_vs_greedy_tactical_s1_Startlux-Decision-9B.json",
    "greedy",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_greedy_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_greedy_tactical_s2b_Startlux-Decision-9B.json",
    "greedy",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_greedy_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_greedy_tactical_s3_Startlux-Decision-9B.json",
    "greedy",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_greedy_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_greedy_tactical_s4b_Startlux-Decision-9B.json",
    "greedy",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_mix25_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_mix25_tactical_s1_Startlux-Decision-9B.json",
    "mix25",
    "white",
    "1/2-1/2",
    0.5
   ],
   [
-   "G_game_vs_mix25_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_mix25_tactical_s2b_Startlux-Decision-9B.json",
    "mix25",
    "black",
    "1-0",
    0.0
   ],
   [
-   "G_game_vs_mix25_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_mix25_tactical_s3_Startlux-Decision-9B.json",
    "mix25",
    "white",
    "1/2-1/2",
    0.5
   ],
   [
-   "G_game_vs_mix25_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_mix25_tactical_s4b_Startlux-Decision-9B.json",
    "mix25",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_mix50_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_mix50_tactical_s1_Startlux-Decision-9B.json",
    "mix50",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_mix50_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_mix50_tactical_s2b_Startlux-Decision-9B.json",
    "mix50",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_mix50_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_mix50_tactical_s3_Startlux-Decision-9B.json",
    "mix50",
    "white",
    "1/2-1/2",
    0.5
   ],
   [
-   "G_game_vs_mix50_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_mix50_tactical_s4b_Startlux-Decision-9B.json",
    "mix50",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_mix75_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_mix75_tactical_s1_Startlux-Decision-9B.json",
    "mix75",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_mix75_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_mix75_tactical_s2b_Startlux-Decision-9B.json",
    "mix75",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_mix75_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_mix75_tactical_s3_Startlux-Decision-9B.json",
    "mix75",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_mix75_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_mix75_tactical_s4b_Startlux-Decision-9B.json",
    "mix75",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_random_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_random_tactical_s1_Startlux-Decision-9B.json",
    "random",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_random_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_random_tactical_s2b_Startlux-Decision-9B.json",
    "random",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_random_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_random_tactical_s3_Startlux-Decision-9B.json",
    "random",
    "white",
    "1-0",
    1.0
   ],
   [
-   "G_game_vs_random_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_random_tactical_s4b_Startlux-Decision-9B.json",
    "random",
    "black",
    "0-1",
    1.0
   ],
   [
-   "G_game_vs_sf0_tactical_s1_StartLux-Decision-9B.json",
+   "G_game_vs_sf0_tactical_s1_Startlux-Decision-9B.json",
    "sf0",
    "white",
    "0-1",
    0.0
   ],
   [
-   "G_game_vs_sf0_tactical_s2b_StartLux-Decision-9B.json",
+   "G_game_vs_sf0_tactical_s2b_Startlux-Decision-9B.json",
    "sf0",
    "black",
    "1/2-1/2",
    0.5
   ],
   [
-   "G_game_vs_sf0_tactical_s3_StartLux-Decision-9B.json",
+   "G_game_vs_sf0_tactical_s3_Startlux-Decision-9B.json",
    "sf0",
    "white",
    "0-1",
    0.0
   ],
   [
-   "G_game_vs_sf0_tactical_s4b_StartLux-Decision-9B.json",
+   "G_game_vs_sf0_tactical_s4b_Startlux-Decision-9B.json",
    "sf0",
    "black",
    "1-0",

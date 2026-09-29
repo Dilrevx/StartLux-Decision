@@ -1,6 +1,6 @@
 """Typed Decisions benchmark (LocalLLaMA/typed-decisions, test split: 400 cases x 5 questions = 2,000 decisions).
 
-    python eval/typed_decisions.py predict --model /path/to/StartLux-Decision-4B --out preds.jsonl
+    python eval/typed_decisions.py predict --model /path/to/Startlux-Decision-4B --out preds.jsonl
     python eval/typed_decisions.py predict --endpoint http://127.0.0.1:8090 --out preds.jsonl
     python eval/typed_decisions.py baseline --kind uniform|prior --out preds.jsonl
     python eval/typed_decisions.py score preds.jsonl [more.jsonl ...]
@@ -87,8 +87,8 @@ def predict(a):
                 return json.loads(r.read())["answers"]
     else:
         sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        from startlux_decision import StartLuxDecision
-        model = StartLuxDecision(a.model)
+        from startlux_decision import StartluxDecision
+        model = StartluxDecision(a.model)
         if a.temperature is not None:
             model.temperature = {k: float(a.temperature) for k in model.temperature}
 
@@ -220,9 +220,9 @@ def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("predict")
-    p.add_argument("--model", help="local StartLux-Decision directory (in-process)")
+    p.add_argument("--model", help="local Startlux-Decision directory (in-process)")
     p.add_argument("--endpoint", help="base URL of a /v1/systemone server instead of --model")
-    p.add_argument("--model-name", default="StartLux-Decision", help="value of the request's model field (endpoint mode)")
+    p.add_argument("--model-name", default="Startlux-Decision", help="value of the request's model field (endpoint mode)")
     p.add_argument("--api-key-env", default="SYSTEMONE_API_KEY", help="env var holding a bearer token (endpoint mode)")
     p.add_argument("--temperature", help="override every per-type temperature (in-process only)")
     p.add_argument("--out", required=True)

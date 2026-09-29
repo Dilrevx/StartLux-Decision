@@ -1,7 +1,7 @@
 {
  "case": "store",
  "task": "Order the cheapest 8-pack of AA batteries that has free delivery, and ship it to my home address.",
- "endpoint": "StartLux-Decision-27B, /v1/systemone",
+ "endpoint": "Startlux-Decision-27B, /v1/systemone",
  "viewport": {
   "width": 1120,
   "height": 700

@@ -1,10 +1,10 @@
 """Decision Index runner with requests batched together: the kit's rows, shard filter and result records (the same
-file layout as `python -m decision_index run`), but many requests share forward passes through StartLuxDecision.decide_batch().
+file layout as `python -m decision_index run`), but many requests share forward passes through StartluxDecision.decide_batch().
 On an H200 this took a 4B from 3.96 to 2.20 GPU-hours for the whole suite (about 1.8x) with the same index.
 
-    python eval/di/batched.py --model /path/to/StartLux-Decision-4B --suite /path/to/suite-0.2 --out runs/StartLux-Decision-4B \
+    python eval/di/batched.py --model /path/to/Startlux-Decision-4B --suite /path/to/suite-0.2 --out runs/Startlux-Decision-4B \
         --shard 0 --shards 8          # one process per GPU, shards 0..7
-    python -m decision_index score --results runs/StartLux-Decision-4B/results.jsonl --edition 0.2.1
+    python -m decision_index score --results runs/Startlux-Decision-4B/results.jsonl --edition 0.2.1
 
 Shards write runs/.../shardNNN/results.jsonl; concatenate them (eval/di/merge.py) before scoring.  A request with a
 choice list over 26 options, or one that fails to render, falls back to the per-request path with the kit runner's
@@ -25,7 +25,7 @@ import torch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-ENGINE = "eval.di.startlux_decision_engine:StartLuxDecisionEngine"
+ENGINE = "eval.di.startlux_decision_engine:StartluxDecisionEngine"
 
 
 def index_ids(edition):
@@ -53,7 +53,7 @@ class Single(Exception):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, help="local StartLux-Decision directory")
+    ap.add_argument("--model", required=True, help="local Startlux-Decision directory")
     ap.add_argument("--suite", required=True, help="the kit's built suite directory (suite-0.2)")
     ap.add_argument("--edition", default="0.2")
     ap.add_argument("--out", required=True)
@@ -91,7 +91,7 @@ def main():
     engine.synchronize()
     atomic_json(out / "environment.json", {"engine": ENGINE, "engine_options": options, "model_source": engine.provenance, **engine.runtime(),
                                            "loaded_seconds": time.perf_counter() - t, "rows_path": [str(p) for p in suite.row_paths],
-                                           "runner": "eval/di/batched.py (requests batched through StartLuxDecision.decide_batch)",
+                                           "runner": "eval/di/batched.py (requests batched through StartluxDecision.decide_batch)",
                                            "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(), "latency": engine.latency})
     engine.warmup()
     engine.synchronize()

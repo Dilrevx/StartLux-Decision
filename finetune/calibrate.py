@@ -16,7 +16,7 @@ import sys
 import torch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from startlux_decision import StartLuxDecision  # noqa: E402
+from startlux_decision import StartluxDecision  # noqa: E402
 from startlux_decision import jevfmt as J  # noqa: E402
 
 GRID = [math.exp(math.log(0.2) + i * (math.log(5.0) - math.log(0.2)) / 800) for i in range(801)]
@@ -51,7 +51,7 @@ def main():
     ap.add_argument("--device", help="cuda or cpu (default: cuda when available)")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    m = StartLuxDecision(a.model, device=a.device)
+    m = StartluxDecision(a.model, device=a.device)
     by_type = {"choice": [], "noul": [], "score": []}
     with open(a.dev, encoding="utf-8") as f:
         for line in f:

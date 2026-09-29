@@ -1,4 +1,4 @@
-"""StartLux-Decision inference.
+"""Startlux-Decision inference.
 
 Each question is rendered as one prompt (startlux_decision/jevfmt.py), the model runs one forward pass, and the
 answer is read from the next-token logits of the option letters at the last prompt position, divided by the
@@ -20,7 +20,7 @@ import torch
 
 from . import jevfmt as J
 
-__all__ = ["StartLuxDecision", "load_model", "fast_kernels_active"]
+__all__ = ["StartluxDecision", "load_model", "fast_kernels_active"]
 
 GRAPH_LENGTHS = (128, 192, 256, 320, 384, 512, 640, 768, 1024, 1536, 2048, 3072, 4096)
 GRAPH_ROWS = (1, 2, 3, 4)          # questions per request replayed as one graph
@@ -63,14 +63,14 @@ def load_model(path, device):
     return model, getattr(model.model, "language_model", model.model)
 
 
-class StartLuxDecision:
+class StartluxDecision:
     """decide(state, questions) -> (answers, usage), answers in the TypeSafe /v1/systemone format."""
 
     def __init__(self, path, device=None, max_length=65536, max_batch_tokens=65536, graphs=True):
         from transformers import AutoTokenizer
 
         if not os.path.isdir(path):
-            raise FileNotFoundError(f"{path}: expected a local StartLux-Decision directory (weights are shared separately)")
+            raise FileNotFoundError(f"{path}: expected a local Startlux-Decision directory (weights are shared separately)")
         cfg = json.load(open(os.path.join(path, "decision_config.json")))
         self.tok = AutoTokenizer.from_pretrained(path)
         self.letters = J.check_tokenizer(self.tok)

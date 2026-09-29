@@ -1,7 +1,7 @@
 """Concatenate the shard results of eval/di/batched.py into one results.jsonl for the kit's scorer.
 
-    python eval/di/merge.py runs/StartLux-Decision-4B          -> runs/StartLux-Decision-4B/results.jsonl
-    python -m decision_index score --results runs/StartLux-Decision-4B/results.jsonl --edition 0.2.1   (and --edition 0.2)
+    python eval/di/merge.py runs/Startlux-Decision-4B          -> runs/Startlux-Decision-4B/results.jsonl
+    python -m decision_index score --results runs/Startlux-Decision-4B/results.jsonl --edition 0.2.1   (and --edition 0.2)
 """
 import json
 import sys

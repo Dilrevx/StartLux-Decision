@@ -1,7 +1,7 @@
-"""Decision Index engine for StartLux-Decision, for the kit's own runner:
+"""Decision Index engine for Startlux-Decision, for the kit's own runner:
 
-    python -m decision_index run --engine eval.di.startlux_decision_engine:StartLuxDecisionEngine --option model=/path/to/StartLux-Decision-4B \
-        --out runs/StartLux-Decision-4B
+    python -m decision_index run --engine eval.di.startlux_decision_engine:StartluxDecisionEngine --option model=/path/to/Startlux-Decision-4B \
+        --out runs/Startlux-Decision-4B
 
 Run it from the repository root with the kit installed.  One request at a time.  CUDA graphs speed up single short
 requests, but on the Decision Index mix, where many requests carry several longer questions, --option graphs=false is
@@ -17,16 +17,16 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspa
 from decision_index.engines.base import Engine, Unsupported  # noqa: E402
 
 
-class StartLuxDecisionEngine(Engine):
-    name = "StartLux-Decision"
+class StartluxDecisionEngine(Engine):
+    name = "Startlux-Decision"
     latency = "In-process request wall time including prompt rendering and letter readout; excludes model loading."
 
     def __init__(self, model, graphs=True, **options):
         super().__init__(model=model, graphs=graphs, **options)
-        from startlux_decision import StartLuxDecision
+        from startlux_decision import StartluxDecision
         if isinstance(graphs, str):
             graphs = graphs.lower() not in ("0", "false", "no", "off")
-        self.m = StartLuxDecision(model, graphs=bool(graphs))
+        self.m = StartluxDecision(model, graphs=bool(graphs))
         self.provenance = {"kind": "startlux_decision", "model": model, "temperature": self.m.temperature}
 
     def runtime(self):

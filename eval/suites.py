@@ -1,9 +1,9 @@
 """Seven accuracy suites plus the calibration pilot from the Intern-Decision benchmark bundle.
 
-    python eval/suites.py predict --model /path/to/StartLux-Decision-4B --out preds/StartLux-Decision-4B          # in-process
+    python eval/suites.py predict --model /path/to/Startlux-Decision-4B --out preds/Startlux-Decision-4B          # in-process
     python eval/suites.py predict --endpoint http://127.0.0.1:8090 --out preds/server          # any /v1/systemone server
-    python eval/suites.py score preds/StartLux-Decision-4B [preds/other ...] [--json scores.json]
-    python eval/suites.py pilot --model /path/to/StartLux-Decision-4B --out pilot_predictions.jsonl
+    python eval/suites.py score preds/Startlux-Decision-4B [preds/other ...] [--json scores.json]
+    python eval/suites.py pilot --model /path/to/Startlux-Decision-4B --out pilot_predictions.jsonl
 
 The suites are JevBench easy / original / hard (the public tiers), Typed Decisions test, ToolACE test, AG News test and
 WildJailBreak test: 10,751 rows and 12,351 decisions.  Scoring follows the bundle exactly: upstream jevbench (commit
@@ -126,9 +126,9 @@ def engine(a):
                 return list(crit)
         return ask, score_keys
     sys.path.insert(0, os.path.dirname(HERE))
-    from startlux_decision import StartLuxDecision
+    from startlux_decision import StartluxDecision
     from startlux_decision import jevfmt as J
-    model = StartLuxDecision(a.model)
+    model = StartluxDecision(a.model)
     if a.temperature is not None:
         model.temperature = {k: float(a.temperature) for k in model.temperature}
 
@@ -231,9 +231,9 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name in ("predict", "pilot"):
         p = sub.add_parser(name)
-        p.add_argument("--model", help="local StartLux-Decision directory (in-process)")
+        p.add_argument("--model", help="local Startlux-Decision directory (in-process)")
         p.add_argument("--endpoint", help="base URL of a /v1/systemone server instead of --model")
-        p.add_argument("--model-name", default="StartLux-Decision", help="value of the request's model field (endpoint mode)")
+        p.add_argument("--model-name", default="Startlux-Decision", help="value of the request's model field (endpoint mode)")
         p.add_argument("--api-key-env", default="SYSTEMONE_API_KEY", help="env var holding a bearer token (endpoint mode)")
         p.add_argument("--temperature", help="override every per-type temperature (in-process only)")
         p.add_argument("--out", required=True)
