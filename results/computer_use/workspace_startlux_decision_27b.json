@@ -1,0 +1,1484 @@
+{
+ "case": "workspace",
+ "task": "Invite dana@harborline.example to the Design team as an Editor.",
+ "endpoint": "Startlux-Decision-27B, /v1/systemone",
+ "viewport": {
+  "width": 1120,
+  "height": 700
+ },
+ "steps": [
+  {
+   "step": 0,
+   "url": "app.tandem.test/index.html",
+   "elements": [
+    {
+     "box": [
+      12,
+      61.546875,
+      176,
+      36.296875
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Home\""
+    },
+    {
+     "box": [
+      12,
+      99.84375,
+      176,
+      36.296875
+     ],
+     "id": "e2",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      12,
+      138.140625,
+      176,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      12,
+      176.4375,
+      176,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Calendar\""
+    },
+    {
+     "box": [
+      12,
+      214.734375,
+      176,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Reports\""
+    },
+    {
+     "box": [
+      12,
+      253.03125,
+      176,
+      36.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Settings\""
+    },
+    {
+     "box": [
+      12,
+      291.328125,
+      176,
+      36.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Help\""
+    },
+    {
+     "box": [
+      224,
+      12,
+      562.3125,
+      39.75
+     ],
+     "id": "e8",
+     "kind": "focus",
+     "text": "text box \"Search Tandem\""
+    },
+    {
+     "box": [
+      798.3125,
+      16.375,
+      98.390625,
+      31
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "button \"New project\""
+    },
+    {
+     "box": [
+      908.703125,
+      14,
+      103.703125,
+      35.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "button \"Notifications\""
+    },
+    {
+     "box": [
+      247,
+      184.28125,
+      386,
+      38.75
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Website refresh\" (Recent projects  Q4 launch plan Mobile onboarding)"
+    },
+    {
+     "box": [
+      247,
+      223.03125,
+      386,
+      38.75
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "link \"Q4 launch plan\" (Recent projects Website refresh  Mobile onboarding)"
+    },
+    {
+     "box": [
+      247,
+      261.78125,
+      386,
+      38.75
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Mobile onboarding\" (Recent projects Website refresh Q4 launch plan)"
+    },
+    {
+     "box": [
+      687,
+      184.28125,
+      386,
+      38.75
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Review homepage mockups\" (Your tasks  Approve October budget Write launch announcement)"
+    },
+    {
+     "box": [
+      687,
+      223.03125,
+      386,
+      38.75
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Approve October budget\" (Your tasks Review homepage mockups  Write launch announcement)"
+    },
+    {
+     "box": [
+      687,
+      261.78125,
+      386,
+      38.75
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Write launch announcement\" (Your tasks Review homepage mockups Approve October budget)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.0005068446625955403,
+    "e2": 0.0018828959437087178,
+    "e3": 0.9867043495178223,
+    "e4": 0.0002452776243444532,
+    "e5": 0.0009677825146354735,
+    "e6": 0.000775895721744746,
+    "e7": 0.00035116876824758947,
+    "e8": 0.006825692020356655,
+    "e9": 0.0007163104019127786,
+    "e10": 0.00015459052519872785,
+    "e11": 0.00021385742002166808,
+    "e12": 0.00014084194845054299,
+    "e13": 0.00017679508891887963,
+    "e14": 0.0001316817506449297,
+    "e15": 7.045418169582263e-05,
+    "e16": 0.00013558013597503304
+   },
+   "choice": "e3",
+   "done": 0.00214111665263772,
+   "latency_ms": 137.2,
+   "wall_ms": 169.2,
+   "input_tokens": 1261
+  },
+  {
+   "step": 1,
+   "url": "app.tandem.test/teams.html",
+   "elements": [
+    {
+     "box": [
+      12,
+      61.546875,
+      176,
+      36.296875
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Home\""
+    },
+    {
+     "box": [
+      12,
+      99.84375,
+      176,
+      36.296875
+     ],
+     "id": "e2",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      12,
+      138.140625,
+      176,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      12,
+      176.4375,
+      176,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Calendar\""
+    },
+    {
+     "box": [
+      12,
+      214.734375,
+      176,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Reports\""
+    },
+    {
+     "box": [
+      12,
+      253.03125,
+      176,
+      36.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Settings\""
+    },
+    {
+     "box": [
+      12,
+      291.328125,
+      176,
+      36.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Help\""
+    },
+    {
+     "box": [
+      224,
+      12,
+      562.3125,
+      39.75
+     ],
+     "id": "e8",
+     "kind": "focus",
+     "text": "text box \"Search Tandem\""
+    },
+    {
+     "box": [
+      798.3125,
+      16.375,
+      98.390625,
+      31
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "button \"New project\""
+    },
+    {
+     "box": [
+      908.703125,
+      14,
+      103.703125,
+      35.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "button \"Notifications\""
+    },
+    {
+     "box": [
+      990.640625,
+      87.921875,
+      101.359375,
+      31
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "button \"Create team\""
+    },
+    {
+     "box": [
+      1006.296875,
+      159.515625,
+      66.703125,
+      39.75
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "link \"Open Engineering\" (Engineering 14 members)"
+    },
+    {
+     "box": [
+      1006.296875,
+      221.109375,
+      66.703125,
+      39.75
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Open Design\" (Design 6 members)"
+    },
+    {
+     "box": [
+      1006.296875,
+      282.703125,
+      66.703125,
+      39.75
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Open Marketing\" (Marketing 5 members)"
+    },
+    {
+     "box": [
+      1006.296875,
+      344.296875,
+      66.703125,
+      39.75
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Open Support\" (Support 9 members)"
+    },
+    {
+     "box": [
+      1006.296875,
+      405.890625,
+      66.703125,
+      39.75
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Open Finance\" (Finance 3 members)"
+    }
+   ],
+   "probabilities": {
+    "e1": 8.11543723102659e-05,
+    "e2": 0.00010040359484264627,
+    "e3": 0.00024655237211845815,
+    "e4": 6.0146259784232825e-05,
+    "e5": 9.344732097815722e-05,
+    "e6": 7.089516293490306e-05,
+    "e7": 6.396225944627076e-05,
+    "e8": 0.00014235200069379061,
+    "e9": 0.00017913273768499494,
+    "e10": 7.61935007176362e-05,
+    "e11": 0.0003938130394089967,
+    "e12": 0.000488544930703938,
+    "e13": 0.9973747730255127,
+    "e14": 0.00032858119811862707,
+    "e15": 0.00011901921243406832,
+    "e16": 0.00018107912910636514
+   },
+   "choice": "e13",
+   "done": 0.0020580461714416742,
+   "latency_ms": 135.86,
+   "wall_ms": 166.8,
+   "input_tokens": 1142
+  },
+  {
+   "step": 2,
+   "url": "app.tandem.test/team.html?id=design",
+   "elements": [
+    {
+     "box": [
+      12,
+      61.546875,
+      176,
+      36.296875
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Home\""
+    },
+    {
+     "box": [
+      12,
+      99.84375,
+      176,
+      36.296875
+     ],
+     "id": "e2",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      12,
+      138.140625,
+      176,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      12,
+      176.4375,
+      176,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Calendar\""
+    },
+    {
+     "box": [
+      12,
+      214.734375,
+      176,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Reports\""
+    },
+    {
+     "box": [
+      12,
+      253.03125,
+      176,
+      36.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Settings\""
+    },
+    {
+     "box": [
+      12,
+      291.328125,
+      176,
+      36.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Help\""
+    },
+    {
+     "box": [
+      224,
+      12,
+      562.3125,
+      39.75
+     ],
+     "id": "e8",
+     "kind": "focus",
+     "text": "text box \"Search Tandem\""
+    },
+    {
+     "box": [
+      798.3125,
+      16.375,
+      98.390625,
+      31
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "button \"New project\""
+    },
+    {
+     "box": [
+      908.703125,
+      14,
+      103.703125,
+      35.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "button \"Notifications\""
+    },
+    {
+     "box": [
+      228,
+      87.75,
+      38.296875,
+      15
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      988.40625,
+      114.765625,
+      103.59375,
+      31
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "button \"Invite people\""
+    },
+    {
+     "box": [
+      228,
+      158.9375,
+      58.359375,
+      38.296875
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Members\""
+    },
+    {
+     "box": [
+      304.359375,
+      158.9375,
+      50.578125,
+      38.296875
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      372.9375,
+      158.9375,
+      86.375,
+      38.296875
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Team settings\""
+    },
+    {
+     "box": [
+      1029,
+      271.53125,
+      36,
+      34.296875
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "button \"More actions for Maya Chen\" (Maya Chen maya@harborline.example Admin)"
+    },
+    {
+     "box": [
+      1029,
+      324.828125,
+      36,
+      34.296875
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "button \"More actions for Leo Park\" (Leo Park leo@harborline.example Editor)"
+    },
+    {
+     "box": [
+      1029,
+      378.125,
+      36,
+      34.296875
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "button \"More actions for Ines Duarte\" (Ines Duarte ines@harborline.example Editor)"
+    },
+    {
+     "box": [
+      1029,
+      431.421875,
+      36,
+      34.296875
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "button \"More actions for Sam Okafor\" (Sam Okafor sam@harborline.example Viewer)"
+    },
+    {
+     "box": [
+      1029,
+      484.71875,
+      36,
+      34.296875
+     ],
+     "id": "e20",
+     "kind": "click",
+     "text": "button \"More actions for Ruth Klein\" (Ruth Klein ruth@harborline.example Viewer)"
+    },
+    {
+     "box": [
+      1029,
+      538.015625,
+      36,
+      34.296875
+     ],
+     "id": "e21",
+     "kind": "click",
+     "text": "button \"More actions for Tom Weller\" (Tom Weller tom@harborline.example Editor)"
+    }
+   ],
+   "probabilities": {
+    "e1": 5.983045411994681e-05,
+    "e2": 4.3445430492283776e-05,
+    "e3": 0.00012191254791105166,
+    "e4": 3.869319334626198e-05,
+    "e5": 6.599137122975662e-05,
+    "e6": 3.6687015381176025e-05,
+    "e7": 3.748052768060006e-05,
+    "e8": 6.979709723964334e-05,
+    "e9": 0.0001703582238405943,
+    "e10": 0.00010285391181241721,
+    "e11": 0.0001231911446666345,
+    "e12": 0.9949055910110474,
+    "e13": 0.003604474011808634,
+    "e14": 0.00010382066830061376,
+    "e15": 0.00012277805944904685,
+    "e16": 8.152266673278064e-05,
+    "e17": 3.142930654576048e-05,
+    "e18": 4.231647835695185e-05,
+    "e19": 6.718097574776039e-05,
+    "e20": 7.928228296805173e-05,
+    "e21": 9.133397543337196e-05
+   },
+   "choice": "e12",
+   "done": 0.0035406791139394045,
+   "latency_ms": 184.18,
+   "wall_ms": 213.7,
+   "input_tokens": 1700
+  },
+  {
+   "step": 3,
+   "url": "app.tandem.test/team.html?id=design",
+   "elements": [
+    {
+     "box": [
+      767.234375,
+      90,
+      30.765625,
+      35.75
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "button \"Close\""
+    },
+    {
+     "box": [
+      328,
+      160.59375,
+      470,
+      36.84375
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Email or name\""
+    },
+    {
+     "box": [
+      332,
+      246.28125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      234.28125,
+      476,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "radio \"Viewer, can view and comment\" (selected)"
+    },
+    {
+     "box": [
+      332,
+      288.578125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      276.578125,
+      476,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "radio \"Editor, can edit projects\" (not selected)"
+    },
+    {
+     "box": [
+      332,
+      330.875,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      318.875,
+      476,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "radio \"Admin, can manage the team\" (not selected)"
+    },
+    {
+     "box": [
+      622.53125,
+      369.171875,
+      71.5,
+      33
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "button \"Cancel\""
+    },
+    {
+     "box": [
+      704.03125,
+      369.171875,
+      93.96875,
+      33
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "button \"Send invite\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00035536548239178956,
+    "e2": 0.9286766648292542,
+    "e3": 0.000795717176515609,
+    "e4": 0.06599653512239456,
+    "e5": 0.0008258044254034758,
+    "e6": 0.00023909838637337089,
+    "e7": 0.003110739169642329
+   },
+   "choice": "e2",
+   "done": 0.0015389046166092157,
+   "latency_ms": 108.26,
+   "wall_ms": 139.4,
+   "input_tokens": 739
+  },
+  {
+   "step": 4,
+   "url": "app.tandem.test/team.html?id=design",
+   "elements": [
+    {
+     "box": [
+      767.234375,
+      90,
+      30.765625,
+      35.75
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "button \"Close\""
+    },
+    {
+     "box": [
+      328,
+      160.59375,
+      470,
+      36.84375
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Email or name\" (focused, suggestions open)"
+    },
+    {
+     "box": [
+      323,
+      233.28125,
+      474,
+      34.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Dana Whitfield, dana@harborline.example\""
+    },
+    {
+     "box": [
+      323,
+      267.578125,
+      474,
+      34.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Dan Ortiz, dan.ortiz@harborline.example\""
+    },
+    {
+     "box": [
+      323,
+      301.875,
+      474,
+      34.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Diana Moss, diana@harborline.example\""
+    },
+    {
+     "box": [
+      323,
+      336.171875,
+      474,
+      34.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Dante Rossi, dante@harborline.example\""
+    },
+    {
+     "box": [
+      332,
+      420.3125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      408.3125,
+      476,
+      36.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "radio \"Viewer, can view and comment\" (selected)"
+    },
+    {
+     "box": [
+      332,
+      462.609375,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      450.609375,
+      476,
+      36.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "radio \"Editor, can edit projects\" (not selected)"
+    },
+    {
+     "box": [
+      332,
+      504.90625,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      492.90625,
+      476,
+      36.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "radio \"Admin, can manage the team\" (not selected)"
+    },
+    {
+     "box": [
+      622.53125,
+      543.203125,
+      71.5,
+      33
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "button \"Cancel\""
+    },
+    {
+     "box": [
+      704.03125,
+      543.203125,
+      93.96875,
+      33
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "button \"Send invite\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00018767020083032548,
+    "e2": 0.00881914235651493,
+    "e3": 0.9583319425582886,
+    "e4": 0.00042848236626014113,
+    "e5": 0.0007738890126347542,
+    "e6": 0.00029774056747555733,
+    "e7": 0.0008552889921702445,
+    "e8": 0.028071580454707146,
+    "e9": 0.00036359138903208077,
+    "e10": 0.00012001353752566501,
+    "e11": 0.001750676310621202
+   },
+   "choice": "e3",
+   "done": 0.0022758280392736197,
+   "latency_ms": 137.45,
+   "wall_ms": 166.3,
+   "input_tokens": 1164
+  },
+  {
+   "step": 5,
+   "url": "app.tandem.test/team.html?id=design",
+   "elements": [
+    {
+     "box": [
+      767.234375,
+      90,
+      30.765625,
+      35.75
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "button \"Close\""
+    },
+    {
+     "box": [
+      432.546875,
+      160.59375,
+      365.453125,
+      36.84375
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Email or name\""
+    },
+    {
+     "box": [
+      332,
+      246.28125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      234.28125,
+      476,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "radio \"Viewer, can view and comment\" (selected)"
+    },
+    {
+     "box": [
+      332,
+      288.578125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      276.578125,
+      476,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "radio \"Editor, can edit projects\" (not selected)"
+    },
+    {
+     "box": [
+      332,
+      330.875,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      318.875,
+      476,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "radio \"Admin, can manage the team\" (not selected)"
+    },
+    {
+     "box": [
+      622.53125,
+      369.171875,
+      71.5,
+      33
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "button \"Cancel\""
+    },
+    {
+     "box": [
+      704.03125,
+      369.171875,
+      93.96875,
+      33
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "button \"Send invite\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00012398457329254597,
+    "e2": 0.00036171128158457577,
+    "e3": 0.0013394356938079,
+    "e4": 0.9912052750587463,
+    "e5": 0.0011270061368122697,
+    "e6": 0.00014331555576063693,
+    "e7": 0.0056992643512785435
+   },
+   "choice": "e4",
+   "done": 0.0034299655817449093,
+   "latency_ms": 102.27,
+   "wall_ms": 26404.3,
+   "input_tokens": 795
+  },
+  {
+   "step": 6,
+   "url": "app.tandem.test/team.html?id=design",
+   "elements": [
+    {
+     "box": [
+      767.234375,
+      90,
+      30.765625,
+      35.75
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "button \"Close\""
+    },
+    {
+     "box": [
+      432.546875,
+      160.59375,
+      365.453125,
+      36.84375
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Email or name\""
+    },
+    {
+     "box": [
+      332,
+      246.28125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      234.28125,
+      476,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "radio \"Viewer, can view and comment\" (not selected)"
+    },
+    {
+     "box": [
+      332,
+      288.578125,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      276.578125,
+      476,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "radio \"Editor, can edit projects\" (selected)"
+    },
+    {
+     "box": [
+      332,
+      330.875,
+      13,
+      13
+     ],
+     "hbox": [
+      322,
+      318.875,
+      476,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "radio \"Admin, can manage the team\" (not selected)"
+    },
+    {
+     "box": [
+      622.53125,
+      369.171875,
+      71.5,
+      33
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "button \"Cancel\""
+    },
+    {
+     "box": [
+      704.03125,
+      369.171875,
+      93.96875,
+      33
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "button \"Send invite\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00011560064012883231,
+    "e2": 0.00021318535436876118,
+    "e3": 0.00018727348651736975,
+    "e4": 0.0006297383224591613,
+    "e5": 0.00017747783567756414,
+    "e6": 0.00033310879371128976,
+    "e7": 0.9983434677124023
+   },
+   "choice": "e7",
+   "done": 0.007320535834878683,
+   "latency_ms": 103.91,
+   "wall_ms": 22191.0,
+   "input_tokens": 803
+  },
+  {
+   "step": 7,
+   "url": "app.tandem.test/team.html?id=design&sent=dana%40harborline.example",
+   "elements": [
+    {
+     "box": [
+      12,
+      61.546875,
+      176,
+      36.296875
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Home\""
+    },
+    {
+     "box": [
+      12,
+      99.84375,
+      176,
+      36.296875
+     ],
+     "id": "e2",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      12,
+      138.140625,
+      176,
+      36.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      12,
+      176.4375,
+      176,
+      36.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Calendar\""
+    },
+    {
+     "box": [
+      12,
+      214.734375,
+      176,
+      36.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Reports\""
+    },
+    {
+     "box": [
+      12,
+      253.03125,
+      176,
+      36.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Settings\""
+    },
+    {
+     "box": [
+      12,
+      291.328125,
+      176,
+      36.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Help\""
+    },
+    {
+     "box": [
+      224,
+      12,
+      562.3125,
+      39.75
+     ],
+     "id": "e8",
+     "kind": "focus",
+     "text": "text box \"Search Tandem\""
+    },
+    {
+     "box": [
+      798.3125,
+      16.375,
+      98.390625,
+      31
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "button \"New project\""
+    },
+    {
+     "box": [
+      908.703125,
+      14,
+      103.703125,
+      35.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "button \"Notifications\""
+    },
+    {
+     "box": [
+      228,
+      87.75,
+      38.296875,
+      15
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Teams\""
+    },
+    {
+     "box": [
+      988.40625,
+      114.765625,
+      103.59375,
+      31
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "button \"Invite people\""
+    },
+    {
+     "box": [
+      228,
+      158.9375,
+      58.359375,
+      38.296875
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Members\""
+    },
+    {
+     "box": [
+      304.359375,
+      158.9375,
+      50.578125,
+      38.296875
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Projects\""
+    },
+    {
+     "box": [
+      372.9375,
+      158.9375,
+      86.375,
+      38.296875
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Team settings\""
+    },
+    {
+     "box": [
+      1029,
+      271.53125,
+      36,
+      34.296875
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "button \"More actions for Maya Chen\" (Maya Chen maya@harborline.example Admin)"
+    },
+    {
+     "box": [
+      1029,
+      324.828125,
+      36,
+      34.296875
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "button \"More actions for Leo Park\" (Leo Park leo@harborline.example Editor)"
+    },
+    {
+     "box": [
+      1029,
+      378.125,
+      36,
+      34.296875
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "button \"More actions for Ines Duarte\" (Ines Duarte ines@harborline.example Editor)"
+    },
+    {
+     "box": [
+      1029,
+      431.421875,
+      36,
+      34.296875
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "button \"More actions for Sam Okafor\" (Sam Okafor sam@harborline.example Viewer)"
+    },
+    {
+     "box": [
+      1029,
+      484.71875,
+      36,
+      34.296875
+     ],
+     "id": "e20",
+     "kind": "click",
+     "text": "button \"More actions for Ruth Klein\" (Ruth Klein ruth@harborline.example Viewer)"
+    },
+    {
+     "box": [
+      1029,
+      538.015625,
+      36,
+      34.296875
+     ],
+     "id": "e21",
+     "kind": "click",
+     "text": "button \"More actions for Tom Weller\" (Tom Weller tom@harborline.example Editor)"
+    },
+    {
+     "box": [
+      1029,
+      591.3125,
+      36,
+      34.296875
+     ],
+     "id": "e22",
+     "kind": "click",
+     "text": "button \"More actions for Dana Whitfield\" (Dana Whitfield dana@harborline.example Editor Invited)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.054247334599494934,
+    "e2": 0.01481073722243309,
+    "e3": 0.06185995414853096,
+    "e4": 0.006193825509399176,
+    "e5": 0.004447545390576124,
+    "e6": 0.005128152668476105,
+    "e7": 0.005892174784094095,
+    "e8": 0.007146332412958145,
+    "e9": 0.010056303814053535,
+    "e10": 0.006290344055742025,
+    "e11": 0.04441177099943161,
+    "e12": 0.06883741170167923,
+    "e13": 0.3595643639564514,
+    "e14": 0.024926671758294106,
+    "e15": 0.014312953688204288,
+    "e16": 0.009112395346164703,
+    "e17": 0.0057218330912292,
+    "e18": 0.0031932315323501825,
+    "e19": 0.006510657723993063,
+    "e20": 0.007770271971821785,
+    "e21": 0.01256752759218216,
+    "e22": 0.26699820160865784
+   },
+   "choice": "e13",
+   "done": 0.9937565326690674,
+   "latency_ms": 255.91,
+   "wall_ms": 19048.4,
+   "input_tokens": 1969,
+   "stopped": true
+  }
+ ],
+ "final_url": "/team.html?id=design&sent=dana%40harborline.example",
+ "result": {
+  "invites": [
+   {
+    "team": "design",
+    "name": "Dana Whitfield",
+    "email": "dana@harborline.example",
+    "role": "Editor"
+   }
+  ],
+  "matches_task": true
+ }
+}

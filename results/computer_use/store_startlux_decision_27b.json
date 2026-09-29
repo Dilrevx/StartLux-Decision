@@ -1,0 +1,2252 @@
+{
+ "case": "store",
+ "task": "Order the cheapest 8-pack of AA batteries that has free delivery, and ship it to my home address.",
+ "endpoint": "Startlux-Decision-27B, /v1/systemone",
+ "viewport": {
+  "width": 1120,
+  "height": 700
+ },
+ "steps": [
+  {
+   "step": 0,
+   "url": "kestrel-market.test/index.html",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      50,
+      65.75,
+      68.46875,
+      20.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Electronics\""
+    },
+    {
+     "box": [
+      136.46875,
+      65.75,
+      101.171875,
+      20.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Home & Kitchen\""
+    },
+    {
+     "box": [
+      255.640625,
+      65.75,
+      46.703125,
+      20.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "link \"Garden\""
+    },
+    {
+     "box": [
+      320.34375,
+      65.75,
+      28.796875,
+      20.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "link \"Toys\""
+    },
+    {
+     "box": [
+      367.140625,
+      65.75,
+      49.796875,
+      20.296875
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "link \"Grocery\""
+    },
+    {
+     "box": [
+      434.9375,
+      65.75,
+      36.578125,
+      20.296875
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Office\""
+    },
+    {
+     "box": [
+      936.9375,
+      145.984375,
+      107.0625,
+      39.75
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "link \"Shop deals\""
+    },
+    {
+     "box": [
+      65,
+      382.328125,
+      210.125,
+      17
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Quietline Wireless Headphones\" ($89.00 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      65,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Quietline Wireless Headphones $89.00 Free delivery)"
+    },
+    {
+     "box": [
+      323.5,
+      382.328125,
+      194.265625,
+      17
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Brightway LED Bulbs, 6-pack\" ($12.99 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      323.5,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Brightway LED Bulbs, 6-pack $12.99 Free delivery)"
+    },
+    {
+     "box": [
+      582,
+      382.328125,
+      184.796875,
+      17
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "link \"Oakmill Burr Coffee Grinder\" ($49.00 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      582,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Oakmill Burr Coffee Grinder $49.00 Free delivery)"
+    },
+    {
+     "box": [
+      840.5,
+      475.421875,
+      98.46875,
+      35
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Everlite AAA Alkaline Batteries, 8-pack $5.79 Free delivery)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.0018813012866303325,
+    "e2": 0.9468628168106079,
+    "e3": 0.004388404544442892,
+    "e4": 0.0004500682989601046,
+    "e5": 0.00367343588732183,
+    "e6": 0.02522832341492176,
+    "e7": 0.005235913675278425,
+    "e8": 0.000610767980106175,
+    "e9": 0.0006488391663879156,
+    "e10": 0.0033036170061677694,
+    "e11": 0.0020604163873940706,
+    "e12": 0.0021488454658538103,
+    "e13": 0.00025555520551279187,
+    "e14": 0.000284985319012776,
+    "e15": 0.00021128662046976388,
+    "e16": 0.0003619011549744755,
+    "e17": 0.00027690507704392076,
+    "e18": 0.00030150869861245155,
+    "e19": 0.0018151369877159595
+   },
+   "choice": "e2",
+   "done": 0.0044726161286234856,
+   "latency_ms": 231.96,
+   "wall_ms": 264.8,
+   "input_tokens": 1720
+  },
+  {
+   "step": 1,
+   "url": "kestrel-market.test/index.html",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\" (focused, suggestions open)"
+    },
+    {
+     "box": [
+      204.0625,
+      53,
+      688.890625,
+      37.75
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"AA batteries\""
+    },
+    {
+     "box": [
+      204.0625,
+      90.75,
+      688.890625,
+      37.75
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"AAA batteries\""
+    },
+    {
+     "box": [
+      204.0625,
+      128.5,
+      688.890625,
+      37.75
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"rechargeable batteries\""
+    },
+    {
+     "box": [
+      204.0625,
+      166.25,
+      688.890625,
+      37.75
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"phone charger\""
+    },
+    {
+     "box": [
+      204.0625,
+      204,
+      688.890625,
+      37.75
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"LED bulbs\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      50,
+      65.75,
+      68.46875,
+      20.296875
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Electronics\""
+    },
+    {
+     "box": [
+      136.46875,
+      65.75,
+      101.171875,
+      20.296875
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "link \"Home & Kitchen\""
+    },
+    {
+     "box": [
+      936.9375,
+      145.984375,
+      107.0625,
+      39.75
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Shop deals\""
+    },
+    {
+     "box": [
+      65,
+      382.328125,
+      210.125,
+      17
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Quietline Wireless Headphones\" ($89.00 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      65,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Quietline Wireless Headphones $89.00 Free delivery)"
+    },
+    {
+     "box": [
+      323.5,
+      382.328125,
+      194.265625,
+      17
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Brightway LED Bulbs, 6-pack\" ($12.99 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      323.5,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Brightway LED Bulbs, 6-pack $12.99 Free delivery)"
+    },
+    {
+     "box": [
+      582,
+      382.328125,
+      184.796875,
+      17
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "link \"Oakmill Burr Coffee Grinder\" ($49.00 Free delivery Add to cart)"
+    },
+    {
+     "box": [
+      582,
+      453.671875,
+      98.46875,
+      35
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Oakmill Burr Coffee Grinder $49.00 Free delivery)"
+    },
+    {
+     "box": [
+      840.5,
+      475.421875,
+      98.46875,
+      35
+     ],
+     "id": "e20",
+     "kind": "click",
+     "text": "button \"Add to cart\" (Everlite AAA Alkaline Batteries, 8-pack $5.79 Free delivery)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.0021922988817095757,
+    "e2": 0.2896946668624878,
+    "e3": 0.6904446482658386,
+    "e4": 0.001827406813390553,
+    "e5": 0.004448446910828352,
+    "e6": 0.0010130403097718954,
+    "e7": 0.000773011997807771,
+    "e8": 0.0006826294120401144,
+    "e9": 0.0006784245488233864,
+    "e10": 0.0006733883637934923,
+    "e11": 0.0010807994985952973,
+    "e12": 0.0009420088026672602,
+    "e13": 0.0008504762081429362,
+    "e14": 0.0006172285648062825,
+    "e15": 0.0004344990593381226,
+    "e16": 0.0007212238269858062,
+    "e17": 0.0005292290006764233,
+    "e18": 0.0006254975451156497,
+    "e19": 0.0009018050041049719,
+    "e20": 0.0008692650590091944
+   },
+   "choice": "e3",
+   "done": 0.006208493374288082,
+   "latency_ms": 235.31,
+   "wall_ms": 265.9,
+   "input_tokens": 1809
+  },
+  {
+   "step": 2,
+   "url": "kestrel-market.test/search.html?q=AA%20batteries",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      69,
+      137.59375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      134.59375,
+      170,
+      21.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "checkbox \"Free delivery\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      193.734375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      190.734375,
+      170,
+      21.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "checkbox \"4-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      220.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      217.03125,
+      170,
+      21.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "checkbox \"8-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      246.328125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      243.328125,
+      170,
+      21.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "checkbox \"24-pack\" (not selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e10",
+     "kind": "option",
+     "value": "featured",
+     "text": "option \"Featured\" in \"Sort by\" (selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e11",
+     "kind": "option",
+     "value": "price-asc",
+     "text": "option \"Price: low to high\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e12",
+     "kind": "option",
+     "value": "price-desc",
+     "text": "option \"Price: high to low\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e13",
+     "kind": "option",
+     "value": "rating",
+     "text": "option \"Customer rating\" in \"Sort by\""
+    },
+    {
+     "box": [
+      385,
+      151.453125,
+      275.703125,
+      17
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Voltmax AA Alkaline Batteries, 24-pack\" (\u2605 4.5 (2,947) $14.99 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      251.453125,
+      275.96875,
+      17
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Duracore AA Alkaline Batteries, 8-pack\" (\u2605 4.8 (5,102) $7.29 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      351.453125,
+      267.359375,
+      17
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Voltmax AA Alkaline Batteries, 8-pack\" (\u2605 4.5 (2,311) $5.99 Delivery $4.99)"
+    },
+    {
+     "box": [
+      385,
+      451.453125,
+      275.140625,
+      17
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "link \"Everlite AAA Alkaline Batteries, 8-pack\" (\u2605 4.4 (932) $5.79 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      551.453125,
+      264.3125,
+      17
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "link \"Everlite AA Alkaline Batteries, 8-pack\" (\u2605 4.6 (1,874) $6.49 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      651.453125,
+      410.734375,
+      17
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "link \"Duracore AA Rechargeable Batteries, 4-pack with charger\" (\u2605 4.7 (3,020) $24.99 Free delivery)"
+    },
+    {
+     "id": "scroll_down",
+     "kind": "scroll",
+     "text": "scroll down the page",
+     "box": null
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00047528528375551105,
+    "e2": 0.0010466787498444319,
+    "e3": 0.0004759820003528148,
+    "e4": 0.000356637203367427,
+    "e5": 0.0016360112931579351,
+    "e6": 0.7572396993637085,
+    "e7": 0.0008856132044456899,
+    "e8": 0.12837526202201843,
+    "e9": 0.0005753837758675218,
+    "e10": 0.005545115564018488,
+    "e11": 0.03315103426575661,
+    "e12": 0.0002995457616634667,
+    "e13": 0.0004070765571668744,
+    "e14": 0.0007684659794904292,
+    "e15": 0.0018429654883220792,
+    "e16": 0.0010884047951549292,
+    "e17": 0.0013553673634305596,
+    "e18": 0.05376071110367775,
+    "e19": 0.0011742027709260583,
+    "scroll_down": 0.009540589526295662
+   },
+   "choice": "e6",
+   "done": 0.0053415680304169655,
+   "latency_ms": 256.2,
+   "wall_ms": 285.5,
+   "input_tokens": 2515
+  },
+  {
+   "step": 3,
+   "url": "kestrel-market.test/search.html?q=AA+batteries&free=1",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      69,
+      137.59375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      134.59375,
+      170,
+      21.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "checkbox \"Free delivery\" (selected)"
+    },
+    {
+     "box": [
+      69,
+      193.734375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      190.734375,
+      170,
+      21.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "checkbox \"4-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      220.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      217.03125,
+      170,
+      21.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "checkbox \"8-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      246.328125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      243.328125,
+      170,
+      21.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "checkbox \"24-pack\" (not selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e10",
+     "kind": "option",
+     "value": "featured",
+     "text": "option \"Featured\" in \"Sort by\" (selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e11",
+     "kind": "option",
+     "value": "price-asc",
+     "text": "option \"Price: low to high\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e12",
+     "kind": "option",
+     "value": "price-desc",
+     "text": "option \"Price: high to low\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e13",
+     "kind": "option",
+     "value": "rating",
+     "text": "option \"Customer rating\" in \"Sort by\""
+    },
+    {
+     "box": [
+      385,
+      151.453125,
+      275.703125,
+      17
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Voltmax AA Alkaline Batteries, 24-pack\" (\u2605 4.5 (2,947) $14.99 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      251.453125,
+      275.96875,
+      17
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Duracore AA Alkaline Batteries, 8-pack\" (\u2605 4.8 (5,102) $7.29 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      351.453125,
+      275.140625,
+      17
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Everlite AAA Alkaline Batteries, 8-pack\" (\u2605 4.4 (932) $5.79 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      451.453125,
+      264.3125,
+      17
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "link \"Everlite AA Alkaline Batteries, 8-pack\" (\u2605 4.6 (1,874) $6.49 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      551.453125,
+      410.734375,
+      17
+     ],
+     "id": "e18",
+     "kind": "click",
+     "text": "link \"Duracore AA Rechargeable Batteries, 4-pack with charger\" (\u2605 4.7 (3,020) $24.99 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      651.453125,
+      261.484375,
+      17
+     ],
+     "id": "e19",
+     "kind": "click",
+     "text": "link \"Everlite AA Lithium Batteries, 8-pack\" (\u2605 4.8 (744) $12.49 Free delivery)"
+    },
+    {
+     "id": "scroll_down",
+     "kind": "scroll",
+     "text": "scroll down the page",
+     "box": null
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00015610388072673231,
+    "e2": 0.0004930097493343055,
+    "e3": 0.0002274759899592027,
+    "e4": 0.00011583077866816893,
+    "e5": 0.0005850968300364912,
+    "e6": 0.00028660136740654707,
+    "e7": 0.0004778591974172741,
+    "e8": 0.9342677593231201,
+    "e9": 0.0004366333014331758,
+    "e10": 0.00193932990077883,
+    "e11": 0.028213437646627426,
+    "e12": 0.0001191779228975065,
+    "e13": 0.00022408751829061657,
+    "e14": 0.00035291994572617114,
+    "e15": 0.0031943602953106165,
+    "e16": 0.0007252049399539828,
+    "e17": 0.026378316804766655,
+    "e18": 0.00022225546126719564,
+    "e19": 0.0006861722795292735,
+    "scroll_down": 0.000898412661626935
+   },
+   "choice": "e8",
+   "done": 0.0038754756096750498,
+   "latency_ms": 255.53,
+   "wall_ms": 286.5,
+   "input_tokens": 2422
+  },
+  {
+   "step": 4,
+   "url": "kestrel-market.test/search.html?q=AA+batteries&free=1&pack=8",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      69,
+      137.59375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      134.59375,
+      170,
+      21.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "checkbox \"Free delivery\" (selected)"
+    },
+    {
+     "box": [
+      69,
+      193.734375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      190.734375,
+      170,
+      21.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "checkbox \"4-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      220.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      217.03125,
+      170,
+      21.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "checkbox \"8-pack\" (selected)"
+    },
+    {
+     "box": [
+      69,
+      246.328125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      243.328125,
+      170,
+      21.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "checkbox \"24-pack\" (not selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e10",
+     "kind": "option",
+     "value": "featured",
+     "text": "option \"Featured\" in \"Sort by\" (selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e11",
+     "kind": "option",
+     "value": "price-asc",
+     "text": "option \"Price: low to high\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e12",
+     "kind": "option",
+     "value": "price-desc",
+     "text": "option \"Price: high to low\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e13",
+     "kind": "option",
+     "value": "rating",
+     "text": "option \"Customer rating\" in \"Sort by\""
+    },
+    {
+     "box": [
+      385,
+      151.453125,
+      275.96875,
+      17
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Duracore AA Alkaline Batteries, 8-pack\" (\u2605 4.8 (5,102) $7.29 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      251.453125,
+      275.140625,
+      17
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Everlite AAA Alkaline Batteries, 8-pack\" (\u2605 4.4 (932) $5.79 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      351.453125,
+      264.3125,
+      17
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Everlite AA Alkaline Batteries, 8-pack\" (\u2605 4.6 (1,874) $6.49 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      451.453125,
+      261.484375,
+      17
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "link \"Everlite AA Lithium Batteries, 8-pack\" (\u2605 4.8 (744) $12.49 Free delivery)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00045984715688973665,
+    "e2": 0.0015522298635914922,
+    "e3": 0.00046164693776518106,
+    "e4": 0.0003392181533854455,
+    "e5": 0.001853820402175188,
+    "e6": 0.0005484765861183405,
+    "e7": 0.00041001386125572026,
+    "e8": 0.0005376301123760641,
+    "e9": 0.0006132643320597708,
+    "e10": 0.023772183805704117,
+    "e11": 0.8568946719169617,
+    "e12": 0.00041030877036973834,
+    "e13": 0.0005865939310751855,
+    "e14": 0.010790601372718811,
+    "e15": 0.003465252462774515,
+    "e16": 0.09667767584323883,
+    "e17": 0.0006265651318244636
+   },
+   "choice": "e11",
+   "done": 0.005460805259644985,
+   "latency_ms": 255.83,
+   "wall_ms": 286.3,
+   "input_tokens": 1963
+  },
+  {
+   "step": 5,
+   "url": "kestrel-market.test/search.html?q=AA+batteries&free=1&pack=8&sort=price-asc",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      69,
+      137.59375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      134.59375,
+      170,
+      21.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "checkbox \"Free delivery\" (selected)"
+    },
+    {
+     "box": [
+      69,
+      193.734375,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      190.734375,
+      170,
+      21.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "checkbox \"4-pack\" (not selected)"
+    },
+    {
+     "box": [
+      69,
+      220.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      217.03125,
+      170,
+      21.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "checkbox \"8-pack\" (selected)"
+    },
+    {
+     "box": [
+      69,
+      246.328125,
+      13,
+      13
+     ],
+     "hbox": [
+      65,
+      243.328125,
+      170,
+      21.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "checkbox \"24-pack\" (not selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e10",
+     "kind": "option",
+     "value": "featured",
+     "text": "option \"Featured\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e11",
+     "kind": "option",
+     "value": "price-asc",
+     "text": "option \"Price: low to high\" in \"Sort by\" (selected)"
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e12",
+     "kind": "option",
+     "value": "price-desc",
+     "text": "option \"Price: high to low\" in \"Sort by\""
+    },
+    {
+     "box": [
+      929,
+      84.75,
+      141,
+      30
+     ],
+     "id": "e13",
+     "kind": "option",
+     "value": "rating",
+     "text": "option \"Customer rating\" in \"Sort by\""
+    },
+    {
+     "box": [
+      385,
+      151.453125,
+      275.140625,
+      17
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "link \"Everlite AAA Alkaline Batteries, 8-pack\" (\u2605 4.4 (932) $5.79 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      251.453125,
+      264.3125,
+      17
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "link \"Everlite AA Alkaline Batteries, 8-pack\" (\u2605 4.6 (1,874) $6.49 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      351.453125,
+      275.96875,
+      17
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "link \"Duracore AA Alkaline Batteries, 8-pack\" (\u2605 4.8 (5,102) $7.29 Free delivery)"
+    },
+    {
+     "box": [
+      385,
+      451.453125,
+      261.484375,
+      17
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "link \"Everlite AA Lithium Batteries, 8-pack\" (\u2605 4.8 (744) $12.49 Free delivery)"
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00020622120064217597,
+    "e2": 0.0006892152014188468,
+    "e3": 0.00023162116121966392,
+    "e4": 0.00012738624354824424,
+    "e5": 0.0004677912511397153,
+    "e6": 0.00016654926002956927,
+    "e7": 7.479443593183532e-05,
+    "e8": 8.027983858482912e-05,
+    "e9": 0.00015496894775424153,
+    "e10": 6.807253521401435e-05,
+    "e11": 0.00012080508895451203,
+    "e12": 7.409646786982194e-05,
+    "e13": 0.0001405897637596354,
+    "e14": 0.00637436518445611,
+    "e15": 0.9883974194526672,
+    "e16": 0.002288566902279854,
+    "e17": 0.00033725632238201797
+   },
+   "choice": "e15",
+   "done": 0.004433554597198963,
+   "latency_ms": 254.12,
+   "wall_ms": 287.6,
+   "input_tokens": 2003
+  },
+  {
+   "step": 6,
+   "url": "kestrel-market.test/product.html?id=p5",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (0)\""
+    },
+    {
+     "box": [
+      50,
+      65.75,
+      68.46875,
+      20.296875
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "link \"Electronics\""
+    },
+    {
+     "box": [
+      136.46875,
+      65.75,
+      101.171875,
+      20.296875
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "link \"Home & Kitchen\""
+    },
+    {
+     "box": [
+      255.640625,
+      65.75,
+      46.703125,
+      20.296875
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "link \"Garden\""
+    },
+    {
+     "box": [
+      320.34375,
+      65.75,
+      28.796875,
+      20.296875
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "link \"Toys\""
+    },
+    {
+     "box": [
+      367.140625,
+      65.75,
+      49.796875,
+      20.296875
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "link \"Grocery\""
+    },
+    {
+     "box": [
+      434.9375,
+      65.75,
+      36.578125,
+      20.296875
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "link \"Office\""
+    },
+    {
+     "box": [
+      50,
+      116.046875,
+      34.6875,
+      15
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "link \"Home\""
+    },
+    {
+     "box": [
+      96.25,
+      116.046875,
+      51.3125,
+      15
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Batteries\""
+    },
+    {
+     "box": [
+      421,
+      297.359375,
+      71.03125,
+      37.75
+     ],
+     "id": "e14",
+     "kind": "click",
+     "text": "button \"4-pack\""
+    },
+    {
+     "box": [
+      500.03125,
+      297.359375,
+      73.53125,
+      37.75
+     ],
+     "id": "e15",
+     "kind": "click",
+     "text": "button \"8-pack\" (selected)"
+    },
+    {
+     "box": [
+      421,
+      352.109375,
+      96.46875,
+      33
+     ],
+     "id": "e16",
+     "kind": "click",
+     "text": "button \"Add to cart\""
+    },
+    {
+     "box": [
+      527.46875,
+      351.109375,
+      85.140625,
+      35
+     ],
+     "id": "e17",
+     "kind": "click",
+     "text": "button \"Buy now\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.0012477808631956577,
+    "e2": 0.0010821705218404531,
+    "e3": 0.0007691468927077949,
+    "e4": 0.0004047365509904921,
+    "e5": 0.0023210702929645777,
+    "e6": 0.000638343975879252,
+    "e7": 0.00048412365140393376,
+    "e8": 0.00035291133099235594,
+    "e9": 0.000544750306289643,
+    "e10": 0.00044624871225096285,
+    "e11": 0.0004937326302751899,
+    "e12": 0.0006941099418327212,
+    "e13": 0.0005326086538843811,
+    "e14": 0.0005144721362739801,
+    "e15": 0.0012557769659906626,
+    "e16": 0.36249402165412903,
+    "e17": 0.6257239580154419
+   },
+   "choice": "e17",
+   "done": 0.016441868618130684,
+   "latency_ms": 150.63,
+   "wall_ms": 242.4,
+   "input_tokens": 1283
+  },
+  {
+   "step": 7,
+   "url": "kestrel-market.test/checkout.html",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (1)\""
+    },
+    {
+     "box": [
+      87,
+      151.390625,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      138.390625,
+      656,
+      41.75
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "radio \"Work: 400 Pine Street, Seattle, WA 98101\" (selected)"
+    },
+    {
+     "box": [
+      87,
+      200.140625,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      187.140625,
+      656,
+      41.75
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "radio \"Home: 12 Harbor Lane, Portland, OR 97209\" (not selected)"
+    },
+    {
+     "box": [
+      71,
+      237.890625,
+      128.421875,
+      17
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "link \"Add a new address\""
+    },
+    {
+     "box": [
+      87,
+      357.28125,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      344.28125,
+      656,
+      41.75
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "radio \"Standard, free, arrives Oct 3 to Oct 5\" (selected)"
+    },
+    {
+     "box": [
+      87,
+      406.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      393.03125,
+      656,
+      41.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "radio \"Express, $9.99, arrives tomorrow\" (not selected)"
+    },
+    {
+     "box": [
+      87,
+      541.421875,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      528.421875,
+      656,
+      41.75
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "radio \"Visa ending in 4242\" (selected)"
+    },
+    {
+     "box": [
+      791,
+      171.234375,
+      258,
+      33
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "button \"Place order\""
+    },
+    {
+     "box": [
+      791,
+      216.234375,
+      79.203125,
+      17
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Back to cart\""
+    }
+   ],
+   "probabilities": {
+    "e1": 5.38213353138417e-05,
+    "e2": 4.938348865834996e-05,
+    "e3": 0.0001014903245959431,
+    "e4": 3.694305632961914e-05,
+    "e5": 0.00011228889343328774,
+    "e6": 0.0008581253350712359,
+    "e7": 0.9934147596359253,
+    "e8": 0.00010977112833643332,
+    "e9": 0.0011013976763933897,
+    "e10": 7.39768220228143e-05,
+    "e11": 0.00011850742885144427,
+    "e12": 0.0039058998227119446,
+    "e13": 6.355828372761607e-05
+   },
+   "choice": "e7",
+   "done": 0.007133137434720993,
+   "latency_ms": 174.0,
+   "wall_ms": 203.8,
+   "input_tokens": 1401
+  },
+  {
+   "step": 8,
+   "url": "kestrel-market.test/checkout.html",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (1)\""
+    },
+    {
+     "box": [
+      87,
+      151.390625,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      138.390625,
+      656,
+      41.75
+     ],
+     "id": "e6",
+     "kind": "click",
+     "text": "radio \"Work: 400 Pine Street, Seattle, WA 98101\" (not selected)"
+    },
+    {
+     "box": [
+      87,
+      200.140625,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      187.140625,
+      656,
+      41.75
+     ],
+     "id": "e7",
+     "kind": "click",
+     "text": "radio \"Home: 12 Harbor Lane, Portland, OR 97209\" (selected)"
+    },
+    {
+     "box": [
+      71,
+      237.890625,
+      128.421875,
+      17
+     ],
+     "id": "e8",
+     "kind": "click",
+     "text": "link \"Add a new address\""
+    },
+    {
+     "box": [
+      87,
+      357.28125,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      344.28125,
+      656,
+      41.75
+     ],
+     "id": "e9",
+     "kind": "click",
+     "text": "radio \"Standard, free, arrives Oct 3 to Oct 5\" (selected)"
+    },
+    {
+     "box": [
+      87,
+      406.03125,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      393.03125,
+      656,
+      41.75
+     ],
+     "id": "e10",
+     "kind": "click",
+     "text": "radio \"Express, $9.99, arrives tomorrow\" (not selected)"
+    },
+    {
+     "box": [
+      87,
+      541.421875,
+      13,
+      13
+     ],
+     "hbox": [
+      71,
+      528.421875,
+      656,
+      41.75
+     ],
+     "id": "e11",
+     "kind": "click",
+     "text": "radio \"Visa ending in 4242\" (selected)"
+    },
+    {
+     "box": [
+      791,
+      171.234375,
+      258,
+      33
+     ],
+     "id": "e12",
+     "kind": "click",
+     "text": "button \"Place order\""
+    },
+    {
+     "box": [
+      791,
+      216.234375,
+      79.203125,
+      17
+     ],
+     "id": "e13",
+     "kind": "click",
+     "text": "link \"Back to cart\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.00011674160487018526,
+    "e2": 0.00010848046804312617,
+    "e3": 0.00016216795484069735,
+    "e4": 9.473373938817531e-05,
+    "e5": 0.0002528539625927806,
+    "e6": 0.00014541855489369482,
+    "e7": 0.0007847455563023686,
+    "e8": 9.814966324483976e-05,
+    "e9": 0.021537942811846733,
+    "e10": 0.00014176979311741889,
+    "e11": 0.001262047328054905,
+    "e12": 0.9750667810440063,
+    "e13": 0.00022817912395112216
+   },
+   "choice": "e12",
+   "done": 0.030276574194431305,
+   "latency_ms": 174.59,
+   "wall_ms": 207.1,
+   "input_tokens": 1431
+  },
+  {
+   "step": 9,
+   "url": "kestrel-market.test/done.html",
+   "elements": [
+    {
+     "box": [
+      50,
+      18.375,
+      135.0625,
+      29
+     ],
+     "id": "e1",
+     "kind": "click",
+     "text": "link \"Kestrel Market\""
+    },
+    {
+     "box": [
+      203.0625,
+      12,
+      690.890625,
+      41.75
+     ],
+     "id": "e2",
+     "kind": "focus",
+     "text": "text box \"Search\""
+    },
+    {
+     "box": [
+      911.953125,
+      22.71875,
+      35.796875,
+      20.296875
+     ],
+     "id": "e3",
+     "kind": "click",
+     "text": "link \"Deals\""
+    },
+    {
+     "box": [
+      963.75,
+      22.71875,
+      42.796875,
+      20.296875
+     ],
+     "id": "e4",
+     "kind": "click",
+     "text": "link \"Orders\""
+    },
+    {
+     "box": [
+      1022.546875,
+      22.71875,
+      47.453125,
+      20.296875
+     ],
+     "id": "e5",
+     "kind": "click",
+     "text": "link \"Cart (1)\""
+    }
+   ],
+   "probabilities": {
+    "e1": 0.17426873743534088,
+    "e2": 0.06333186477422714,
+    "e3": 0.013528686948120594,
+    "e4": 0.68154376745224,
+    "e5": 0.06732698529958725
+   },
+   "choice": "e4",
+   "done": 0.9938807487487793,
+   "latency_ms": 101.2,
+   "wall_ms": 131.1,
+   "input_tokens": 763,
+   "stopped": true
+  }
+ ],
+ "final_url": "/done.html",
+ "result": {
+  "order": {
+   "items": [
+    {
+     "id": "p5",
+     "qty": 1
+    }
+   ],
+   "address": "home",
+   "speed": "standard",
+   "addressLabel": "Home: 12 Harbor Lane, Portland, OR 97209",
+   "speedLabel": "Standard, free, arrives Oct 3 to Oct 5"
+  },
+  "matches_task": true
+ }
+}

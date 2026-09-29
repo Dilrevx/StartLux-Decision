@@ -1,0 +1,282 @@
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "elo1320"]
+[Result "*"]
+[Termination "stopped at the 160-ply cap; ladder adjudication 1-0"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d5 4. exd5 Qxd5 5. Nc4 b5 6. Ne3 Qc6 7. Nc3 Qd7 8. Bxb5 Nc6 9. Bxc6 Qxc6 10. Qf3 Bd7 11. Qxc6 Bxc6 12. O-O Bb7 13. Nb5 c6 14. Nc7+ Kd8 15. Nxa8 Bxa8 16. Nc4 Rg8 17. Ne5 Nd7 18. Nxf7+ Kc8 19. Ng5 Bb4 20. Nxh7 Be7 21. Re1 Bc5 22. Ng5 Bd4 23. Ne6 Be5 24. Ng5 Rd8 25. Nf7 Bc7 26. Nxd8 Nb6 27. Nf7 Kd7 28. Ne5+ Ke8 29. Nxc6+ Kd7 30. Nxa7 Bxg2 31. Kxg2 Nd5 32. Nb5 Nf4+ 33. Kg3 Nh5+ 34. Kh3 Kc6 35. Na7+ Kb7 36. Nb5 Kb6 37. Nxc7 Ka7 38. Nb5+ Kb7 39. Nd6+ Kc6 40. Ne8 Nf4+ 41. Kg4 Ng2 42. Nxg7 Nxe1 43. c3 Nd3 44. Kg3 Nc5 45. d4 Nb3 46. axb3 Kb5 47. c4+ Kc6 48. d5+ Kc5 49. Ne6+ Kb4 50. c5 Kxb3 51. Nd4+ Kc4 52. Ne6 Kd3 53. Nf4+ Kc2 54. Be3 Kb3 55. Ra3+ Kc4 56. Ra4+ Kb5 57. Ra8 Kb4 58. c6 Kb3 59. Rb8+ Ka2 60. b3 Ka3 61. b4 Ka4 62. b5 Ka3 63. Ra8+ Kb4 64. b6 Kb5 65. b7 Kc4 66. b8=Q Kc3 67. Qe5+ Kb3 68. Qb8+ Kc4 69. d6 Kc3 70. Nd5+ Kc4 71. Nb6+ Kd3 72. Bh6 Kc3 73. Nd5+ Kd4 74. Ne7 Kc3 75. Bg7+ Kc2 76. Qb2+ Kd3 77. Qb3+ Ke2 78. f3 Kd2 79. Qb4+ Kc1 80. Ra1+ Kc2 *
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "elo1320"]
+[Black "Startlux-Decision-9B"]
+[Result "1-0"]
+
+1. c4 d5 2. Nf3 dxc4 3. Qa4+ Qd7 4. Qxd7+ Kxd7 5. e3 b5 6. b3 cxb3 7. Bxb5+ c6 8. Bc4 Nh6 9. Bxb3 Bb7 10. Ng5 f6 11. Ne6 Nf7 12. Nc5+ Ke8 13. Bxf7+ Kxf7 14. Nxb7 Nd7 15. Na5 Rc8 16. Ke2 Ke8 17. Na3 Nb6 18. d3 Nd7 19. N5c4 Nb6 20. e4 Nxc4 21. dxc4 Rd8 22. Be3 Ra8 23. Nb1 e6 24. Rf1 f5 25. e5 g6 26. g3 Bg7 27. Nd2 Bxe5 28. Rad1 Bd6 29. Nf3 Bf8 30. Ng5 Ke7 31. f4 Kf6 32. Rfe1 Bb4 33. Rf1 Be7 34. Bd4+ e5 35. Bxe5# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "elo1320"]
+[Result "*"]
+[Termination "stopped at the 160-ply cap; ladder adjudication 1-0"]
+
+1. e4 c5 2. d4 cxd4 3. Qxd4 Nf6 4. e5 Nc6 5. Qc5 Ne4 6. Qd5 Qa5+ 7. Qxa5 Nxa5 8. Nc3 f5 9. exf6 Nxf6 10. b4 Nc4 11. Bxc4 d5 12. Nxd5 e6 13. Nxf6+ Kf7 14. Ng4 h5 15. Ne5+ Kf6 16. Nef3 b5 17. Bxb5 Bxb4+ 18. Bd2 Rb8 19. Bxb4 Rxb5 20. Bd6 Rd8 21. Bc7 Rd7 22. Bf4 Rb4 23. Bd2 Re4+ 24. Be3 Bb7 25. Ng5 Rxe3+ 26. fxe3 Bxg2 27. Nh7+ Ke7 28. Kf2 Bxh1 29. Nh3 Rd2+ 30. Kg3 Be4 31. N3g5 Bxc2 32. Nxe6 h4+ 33. Kxh4 Bf5 34. Nxg7 Bxh7 35. h3 a6 36. Nh5 Bf5 37. Ng7 Be4 38. Nh5 Rb2 39. Ng3 Bc2 40. Nh5 Rb4+ 41. Kg5 Rc4 42. Ng7 Ra4 43. Nf5+ Ke6 44. Nd4+ Kd6 45. Nxc2 Rc4 46. Nd4 Rc8 47. Nf5+ Kd7 48. Rd1+ Ke6 49. Nd4+ Kd7 50. Nb5+ Ke6 51. Nd6 Rd8 52. Kh6 Ke7 53. Nf5+ Kf6 54. Rxd8 Kf7 55. Rd7+ Ke6 56. Rd6+ Kf7 57. Rxa6 Ke8 58. Ng7+ Kd7 59. Ra7+ Kd6 60. Ne8+ Kd5 61. Nc7+ Kc4 62. Ra4+ Kd3 63. e4 Ke2 64. Ne8 Kf3 65. e5 Ke2 66. Re4+ Kd3 67. Rh4 Kc3 68. Ng7 Kd3 69. Ne6 Kd2 70. Rd4+ Kc2 71. Rc4+ Kd3 72. Rd4+ Kc3 73. Rd8 Kc2 74. Nd4+ Kc3 75. Nb5+ Kc2 76. Na3+ Kc1 77. Rc8+ Kb2 78. Nc4+ Kc3 79. Nd6+ Kb2 80. a4 Ka1 *
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "elo1320"]
+[Black "Startlux-Decision-9B"]
+[Result "1-0"]
+
+1. d4 Nc6 2. d5 Nb8 3. e4 Nf6 4. e5 Ng8 5. Nh3 d6 6. f4 Bxh3 7. Qh5 Bc8 8. Bc4 g6 9. Qd1 dxe5 10. O-O Qd6 11. Nc3 exf4 12. Kh1 Nf6 13. a3 Bg4 14. Qe1 Bf5 15. Bb5+ c6 16. Bxf4 cxb5 17. Bxd6 Bxc2 18. Qe2 Bf5 19. Rf4 Bd7 20. Rxf6 b6 21. b3 Na6 22. Raf1 Nc5 23. Re1 Nxb3 24. Rf4 g5 25. Rf2 Nd4 26. Qe4 Nb3 27. Nxb5 Bxb5 28. Bxe7 Bh6 29. Bxg5+ Kf8 30. Qe7+ Kg7 31. Qxf7# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "greedy"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 a5 3. Ne5 Nc6 4. Nxc6 bxc6 5. Bc4 Ba6 6. Bxa6 Rxa6 7. O-O a4 8. e5 a3 9. bxa3 Rxa3 10. Nxa3 f5 11. Qh5+ g6 12. Qxg6# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "greedy"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Nf3 Nc6 2. Nh4 g5 3. Nf3 Bh6 4. Nxg5 Bxg5 5. f3 Bh4+ 6. g3 Bf6 7. h3 Be5 8. h4 Bxg3# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "greedy"]
+[Result "1-0"]
+
+1. e4 e6 2. Nf3 d6 3. Bb5+ Nc6 4. Bxc6+ bxc6 5. Nd4 Bd7 6. O-O d5 7. exd5 cxd5 8. Nf3 Bd6 9. Nd4 Bxh2+ 10. Kxh2 c5 11. Nb3 Rb8 12. Nxc5 Rxb2 13. Bxb2 Bb5 14. Bxg7 Bxf1 15. Bxh8 Bxg2 16. Kxg2 h5 17. Qxh5 Qa5 18. Nxe6 Qxa2 19. Rxa2 d4 20. Nxd4 Nf6 21. Bxf6 Kd7 22. Qxf7+ Kc8 23. Rxa7 Kb8 24. Qb7# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "greedy"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. e3 Nc6 2. Qh5 Nf6 3. Qxh7 Nxh7 4. d4 Nb4 5. Nc3 Nxc2+ 6. Kd2 Nxa1 7. Nce2 Nb3+ 8. axb3 Nf6 9. Nc3 Ng4 10. Nd5 Nxf2 11. Nxc7+ Qxc7 12. Be2 Nxh1 13. Bh5 Rxh5 14. Kd1 Qxh2 15. d5 Qxg1+ 16. Kc2 Rxd5 17. Bd2 Qxg2 18. Kc1 Qxd2+ 19. Kb1 Qxe3 20. Kc2 Rd2+ 21. Kb1 Qxb3 22. Kc1 Rd1# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "mix25"]
+[Result "1/2-1/2"]
+
+1. e4 Nc6 2. Nf3 d5 3. exd5 Nb8 4. Bc4 Bg4 5. Bb5+ Nd7 6. Bxd7+ Kxd7 7. Ne5+ Ke8 8. Nxg4 c6 9. dxc6 f5 10. cxb7 Qb8 11. bxa8=N Qxa8 12. Qf3 Qxf3 13. gxf3 Kf7 14. Ne5+ Kf6 15. Nd7+ Kg6 16. Nxf8+ Kf6 17. Nd7+ Kf7 18. Ne5+ Kf8 19. Nd7+ Kf7 20. Ne5+ Ke6 21. Nc4 Kf6 22. Na5 Nh6 23. Nc6 Ra8 24. Na5 Ke6 25. Nc6 Kd7 26. Ne5+ Kd6 27. Nc4+ Kc6 28. Ne5+ Kb6 29. Nd7+ Kb7 30. Nc5+ Kb6 31. Nd7+ Kc7 32. Ne5 Kd6 33. Nc4+ Kc6 34. Ne5+ Kd6 35. Nc4+ Kc5 36. Ne5 Kd6 37. Nc4+ Kc6 38. Ne5+ Kd6 1/2-1/2
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "mix25"]
+[Black "Startlux-Decision-9B"]
+[Result "1-0"]
+
+1. d4 Nc6 2. Nc3 Nf6 3. Ne4 Nxe4 4. f3 Nf6 5. e4 Nxe4 6. fxe4 d5 7. e5 e6 8. Ne2 Bb4+ 9. c3 Be7 10. Bf4 g5 11. Bg3 O-O 12. Ng1 Bd7 13. Bd3 Re8 14. Nh3 Rf8 15. O-O Re8 16. a4 Rc8 17. Qf3 Rf8 18. Rae1 Na5 19. Bc2 Nc4 20. Qe2 Nxb2 21. Qh5 Re8 22. Qxh7+ Kf8 23. Qh8# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "mix25"]
+[Result "1/2-1/2"]
+
+1. e4 c5 2. d4 e5 3. dxe5 a6 4. Nc3 Nc6 5. Qd5 d6 6. exd6 Qxd6 7. Qxd6 Bxd6 8. Nd5 Nf6 9. Nxf6+ gxf6 10. Bc4 Nb4 11. Bd3 c4 12. Bxc4 b5 13. c3 bxc4 14. cxb4 Ke7 15. Bd2 Rd8 16. Rc1 Bb7 17. Rxc4 f5 18. exf5 Bxg2 19. Rg4 Rf8 20. Rxg2 Rfd8 21. Rg7 Rab8 22. Rxh7 Bxb4 23. Bxb4+ Kf6 24. Bc3+ Kg5 25. Rxf7 Rd1+ 26. Kxd1 Kg4 27. f6 Rd8+ 28. Ke2 Kf5 29. Ba5 Re8+ 30. Re7 Kxf6 31. Rxe8 Kg6 32. Rg8+ Kf7 33. Rh8 Kg7 34. Ra8 Kf7 35. Rxa6 Kg8 36. Ra8+ Kg7 37. Ra7+ Kf6 38. Ra6+ Kf7 39. Ra7+ Ke6 40. Ra6+ Kd7 41. Ra7+ Ke6 42. Ra6+ Kd7 43. Ra7+ Ke6 44. Ra6+ Kd7 45. Ra7+ Ke6 46. Ra6+ Kd7 47. Ra7+ Ke6 1/2-1/2
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "mix25"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Na3 Nc6 2. Nf3 Nf6 3. c3 e6 4. Ng5 Nh5 5. d4 h6 6. Nh3 Nf6 7. e3 Nd5 8. e4 Nde7 9. f3 d6 10. Be3 Bd7 11. Nf4 e5 12. dxe5 dxe5 13. Nd3 Ng6 14. Qb3 Na5 15. O-O-O Nxb3+ 16. axb3 Be6 17. Nb4 Bxb3 18. Nb1 Qxd1# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "mix50"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Ng5 f6 4. Nh3 d6 5. Bc4 Bd7 6. Bxg8 Rxg8 7. Qxh5+ g6 8. Qh7 b6 9. Qxg8 Be6 10. Qxe6 f5 11. Qxg6+ Kd7 12. Qxf5+ Ke8 13. Qg6+ Kd7 14. Qg4+ Ke8 15. Qg6+ Kd7 16. Qh7 Na5 17. Qf5+ e6 18. Qh7+ Ke8 19. Qg6+ Ke7 20. Qh7+ Bg7 21. Qxg7+ Ke8 22. Qg6+ Kf8 23. Qxe6 c5 24. Qf5+ Ke8 25. Qg6+ Ke7 26. Qh7+ Ke8 27. Qh8+ Kf7 28. Qxd8 Nc4 29. Qxa8 a5 30. Qd5+ Kf6 31. Qxc4 d5 32. exd5 Kg7 33. Qa6 Kh6 34. Qxb6+ Kg7 35. Qxc5 Kh6 36. Qxa5 Kg6 37. Qa6+ Kg7 38. Qb7+ Kh6 39. Qa6+ Kh7 40. Qa7+ Kh6 41. Qa6+ Kh7 42. Qa7+ Kg6 43. Nf4+ Kh6 44. Qa6+ Kg5 45. Ne6+ Kf6 46. Nf8+ Kf7 47. Nh7 Kg8 48. Nf6+ Kf8 49. Nh7+ Kg7 50. Nf6 Kg6 51. Ng8+ Kg7 52. Ne7 Kf8 53. Ng6+ Kf7 54. Nh8+ Kf8 55. Ng6+ Kg7 56. Ne5 Kg8 57. Qa8+ Kh7 58. Qa7+ Kh6 59. Qa6+ Kg7 60. Qa7+ Kg8 61. Qb8+ Kh7 62. Qb7+ Kh6 63. Qa6+ Kh5 64. Qg6+ Kh4 65. Qh6# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "mix50"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Nf3 Nc6 2. d4 Nf6 3. Nh4 Nd5 4. Qd3 Ndb4 5. Qb3 Nxd4 6. c3 Nxb3 7. a3 Nxa1 8. Nf5 Nc6 9. Nxg7+ Bxg7 10. f3 Nc2+ 11. Kd2 Na1 12. Kd1 Nb3 13. Be3 Ne5 14. Kc2 Na1+ 15. Kd1 Nc4 16. Bd2 Nxb2+ 17. Ke1 Nc2+ 18. Kf2 Nd1+ 19. Kg1 Na1 20. Be1 Nc2 21. h3 Nxe1 22. Nd2 Bxc3 23. Ne4 Bd4+ 24. Kh2 Be5+ 25. f4 Bxf4+ 26. Kg1 Be3+ 27. Kh2 Nf2 28. g4 Nxe4 29. h4 Nf2 30. Bh3 Nxh1 31. a4 Nf2 32. h5 Nxh3 33. Kxh3 Kf8 34. h6 Bxh6 35. e4 d5 36. a5 dxe4 37. Kg3 Qd6+ 38. Kh3 Qa3+ 39. Kh4 Qxa5 40. Kg3 Qe5+ 41. Kh3 Qh5+ 42. Kg3 Qxg4+ 43. Kf2 Nd3+ 44. Kf1 Qh3+ 45. Kg1 Rg8# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "mix50"]
+[Result "1/2-1/2"]
+
+1. e4 c5 2. d4 e5 3. dxe5 d6 4. exd6 Ne7 5. dxe7 Qxd1+ 6. Kxd1 c4 7. Bxc4 b6 8. exf8=R+ Kxf8 9. Bd5 Ke7 10. Bxa8 g5 11. Bxg5+ f6 12. Bh6 Kf7 13. Bd5+ Ke8 14. Bg7 Rg8 15. Bxg8 a5 16. Bxh7 Kd8 17. Bxf6+ Kc7 18. Be5+ Kc6 19. Bxb8 Bg4+ 20. f3 Bh5 21. g4 a4 22. gxh5 Kb7 23. Bd6 Ka7 24. Bc7 Kb7 25. Bd8 Kc6 26. Bxb6 Kb7 27. Bd8 Ka6 28. b3 Kb7 29. bxa4 Ka7 30. Bc7 Ka6 31. Bd8 Kb7 32. Ba5 Kb8 33. Bd8 Kc8 34. Be7 Kb7 35. Bd8 Ka6 36. Bc7 Kb7 37. Bd8 Ka6 38. Bc7 Kb7 39. Bd8 Ka8 40. Bc7 Kb7 41. Bd8 1/2-1/2
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "mix50"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Na3 Nc6 2. Nf3 Nf6 3. Nh4 g5 4. d3 gxh4 5. Nb5 a6 6. f4 axb5 7. e4 Nd4 8. e5 Ng8 9. Qg4 Nxc2+ 10. Ke2 Nxa1 11. a4 bxa4 12. Bd2 Nh6 13. Qh5 e6 14. f5 Nxf5 15. Kf3 Nd4+ 16. Ke4 Nc6 17. Be3 a3 18. Rg1 axb2 19. Kf3 b1=Q 20. Bb6 Qxb6 21. g4 Qxg1 22. Be2 Qxh2 23. Qg5 Qxg5 24. Bf1 Nxe5+ 25. Ke4 Qhf4# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Ng5 d5 4. exd5 Bh3 5. gxh3 Qxd5 6. Qf3 Rh6 7. Qxd5 Ne5 8. Qxb7 Nc4 9. Qxa8+ Kd7 10. Qxf8 Ne5 11. Qxg8 a5 12. Qxg7 Kd6 13. Qxh6+ e6 14. Qxh5 Ke7 15. Qh8 Kd7 16. Qxe5 Ke8 17. Qxc7 f6 18. Nxe6 a4 19. Bb5# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "mix75"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Nf3 Nc6 2. e4 Nf6 3. Nh4 Nxe4 4. Bb5 Nd4 5. Na3 Nxb5 6. Rg1 Nxa3 7. b3 Nb5 8. Rb1 g5 9. c4 gxh4 10. h3 Nbd6 11. d3 Nc3 12. Ba3 Nxa2 13. Bc5 Nc3 14. Qg4 Nxb1 15. Qf3 Nc3 16. Bd4 Rg8 17. b4 Na2 18. Qxf7+ Kxf7 19. Bh8 Rxh8 20. Ke2 Nxb4 21. f3 Nf5 22. g4 hxg3 23. Rg2 Nd4+ 24. Kf1 Rg8 25. Rb2 Nxd3 26. Ra2 Nxf3 27. Rf2 Nxf2 28. h4 Nxh4 29. c5 Ng4 30. c6 dxc6 31. Ke2 Ne5 32. Kf1 Qd1# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 c5 2. d4 e5 3. dxe5 d6 4. exd6 Ne7 5. dxe7 Bxe7 6. Qxd8+ Kxd8 7. Bc4 b6 8. Bxf7 g5 9. Bd5 Bh3 10. Bxa8 Kc8 11. gxh3 Kd8 12. Bb7 Kc7 13. Bd5 Rg8 14. Bxg8 Na6 15. Bxh7 Bd8 16. Bg8 Be7 17. Bc4 Nb4 18. c3 g4 19. hxg4 Kc6 20. cxb4 Kd7 21. bxc5 b5 22. Bxb5+ Kd8 23. c6 Bd6 24. c7+ Ke7 25. c8=Q Be5 26. Qc5+ Bd6 27. Qxa7+ Kf6 28. Qd4+ Ke6 29. Qd5+ Kf6 30. Qxd6+ Kf7 31. Qd7+ Kg8 32. Qe8+ Kg7 33. Qe7+ Kg6 34. Be8# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "mix75"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Na3 Nc6 2. f4 e5 3. Nb1 exf4 4. b4 Nxb4 5. a3 Nc6 6. Nf3 Nf6 7. e4 Nxe4 8. h3 Ng3 9. Ng1 Nxh1 10. Qe2+ Qe7 11. Qxe7+ Kxe7 12. Nc3 Nd4 13. Nge2 Nxc2+ 14. Kd1 Nxa1 15. Ng1 Nf2+ 16. Ke1 Nh1 17. a4 Nb3 18. Bd3 Nxc1 19. Be4 Nb3 20. Bc2 Nd4 21. Kf1 Nxc2 22. Nd5+ Kd6 23. Ne2 Kxd5 24. Ng1 Ng3+ 25. Kf2 Ne4+ 26. Ke2 Nd4+ 27. Ke1 Nc2+ 28. Ke2 Ng3+ 29. Kf2 Ne4+ 30. Ke2 Bc5 31. Kf3 Bxg1 32. h4 Nxd2+ 33. Ke2 Ne4 34. a5 Nd4+ 35. Kf1 Be3 36. a6 bxa6 37. g4 Ng3+ 38. Ke1 Nf3+ 39. Kd1 Nxh4 40. Kc2 h5 41. g5 Nf3 42. Kd3 Nxg5 43. Kc2 Kd6 44. Kb1 Rb8+ 45. Kc2 N5e4 46. Kd3 Nc5+ 47. Kc4 Nb7 48. Kb4 Nc5+ 49. Kc4 Ne6 50. Kd3 Bb6 51. Kd2 Ba5+ 52. Kd1 Rb1+ 53. Kc2 Rb8 54. Kc1 Ne2+ 55. Kc2 N6d4+ 56. Kd3 Ne6 57. Kxe2 Nd4+ 58. Kf1 Rb1+ 59. Kg2 Rb2+ 60. Kh3 Rb3+ 61. Kh2 Nf3+ 62. Kg2 Nh4+ 63. Kh2 Nf3+ 64. Kg2 Ng5 65. Kh1 Rb1+ 66. Kh2 Nf3+ 67. Kh3 Ng5+ 68. Kh4 Nf3+ 69. Kh3 Ng5+ 70. Kg2 Rb2+ 71. Kh1 Rb1+ 72. Kh2 Nf3+ 73. Kg2 Nh4+ 74. Kf2 Rb2+ 75. Kg1 Nf3+ 76. Kh1 Rh2# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Ng5 a6 4. Bc4 Nb8 5. Nxf7 Rh7 6. Ng5 h4 7. Bf7# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "random"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Nf3 Nc6 2. d3 Nf6 3. a3 e6 4. c4 Bc5 5. Ra2 O-O 6. Ne5 Nxe5 7. Qd2 Nc6 8. h4 Ng4 9. e4 Nxf2 10. Ke2 Nxh1 11. d4 Nxd4+ 12. Qxd4 Bxd4 13. Kd3 Bf6 14. Nc3 Bxh4 15. Nb1 Nf2+ 16. Ke2 Nxe4 17. g4 Ng3+ 18. Ke3 Nxf1+ 19. Kf4 Bg5+ 20. Ke5 Bxc1 21. b3 Qg5+ 22. Ke4 Qxg4+ 23. Kd3 Qd1+ 24. Rd2 Nxd2 25. c5 Nxb1+ 26. Kc4 Nxa3+ 27. Kc3 Qd2# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 c5 2. d4 e5 3. dxe5 d6 4. exd6 Ne7 5. dxe7 f5 6. exd8=Q+ Kf7 7. Qxc8 f4 8. Qxb7+ Ke6 9. Qxa8 Nc6 10. Qxc6+ Ke7 11. Qxc5+ Ke6 12. Qxa7 f3 13. gxf3 Bd6 14. Qxg7 h6 15. Qxh8 Ba3 16. bxa3 Ke7 17. Bxh6 Ke6 18. Qe8+ Kf6 19. Qdd8# 1-0
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "random"]
+[Black "Startlux-Decision-9B"]
+[Result "0-1"]
+
+1. Na3 Nc6 2. f4 e5 3. Nb1 exf4 4. b4 Nxb4 5. Nf3 Nxc2+ 6. Qxc2 Nf6 7. Qe4+ Nxe4 8. Bb2 Nd6 9. Ng5 Qxg5 10. Kf2 Nc4 11. Bd4 Bc5 12. g3 Bxd4+ 13. Ke1 Bxa1 14. e3 Nd6 15. e4 Nxe4 16. Be2 fxg3 17. Bb5 Qxb5 18. a3 Qxb1+ 19. Ke2 Qxh1 20. h3 Qxh3 21. Ke1 Bb2 22. d4 Bxd4 23. Kd1 Nf2+ 24. Kc2 Qf5+ 25. Kb3 Qe6+ 26. Ka4 Qa6+ 27. Kb3 Qb5+ 28. Ka2 Qb2# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Startlux-Decision-9B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 d6 3. Bb5+ c6 4. Bc4 d5 5. Nxe5 Bd6 6. exd5 Nf6 7. Nf3 O-O 8. dxc6 Re8+ 9. Be2 Ng4 10. cxb7 Bxb7 11. h3 Bxf3 12. gxf3 Nxf2 13. Kxf2 Bc5+ 14. Kg3 Nc6 15. Bb5 Re6 16. Bxc6 Qc7+ 17. Kg4 Rg6+ 18. Kh5 Rh6+ 19. Kg5 Rg6+ 20. Kf5 Rf6+ 21. Kg4 Qf4+ 22. Kh5 g6# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "sf0"]
+[Black "Startlux-Decision-9B"]
+[Result "*"]
+[Termination "stopped at the 160-ply cap; ladder adjudication 1/2-1/2"]
+
+1. Nf3 Nc6 2. e4 Nf6 3. e5 Ng8 4. Bc4 Na5 5. Bd5 e6 6. Bb3 Nxb3 7. axb3 Ne7 8. d4 Nc6 9. h4 Bb4+ 10. Bd2 Bxd2+ 11. Kxd2 O-O 12. Ke1 Re8 13. Ng5 f6 14. exf6 gxf6 15. Ne4 f5 16. Nec3 Nb4 17. Na3 Nc6 18. Rh3 d6 19. Rg3+ Kh8 20. Qh5 Nxd4 21. Qh6 Rg8 22. Rg5 Rxg5 23. Qxg5 Qxg5 24. hxg5 Nc6 25. Kd2 Ne5 26. Ncb5 a6 27. Nxc7 Rb8 28. Nc4 Nxc4+ 29. Ke2 Nxb2 30. Ra2 b6 31. f4 e5 32. Rxb2 exf4 33. c4 Bb7 34. Rd2 Rd8 35. Rd4 Bxg2 36. Rxf4 Rf8 37. Nxa6 Bb7 38. Nc7 Rf7 39. Ne6 Bc8 40. Rd4 Bxe6 41. g6 hxg6 42. Rxd6 Rb7 43. Rxe6 Kg7 44. Ke3 Kf7 45. Rd6 Re7+ 46. Kf2 Rb7 47. Kf3 Rb8 48. b4 b5 49. c5 Rb7 50. Ke3 Re7+ 51. Kd3 Rb7 52. Ke3 Rb8 53. Kf4 Rb7 54. c6 Rb8 55. Ke5 Re8+ 56. Kf4 Re6 57. Rd7+ Ke8 58. Rb7 Rxc6 59. Rb8+ Kf7 60. Rb7+ Kf8 61. Rb8+ Kg7 62. Rb7+ Kg8 63. Rb8+ Kh7 64. Rb7+ Kh8 65. Rb8+ Kh7 66. Rb7+ Kh8 67. Rxb5 Kh7 68. Rb7+ Kh8 69. Rb8+ Kh7 70. Rb7+ Kh8 71. Rb8+ Kh7 72. Kg5 Kg7 73. Rb7+ Kh8 74. b5 Rc8 75. Re7 Rb8 76. Kxg6 f4 77. Rf7 Rg8+ 78. Kf5 f3 79. Ke5 Rg3 80. b6 Kg8 *
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "Startlux-Decision-9B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 Qe7 3. Nc3 Nc6 4. Nd5 Qd8 5. Nxc7+ Qxc7 6. Bb5 Nf6 7. Bxc6 bxc6 8. Ng5 c5 9. O-O h6 10. Nf3 Bb7 11. Qe2 Rd8 12. Qc4 d5 13. Qa4+ Rd7 14. Qxa7 Nxe4 15. Qa4 c4 16. Qxd7+ Kxd7 17. Nxe5+ Qxe5 18. f3 Bc5+ 19. Kh1 Ng3+ 20. hxg3 Qh5# 0-1
+
+[Event "jev-benchmark Elo ladder, tactical facts, no code filter"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "sf0"]
+[Black "Startlux-Decision-9B"]
+[Result "1-0"]
+
+1. e4 Nf6 2. Qe2 Nxe4 3. Qxe4 d5 4. Qe2 Nc6 5. Nf3 Nb4 6. Qb5+ Nc6 7. c3 a6 8. Qe2 Qd7 9. g3 e6 10. d4 Bd6 11. Bg2 O-O 12. b3 Rd8 13. Nbd2 Qe7 14. Bb2 Ba3 15. Nb1 Bxb2 16. Qxb2 b6 17. Na3 Rb8 18. h4 e5 19. O-O exd4 20. Rfe1 Be6 21. Nb1 dxc3 22. Qc1 Qc5 23. Nxc3 d4 24. Ne2 Qxc1 25. Nxc1 Rbc8 26. Nd3 Bf5 27. Nf4 Bd7 28. h5 Bf5 29. Nh4 g5 30. Nxf5 Nb8 31. Ne7+ Kf8 32. Ne6+ Kxe7 33. Nxg5+ Kf6 34. Nxh7+ Kg7 35. Ng5 Kf6 36. Nf3 Nc6 37. Rad1 Rh8 38. a3 Rxh5 39. g4 Rhh8 40. Re4 Rhe8 41. g5+ Kg7 42. Rh4 Kg6 43. Rh6+ Kf5 44. Rf6+ Ke4 45. Nxd4+ Ke5 46. Nxc6# 1-0

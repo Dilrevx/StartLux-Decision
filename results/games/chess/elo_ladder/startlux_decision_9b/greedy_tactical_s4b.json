@@ -1,0 +1,221 @@
+{
+ "experiment": "G_play_game",
+ "level": "tactical",
+ "opponent": "greedy",
+ "filter_blunders": false,
+ "seed": 4,
+ "code_forced_moves": 0,
+ "adjudicated_result": null,
+ "model_color": "black",
+ "summary": {
+  "result": "0-1",
+  "termination": "CHECKMATE",
+  "plies": 44,
+  "model_mean_cp_loss": 127.1,
+  "model_pct_best_move": 45.5,
+  "model_blunders_200cp": 2,
+  "final_eval_cp_white": null
+ },
+ "pgn_moves": "1. e3 Nc6 2. Qh5 Nf6 3. Qxh7 Nxh7 4. d4 Nb4 5. Nc3 Nxc2+ 6. Kd2 Nxa1 7. Nce2 Nb3+ 8. axb3 Nf6 9. Nc3 Ng4 10. Nd5 Nxf2 11. Nxc7+ Qxc7 12. Be2 Nxh1 13. Bh5 Rxh5 14. Kd1 Qxh2 15. d5 Qxg1+ 16. Kc2 Rxd5 17. Bd2 Qxg2 18. Kc1 Qxd2+ 19. Kb1 Qxe3 20. Kc2 Rd2+ 21. Kb1 Qxb3 22. Kc1 Rd1#",
+ "final_fen": "r1b1kb2/pp1pppp1/8/8/8/1q6/1P6/2Kr3n w q - 2 23",
+ "model_moves": [
+  {
+   "ply": 1,
+   "san": "Nc6",
+   "cp_loss": 26,
+   "rank": 13,
+   "confidence": 0.27599266171455383,
+   "n_legal": 20,
+   "n_offered": 20
+  },
+  {
+   "ply": 3,
+   "san": "Nf6",
+   "cp_loss": 17,
+   "rank": 2,
+   "confidence": 0.45975348353385925,
+   "n_legal": 19,
+   "n_offered": 19
+  },
+  {
+   "ply": 5,
+   "san": "Nxh7",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.8097702860832214,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 7,
+   "san": "Nb4",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.1809743493795395,
+   "n_legal": 21,
+   "n_offered": 21
+  },
+  {
+   "ply": 9,
+   "san": "Nxc2+",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.8577044606208801,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 11,
+   "san": "Nxa1",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.8627930283546448,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 13,
+   "san": "Nb3+",
+   "cp_loss": 72,
+   "rank": 15,
+   "confidence": 0.1308593899011612,
+   "n_legal": 20,
+   "n_offered": 20
+  },
+  {
+   "ply": 15,
+   "san": "Nf6",
+   "cp_loss": 87,
+   "rank": 15,
+   "confidence": 0.1276959329843521,
+   "n_legal": 18,
+   "n_offered": 18
+  },
+  {
+   "ply": 17,
+   "san": "Ng4",
+   "cp_loss": 52,
+   "rank": 7,
+   "confidence": 0.11798501014709473,
+   "n_legal": 26,
+   "n_offered": 26
+  },
+  {
+   "ply": 19,
+   "san": "Nxf2",
+   "cp_loss": 38,
+   "rank": 2,
+   "confidence": 0.5717760110825538,
+   "n_legal": 27,
+   "n_offered": 27
+  },
+  {
+   "ply": 21,
+   "san": "Qxc7",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 1.0,
+   "n_legal": 1,
+   "n_offered": 1
+  },
+  {
+   "ply": 23,
+   "san": "Nxh1",
+   "cp_loss": 22,
+   "rank": 2,
+   "confidence": 0.9272240703353013,
+   "n_legal": 42,
+   "n_offered": 42
+  },
+  {
+   "ply": 25,
+   "san": "Rxh5",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.5715772460149549,
+   "n_legal": 33,
+   "n_offered": 33
+  },
+  {
+   "ply": 27,
+   "san": "Qxh2",
+   "cp_loss": 17,
+   "rank": 2,
+   "confidence": 0.7990877234135799,
+   "n_legal": 44,
+   "n_offered": 44
+  },
+  {
+   "ply": 29,
+   "san": "Qxg1+",
+   "cp_loss": 2000,
+   "rank": 2,
+   "confidence": 0.49303219397557396,
+   "n_legal": 34,
+   "n_offered": 34
+  },
+  {
+   "ply": 31,
+   "san": "Rxd5",
+   "cp_loss": 461,
+   "rank": 2,
+   "confidence": 0.516191364082134,
+   "n_legal": 33,
+   "n_offered": 33
+  },
+  {
+   "ply": 33,
+   "san": "Qxg2",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.6419894423039345,
+   "n_legal": 36,
+   "n_offered": 36
+  },
+  {
+   "ply": 35,
+   "san": "Qxd2+",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.6490197478432118,
+   "n_legal": 39,
+   "n_offered": 39
+  },
+  {
+   "ply": 37,
+   "san": "Qxe3",
+   "cp_loss": 3,
+   "rank": 29,
+   "confidence": 0.7145458672132834,
+   "n_legal": 40,
+   "n_offered": 40
+  },
+  {
+   "ply": 39,
+   "san": "Rd2+",
+   "cp_loss": 1,
+   "rank": 2,
+   "confidence": 0.25730991316155205,
+   "n_legal": 48,
+   "n_offered": 48
+  },
+  {
+   "ply": 41,
+   "san": "Qxb3",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.7605096566272107,
+   "n_legal": 46,
+   "n_offered": 46
+  },
+  {
+   "ply": 43,
+   "san": "Rd1#",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.3956788294522031,
+   "n_legal": 45,
+   "n_offered": 45
+  }
+ ]
+}

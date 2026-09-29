@@ -1,0 +1,509 @@
+{
+ "experiment": "F_eval_score",
+ "level": "ascii",
+ "summary": {
+  "n": 55,
+  "spearman_vs_stockfish": 0.757,
+  "exact_bucket_accuracy": 0.291,
+  "within_one_bucket": 0.382,
+  "who_is_better_accuracy": 0.364,
+  "always_equal_baseline": 0.291
+ },
+ "rows": [
+  {
+   "pos": "real_000",
+   "stockfish_cp_white": 24,
+   "truth_bucket": 3,
+   "score": 3.045,
+   "pred_bucket": 3,
+   "confidence": 0.3133114278316498,
+   "input_tokens": 635
+  },
+  {
+   "pos": "real_001",
+   "stockfish_cp_white": -225,
+   "truth_bucket": 1,
+   "score": 3.069,
+   "pred_bucket": 3,
+   "confidence": 0.3051133453845978,
+   "input_tokens": 597
+  },
+  {
+   "pos": "real_002",
+   "stockfish_cp_white": 75,
+   "truth_bucket": 4,
+   "score": 2.88,
+   "pred_bucket": 3,
+   "confidence": 0.22764502465724945,
+   "input_tokens": 635
+  },
+  {
+   "pos": "real_003",
+   "stockfish_cp_white": 31,
+   "truth_bucket": 3,
+   "score": 2.903,
+   "pred_bucket": 3,
+   "confidence": 0.26715344190597534,
+   "input_tokens": 607
+  },
+  {
+   "pos": "real_004",
+   "stockfish_cp_white": 32,
+   "truth_bucket": 3,
+   "score": 3.163,
+   "pred_bucket": 3,
+   "confidence": 0.3842664361000061,
+   "input_tokens": 576
+  },
+  {
+   "pos": "real_005",
+   "stockfish_cp_white": 66,
+   "truth_bucket": 4,
+   "score": 2.791,
+   "pred_bucket": 3,
+   "confidence": 0.33623206615448,
+   "input_tokens": 559
+  },
+  {
+   "pos": "real_006",
+   "stockfish_cp_white": -421,
+   "truth_bucket": 1,
+   "score": 2.973,
+   "pred_bucket": 3,
+   "confidence": 0.20717301964759827,
+   "input_tokens": 688
+  },
+  {
+   "pos": "real_007",
+   "stockfish_cp_white": 23,
+   "truth_bucket": 3,
+   "score": 3.212,
+   "pred_bucket": 3,
+   "confidence": 0.3240973949432373,
+   "input_tokens": 642
+  },
+  {
+   "pos": "real_008",
+   "stockfish_cp_white": -5,
+   "truth_bucket": 3,
+   "score": 2.765,
+   "pred_bucket": 3,
+   "confidence": 0.3473767042160034,
+   "input_tokens": 591
+  },
+  {
+   "pos": "real_009",
+   "stockfish_cp_white": -131,
+   "truth_bucket": 2,
+   "score": 2.913,
+   "pred_bucket": 3,
+   "confidence": 0.32366934418678284,
+   "input_tokens": 613
+  },
+  {
+   "pos": "real_010",
+   "stockfish_cp_white": 56,
+   "truth_bucket": 3,
+   "score": 2.886,
+   "pred_bucket": 3,
+   "confidence": 0.2545459270477295,
+   "input_tokens": 578
+  },
+  {
+   "pos": "real_011",
+   "stockfish_cp_white": 4,
+   "truth_bucket": 3,
+   "score": 3.243,
+   "pred_bucket": 3,
+   "confidence": 0.21990391612052917,
+   "input_tokens": 683
+  },
+  {
+   "pos": "real_012",
+   "stockfish_cp_white": -805,
+   "truth_bucket": 0,
+   "score": 2.767,
+   "pred_bucket": 3,
+   "confidence": 0.2776558995246887,
+   "input_tokens": 677
+  },
+  {
+   "pos": "real_013",
+   "stockfish_cp_white": -599,
+   "truth_bucket": 0,
+   "score": 2.924,
+   "pred_bucket": 3,
+   "confidence": 0.2396303415298462,
+   "input_tokens": 624
+  },
+  {
+   "pos": "real_014",
+   "stockfish_cp_white": 14,
+   "truth_bucket": 3,
+   "score": 2.827,
+   "pred_bucket": 3,
+   "confidence": 0.274819016456604,
+   "input_tokens": 664
+  },
+  {
+   "pos": "real_015",
+   "stockfish_cp_white": -101,
+   "truth_bucket": 2,
+   "score": 2.858,
+   "pred_bucket": 3,
+   "confidence": 0.3081650137901306,
+   "input_tokens": 563
+  },
+  {
+   "pos": "real_016",
+   "stockfish_cp_white": 1093,
+   "truth_bucket": 6,
+   "score": 3.173,
+   "pred_bucket": 3,
+   "confidence": 0.2200542688369751,
+   "input_tokens": 652
+  },
+  {
+   "pos": "real_017",
+   "stockfish_cp_white": 16,
+   "truth_bucket": 3,
+   "score": 3.042,
+   "pred_bucket": 3,
+   "confidence": 0.36941060423851013,
+   "input_tokens": 559
+  },
+  {
+   "pos": "real_018",
+   "stockfish_cp_white": -1,
+   "truth_bucket": 3,
+   "score": 3.111,
+   "pred_bucket": 3,
+   "confidence": 0.3573792278766632,
+   "input_tokens": 652
+  },
+  {
+   "pos": "real_019",
+   "stockfish_cp_white": 251,
+   "truth_bucket": 5,
+   "score": 3.084,
+   "pred_bucket": 3,
+   "confidence": 0.21909405291080475,
+   "input_tokens": 602
+  },
+  {
+   "pos": "real_020",
+   "stockfish_cp_white": 22,
+   "truth_bucket": 3,
+   "score": 2.774,
+   "pred_bucket": 3,
+   "confidence": 0.26466459035873413,
+   "input_tokens": 637
+  },
+  {
+   "pos": "real_021",
+   "stockfish_cp_white": -21,
+   "truth_bucket": 3,
+   "score": 2.732,
+   "pred_bucket": 3,
+   "confidence": 0.3906204104423523,
+   "input_tokens": 558
+  },
+  {
+   "pos": "real_022",
+   "stockfish_cp_white": -25,
+   "truth_bucket": 3,
+   "score": 3.173,
+   "pred_bucket": 3,
+   "confidence": 0.34918564558029175,
+   "input_tokens": 616
+  },
+  {
+   "pos": "real_023",
+   "stockfish_cp_white": -548,
+   "truth_bucket": 0,
+   "score": 2.767,
+   "pred_bucket": 3,
+   "confidence": 0.2613241672515869,
+   "input_tokens": 608
+  },
+  {
+   "pos": "real_024",
+   "stockfish_cp_white": 2,
+   "truth_bucket": 3,
+   "score": 3.031,
+   "pred_bucket": 3,
+   "confidence": 0.39283451437950134,
+   "input_tokens": 550
+  },
+  {
+   "pos": "real_025",
+   "stockfish_cp_white": 372,
+   "truth_bucket": 5,
+   "score": 3.323,
+   "pred_bucket": 3,
+   "confidence": 0.35730215907096863,
+   "input_tokens": 578
+  },
+  {
+   "pos": "real_026",
+   "stockfish_cp_white": 7,
+   "truth_bucket": 3,
+   "score": 2.948,
+   "pred_bucket": 3,
+   "confidence": 0.37996307015419006,
+   "input_tokens": 579
+  },
+  {
+   "pos": "real_027",
+   "stockfish_cp_white": 665,
+   "truth_bucket": 6,
+   "score": 3.09,
+   "pred_bucket": 3,
+   "confidence": 0.21297883987426758,
+   "input_tokens": 624
+  },
+  {
+   "pos": "real_028",
+   "stockfish_cp_white": 0,
+   "truth_bucket": 3,
+   "score": 2.823,
+   "pred_bucket": 3,
+   "confidence": 0.3940292298793793,
+   "input_tokens": 554
+  },
+  {
+   "pos": "real_029",
+   "stockfish_cp_white": 64,
+   "truth_bucket": 4,
+   "score": 3.22,
+   "pred_bucket": 3,
+   "confidence": 0.34220433235168457,
+   "input_tokens": 597
+  },
+  {
+   "pos": "mate1_000",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.051,
+   "pred_bucket": 3,
+   "confidence": 0.18003064393997192,
+   "input_tokens": 703
+  },
+  {
+   "pos": "mate1_001",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.701,
+   "pred_bucket": 3,
+   "confidence": 0.23509976267814636,
+   "input_tokens": 778
+  },
+  {
+   "pos": "mate1_002",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.521,
+   "pred_bucket": 4,
+   "confidence": 0.2062663435935974,
+   "input_tokens": 1177
+  },
+  {
+   "pos": "mate1_003",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.07,
+   "pred_bucket": 3,
+   "confidence": 0.22079342603683472,
+   "input_tokens": 755
+  },
+  {
+   "pos": "mate1_004",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.933,
+   "pred_bucket": 4,
+   "confidence": 0.30275943875312805,
+   "input_tokens": 1189
+  },
+  {
+   "pos": "mate1_005",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.225,
+   "pred_bucket": 3,
+   "confidence": 0.18050405383110046,
+   "input_tokens": 1106
+  },
+  {
+   "pos": "mate1_006",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.65,
+   "pred_bucket": 3,
+   "confidence": 0.2551405429840088,
+   "input_tokens": 1119
+  },
+  {
+   "pos": "mate1_007",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.887,
+   "pred_bucket": 3,
+   "confidence": 0.19600290060043335,
+   "input_tokens": 594
+  },
+  {
+   "pos": "mate1_008",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.508,
+   "pred_bucket": 4,
+   "confidence": 0.19870537519454956,
+   "input_tokens": 1120
+  },
+  {
+   "pos": "mate1_009",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.344,
+   "pred_bucket": 3,
+   "confidence": 0.2127346694469452,
+   "input_tokens": 753
+  },
+  {
+   "pos": "mate1_010",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.66,
+   "pred_bucket": 3,
+   "confidence": 0.25156018137931824,
+   "input_tokens": 737
+  },
+  {
+   "pos": "mate1_011",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.455,
+   "pred_bucket": 3,
+   "confidence": 0.21311478316783905,
+   "input_tokens": 939
+  },
+  {
+   "pos": "mate1_012",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.126,
+   "pred_bucket": 3,
+   "confidence": 0.1786259412765503,
+   "input_tokens": 895
+  },
+  {
+   "pos": "mate1_013",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.196,
+   "pred_bucket": 3,
+   "confidence": 0.18939369916915894,
+   "input_tokens": 719
+  },
+  {
+   "pos": "mate1_014",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.219,
+   "pred_bucket": 3,
+   "confidence": 0.1880171149969101,
+   "input_tokens": 738
+  },
+  {
+   "pos": "mate1_015",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.591,
+   "pred_bucket": 4,
+   "confidence": 0.22529442608356476,
+   "input_tokens": 1030
+  },
+  {
+   "pos": "mate1_016",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.42,
+   "pred_bucket": 3,
+   "confidence": 0.2074079066514969,
+   "input_tokens": 921
+  },
+  {
+   "pos": "mate1_017",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.271,
+   "pred_bucket": 3,
+   "confidence": 0.21751372516155243,
+   "input_tokens": 918
+  },
+  {
+   "pos": "mate1_018",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.584,
+   "pred_bucket": 3,
+   "confidence": 0.24097628891468048,
+   "input_tokens": 1043
+  },
+  {
+   "pos": "mate1_019",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.673,
+   "pred_bucket": 3,
+   "confidence": 0.2383812665939331,
+   "input_tokens": 984
+  },
+  {
+   "pos": "mate1_020",
+   "stockfish_cp_white": -9999,
+   "truth_bucket": 0,
+   "score": 2.706,
+   "pred_bucket": 3,
+   "confidence": 0.2250339388847351,
+   "input_tokens": 1170
+  },
+  {
+   "pos": "mate1_021",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 2.935,
+   "pred_bucket": 3,
+   "confidence": 0.22054629027843475,
+   "input_tokens": 656
+  },
+  {
+   "pos": "mate1_022",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.014,
+   "pred_bucket": 3,
+   "confidence": 0.2928171455860138,
+   "input_tokens": 629
+  },
+  {
+   "pos": "mate1_023",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.084,
+   "pred_bucket": 3,
+   "confidence": 0.18123899400234222,
+   "input_tokens": 844
+  },
+  {
+   "pos": "mate1_024",
+   "stockfish_cp_white": 9999,
+   "truth_bucket": 6,
+   "score": 3.262,
+   "pred_bucket": 3,
+   "confidence": 0.21123431622982025,
+   "input_tokens": 685
+  }
+ ]
+}

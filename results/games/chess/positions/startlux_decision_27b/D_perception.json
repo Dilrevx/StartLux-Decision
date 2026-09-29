@@ -1,0 +1,1197 @@
+{
+ "experiment": "D_perception",
+ "level": "ascii",
+ "summary": {
+  "n": 55,
+  "in_check": {
+   "accuracy": 0.836,
+   "brier": 0.105,
+   "positive_rate": 0.0,
+   "majority_baseline": 1.0
+  },
+  "mate_in_one": {
+   "accuracy": 0.855,
+   "brier": 0.141,
+   "positive_rate": 0.455,
+   "majority_baseline": 0.545
+  },
+  "free_capture": {
+   "accuracy": 0.727,
+   "brier": 0.199,
+   "positive_rate": 0.527,
+   "majority_baseline": 0.527
+  },
+  "own_piece_hanging": {
+   "accuracy": 0.636,
+   "brier": 0.209,
+   "positive_rate": 0.4,
+   "majority_baseline": 0.6
+  },
+  "can_castle": {
+   "accuracy": 0.8,
+   "brier": 0.107,
+   "positive_rate": 0.255,
+   "majority_baseline": 0.745
+  },
+  "more_material": {
+   "accuracy": 0.745
+  }
+ },
+ "rows": [
+  {
+   "pos": "real_000",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.068,
+    "mate_in_one": 0.144,
+    "free_capture": 0.268,
+    "own_piece_hanging": 0.145,
+    "can_castle": 0.06,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5981826782226562,
+   "input_tokens": 2713
+  },
+  {
+   "pos": "real_001",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.106,
+    "mate_in_one": 0.39,
+    "free_capture": 0.55,
+    "own_piece_hanging": 0.405,
+    "can_castle": 0.769,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.49134600162506104,
+   "input_tokens": 2485
+  },
+  {
+   "pos": "real_002",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.29,
+    "mate_in_one": 0.333,
+    "free_capture": 0.673,
+    "own_piece_hanging": 0.505,
+    "can_castle": 0.056,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.37597358226776123,
+   "input_tokens": 2713
+  },
+  {
+   "pos": "real_003",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.11,
+    "mate_in_one": 0.148,
+    "free_capture": 0.5,
+    "own_piece_hanging": 0.179,
+    "can_castle": 0.051,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.48327431082725525,
+   "input_tokens": 2545
+  },
+  {
+   "pos": "real_004",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.038,
+    "mate_in_one": 0.092,
+    "free_capture": 0.46,
+    "own_piece_hanging": 0.118,
+    "can_castle": 0.682,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5268521308898926,
+   "input_tokens": 2359
+  },
+  {
+   "pos": "real_005",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.051,
+    "mate_in_one": 0.064,
+    "free_capture": 0.391,
+    "own_piece_hanging": 0.479,
+    "can_castle": 0.792,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.7590951323509216,
+   "input_tokens": 2257
+  },
+  {
+   "pos": "real_006",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.592,
+    "mate_in_one": 0.458,
+    "free_capture": 0.715,
+    "own_piece_hanging": 0.48,
+    "can_castle": 0.03,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.37384501099586487,
+   "input_tokens": 3031
+  },
+  {
+   "pos": "real_007",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.067,
+    "mate_in_one": 0.21,
+    "free_capture": 0.402,
+    "own_piece_hanging": 0.15,
+    "can_castle": 0.511,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.48654916882514954,
+   "input_tokens": 2755
+  },
+  {
+   "pos": "real_008",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.151,
+    "mate_in_one": 0.232,
+    "free_capture": 0.605,
+    "own_piece_hanging": 0.678,
+    "can_castle": 0.706,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5616188049316406,
+   "input_tokens": 2449
+  },
+  {
+   "pos": "real_009",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": true,
+    "can_castle": true,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.125,
+    "mate_in_one": 0.211,
+    "free_capture": 0.562,
+    "own_piece_hanging": 0.383,
+    "can_castle": 0.69,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.4205067753791809,
+   "input_tokens": 2581
+  },
+  {
+   "pos": "real_010",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.109,
+    "mate_in_one": 0.14,
+    "free_capture": 0.478,
+    "own_piece_hanging": 0.259,
+    "can_castle": 0.78,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5857810378074646,
+   "input_tokens": 2371
+  },
+  {
+   "pos": "real_011",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.163,
+    "mate_in_one": 0.449,
+    "free_capture": 0.61,
+    "own_piece_hanging": 0.506,
+    "can_castle": 0.015,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.4434637725353241,
+   "input_tokens": 3001
+  },
+  {
+   "pos": "real_012",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.097,
+    "mate_in_one": 0.23,
+    "free_capture": 0.464,
+    "own_piece_hanging": 0.212,
+    "can_castle": 0.047,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.4490967094898224,
+   "input_tokens": 2965
+  },
+  {
+   "pos": "real_013",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.199,
+    "mate_in_one": 0.27,
+    "free_capture": 0.582,
+    "own_piece_hanging": 0.37,
+    "can_castle": 0.682,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.43050986528396606,
+   "input_tokens": 2647
+  },
+  {
+   "pos": "real_014",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.192,
+    "mate_in_one": 0.276,
+    "free_capture": 0.413,
+    "own_piece_hanging": 0.243,
+    "can_castle": 0.748,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.39539071917533875,
+   "input_tokens": 2887
+  },
+  {
+   "pos": "real_015",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.16,
+    "mate_in_one": 0.249,
+    "free_capture": 0.601,
+    "own_piece_hanging": 0.437,
+    "can_castle": 0.586,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.4497221112251282,
+   "input_tokens": 2281
+  },
+  {
+   "pos": "real_016",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.499,
+    "mate_in_one": 0.437,
+    "free_capture": 0.739,
+    "own_piece_hanging": 0.361,
+    "can_castle": 0.565,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.43606147170066833,
+   "input_tokens": 2815
+  },
+  {
+   "pos": "real_017",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.027,
+    "mate_in_one": 0.031,
+    "free_capture": 0.666,
+    "own_piece_hanging": 0.25,
+    "can_castle": 0.786,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.45482033491134644,
+   "input_tokens": 2257
+  },
+  {
+   "pos": "real_018",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.08,
+    "mate_in_one": 0.299,
+    "free_capture": 0.614,
+    "own_piece_hanging": 0.297,
+    "can_castle": 0.812,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.4031032919883728,
+   "input_tokens": 2815
+  },
+  {
+   "pos": "real_019",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.646,
+    "mate_in_one": 0.348,
+    "free_capture": 0.626,
+    "own_piece_hanging": 0.568,
+    "can_castle": 0.437,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.4100664556026459,
+   "input_tokens": 2515
+  },
+  {
+   "pos": "real_020",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.13,
+    "mate_in_one": 0.253,
+    "free_capture": 0.578,
+    "own_piece_hanging": 0.299,
+    "can_castle": 0.062,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.3785533308982849,
+   "input_tokens": 2725
+  },
+  {
+   "pos": "real_021",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.018,
+    "mate_in_one": 0.017,
+    "free_capture": 0.298,
+    "own_piece_hanging": 0.07,
+    "can_castle": 0.829,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.73297119140625,
+   "input_tokens": 2251
+  },
+  {
+   "pos": "real_022",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.08,
+    "mate_in_one": 0.15,
+    "free_capture": 0.267,
+    "own_piece_hanging": 0.196,
+    "can_castle": 0.793,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.49436017870903015,
+   "input_tokens": 2599
+  },
+  {
+   "pos": "real_023",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.208,
+    "mate_in_one": 0.337,
+    "free_capture": 0.645,
+    "own_piece_hanging": 0.57,
+    "can_castle": 0.751,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.37029600143432617,
+   "input_tokens": 2551
+  },
+  {
+   "pos": "real_024",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.092,
+    "mate_in_one": 0.054,
+    "free_capture": 0.454,
+    "own_piece_hanging": 0.353,
+    "can_castle": 0.834,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5701852440834045,
+   "input_tokens": 2203
+  },
+  {
+   "pos": "real_025",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.076,
+    "mate_in_one": 0.247,
+    "free_capture": 0.414,
+    "own_piece_hanging": 0.364,
+    "can_castle": 0.748,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.6017270088195801,
+   "input_tokens": 2371
+  },
+  {
+   "pos": "real_026",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.096,
+    "mate_in_one": 0.132,
+    "free_capture": 0.564,
+    "own_piece_hanging": 0.258,
+    "can_castle": 0.755,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.4655691981315613,
+   "input_tokens": 2377
+  },
+  {
+   "pos": "real_027",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.57,
+    "mate_in_one": 0.442,
+    "free_capture": 0.672,
+    "own_piece_hanging": 0.552,
+    "can_castle": 0.072,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.4530496895313263,
+   "input_tokens": 2647
+  },
+  {
+   "pos": "real_028",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.023,
+    "mate_in_one": 0.027,
+    "free_capture": 0.15,
+    "own_piece_hanging": 0.072,
+    "can_castle": 0.675,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.8261185884475708,
+   "input_tokens": 2227
+  },
+  {
+   "pos": "real_029",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": false,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": true,
+    "more_material": "equal"
+   },
+   "pred": {
+    "in_check": 0.054,
+    "mate_in_one": 0.137,
+    "free_capture": 0.405,
+    "own_piece_hanging": 0.275,
+    "can_castle": 0.853,
+    "more_material": "equal"
+   },
+   "pred_material_conf": 0.5382281541824341,
+   "input_tokens": 2485
+  },
+  {
+   "pos": "mate1_000",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.22,
+    "mate_in_one": 0.459,
+    "free_capture": 0.579,
+    "own_piece_hanging": 0.341,
+    "can_castle": 0.07,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.5705061554908752,
+   "input_tokens": 3121
+  },
+  {
+   "pos": "mate1_001",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": true,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.677,
+    "mate_in_one": 0.497,
+    "free_capture": 0.645,
+    "own_piece_hanging": 0.526,
+    "can_castle": 0.497,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.43808117508888245,
+   "input_tokens": 3571
+  },
+  {
+   "pos": "mate1_002",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": false,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.124,
+    "mate_in_one": 0.656,
+    "free_capture": 0.676,
+    "own_piece_hanging": 0.357,
+    "can_castle": 0.017,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.9333300590515137,
+   "input_tokens": 5965
+  },
+  {
+   "pos": "mate1_003",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.191,
+    "mate_in_one": 0.511,
+    "free_capture": 0.627,
+    "own_piece_hanging": 0.589,
+    "can_castle": 0.051,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.44430941343307495,
+   "input_tokens": 3433
+  },
+  {
+   "pos": "mate1_004",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.54,
+    "mate_in_one": 0.672,
+    "free_capture": 0.728,
+    "own_piece_hanging": 0.385,
+    "can_castle": 0.034,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.8194050788879395,
+   "input_tokens": 6037
+  },
+  {
+   "pos": "mate1_005",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.373,
+    "mate_in_one": 0.531,
+    "free_capture": 0.637,
+    "own_piece_hanging": 0.27,
+    "can_castle": 0.012,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.5688537955284119,
+   "input_tokens": 5539
+  },
+  {
+   "pos": "mate1_006",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.269,
+    "mate_in_one": 0.555,
+    "free_capture": 0.597,
+    "own_piece_hanging": 0.312,
+    "can_castle": 0.064,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.4738788902759552,
+   "input_tokens": 5617
+  },
+  {
+   "pos": "mate1_007",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.19,
+    "mate_in_one": 0.307,
+    "free_capture": 0.628,
+    "own_piece_hanging": 0.292,
+    "can_castle": 0.369,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.3788662552833557,
+   "input_tokens": 2467
+  },
+  {
+   "pos": "mate1_008",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": false,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.227,
+    "mate_in_one": 0.526,
+    "free_capture": 0.623,
+    "own_piece_hanging": 0.169,
+    "can_castle": 0.015,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.7813056111335754,
+   "input_tokens": 5623
+  },
+  {
+   "pos": "mate1_009",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.77,
+    "mate_in_one": 0.524,
+    "free_capture": 0.73,
+    "own_piece_hanging": 0.439,
+    "can_castle": 0.03,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.6740505695343018,
+   "input_tokens": 3421
+  },
+  {
+   "pos": "mate1_010",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.763,
+    "mate_in_one": 0.576,
+    "free_capture": 0.689,
+    "own_piece_hanging": 0.541,
+    "can_castle": 0.02,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.515362560749054,
+   "input_tokens": 3325
+  },
+  {
+   "pos": "mate1_011",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.451,
+    "mate_in_one": 0.53,
+    "free_capture": 0.623,
+    "own_piece_hanging": 0.365,
+    "can_castle": 0.066,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.572955846786499,
+   "input_tokens": 4537
+  },
+  {
+   "pos": "mate1_012",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.163,
+    "mate_in_one": 0.567,
+    "free_capture": 0.587,
+    "own_piece_hanging": 0.378,
+    "can_castle": 0.031,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.6117774248123169,
+   "input_tokens": 4273
+  },
+  {
+   "pos": "mate1_013",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.108,
+    "mate_in_one": 0.589,
+    "free_capture": 0.635,
+    "own_piece_hanging": 0.487,
+    "can_castle": 0.041,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.6191472411155701,
+   "input_tokens": 3217
+  },
+  {
+   "pos": "mate1_014",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.275,
+    "mate_in_one": 0.577,
+    "free_capture": 0.609,
+    "own_piece_hanging": 0.616,
+    "can_castle": 0.044,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.4565187990665436,
+   "input_tokens": 3331
+  },
+  {
+   "pos": "mate1_015",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.374,
+    "mate_in_one": 0.645,
+    "free_capture": 0.612,
+    "own_piece_hanging": 0.352,
+    "can_castle": 0.017,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.9033361673355103,
+   "input_tokens": 5083
+  },
+  {
+   "pos": "mate1_016",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.18,
+    "mate_in_one": 0.602,
+    "free_capture": 0.587,
+    "own_piece_hanging": 0.274,
+    "can_castle": 0.024,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.9207485914230347,
+   "input_tokens": 4429
+  },
+  {
+   "pos": "mate1_017",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.168,
+    "mate_in_one": 0.603,
+    "free_capture": 0.636,
+    "own_piece_hanging": 0.456,
+    "can_castle": 0.024,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.7451962232589722,
+   "input_tokens": 4411
+  },
+  {
+   "pos": "mate1_018",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": false,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.414,
+    "mate_in_one": 0.539,
+    "free_capture": 0.722,
+    "own_piece_hanging": 0.442,
+    "can_castle": 0.038,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.5415378212928772,
+   "input_tokens": 5161
+  },
+  {
+   "pos": "mate1_019",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.2,
+    "mate_in_one": 0.563,
+    "free_capture": 0.68,
+    "own_piece_hanging": 0.354,
+    "can_castle": 0.025,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.5935656428337097,
+   "input_tokens": 4807
+  },
+  {
+   "pos": "mate1_020",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.636,
+    "mate_in_one": 0.492,
+    "free_capture": 0.625,
+    "own_piece_hanging": 0.399,
+    "can_castle": 0.036,
+    "more_material": "black"
+   },
+   "pred_material_conf": 0.6396067142486572,
+   "input_tokens": 5923
+  },
+  {
+   "pos": "mate1_021",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "black"
+   },
+   "pred": {
+    "in_check": 0.72,
+    "mate_in_one": 0.471,
+    "free_capture": 0.706,
+    "own_piece_hanging": 0.474,
+    "can_castle": 0.514,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.500826358795166,
+   "input_tokens": 2839
+  },
+  {
+   "pos": "mate1_022",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.16,
+    "mate_in_one": 0.325,
+    "free_capture": 0.564,
+    "own_piece_hanging": 0.431,
+    "can_castle": 0.714,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.49951308965682983,
+   "input_tokens": 2677
+  },
+  {
+   "pos": "mate1_023",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": true,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.132,
+    "mate_in_one": 0.484,
+    "free_capture": 0.723,
+    "own_piece_hanging": 0.272,
+    "can_castle": 0.015,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.6465088725090027,
+   "input_tokens": 3967
+  },
+  {
+   "pos": "mate1_024",
+   "truth": {
+    "in_check": false,
+    "mate_in_one": true,
+    "free_capture": true,
+    "own_piece_hanging": false,
+    "can_castle": false,
+    "more_material": "white"
+   },
+   "pred": {
+    "in_check": 0.134,
+    "mate_in_one": 0.479,
+    "free_capture": 0.605,
+    "own_piece_hanging": 0.356,
+    "can_castle": 0.021,
+    "more_material": "white"
+   },
+   "pred_material_conf": 0.665153443813324,
+   "input_tokens": 3013
+  }
+ ]
+}

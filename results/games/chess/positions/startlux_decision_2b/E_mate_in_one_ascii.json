@@ -1,0 +1,287 @@
+{
+ "experiment": "E_mate_in_one",
+ "level": "ascii",
+ "summary": {
+  "n": 25,
+  "accuracy": 0.28,
+  "random_baseline": 0.031,
+  "mean_prob_mass_on_mating_moves": 0.175
+ },
+ "rows": [
+  {
+   "pos": "mate1_000",
+   "n_legal": 47,
+   "n_mating": 1,
+   "random_baseline": 0.02127659574468085,
+   "chosen": "Qxf6",
+   "found_mate": false,
+   "confidence": 0.23008804858683315,
+   "prob_mass_on_mating_moves": 0.0,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_001",
+   "n_legal": 46,
+   "n_mating": 1,
+   "random_baseline": 0.021739130434782608,
+   "chosen": "Qxh2+",
+   "found_mate": true,
+   "confidence": 0.3100201475492856,
+   "prob_mass_on_mating_moves": 0.31,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_002",
+   "n_legal": 57,
+   "n_mating": 2,
+   "random_baseline": 0.03508771929824561,
+   "chosen": "Nf7+",
+   "found_mate": false,
+   "confidence": 0.16108729767219257,
+   "prob_mass_on_mating_moves": 0.201,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_003",
+   "n_legal": 21,
+   "n_mating": 1,
+   "random_baseline": 0.047619047619047616,
+   "chosen": "Bxa7+",
+   "found_mate": true,
+   "confidence": 0.26378005743026733,
+   "prob_mass_on_mating_moves": 0.264,
+   "input_tokens": 894
+  },
+  {
+   "pos": "mate1_004",
+   "n_legal": 36,
+   "n_mating": 1,
+   "random_baseline": 0.027777777777777776,
+   "chosen": "Qf7+",
+   "found_mate": false,
+   "confidence": 0.22427755644957187,
+   "prob_mass_on_mating_moves": 0.193,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_005",
+   "n_legal": 22,
+   "n_mating": 1,
+   "random_baseline": 0.045454545454545456,
+   "chosen": "Re5+",
+   "found_mate": false,
+   "confidence": 0.13068519532680511,
+   "prob_mass_on_mating_moves": 0.063,
+   "input_tokens": 1252
+  },
+  {
+   "pos": "mate1_006",
+   "n_legal": 35,
+   "n_mating": 1,
+   "random_baseline": 0.02857142857142857,
+   "chosen": "Rg1+",
+   "found_mate": false,
+   "confidence": 0.3115531071424484,
+   "prob_mass_on_mating_moves": 0.108,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_007",
+   "n_legal": 39,
+   "n_mating": 1,
+   "random_baseline": 0.02564102564102564,
+   "chosen": "Qxc1+",
+   "found_mate": true,
+   "confidence": 0.4111600945163916,
+   "prob_mass_on_mating_moves": 0.411,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_008",
+   "n_legal": 30,
+   "n_mating": 2,
+   "random_baseline": 0.06666666666666667,
+   "chosen": "f8=Q+",
+   "found_mate": true,
+   "confidence": 0.5106206069907923,
+   "prob_mass_on_mating_moves": 0.63,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_009",
+   "n_legal": 40,
+   "n_mating": 2,
+   "random_baseline": 0.05,
+   "chosen": "Qxe7+",
+   "found_mate": true,
+   "confidence": 0.251258022874997,
+   "prob_mass_on_mating_moves": 0.251,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_010",
+   "n_legal": 35,
+   "n_mating": 2,
+   "random_baseline": 0.05714285714285714,
+   "chosen": "Qe2+",
+   "found_mate": false,
+   "confidence": 0.20917423196241094,
+   "prob_mass_on_mating_moves": 0.102,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_011",
+   "n_legal": 32,
+   "n_mating": 1,
+   "random_baseline": 0.03125,
+   "chosen": "Qe7+",
+   "found_mate": false,
+   "confidence": 0.28905082591800557,
+   "prob_mass_on_mating_moves": 0.229,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_012",
+   "n_legal": 46,
+   "n_mating": 1,
+   "random_baseline": 0.021739130434782608,
+   "chosen": "Rf7+",
+   "found_mate": false,
+   "confidence": 0.2346487491069123,
+   "prob_mass_on_mating_moves": 0.144,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_013",
+   "n_legal": 46,
+   "n_mating": 1,
+   "random_baseline": 0.021739130434782608,
+   "chosen": "Nxc6+",
+   "found_mate": false,
+   "confidence": 0.363243654402499,
+   "prob_mass_on_mating_moves": 0.0,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_014",
+   "n_legal": 44,
+   "n_mating": 1,
+   "random_baseline": 0.022727272727272728,
+   "chosen": "gxf7+",
+   "found_mate": false,
+   "confidence": 0.36541489403635696,
+   "prob_mass_on_mating_moves": 0.228,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_015",
+   "n_legal": 37,
+   "n_mating": 1,
+   "random_baseline": 0.02702702702702703,
+   "chosen": "Kxc5",
+   "found_mate": false,
+   "confidence": 0.2316667747516898,
+   "prob_mass_on_mating_moves": 0.0,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_016",
+   "n_legal": 47,
+   "n_mating": 1,
+   "random_baseline": 0.02127659574468085,
+   "chosen": "Qg7+",
+   "found_mate": false,
+   "confidence": 0.27353398606181145,
+   "prob_mass_on_mating_moves": 0.0,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_017",
+   "n_legal": 51,
+   "n_mating": 1,
+   "random_baseline": 0.0196078431372549,
+   "chosen": "Qxg8+",
+   "found_mate": false,
+   "confidence": 0.3133558005444478,
+   "prob_mass_on_mating_moves": 0.085,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_018",
+   "n_legal": 39,
+   "n_mating": 2,
+   "random_baseline": 0.05128205128205128,
+   "chosen": "Rxd3+",
+   "found_mate": true,
+   "confidence": 0.2425931047972329,
+   "prob_mass_on_mating_moves": 0.396,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_019",
+   "n_legal": 54,
+   "n_mating": 1,
+   "random_baseline": 0.018518518518518517,
+   "chosen": "Qd2+",
+   "found_mate": false,
+   "confidence": 0.2328646919931375,
+   "prob_mass_on_mating_moves": 0.0,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_020",
+   "n_legal": 40,
+   "n_mating": 1,
+   "random_baseline": 0.025,
+   "chosen": "Bxg6",
+   "found_mate": false,
+   "confidence": 0.21049590538656374,
+   "prob_mass_on_mating_moves": 0.133,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_021",
+   "n_legal": 36,
+   "n_mating": 1,
+   "random_baseline": 0.027777777777777776,
+   "chosen": "Qxe3",
+   "found_mate": false,
+   "confidence": 0.3011107749280793,
+   "prob_mass_on_mating_moves": 0.212,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_022",
+   "n_legal": 40,
+   "n_mating": 1,
+   "random_baseline": 0.025,
+   "chosen": "dxc4",
+   "found_mate": false,
+   "confidence": 0.21487264058483957,
+   "prob_mass_on_mating_moves": 0.084,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_023",
+   "n_legal": 44,
+   "n_mating": 1,
+   "random_baseline": 0.022727272727272728,
+   "chosen": "Rxc8+",
+   "found_mate": true,
+   "confidence": 0.23435911587159539,
+   "prob_mass_on_mating_moves": 0.234,
+   "input_tokens": 0
+  },
+  {
+   "pos": "mate1_024",
+   "n_legal": 45,
+   "n_mating": 1,
+   "random_baseline": 0.022222222222222223,
+   "chosen": "Qxg7",
+   "found_mate": false,
+   "confidence": 0.358619423390734,
+   "prob_mass_on_mating_moves": 0.108,
+   "input_tokens": 0
+  }
+ ]
+}

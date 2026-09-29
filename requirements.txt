@@ -1,0 +1,12 @@
+# tested with torch 2.11, transformers 5.8.1, flash-linear-attention 0.5.2, causal-conv1d 1.7.0, peft 0.20 on H200
+torch>=2.8
+transformers>=5.8
+huggingface_hub>=0.34
+safetensors>=0.4
+# required on CUDA: without them transformers silently runs a plain torch path (>10x slower)
+flash-linear-attention>=0.5.2
+causal-conv1d>=1.7          # CUDA build; if pip compiles it, add --no-build-isolation
+# fine-tuning
+peft>=0.20
+# evaluation (Typed Decisions parquet); the Decision Index kit is installed from its own repository
+pyarrow>=15

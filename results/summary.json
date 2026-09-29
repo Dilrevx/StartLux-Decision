@@ -1,0 +1,402 @@
+{
+ "Startlux-Decision-0.8B": {
+  "jevbench_public_correct": 179,
+  "jevbench_public_total": 231,
+  "jevbench_hard_correct": 66,
+  "intern_decision_accuracy": {
+   "jevbench-easy": 100.0,
+   "jevbench-original": 90.28,
+   "jevbench-hard": 59.46,
+   "typed_decisions-test": 75.85,
+   "toolace-test": 91.94,
+   "agnews-test": 90.97,
+   "wildjailbreak-test": 86.7
+  },
+  "intern_decision_average": 85.03,
+  "intern_decision_average_without_toolace": 83.88,
+  "jevbench_hard_brier": 0.5243,
+  "jevbench_hard_ece": 0.1239,
+  "pilot_expected_brier": 0.5185,
+  "pilot_expected_ece": 0.0512,
+  "typed_decisions": {
+   "acc": 0.7585,
+   "soft": 0.6021,
+   "mf1": 0.6391,
+   "kl": 0.1482,
+   "tv": 0.2042,
+   "brier": 0.0792,
+   "mae": 0.2952,
+   "w1": 0.9838
+  },
+  "decision_index_0.2": 35.57,
+  "decision_index_0.2.1": 38.86,
+  "decision_index_0.2.1_areas": {
+   "knowledge": 20.45,
+   "language": 48.07,
+   "retrieval": 52.46,
+   "tools": 47.99,
+   "arts": 18.69
+  },
+  "fp8_argmax_agreement_pct": 96.26,
+  "fp8_accuracy_bf16_pct": 78.0,
+  "fp8_accuracy_fp8_pct": 77.76,
+  "latency_ms_h200": {
+   "three_fields_mean": 12.24,
+   "three_fields_p50": 12.22,
+   "three_fields_p95": 14.17,
+   "one_field_mean": 8.25
+  },
+  "games": {
+   "dino_cleared_mean": 0.6,
+   "dino_runs_at_cap_of_20": 0,
+   "2048_mean_score_20_games": 1111,
+   "npc_addressee": {
+    "clean": {
+     "f1": 0.817,
+     "exact": 0.76
+    },
+    "stt": {
+     "f1": 0.8,
+     "exact": 0.667
+    },
+    "stt_misheard": {
+     "f1": 0.684,
+     "exact": 0.547
+    }
+   },
+   "chess_positions_rich": {
+    "cp_loss": 282.1,
+    "best": 6.7,
+    "top3": 13.3,
+    "blunder": 43.3
+   },
+   "chess_positions_tactical": {
+    "cp_loss": 112.4,
+    "best": 23.3,
+    "top3": 43.3,
+    "blunder": 16.7
+   },
+   "mate_in_one_rich": 0.08
+  }
+ },
+ "Startlux-Decision-2B": {
+  "jevbench_public_correct": 196,
+  "jevbench_public_total": 231,
+  "jevbench_hard_correct": 80,
+  "intern_decision_accuracy": {
+   "jevbench-easy": 100.0,
+   "jevbench-original": 94.44,
+   "jevbench-hard": 72.07,
+   "typed_decisions-test": 77.95,
+   "toolace-test": 93.23,
+   "agnews-test": 89.43,
+   "wildjailbreak-test": 92.13
+  },
+  "intern_decision_average": 88.46,
+  "intern_decision_average_without_toolace": 87.67,
+  "jevbench_hard_brier": 0.3942,
+  "jevbench_hard_ece": 0.0814,
+  "pilot_expected_brier": 0.5147,
+  "pilot_expected_ece": 0.0605,
+  "typed_decisions": {
+   "acc": 0.7795,
+   "soft": 0.6084,
+   "mf1": 0.6875,
+   "kl": 0.1017,
+   "tv": 0.1611,
+   "brier": 0.0551,
+   "mae": 0.2299,
+   "w1": 0.9825
+  },
+  "decision_index_0.2": 40.72,
+  "decision_index_0.2.1": 44.19,
+  "decision_index_0.2.1_areas": {
+   "knowledge": 25.3,
+   "language": 52.93,
+   "retrieval": 52.89,
+   "tools": 59.51,
+   "arts": 24.98
+  },
+  "fp8_argmax_agreement_pct": 96.54,
+  "fp8_accuracy_bf16_pct": 80.44,
+  "fp8_accuracy_fp8_pct": 80.05,
+  "latency_ms_h200": {
+   "three_fields_mean": 15.52,
+   "three_fields_p50": 15.52,
+   "three_fields_p95": 17.18,
+   "one_field_mean": 9.59
+  },
+  "games": {
+   "dino_cleared_mean": 5.4,
+   "dino_runs_at_cap_of_20": 0,
+   "2048_mean_score_20_games": 1020,
+   "npc_addressee": {
+    "clean": {
+     "f1": 0.795,
+     "exact": 0.747
+    },
+    "stt": {
+     "f1": 0.776,
+     "exact": 0.733
+    },
+    "stt_misheard": {
+     "f1": 0.712,
+     "exact": 0.653
+    }
+   },
+   "chess_positions_rich": {
+    "cp_loss": 186.0,
+    "best": 13.3,
+    "top3": 40.0,
+    "blunder": 26.7
+   },
+   "chess_positions_tactical": {
+    "cp_loss": 134.7,
+    "best": 13.3,
+    "top3": 36.7,
+    "blunder": 16.7
+   },
+   "mate_in_one_rich": 0.08
+  }
+ },
+ "Startlux-Decision-4B": {
+  "jevbench_public_correct": 204,
+  "jevbench_public_total": 231,
+  "jevbench_hard_correct": 84,
+  "intern_decision_accuracy": {
+   "jevbench-easy": 100.0,
+   "jevbench-original": 100.0,
+   "jevbench-hard": 75.68,
+   "typed_decisions-test": 79.95,
+   "toolace-test": 94.19,
+   "agnews-test": 90.91,
+   "wildjailbreak-test": 97.47
+  },
+  "intern_decision_average": 91.17,
+  "intern_decision_average_without_toolace": 90.67,
+  "jevbench_hard_brier": 0.3748,
+  "jevbench_hard_ece": 0.1035,
+  "pilot_expected_brier": 0.4993,
+  "pilot_expected_ece": 0.0592,
+  "typed_decisions": {
+   "acc": 0.7995,
+   "soft": 0.6151,
+   "mf1": 0.7086,
+   "kl": 0.0799,
+   "tv": 0.1359,
+   "brier": 0.0436,
+   "mae": 0.2033,
+   "w1": 0.9825
+  },
+  "decision_index_0.2": 48.38,
+  "decision_index_0.2.1": 52.75,
+  "decision_index_0.2.1_areas": {
+   "knowledge": 32.08,
+   "language": 63.91,
+   "retrieval": 56.7,
+   "tools": 72.28,
+   "arts": 33.73
+  },
+  "fp8_argmax_agreement_pct": 98.03,
+  "fp8_accuracy_bf16_pct": 82.37,
+  "fp8_accuracy_fp8_pct": 81.98,
+  "latency_ms_h200": {
+   "three_fields_mean": 25.97,
+   "three_fields_p50": 25.97,
+   "three_fields_p95": 27.31,
+   "one_field_mean": 14.72
+  },
+  "games": {
+   "dino_cleared_mean": 300.0,
+   "dino_runs_at_cap_of_20": 20,
+   "2048_mean_score_20_games": 1289,
+   "npc_addressee": {
+    "clean": {
+     "f1": 0.813,
+     "exact": 0.8
+    },
+    "stt": {
+     "f1": 0.724,
+     "exact": 0.653
+    },
+    "stt_misheard": {
+     "f1": 0.694,
+     "exact": 0.613
+    }
+   },
+   "chess_positions_rich": {
+    "cp_loss": 159.2,
+    "best": 16.7,
+    "top3": 46.7,
+    "blunder": 23.3
+   },
+   "chess_positions_tactical": {
+    "cp_loss": 93.9,
+    "best": 26.7,
+    "top3": 53.3,
+    "blunder": 10.0
+   },
+   "mate_in_one_rich": 0.16
+  }
+ },
+ "Startlux-Decision-9B": {
+  "jevbench_public_correct": 201,
+  "jevbench_public_total": 231,
+  "jevbench_hard_correct": 83,
+  "intern_decision_accuracy": {
+   "jevbench-easy": 100.0,
+   "jevbench-original": 97.22,
+   "jevbench-hard": 74.77,
+   "typed_decisions-test": 81.45,
+   "toolace-test": 94.84,
+   "agnews-test": 91.97,
+   "wildjailbreak-test": 97.33
+  },
+  "intern_decision_average": 91.08,
+  "intern_decision_average_without_toolace": 90.46,
+  "jevbench_hard_brier": 0.3552,
+  "jevbench_hard_ece": 0.0557,
+  "pilot_expected_brier": 0.4773,
+  "pilot_expected_ece": 0.0377,
+  "typed_decisions": {
+   "acc": 0.8145,
+   "soft": 0.6185,
+   "mf1": 0.716,
+   "kl": 0.0798,
+   "tv": 0.134,
+   "brier": 0.0436,
+   "mae": 0.2009,
+   "w1": 0.9812
+  },
+  "decision_index_0.2": 54.37,
+  "decision_index_0.2.1": 58.63,
+  "decision_index_0.2.1_areas": {
+   "knowledge": 37.97,
+   "language": 71.28,
+   "retrieval": 64.12,
+   "tools": 73.17,
+   "arts": 41.78
+  },
+  "fp8_argmax_agreement_pct": 98.19,
+  "fp8_accuracy_bf16_pct": 83.67,
+  "fp8_accuracy_fp8_pct": 83.23,
+  "latency_ms_h200": {
+   "three_fields_mean": 35.72,
+   "three_fields_p50": 36.17,
+   "three_fields_p95": 37.37,
+   "one_field_mean": 17.61
+  },
+  "games": {
+   "dino_cleared_mean": 300.0,
+   "dino_runs_at_cap_of_20": 20,
+   "2048_mean_score_20_games": 951,
+   "npc_addressee": {
+    "clean": {
+     "f1": 0.951,
+     "exact": 0.893
+    },
+    "stt": {
+     "f1": 0.897,
+     "exact": 0.773
+    },
+    "stt_misheard": {
+     "f1": 0.871,
+     "exact": 0.747
+    }
+   },
+   "chess_positions_rich": {
+    "cp_loss": 252.8,
+    "best": 10.0,
+    "top3": 30.0,
+    "blunder": 33.3
+   },
+   "chess_positions_tactical": {
+    "cp_loss": 92.8,
+    "best": 23.3,
+    "top3": 53.3,
+    "blunder": 16.7
+   },
+   "mate_in_one_rich": 0.2
+  }
+ },
+ "Startlux-Decision-27B": {
+  "jevbench_public_correct": 208,
+  "jevbench_public_total": 231,
+  "jevbench_hard_correct": 88,
+  "intern_decision_accuracy": {
+   "jevbench-easy": 100.0,
+   "jevbench-original": 100.0,
+   "jevbench-hard": 79.28,
+   "typed_decisions-test": 80.2,
+   "toolace-test": 94.52,
+   "agnews-test": 90.57,
+   "wildjailbreak-test": 98.19
+  },
+  "intern_decision_average": 91.82,
+  "intern_decision_average_without_toolace": 91.37,
+  "jevbench_hard_brier": 0.2655,
+  "jevbench_hard_ece": 0.0536,
+  "pilot_expected_brier": 0.4783,
+  "pilot_expected_ece": 0.0637,
+  "typed_decisions": {
+   "acc": 0.802,
+   "soft": 0.6162,
+   "mf1": 0.7015,
+   "kl": 0.0787,
+   "tv": 0.1275,
+   "brier": 0.042,
+   "mae": 0.1938,
+   "w1": 0.9775
+  },
+  "decision_index_0.2": 59.54,
+  "decision_index_0.2.1": 63.88,
+  "decision_index_0.2.1_areas": {
+   "knowledge": 44.32,
+   "language": 74.45,
+   "retrieval": 66.79,
+   "tools": 82.18,
+   "arts": 47.85
+  },
+  "fp8_argmax_agreement_pct": 98.62,
+  "fp8_accuracy_bf16_pct": 82.96,
+  "fp8_accuracy_fp8_pct": 82.76,
+  "latency_ms_h200": {
+   "three_fields_mean": 102.34,
+   "three_fields_p50": 102.49,
+   "three_fields_p95": 104.27,
+   "one_field_mean": 50.65
+  },
+  "games": {
+   "dino_cleared_mean": 300.0,
+   "dino_runs_at_cap_of_20": 20,
+   "2048_mean_score_20_games": 982,
+   "npc_addressee": {
+    "clean": {
+     "f1": 0.99,
+     "exact": 0.987
+    },
+    "stt": {
+     "f1": 0.973,
+     "exact": 0.933
+    },
+    "stt_misheard": {
+     "f1": 0.973,
+     "exact": 0.933
+    }
+   },
+   "chess_positions_rich": {
+    "cp_loss": 107.8,
+    "best": 23.3,
+    "top3": 50.0,
+    "blunder": 13.3
+   },
+   "chess_positions_tactical": {
+    "cp_loss": 107.2,
+    "best": 26.7,
+    "top3": 50.0,
+    "blunder": 16.7
+   },
+   "mate_in_one_rich": 0.4
+  }
+ }
+}
