@@ -124,9 +124,8 @@ and 100% is perfect. The index is a weighted mean of these cells, which is why t
 
 </div>
 
-★ benchmarks weigh 1.2 in the index. The italic rows are the index's own area scores. Bold marks the best score in
-each row. The other systems' values come from the
-public board. The metric of each benchmark and the raw scores of all five sizes are in [docs/results.md](docs/results.md)
+★ benchmarks weigh 1.2 in the index. The rows with bold names are the index's own area scores; a bold value marks the
+best score in its row. The other systems' values come from the public board. The metric of each benchmark and the raw scores of all five sizes are in [docs/results.md](docs/results.md)
 and [results/decision_index_benchmarks.csv](results/decision_index_benchmarks.csv).
 
 ## At every size
