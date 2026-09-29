@@ -1,4 +1,4 @@
-"""Startlux-Decision: typed decisions (choice, noul, score) with calibrated probabilities from one forward pass."""
-from .model import StartluxDecision
+"""StartLux-Decision: typed decisions (choice, noul, score) with calibrated probabilities from one forward pass."""
+from .model import StartLuxDecision
 
-__all__ = ["StartluxDecision"]
+__all__ = ["StartLuxDecision"]
