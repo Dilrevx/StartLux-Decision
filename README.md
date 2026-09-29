@@ -1,4 +1,4 @@
-<p align="center"><img src="media/hero.png" alt="Startlux-Decision: a probability for every option" width="100%"></p>
+<p align="center"><img src="media/hero.png" alt="StartLux-Decision: a probability for every option" width="100%"></p>
 
 <p align="center">
   <a href="https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493">Models on Hugging Face</a> ·
@@ -9,50 +9,71 @@
   <a href="results/">Raw results</a>
 </p>
 
-Startlux-Decision is a family of typed decision models in five sizes, from 0.8B to 27B. You send a state and a set of
+StartLux-Decision is a family of typed decision models in five sizes, from 0.8B to 27B. You send a state and a set of
 questions: pick one of several options, yes or no, or a rating on a scale. Every question comes back with a probability
 for each option. Nothing is generated; the answer is read from the option letters after one forward pass, so a short
 question takes a few milliseconds and the probabilities can be used as confidence. Requests and responses use the
 TypeSafe `/v1/systemone` format, so clients written for Jev work unchanged. This repository has the inference code,
 the evaluation scripts, the results and the raw game logs. The weights are on Hugging Face, in the
-[Startlux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493).
+[StartLux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493).
 
 ## Demos
 
 <table>
   <tr>
-    <td width="50%" align="center"><a href="media/computer_use_store_27b.mp4"><img src="media/computer_use_store_27b.gif" alt="Startlux-Decision-27B orders batteries in a web store"></a><br><sub>Startlux-Decision-27B finds the cheapest AA 8-pack with free delivery and orders it to the right address</sub></td>
-    <td width="50%" align="center"><a href="media/computer_use_workspace_27b.mp4"><img src="media/computer_use_workspace_27b.gif" alt="Startlux-Decision-27B invites a teammate in a workspace app"></a><br><sub>Startlux-Decision-27B invites a teammate to a team as an Editor</sub></td>
+    <td width="50%" align="center"><a href="media/computer_use_store_27b.mp4"><img src="media/computer_use_store_27b.gif" alt="StartLux-Decision-27B orders batteries in a web store"></a><br><sub>StartLux-Decision-27B finds the cheapest AA 8-pack with free delivery and orders it to the right address</sub></td>
+    <td width="50%" align="center"><a href="media/computer_use_workspace_27b.mp4"><img src="media/computer_use_workspace_27b.gif" alt="StartLux-Decision-27B invites a teammate in a workspace app"></a><br><sub>StartLux-Decision-27B invites a teammate to a team as an Editor</sub></td>
   </tr>
-  <!-- two more demos go here
   <tr>
-    <td width="50%" align="center"><a href="media/DEMO3.mp4"><img src="media/DEMO3.gif" alt=""></a><br><sub>caption</sub></td>
-    <td width="50%" align="center"><a href="media/DEMO4.mp4"><img src="media/DEMO4.gif" alt=""></a><br><sub>caption</sub></td>
+    <td width="50%" align="center"><a href="media/mario_1-1_27b.mp4"><img src="media/mario_1-1_27b.gif" alt="StartLux-Decision-27B plays Super Mario Bros."></a><br><sub>StartLux-Decision-27B clears World 1-1 of Super Mario Bros.</sub></td>
+    <td width="50%" align="center"><a href="media/sc2_hard_27b.mp4"><img src="media/sc2_hard_27b.gif" alt="StartLux-Decision-27B plays StarCraft II"></a><br><sub>StartLux-Decision-27B makes the strategic calls for a Terran bot and beats the built-in Hard AI</sub></td>
   </tr>
-  -->
+  <tr>
+    <td width="50%" align="center"><a href="media/doom_deathmatch_27b.mp4"><img src="media/doom_deathmatch_27b.gif" alt="StartLux-Decision-27B plays Doom"></a><br><sub>StartLux-Decision-27B plays a Doom deathmatch against four built-in bots</sub></td>
+    <td width="50%" align="center"><a href="media/jevball_27b.mp4"><img src="media/jevball_27b.gif" alt="StartLux-Decision-27B plays JevBall"></a><br><sub>StartLux-Decision-27B makes the decisions for a football team in real time</sub></td>
+  </tr>
 </table>
 
-Both are real runs of Startlux-Decision-27B; click a preview for the video. A real Chrome window opens a small mock site, and
-every step is one request with two typed questions: which of the controls visible on the page to use next, and whether
-the task is done. The harness carries out the chosen action and nothing else. The model never types text; a text box
-it clicks only opens its suggestion list. Both tasks were completed, and the harness checked the result against the
-task. The side panel lists the four likeliest controls and the rest in one row, so that block adds up to 100%; below
-it, set apart, is the probability that the task is done. The harness and the two sites are in
-[demos/computer_use](demos/computer_use).
+All six are real runs of StartLux-Decision-27B; click a preview for the video.
+
+**Computer use** (our own harness). A real Chrome window opens a small mock site, and every step is one request with two
+typed questions: which of the controls visible on the page to use next, and whether the task is done. The harness
+carries out the chosen action and nothing else. The model never types text; a text box it clicks only opens its
+suggestion list. Both tasks were completed, and the harness checked the result against the task. The side panel lists
+the four likeliest controls and the rest in one row, so that block adds up to 100%; below it, set apart, is the
+probability that the task is done. The harness and the two sites are in [demos/computer_use](demos/computer_use).
+
+**Super Mario Bros.** (4esv/jev-mario). Every step is one request with one choice question over eleven moves. The
+harness plays each move ahead in the emulator and describes the outcome in text, such as progress and whether Mario
+survives; the model reads only these descriptions and picks a move. The panel shows the probability it gave each move.
+
+**StarCraft II** (our own bot on burnysc2). Every 12 seconds of game time, one request asks three questions: what to
+build next, which units to prioritise and whether to attack, defend or gather. A scripted bot carries out the choices:
+workers, placement, production and unit control. The game is sped up; the panel shows each decision with its
+probabilities.
+
+**Doom** (our own harness on ViZDoom). Every four tics, one request asks which enemy to target, whether to fire and how
+to move. The state is a text description from the game engine. Aiming, pathing and getting unstuck are done in code. The
+game waits for each decision.
+
+**JevBall** (atarikcaliskan/jevball). One request covers the players near the play, one choice each over as many as
+fourteen actions: pass, shot, dribble, press, run and more. The match never waits for the model: the game handles
+movement and physics, and its own policy covers players far from the ball and any late answer. The other team is the
+game's built-in policy.
 
 ## Decision Index
 
-<p align="center"><img src="media/di_chart.png" alt="Decision Index 0.2.1: Startlux-Decision, Jev and other systems" width="100%"></p>
+<p align="center"><img src="media/di_chart.png" alt="Decision Index 0.2.1: StartLux-Decision, Jev and other systems" width="100%"></p>
 
-Startlux-Decision-27B reaches 63.88 on Decision Index 0.2.1 and Startlux-Decision-9B 58.63, scored with the board's own kit on the full
+StartLux-Decision-27B reaches 63.88 on Decision Index 0.2.1 and StartLux-Decision-9B 58.63, scored with the board's own kit on the full
 suite. The highest entry on the public board (2026-09-28) is Jev 1.13 at 57.91; our runs are not on the board.
-Startlux-Decision-27B scores higher than Jev on 31 of the 38 benchmarks in the index. Our training data includes the public
+StartLux-Decision-27B scores higher than Jev on 31 of the 38 benchmarks in the index. Our training data includes the public
 train splits of 14 of them, marked † below; their test items were filtered out of it.
 
 Every cell below is on the index's own scale: the benchmark's metric, corrected for chance, so 0% is random guessing
 and 100% is perfect. The index is a weighted mean of these cells, which is why the first row matches the chart.
 
-| | Startlux-Decision-27B | Startlux-Decision-9B | Startlux-Decision-4B | Jev 1.13 | Rune 26B-A4B | Decider chat 31B | AutoJev-27B |
+| | StartLux-Decision-27B | StartLux-Decision-9B | StartLux-Decision-4B | Jev 1.13 | Rune 26B-A4B | Decider chat 31B | AutoJev-27B |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | **Decision Index 0.2.1** | **63.88** | 58.63 | 52.75 | 57.91 | 57.44 | 57.33 | 56.40 |
 | *Knowledge & Reasoning* | *44.3* | *38.0* | *32.1* | ***51.4*** | *43.4* | *44.3* | *40.9* |
@@ -113,16 +134,16 @@ in the Intern-Decision bundle next to ours; a blank cell means the number is not
 
 | Model | JevBench public, of 231 | Intern avg | DI 0.2 / 0.2.1 | Latency, 3 questions |
 |---|---:|---:|---:|---:|
-| Startlux-Decision-27B | **208** | **91.82** | **59.54 / 63.88** | 102.3 ms |
-| Startlux-Decision-9B | 201 | 91.08 | 54.37 / 58.63 | 35.7 ms |
-| Startlux-Decision-4B | 204 | 91.17 | 48.38 / 52.75 | 26.0 ms |
+| StartLux-Decision-27B | **208** | **91.82** | **59.54 / 63.88** | 102.3 ms |
+| StartLux-Decision-9B | 201 | 91.08 | 54.37 / 58.63 | 35.7 ms |
+| StartLux-Decision-4B | 204 | 91.17 | 48.38 / 52.75 | 26.0 ms |
 | Intern-Decision-4B | 201 | 90.02 | 35.90 / 37.81 | 44.2 ms ¹ |
 | JevK5 | 200 | 85.16 | 36.44 / 38.81 | |
 | Jev 1.13 | 199 | 88.74 | 51.67 / 57.91 | 64.0 ms ² |
-| Startlux-Decision-2B | 196 | 88.46 | 40.72 / 44.19 | 15.5 ms |
+| StartLux-Decision-2B | 196 | 88.46 | 40.72 / 44.19 | 15.5 ms |
 | SemIf | 187 | 84.23 | 25.70 / 25.94 | |
 | Intern-Decision-2B | 180 | 84.68 | 19.49 / 19.38 | 33.3 ms ¹ |
-| Startlux-Decision-0.8B | 179 | 85.03 | 35.57 / 38.86 | **12.2 ms** |
+| StartLux-Decision-0.8B | 179 | 85.03 | 35.57 / 38.86 | **12.2 ms** |
 | Intern-Decision-0.8B | 163 | 79.38 | 11.32 / 11.94 | 34.0 ms ¹ |
 | Laya | 130 | 57.77 | 5.51 / 6.04 | |
 
@@ -135,7 +156,7 @@ to end.
 
 ## Compared with Jev 1.13
 
-<p align="center"><img src="media/vs_jev.png" alt="Startlux-Decision-27B compared with Jev 1.13" width="100%"></p>
+<p align="center"><img src="media/vs_jev.png" alt="StartLux-Decision-27B compared with Jev 1.13" width="100%"></p>
 
 ## Accuracy suites
 
@@ -143,7 +164,7 @@ to end.
 
 The Intern-Decision bundle has seven suites: the three public JevBench tiers, Typed Decisions, ToolACE, AG News and
 WildJailBreak. Its ToolACE items are drawn from the public ToolACE training set, which has no held-out split, so
-[docs/results.md](docs/results.md) also gives the average without it (Startlux-Decision-4B: 90.67, Intern-Decision-4B: 88.95).
+[docs/results.md](docs/results.md) also gives the average without it (StartLux-Decision-4B: 90.67, Intern-Decision-4B: 88.95).
 JevBench public counts the correct answers on the 231 public items in the bundle. It is not the official JevBench
 score, which adds a sealed tier, speed and cost and is measured only by the maintainers.
 
@@ -153,21 +174,21 @@ score, which adds a sealed tier, speed and cost and is measured only by the main
 
 The fast linear-attention kernels (`flash-linear-attention`, `causal-conv1d`) are required; the server refuses to
 start on a GPU without them. All questions of a request run in one forward pass, and CUDA graphs remove most of the
-launch overhead for short requests: Startlux-Decision-4B takes 90.3 ms for the same request without them. Bulk evaluation goes through a batched path instead. Details in
+launch overhead for short requests: StartLux-Decision-4B takes 90.3 ms for the same request without them. Bulk evaluation goes through a batched path instead. Details in
 [docs/inference.md](docs/inference.md).
 
 ## Games
 
-<p align="center"><img src="media/games.png" alt="Startlux-Decision and Jev in the game harnesses" width="100%"></p>
+<p align="center"><img src="media/games.png" alt="StartLux-Decision and Jev in the game harnesses" width="100%"></p>
 
-| Game | Measure | Startlux-Decision-27B | Jev 1.13 | Other reference |
+| Game | Measure | StartLux-Decision-27B | Jev 1.13 | Other reference |
 |---|---|---:|---:|---|
 | NPC addressee detection, clean text | lines with a wrong answer, of 75 (fewer is better) | 1 | 6 | name matching: 27 |
 | NPC addressee detection, misheard names | lines with a wrong answer, of 75 (fewer is better) | 5 | 12 | name matching: 29 |
 | NPC addressee detection, clean text | F1 over the yes/no answers | 0.990 | 0.962 | name matching: 0.820 |
 | Chess, full games | Elo on the harness ladder, no search | 1348 | 968 | Stockfish skill 0: 1166 |
 | Mate in one | puzzles solved, of 25 | 10 | 6 | a random legal move: 3% |
-| Dino Run | runs that reach the 300-obstacle cap, of 20 | 20 | 20 | Startlux-Decision-4B and 9B: 20 |
+| Dino Run | runs that reach the 300-obstacle cap, of 20 | 20 | 20 | StartLux-Decision-4B and 9B: 20 |
 
 Jev's numbers are the ones its harness authors report, except Dino Run, which we ran for Jev through its API in the
 same harness as ours. Jev's chess rating comes from 11 games, ours from 28. The misheard-names variant is the same set
@@ -182,17 +203,17 @@ The weights are on Hugging Face. Each model folder also carries the inference pa
 
 | Model | Download | Size |
 |---|---|---:|
-| Startlux-Decision-0.8B | [startlux-models/Startlux-Decision-0.8B](https://huggingface.co/startlux-models/Startlux-Decision-0.8B) | 1.8 GB |
-| Startlux-Decision-2B | [startlux-models/Startlux-Decision-2B](https://huggingface.co/startlux-models/Startlux-Decision-2B) | 4.6 GB |
-| Startlux-Decision-4B | [startlux-models/Startlux-Decision-4B](https://huggingface.co/startlux-models/Startlux-Decision-4B) | 9.3 GB |
-| Startlux-Decision-9B | [startlux-models/Startlux-Decision-9B](https://huggingface.co/startlux-models/Startlux-Decision-9B) | 19.4 GB |
-| Startlux-Decision-27B | [startlux-models/Startlux-Decision-27B](https://huggingface.co/startlux-models/Startlux-Decision-27B) | 55.6 GB |
+| StartLux-Decision-0.8B | [startlux-models/StartLux-Decision-0.8B](https://huggingface.co/startlux-models/StartLux-Decision-0.8B) | 1.8 GB |
+| StartLux-Decision-2B | [startlux-models/StartLux-Decision-2B](https://huggingface.co/startlux-models/StartLux-Decision-2B) | 4.6 GB |
+| StartLux-Decision-4B | [startlux-models/StartLux-Decision-4B](https://huggingface.co/startlux-models/StartLux-Decision-4B) | 9.3 GB |
+| StartLux-Decision-9B | [startlux-models/StartLux-Decision-9B](https://huggingface.co/startlux-models/StartLux-Decision-9B) | 19.4 GB |
+| StartLux-Decision-27B | [startlux-models/StartLux-Decision-27B](https://huggingface.co/startlux-models/StartLux-Decision-27B) | 55.6 GB |
 
 ```bash
-hf download startlux-models/Startlux-Decision-4B --local-dir Startlux-Decision-4B
+hf download startlux-models/StartLux-Decision-4B --local-dir StartLux-Decision-4B
 pip install -r requirements.txt
-python -m startlux_decision.check Startlux-Decision-4B          # must print "fast kernels: active"
-python -m startlux_decision.server --model Startlux-Decision-4B --port 8090
+python -m startlux_decision.check StartLux-Decision-4B          # must print "fast kernels: active"
+python -m startlux_decision.server --model StartLux-Decision-4B --port 8090
 ```
 
 ```bash
@@ -213,9 +234,9 @@ curl -s localhost:8090/v1/systemone -H 'Content-Type: application/json' -d '{
 Or in Python:
 
 ```python
-from startlux_decision import StartluxDecision
+from startlux_decision import StartLuxDecision
 
-m = StartluxDecision("Startlux-Decision-4B")
+m = StartLuxDecision("StartLux-Decision-4B")
 answers, usage = m.decide(state, questions)          # one request
 many = m.decide_batch([(state, questions), ...])     # many requests, batched together
 ```

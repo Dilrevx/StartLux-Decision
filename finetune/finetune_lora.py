@@ -1,6 +1,6 @@
-"""LoRA fine-tuning of a Startlux-Decision model on your own typed decisions, written out as a new Startlux-Decision directory.
+"""LoRA fine-tuning of a StartLux-Decision model on your own typed decisions, written out as a new StartLux-Decision directory.
 
-    python finetune/finetune_lora.py --model /path/to/Startlux-Decision-4B --train train.jsonl --dev dev.jsonl --out runs/mine
+    python finetune/finetune_lora.py --model /path/to/StartLux-Decision-4B --train train.jsonl --dev dev.jsonl --out runs/mine
     python finetune/calibrate.py --model runs/mine/merged --dev dev.jsonl
     python -m startlux_decision.server --model runs/mine/merged --port 8090
 
@@ -11,8 +11,8 @@ Data, one JSON object per line (see docs/finetuning.md):
 Target keys follow the question type: choice -> its criteria keys, noul -> "true" / "false", score -> "0".."n-1"
 (lowest level first).  A hard label is a one-hot distribution; a spread of annotator votes can be given as is.
 
-Each question is rendered exactly as Startlux-Decision renders it when serving, and the loss is the cross-entropy between the
-target and the softmax over the option letters at the answer position, which is the readout Startlux-Decision uses, so the
+Each question is rendered exactly as StartLux-Decision renders it when serving, and the loss is the cross-entropy between the
+target and the softmax over the option letters at the answer position, which is the readout StartLux-Decision uses, so the
 result is served with the same code.  Only LoRA weights are trained; they are merged into the saved model.
 """
 import argparse
@@ -106,7 +106,7 @@ def step_loss(body, letter_rows, items, idx, pad, device):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--model", required=True, help="Startlux-Decision directory to start from")
+    ap.add_argument("--model", required=True, help="StartLux-Decision directory to start from")
     ap.add_argument("--train", required=True)
     ap.add_argument("--dev")
     ap.add_argument("--out", required=True)
@@ -201,7 +201,7 @@ def main():
     merged = os.path.join(a.out, "merged")
     model.save_pretrained(merged, safe_serialization=True)
     tok.save_pretrained(merged)
-    for f in os.listdir(a.model):                           # processor configs and the Startlux-Decision config travel along
+    for f in os.listdir(a.model):                           # processor configs and the StartLux-Decision config travel along
         if f.endswith(".json") and not os.path.exists(os.path.join(merged, f)):
             shutil.copy(os.path.join(a.model, f), merged)
     print("merged model written to", merged, "- fit its temperatures with finetune/calibrate.py", flush=True)

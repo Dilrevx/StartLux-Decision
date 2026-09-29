@@ -2,7 +2,7 @@
 choice, one yes/no and one score field (about 289 tokens of request content), requests are sent one at a time,
 20 warm-up requests, then N timed ones.
 
-    python -m startlux_decision.server --model /path/to/Startlux-Decision-4B --port 8090 &
+    python -m startlux_decision.server --model /path/to/StartLux-Decision-4B --port 8090 &
     python eval/latency.py http://127.0.0.1:8090/v1/systemone 200            # three fields
     python eval/latency.py http://127.0.0.1:8090/v1/systemone 200 single     # one yes/no field
 """
@@ -26,7 +26,7 @@ questions = {"team": {"type": "choice", "instructions": "Which team should own t
                           "criteria": ["cosmetic", "minor inconvenience", "blocks part of the team", "blocks the whole business"]}}
 if single:
     questions = {"urgent": questions["urgent"]}
-body = json.dumps({"model": "Startlux-Decision", "state": state, "questions": questions}).encode()
+body = json.dumps({"model": "StartLux-Decision", "state": state, "questions": questions}).encode()
 def call():
     t = time.perf_counter()
     with urllib.request.urlopen(urllib.request.Request(url, body, {"Content-Type": "application/json"}), timeout=60) as r:

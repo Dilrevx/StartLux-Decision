@@ -1,5 +1,5 @@
 {
- "Startlux-Decision-0.8B": {
+ "StartLux-Decision-0.8B": {
   "jevbench_public_correct": 179,
   "jevbench_public_total": 231,
   "jevbench_hard_correct": 66,
@@ -79,7 +79,7 @@
    "mate_in_one_rich": 0.08
   }
  },
- "Startlux-Decision-2B": {
+ "StartLux-Decision-2B": {
   "jevbench_public_correct": 196,
   "jevbench_public_total": 231,
   "jevbench_hard_correct": 80,
@@ -159,7 +159,7 @@
    "mate_in_one_rich": 0.08
   }
  },
- "Startlux-Decision-4B": {
+ "StartLux-Decision-4B": {
   "jevbench_public_correct": 204,
   "jevbench_public_total": 231,
   "jevbench_hard_correct": 84,
@@ -239,7 +239,7 @@
    "mate_in_one_rich": 0.16
   }
  },
- "Startlux-Decision-9B": {
+ "StartLux-Decision-9B": {
   "jevbench_public_correct": 201,
   "jevbench_public_total": 231,
   "jevbench_hard_correct": 83,
@@ -319,7 +319,7 @@
    "mate_in_one_rich": 0.2
   }
  },
- "Startlux-Decision-27B": {
+ "StartLux-Decision-27B": {
   "jevbench_public_correct": 208,
   "jevbench_public_total": 231,
   "jevbench_hard_correct": 88,
