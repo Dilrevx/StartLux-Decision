@@ -19,7 +19,7 @@ the evaluation scripts, the results and the raw game logs. The weights are on Hu
 
 ## Demos
 
-<table>
+<table align="center">
   <tr>
     <td width="50%" align="center"><a href="media/computer_use_store_27b.mp4"><img src="media/computer_use_store_27b.gif" alt="Startlux-Decision-27B orders batteries in a web store"></a><br><sub>Startlux-Decision-27B finds the cheapest AA 8-pack with free delivery and orders it to the right address</sub></td>
     <td width="50%" align="center"><a href="media/computer_use_workspace_27b.mp4"><img src="media/computer_use_workspace_27b.gif" alt="Startlux-Decision-27B invites a teammate in a workspace app"></a><br><sub>Startlux-Decision-27B invites a teammate to a team as an Editor</sub></td>
@@ -73,8 +73,10 @@ train splits of 14 of them, marked † below; their test items were filtered out
 Every cell below is on the index's own scale: the benchmark's metric, corrected for chance, so 0% is random guessing
 and 100% is perfect. The index is a weighted mean of these cells, which is why the first row matches the chart.
 
+<div align="center">
+
 | | Startlux-Decision-27B | Startlux-Decision-9B | Startlux-Decision-4B | Jev 1.13 | Rune 26B-A4B | Decider chat 31B | AutoJev-27B |
-|---|---:|---:|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Decision Index 0.2.1** | **63.88** | 58.63 | 52.75 | 57.91 | 57.44 | 57.33 | 56.40 |
 | *Knowledge & Reasoning* | *44.3* | *38.0* | *32.1* | ***51.4*** | *43.4* | *44.3* | *40.9* |
 | GSM8K † | **95.3** | 94.3 | 87.8 | 75.6 | 75.7 | 78.8 | 61.1 |
@@ -120,6 +122,8 @@ and 100% is perfect. The index is a weighted mean of these cells, which is why t
 | Habermas | 18.4 | 22.5 | 17.7 | 21.5 | 16.2 | **24.4** | 15.5 |
 | New Yorker † | **74.2** | 72.1 | 63.3 | 62.6 | 67.6 | 67.3 | 62.8 |
 
+</div>
+
 ★ benchmarks weigh 1.2 in the index. The italic rows are the index's own area scores. Bold marks the best score in
 each row. The other systems' values come from the
 public board. The metric of each benchmark and the raw scores of all five sizes are in [docs/results.md](docs/results.md)
@@ -132,8 +136,10 @@ and [results/decision_index_benchmarks.csv](results/decision_index_benchmarks.cs
 The public JevBench items are the comparison most decision models of this kind report. The table lists the systems
 in the Intern-Decision bundle next to ours; a blank cell means the number is not published.
 
+<div align="center">
+
 | Model | JevBench public, of 231 | Intern avg | DI 0.2 / 0.2.1 | Latency, 3 questions |
-|---|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-27B | **208** | **91.82** | **59.54 / 63.88** | 102.3 ms |
 | Startlux-Decision-9B | 201 | 91.08 | 54.37 / 58.63 | 35.7 ms |
 | Startlux-Decision-4B | 204 | 91.17 | 48.38 / 52.75 | 26.0 ms |
@@ -146,6 +152,8 @@ in the Intern-Decision bundle next to ours; a blank cell means the number is not
 | Startlux-Decision-0.8B | 179 | 85.03 | 35.57 / 38.86 | **12.2 ms** |
 | Intern-Decision-0.8B | 163 | 79.38 | 11.32 / 11.94 | 34.0 ms ¹ |
 | Laya | 130 | 57.77 | 5.51 / 6.04 | |
+
+</div>
 
 JevBench public counts the correct answers on the 231 public items in the Intern-Decision bundle, Intern avg is the
 average accuracy over its seven suites, and DI is the Decision Index under both editions (the public board's values for
@@ -184,8 +192,10 @@ BF16, which keeps the weights unchanged, and llama.cpp's standard Q8_0 and Q4_K_
 procedure is not in the weights; `python -m startlux_decision.gguf_server` runs it in front of llama-server (see
 [docs/inference.md](docs/inference.md#gguf-and-llamacpp)). Against the original weights on the 231 public JevBench items:
 
+<div align="center">
+
 | File | Size | Same decision as the original | JevBench public, of 231 |
-|---|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B, original weights | | | 177 (76.6%) |
 | `Startlux-Decision-0.8B-BF16.gguf` | 1.52 GB | 99.6% | 178 (77.1%) |
 | `Startlux-Decision-0.8B-Q8_0.gguf` | 0.81 GB | 100.0% | 177 (76.6%) |
@@ -207,6 +217,8 @@ procedure is not in the weights; `python -m startlux_decision.gguf_server` runs 
 | `Startlux-Decision-27B-Q8_0.gguf` | 28.60 GB | 100.0% | 209 (90.5%) |
 | `Startlux-Decision-27B-Q4_K_M.gguf` | 16.55 GB | 96.5% | 208 (90.0%) |
 
+</div>
+
 BF16 and Q8_0 give the original answer on 99 to 100% of the items. Q4_K_M keeps 96.5 to 98.3% from 4B up; at 0.8B and
 2B it changes more answers, so Q8_0 is the better choice there. The original rows are the same weights run through this
 repository's package on the same machine; they differ from the tables above by one or two items of bf16 rounding.
@@ -226,14 +238,18 @@ python -m startlux_decision.gguf_server --model-dir . --llama http://127.0.0.1:8
 
 <p align="center"><img src="media/games.png" alt="Startlux-Decision and Jev in the game harnesses" width="100%"></p>
 
+<div align="center">
+
 | Game | Measure | Startlux-Decision-27B | Jev 1.13 | Other reference |
-|---|---|---:|---:|---|
+|:---:|:---:|:---:|:---:|:---:|
 | NPC addressee detection, clean text | lines with a wrong answer, of 75 (fewer is better) | 1 | 6 | name matching: 27 |
 | NPC addressee detection, misheard names | lines with a wrong answer, of 75 (fewer is better) | 5 | 12 | name matching: 29 |
 | NPC addressee detection, clean text | F1 over the yes/no answers | 0.990 | 0.962 | name matching: 0.820 |
 | Chess, full games | Elo on the harness ladder, no search | 1348 | 968 | Stockfish skill 0: 1166 |
 | Mate in one | puzzles solved, of 25 | 10 | 6 | a random legal move: 3% |
 | Dino Run | runs that reach the 300-obstacle cap, of 20 | 20 | 20 | Startlux-Decision-4B and 9B: 20 |
+
+</div>
 
 Jev's numbers are the ones its harness authors report, except Dino Run, which we ran for Jev through its API in the
 same harness as ours. Jev's chess rating comes from 11 games, ours from 28. The misheard-names variant is the same set

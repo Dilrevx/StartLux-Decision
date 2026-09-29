@@ -44,11 +44,15 @@ export TYPESAFE_API_KEY=unused
 
 A request has a `state` (a string or any JSON value) and `questions`, each with a `type`:
 
+<div align="center">
+
 | type | criteria | answer |
-|---|---|---|
+|:---:|:---:|:---:|
 | `choice` | `{option: description or null}` | `choice`, `confidence`, `probabilities` over the options |
 | `noul` (yes/no) | optional `{"true": ..., "false": ...}` | `noul` = probability of yes |
 | `score` | a list of levels, lowest first | `score` (probability-weighted mean level), `confidence`, `legend`, `probabilities` keyed `"0".."n-1"` |
+
+</div>
 
 For the support-ticket request in the README, Startlux-Decision-4B answers (numbers rounded here):
 
@@ -113,14 +117,18 @@ requests). "3 fields" is one choice, one yes/no and one score question on a supp
 891 tokens because each question carries the full state, and the three run together in one forward pass, as
 Intern-Decision's fields do.
 
+<div align="center">
+
 | Model | 3 fields: mean | P50 | P95 | one yes/no question |
-|---|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 12.2 ms | 12.2 ms | 14.2 ms | 8.3 ms |
 | Startlux-Decision-2B | 15.5 ms | 15.5 ms | 17.2 ms | 9.6 ms |
 | Startlux-Decision-4B | 26.0 ms | 26.0 ms | 27.3 ms | 14.7 ms |
 | Startlux-Decision-9B | 35.7 ms | 36.2 ms | 37.4 ms | 17.6 ms |
 | Startlux-Decision-27B | 102.3 ms | 102.5 ms | 104.3 ms | 50.7 ms |
 | Startlux-Decision-4B, graphs off | 90.3 ms | 89.5 ms | 92.5 ms | 87.5 ms |
+
+</div>
 
 For reference, Intern-Decision reports 34.0 ms (0.8B), 33.3 ms (2B) and 44.2 ms (4B) on an RTX 4090 for a request of the
 same shape. Different hardware, so read it as a ballpark, not a head-to-head. For Jev 1.13 we sent the same two requests
@@ -135,13 +143,17 @@ The models also run with FP8 weights and activations (torchao, `Float8DynamicAct
 scales on the text backbone; the letter readout stays in bf16). On 2,541 decisions (JevBench public, Typed Decisions
 test, ToolACE test) the chosen option matched bf16 in this share of cases:
 
+<div align="center">
+
 | Model | agreement with bf16 | accuracy bf16 -> FP8 |
-|---|---:|---:|
+|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 96.3% | 78.00 -> 77.76 |
 | Startlux-Decision-2B | 96.5% | 80.44 -> 80.05 |
 | Startlux-Decision-4B | 98.0% | 82.37 -> 81.98 |
 | Startlux-Decision-9B | 98.2% | 83.67 -> 83.23 |
 | Startlux-Decision-27B | 98.6% | 82.96 -> 82.76 |
+
+</div>
 
 FP8 is a memory option here, not a speed option. Weight memory roughly halves (Startlux-Decision-27B takes 27.5 GiB on the GPU
 after quantisation), but in this test FP8 was about 2.7 times slower per decision than bf16, both run eagerly with one

@@ -24,8 +24,10 @@ two inference paths, in both directions.
 Accuracy in percent. Easy, Original and Hard are the 48, 72 and 111 public JevBench items. Scored with
 `eval/suites.py`; the other rows are from the Intern-Decision README (commit 2f81580), which uses the same scorer.
 
+<div align="center">
+
 | Model | Easy | Original | Hard | Typed | ToolACE | AG News | WildJB | Average | Average without ToolACE |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 100.00 | 90.28 | 59.46 | 75.85 | 91.94 | 90.97 | 86.70 | **85.03** | 83.88 |
 | Startlux-Decision-2B | 100.00 | 94.44 | 72.07 | 77.95 | 93.23 | 89.43 | 92.13 | **88.46** | 87.67 |
 | Startlux-Decision-4B | 100.00 | 100.00 | 75.68 | 79.95 | 94.19 | 90.91 | 97.47 | **91.17** | 90.67 |
@@ -40,10 +42,14 @@ Accuracy in percent. Easy, Original and Hard are the 48, 72 and 111 public JevBe
 | Intern-Decision-2B | 100.00 | 84.72 | 63.96 | 79.35 | 96.45 | 89.96 | 78.33 | 84.68 | 82.72 |
 | Intern-Decision-4B | 100.00 | 98.61 | 73.87 | 80.55 | 96.45 | 90.82 | 89.86 | 90.02 | 88.95 |
 
+</div>
+
 Counted in items (231 public JevBench items; other systems converted from the table above):
 
+<div align="center">
+
 | System | Correct of 231 | Easy (48) | Original (72) | Hard (111) |
-|---|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-27B | **208** | 48 | 72 | **88** |
 | Startlux-Decision-4B | 204 | 48 | 72 | 84 |
 | Intern-Decision-4B | 201 | 48 | 71 | 82 |
@@ -58,6 +64,8 @@ Counted in items (231 public JevBench items; other systems converted from the ta
 | Intern-Decision-0.8B | 163 | 47 | 58 | 58 |
 | Laya | 130 | 46 | 52 | 32 |
 
+</div>
+
 The official JevBench score (v1.4.2.2) is a different measurement: it adds a sealed tier, speed and cost, measured by
 the maintainers only, and its public set is not exactly these 231 items. Imajev-4B leads it at 67.37. The best public
 accuracy on that board is 207 of 231 (Plumb-4B and JevOne). We have no official run.
@@ -68,8 +76,10 @@ Brier score and ECE (top label, 10 bins) on JevBench hard, and the expected Brie
 known-distribution pilot from the Intern-Decision bundle, scored with the bundle's own scorer. Lower is better. Other
 rows are from the Intern-Decision README; it reports the pilot only for Jev and Intern-Decision-4B (calibrated).
 
+<div align="center">
+
 | Model | JevBench hard Brier | JevBench hard ECE | Pilot Brier | Pilot ECE |
-|---|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 0.524 | 0.124 | 0.519 | 0.051 |
 | Startlux-Decision-2B | 0.394 | 0.081 | 0.515 | 0.060 |
 | Startlux-Decision-4B | 0.375 | 0.104 | 0.499 | 0.059 |
@@ -84,13 +94,17 @@ rows are from the Intern-Decision README; it reports the pilot only for Jev and 
 | Intern-Decision-2B | 0.437 | 0.100 | | |
 | Intern-Decision-4B | 0.347 | 0.065 | 0.550 | 0.089 |
 
+</div>
+
 ## Typed Decisions
 
 Test split, 400 cases, 2,000 decisions, scored with `eval/typed_decisions.py` against the soft gold labels. Other rows
 are from the dataset card (revision f7a2487e).
 
+<div align="center">
+
 | Model | Accuracy | Soft accuracy | Macro-F1 | KL | TV | Brier | Score MAE |
-|---|---:|---:|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 0.758 | 0.602 | 0.639 | 0.148 | 0.204 | 0.079 | 0.295 |
 | Startlux-Decision-2B | 0.779 | 0.608 | 0.688 | 0.102 | 0.161 | 0.055 | 0.230 |
 | Startlux-Decision-4B | 0.799 | 0.615 | 0.709 | 0.080 | 0.136 | 0.044 | 0.203 |
@@ -102,22 +116,30 @@ are from the dataset card (revision f7a2487e).
 | ModernBERT-base (specialist) | 0.646 | 0.542 | 0.469 | 0.223 | 0.249 | 0.119 | 0.444 |
 | Prior (reference) | 0.470 | 0.430 | 0.207 | 0.347 | 0.317 | 0.189 | |
 
+</div>
+
 ## Decision Index
 
 Full suite, scored with the 0.2.1 kit under both editions. The area columns are 0.2.1 skill scores.
 
+<div align="center">
+
 | Model | DI 0.2 | DI 0.2.1 | Knowledge | Language | Retrieval & classification | Tools | Arts & taste |
-|---|---:|---:|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 35.57 | **38.86** | 20.4 | 48.1 | 52.5 | 48.0 | 18.7 |
 | Startlux-Decision-2B | 40.72 | **44.19** | 25.3 | 52.9 | 52.9 | 59.5 | 25.0 |
 | Startlux-Decision-4B | 48.38 | **52.75** | 32.1 | 63.9 | 56.7 | 72.3 | 33.7 |
 | Startlux-Decision-9B | 54.37 | **58.63** | 38.0 | 71.3 | 64.1 | 73.2 | 41.8 |
 | Startlux-Decision-27B | 59.54 | **63.88** | 44.3 | 74.5 | 66.8 | 82.2 | 47.9 |
 
+</div>
+
 Other systems, from the public board (multimodalart/jev-decision-index, values as of 2026-09-28):
 
+<div align="center">
+
 | System | DI 0.2 | DI 0.2.1 |
-|---|---:|---:|
+|:---:|:---:|:---:|
 | Jev 1.13 | 51.67 | 57.91 |
 | Surogate Rune 26B-A4B v3 | | 57.44 |
 | Decider chat · Gemma-4-31B | 51.93 | 57.33 |
@@ -134,6 +156,8 @@ Other systems, from the public board (multimodalart/jev-decision-index, values a
 | Laya | 5.51 | 6.04 |
 | Drex 1.1 (self-reported, not on the board) | 52.82 | |
 
+</div>
+
 Our DI runs have not been submitted to the board, so they are not on it. The four entries after Jev are the next
 highest on the 0.2.1 board.
 
@@ -144,8 +168,10 @@ benchmarks weighted 1.2). Startlux-Decision-27B is above Jev on 31 of the 38 ben
 whose public train split is part of our training data; their test items were filtered out of it. The same numbers are in
 [results/decision_index_benchmarks.csv](../results/decision_index_benchmarks.csv).
 
+<div align="center">
+
 | Area | Benchmark | Metric | 0.8B | 2B | 4B | 9B | 27B | Jev 1.13 |
-|---|---|---|---:|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Knowledge & Reasoning | GSM8K † | accuracy | 92.0 | 87.4 | 90.4 | 95.7 | **96.4** | 79.9 |
 | Knowledge & Reasoning | ChessBench | accuracy | 10.7 | 11.2 | 11.9 | 13.0 | **18.0** | 17.2 |
 | Knowledge & Reasoning | MuSR | accuracy | 54.8 | 56.0 | 56.0 | 59.0 | **67.8** | 66.1 |
@@ -187,6 +213,8 @@ whose public train split is part of our training data; their test items were fil
 | Arts & Human Taste | Habermas | accuracy | 44.0 | 45.1 | 43.3 | **46.6** | 43.8 | 45.9 |
 | Arts & Human Taste | New Yorker † | accuracy | 58.3 | 66.5 | 70.6 | 77.6 | **79.4** | 70.1 |
 
+</div>
+
 ## Speed
 
 Latency and FP8 numbers are in [inference.md](inference.md). In short, with one request at a time over HTTP on one
@@ -207,8 +235,10 @@ every NPC in earshot the model answers "is the player talking to this NPC?". F1 
 share of utterances where the whole set of addressees is right, on clean text, on lower-cased speech-to-text without
 punctuation, and on the same with misheard names.
 
+<div align="center">
+
 | Model | Clean: F1 / exact set | Speech-to-text | Misheard names |
-|---|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 0.817 / 0.760 | 0.800 / 0.667 | 0.684 / 0.547 |
 | Startlux-Decision-2B | 0.795 / 0.747 | 0.776 / 0.733 | 0.712 / 0.653 |
 | Startlux-Decision-4B | 0.813 / 0.800 | 0.724 / 0.653 | 0.694 / 0.613 |
@@ -217,14 +247,18 @@ punctuation, and on the same with misheard names.
 | Jev 1.13 | 0.962 / 0.92 | 0.944 / 0.88 | 0.927 / 0.84 |
 | fuzzy name-matching heuristic | 0.820 / 0.64 | 0.820 / 0.64 | 0.786 / 0.61 |
 
+</div>
+
 **Chess** (wondertwins/jev-benchmark). The model picks one move from all legal moves; there is no search, and code
 never overrides the choice. Positions: 30 middlegame positions scored by Stockfish 19. "Rich" gives the board with
 piece lists and code-computed facts; "tactical" adds one-ply facts for every move (material won or lost on the landing
 square, checks, mate, pieces exposed or rescued). Mate in one: 25 puzzles at the rich level, where a mating move is not
 marked as such.
 
+<div align="center">
+
 | Model | Rich: centipawn loss | best move | Tactical: centipawn loss | best move | Mate in one |
-|---|---:|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 282 | 7% | 112 | 23% | 2 of 25 |
 | Startlux-Decision-2B | 186 | 13% | 135 | 13% | 2 of 25 |
 | Startlux-Decision-4B | 159 | 17% | 94 | 27% | 4 of 25 |
@@ -232,15 +266,21 @@ marked as such.
 | Startlux-Decision-27B | **108** | 23% | 107 | 27% | **10 of 25** |
 | Jev 1.13 | 144 | **27%** | **90** | **37%** | 6 of 25 |
 
+</div>
+
 Full games at the tactical level, on the benchmark's Elo ladder (bots calibrated against each other, anchored at
 Stockfish UCI_Elo 1320), four games against each of seven opponents with alternating colours:
 
+<div align="center">
+
 | Model | Score | Performance rating | 80% bootstrap interval |
-|---|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 | Startlux-Decision-4B | 19.5 / 28 | 886 | 782 to 1018 |
 | Startlux-Decision-9B | 20 / 28 | 928 | 765 to 1102 |
 | Startlux-Decision-27B | 25 / 28 | **1348** | 1187 to 1533 |
 | Jev 1.13 (harness README, 11 games) | 9 / 11 | 968 | 879 to 1412 |
+
+</div>
 
 Against Stockfish at skill 0 (depth 1, rated 1166 on this ladder) Startlux-Decision-27B won three games and drew one; against
 Stockfish limited to 1320 Elo it scored three of four. Games that reach the 160-ply cap are adjudicated at ±300
@@ -249,14 +289,18 @@ centipawns, as the ladder does for every player.
 **Dino Run** (surafel-kindu/system-one-models-game-test). One decision per obstacle (jump, duck or keep running);
 a wrong answer ends the run. 20 runs per model, capped at 300 obstacles.
 
+<div align="center">
+
 | Model | Obstacles cleared, mean of 20 | Runs reaching the cap |
-|---|---:|---:|
+|:---:|:---:|:---:|
 | Startlux-Decision-0.8B | 0.6 | 0 |
 | Startlux-Decision-2B | 5.4 | 0 |
 | Startlux-Decision-4B | 300 | 20 |
 | Startlux-Decision-9B | 300 | 20 |
 | Startlux-Decision-27B | 300 | 20 |
 | Jev 1.13, our run through its API | 300 | 20 |
+
+</div>
 
 For reference, the harness README reports that Kev-0.8B answered "duck" to 21 of 24 test obstacles, that
 GLiNER2.5-Decide never chose "keep running" and Bev-Decider-0.4B never chose "jump", so each of them fails on at least
@@ -268,10 +312,14 @@ Chrome through Playwright. Each step sends one request with a choice question ov
 the task is done; the harness carries out the chosen control and stops when the answer to the second question is yes.
 The model never types: clicking a text box only opens its suggestion list.
 
+<div align="center">
+
 | Task | Steps | Result | Latency per step |
-|---|---:|---|---:|
+|:---:|:---:|:---:|:---:|
 | Store: order the cheapest AA 8-pack with free delivery to the home address (the checkout preselects the work address) | 10 | correct order | 101 to 256 ms |
 | Workspace: invite dana@harborline.example to the Design team as an Editor (the invite form defaults to Viewer; the directory lists Dan, Diana and Dante as well) | 8 | correct invitation | 102 to 256 ms |
+
+</div>
 
 Startlux-Decision-27B on one H200, 739 to 2,515 input tokens per request. The logs, with every option and probability, are in
 [results/computer_use](../results/computer_use).
