@@ -323,5 +323,8 @@ media/          figures and recordings used here
 
 ## License
 
-The code in this repository and the weights on Hugging Face are Apache-2.0. Benchmark data
-is fetched from its original sources under their own terms.
+The code in this repository is Apache-2.0 ([LICENSE](LICENSE)). The model weights on Hugging Face are released under
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): free for research and other non-commercial use, with
+attribution. Commercial use requires a separate license from StartLux Labs; contact
+[xlzhuang@gmail.com](mailto:xlzhuang@gmail.com). Benchmark data is fetched from its original sources under their own
+terms.
