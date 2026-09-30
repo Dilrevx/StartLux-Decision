@@ -188,7 +188,7 @@ launch overhead for short requests: Startlux-Decision-4B takes 90.3 ms for the s
 
 Every size also comes as GGUF files for llama.cpp: BF16, which keeps the weights unchanged, and llama.cpp's standard
 Q8_0 and Q4_K_M quantizations of it. Each file has its own Hugging Face repository,
-`startlux-models/Startlux-Decision-<size>-<precision>-GGUF`, linked from the table below. The decision procedure is not
+`startlux-models/StartLux-Decision-<size>-<precision>-GGUF`, linked from the table below. The decision procedure is not
 in the weights; `python -m startlux_decision.gguf_server` runs it in front of llama-server (see
 [docs/inference.md](docs/inference.md#gguf-and-llamacpp)). Against the original weights on the 231 public JevBench items:
 
@@ -197,25 +197,25 @@ in the weights; `python -m startlux_decision.gguf_server` runs it in front of ll
 | File | Size | Same decision as the original | JevBench public, of 231 |
 |:---:|:---:|:---:|:---:|
 | Startlux-Decision-0.8B, original weights | | | 177 (76.6%) |
-| [`Startlux-Decision-0.8B-BF16.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-BF16-GGUF) | 1.52 GB | 99.6% | 178 (77.1%) |
-| [`Startlux-Decision-0.8B-Q8_0.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-Q8_0-GGUF) | 0.81 GB | 100.0% | 177 (76.6%) |
-| [`Startlux-Decision-0.8B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-Q4_K_M-GGUF) | 0.53 GB | 93.1% | 172 (74.5%) |
+| [`Startlux-Decision-0.8B-BF16.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-BF16-GGUF) | 1.52 GB | 99.6% | 178 (77.1%) |
+| [`Startlux-Decision-0.8B-Q8_0.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-Q8_0-GGUF) | 0.81 GB | 100.0% | 177 (76.6%) |
+| [`Startlux-Decision-0.8B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-Q4_K_M-GGUF) | 0.53 GB | 93.1% | 172 (74.5%) |
 | Startlux-Decision-2B, original weights | | | 195 (84.4%) |
-| [`Startlux-Decision-2B-BF16.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-2B-BF16-GGUF) | 3.78 GB | 100.0% | 195 (84.4%) |
-| [`Startlux-Decision-2B-Q8_0.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-2B-Q8_0-GGUF) | 2.01 GB | 99.1% | 193 (83.5%) |
-| [`Startlux-Decision-2B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-2B-Q4_K_M-GGUF) | 1.27 GB | 94.4% | 199 (86.1%) |
+| [`Startlux-Decision-2B-BF16.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-2B-BF16-GGUF) | 3.78 GB | 100.0% | 195 (84.4%) |
+| [`Startlux-Decision-2B-Q8_0.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-2B-Q8_0-GGUF) | 2.01 GB | 99.1% | 193 (83.5%) |
+| [`Startlux-Decision-2B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-2B-Q4_K_M-GGUF) | 1.27 GB | 94.4% | 199 (86.1%) |
 | Startlux-Decision-4B, original weights | | | 204 (88.3%) |
-| [`Startlux-Decision-4B-BF16.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-4B-BF16-GGUF) | 8.42 GB | 100.0% | 204 (88.3%) |
-| [`Startlux-Decision-4B-Q8_0.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-4B-Q8_0-GGUF) | 4.48 GB | 100.0% | 204 (88.3%) |
-| [`Startlux-Decision-4B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-4B-Q4_K_M-GGUF) | 2.71 GB | 98.3% | 201 (87.0%) |
+| [`Startlux-Decision-4B-BF16.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-4B-BF16-GGUF) | 8.42 GB | 100.0% | 204 (88.3%) |
+| [`Startlux-Decision-4B-Q8_0.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-4B-Q8_0-GGUF) | 4.48 GB | 100.0% | 204 (88.3%) |
+| [`Startlux-Decision-4B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-4B-Q4_K_M-GGUF) | 2.71 GB | 98.3% | 201 (87.0%) |
 | Startlux-Decision-9B, original weights | | | 200 (86.6%) |
-| [`Startlux-Decision-9B-BF16.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-9B-BF16-GGUF) | 17.92 GB | 99.6% | 201 (87.0%) |
-| [`Startlux-Decision-9B-Q8_0.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-9B-Q8_0-GGUF) | 9.53 GB | 100.0% | 200 (86.6%) |
-| [`Startlux-Decision-9B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-9B-Q4_K_M-GGUF) | 5.63 GB | 98.3% | 201 (87.0%) |
+| [`Startlux-Decision-9B-BF16.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-9B-BF16-GGUF) | 17.92 GB | 99.6% | 201 (87.0%) |
+| [`Startlux-Decision-9B-Q8_0.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-9B-Q8_0-GGUF) | 9.53 GB | 100.0% | 200 (86.6%) |
+| [`Startlux-Decision-9B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-9B-Q4_K_M-GGUF) | 5.63 GB | 98.3% | 201 (87.0%) |
 | Startlux-Decision-27B, original weights | | | 209 (90.5%) |
-| [`Startlux-Decision-27B-BF16.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-27B-BF16-GGUF) | 53.81 GB | 100.0% | 209 (90.5%) |
-| [`Startlux-Decision-27B-Q8_0.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-27B-Q8_0-GGUF) | 28.60 GB | 100.0% | 209 (90.5%) |
-| [`Startlux-Decision-27B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/Startlux-Decision-27B-Q4_K_M-GGUF) | 16.55 GB | 96.5% | 208 (90.0%) |
+| [`Startlux-Decision-27B-BF16.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-27B-BF16-GGUF) | 53.81 GB | 100.0% | 209 (90.5%) |
+| [`Startlux-Decision-27B-Q8_0.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-27B-Q8_0-GGUF) | 28.60 GB | 100.0% | 209 (90.5%) |
+| [`Startlux-Decision-27B-Q4_K_M.gguf`](https://huggingface.co/startlux-models/StartLux-Decision-27B-Q4_K_M-GGUF) | 16.55 GB | 96.5% | 208 (90.0%) |
 
 </div>
 
@@ -227,7 +227,7 @@ To run one, download its repository (the GGUF file plus the small files the deci
 llama.cpp and the server (for another precision, replace `Q8_0`):
 
 ```bash
-hf download startlux-models/Startlux-Decision-4B-Q8_0-GGUF --local-dir Startlux-Decision-4B-Q8_0-GGUF
+hf download startlux-models/StartLux-Decision-4B-Q8_0-GGUF --local-dir Startlux-Decision-4B-Q8_0-GGUF
 cd Startlux-Decision-4B-Q8_0-GGUF && pip install -r requirements.txt
 llama-server -m Startlux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081 &
 python -m startlux_decision.gguf_server --model-dir . --llama http://127.0.0.1:8081 --port 8090
@@ -265,16 +265,16 @@ The weights are on Hugging Face, as the original checkpoints for this package an
 
 | Model | Original weights | GGUF Q8_0 (recommended) | GGUF Q4_K_M | GGUF BF16 |
 |:---:|:---:|:---:|:---:|:---:|
-| Startlux-Decision-0.8B | [1.8 GB](https://huggingface.co/startlux-models/Startlux-Decision-0.8B) | [0.81 GB](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-Q8_0-GGUF) | [0.53 GB](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-Q4_K_M-GGUF) | [1.52 GB](https://huggingface.co/startlux-models/Startlux-Decision-0.8B-BF16-GGUF) |
-| Startlux-Decision-2B | [4.6 GB](https://huggingface.co/startlux-models/Startlux-Decision-2B) | [2.01 GB](https://huggingface.co/startlux-models/Startlux-Decision-2B-Q8_0-GGUF) | [1.27 GB](https://huggingface.co/startlux-models/Startlux-Decision-2B-Q4_K_M-GGUF) | [3.78 GB](https://huggingface.co/startlux-models/Startlux-Decision-2B-BF16-GGUF) |
-| Startlux-Decision-4B | [9.3 GB](https://huggingface.co/startlux-models/Startlux-Decision-4B) | [4.48 GB](https://huggingface.co/startlux-models/Startlux-Decision-4B-Q8_0-GGUF) | [2.71 GB](https://huggingface.co/startlux-models/Startlux-Decision-4B-Q4_K_M-GGUF) | [8.42 GB](https://huggingface.co/startlux-models/Startlux-Decision-4B-BF16-GGUF) |
-| Startlux-Decision-9B | [19.4 GB](https://huggingface.co/startlux-models/Startlux-Decision-9B) | [9.53 GB](https://huggingface.co/startlux-models/Startlux-Decision-9B-Q8_0-GGUF) | [5.63 GB](https://huggingface.co/startlux-models/Startlux-Decision-9B-Q4_K_M-GGUF) | [17.92 GB](https://huggingface.co/startlux-models/Startlux-Decision-9B-BF16-GGUF) |
-| Startlux-Decision-27B | [55.6 GB](https://huggingface.co/startlux-models/Startlux-Decision-27B) | [28.60 GB](https://huggingface.co/startlux-models/Startlux-Decision-27B-Q8_0-GGUF) | [16.55 GB](https://huggingface.co/startlux-models/Startlux-Decision-27B-Q4_K_M-GGUF) | [53.81 GB](https://huggingface.co/startlux-models/Startlux-Decision-27B-BF16-GGUF) |
+| Startlux-Decision-0.8B | [1.8 GB](https://huggingface.co/startlux-models/StartLux-Decision-0.8B) | [0.81 GB](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-Q8_0-GGUF) | [0.53 GB](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-Q4_K_M-GGUF) | [1.52 GB](https://huggingface.co/startlux-models/StartLux-Decision-0.8B-BF16-GGUF) |
+| Startlux-Decision-2B | [4.6 GB](https://huggingface.co/startlux-models/StartLux-Decision-2B) | [2.01 GB](https://huggingface.co/startlux-models/StartLux-Decision-2B-Q8_0-GGUF) | [1.27 GB](https://huggingface.co/startlux-models/StartLux-Decision-2B-Q4_K_M-GGUF) | [3.78 GB](https://huggingface.co/startlux-models/StartLux-Decision-2B-BF16-GGUF) |
+| Startlux-Decision-4B | [9.3 GB](https://huggingface.co/startlux-models/StartLux-Decision-4B) | [4.48 GB](https://huggingface.co/startlux-models/StartLux-Decision-4B-Q8_0-GGUF) | [2.71 GB](https://huggingface.co/startlux-models/StartLux-Decision-4B-Q4_K_M-GGUF) | [8.42 GB](https://huggingface.co/startlux-models/StartLux-Decision-4B-BF16-GGUF) |
+| Startlux-Decision-9B | [19.4 GB](https://huggingface.co/startlux-models/StartLux-Decision-9B) | [9.53 GB](https://huggingface.co/startlux-models/StartLux-Decision-9B-Q8_0-GGUF) | [5.63 GB](https://huggingface.co/startlux-models/StartLux-Decision-9B-Q4_K_M-GGUF) | [17.92 GB](https://huggingface.co/startlux-models/StartLux-Decision-9B-BF16-GGUF) |
+| Startlux-Decision-27B | [55.6 GB](https://huggingface.co/startlux-models/StartLux-Decision-27B) | [28.60 GB](https://huggingface.co/startlux-models/StartLux-Decision-27B-Q8_0-GGUF) | [16.55 GB](https://huggingface.co/startlux-models/StartLux-Decision-27B-Q4_K_M-GGUF) | [53.81 GB](https://huggingface.co/startlux-models/StartLux-Decision-27B-BF16-GGUF) |
 
 </div>
 
 ```bash
-hf download startlux-models/Startlux-Decision-4B --local-dir Startlux-Decision-4B
+hf download startlux-models/StartLux-Decision-4B --local-dir Startlux-Decision-4B
 pip install -r requirements.txt
 python -m startlux_decision.check Startlux-Decision-4B          # must print "fast kernels: active"
 python -m startlux_decision.server --model Startlux-Decision-4B --port 8090
