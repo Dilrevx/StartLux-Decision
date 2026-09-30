@@ -2,7 +2,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "elo1320"]
 [Result "*"]
 [Termination "stopped at the 160-ply cap; ladder adjudication 1-0"]
@@ -14,7 +14,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "elo1320"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "1-0"]
 
 1. c4 d5 2. Nf3 dxc4 3. Qa4+ Qd7 4. Qxd7+ Kxd7 5. e3 b5 6. b3 cxb3 7. Bxb5+ c6 8. Bc4 Nh6 9. Bxb3 Bb7 10. Ng5 f6 11. Ne6 Nf7 12. Nc5+ Ke8 13. Bxf7+ Kxf7 14. Nxb7 Nd7 15. Na5 Rc8 16. Ke2 Ke8 17. Na3 Nb6 18. d3 Nd7 19. N5c4 Nb6 20. e4 Nxc4 21. dxc4 Rd8 22. Be3 Ra8 23. Nb1 e6 24. Rf1 f5 25. e5 g6 26. g3 Bg7 27. Nd2 Bxe5 28. Rad1 Bd6 29. Nf3 Bf8 30. Ng5 Ke7 31. f4 Kf6 32. Rfe1 Bb4 33. Rf1 Be7 34. Bd4+ e5 35. Bxe5# 1-0
@@ -23,7 +23,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "elo1320"]
 [Result "*"]
 [Termination "stopped at the 160-ply cap; ladder adjudication 1-0"]
@@ -35,7 +35,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "elo1320"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "1-0"]
 
 1. d4 Nc6 2. d5 Nb8 3. e4 Nf6 4. e5 Ng8 5. Nh3 d6 6. f4 Bxh3 7. Qh5 Bc8 8. Bc4 g6 9. Qd1 dxe5 10. O-O Qd6 11. Nc3 exf4 12. Kh1 Nf6 13. a3 Bg4 14. Qe1 Bf5 15. Bb5+ c6 16. Bxf4 cxb5 17. Bxd6 Bxc2 18. Qe2 Bf5 19. Rf4 Bd7 20. Rxf6 b6 21. b3 Na6 22. Raf1 Nc5 23. Re1 Nxb3 24. Rf4 g5 25. Rf2 Nd4 26. Qe4 Nb3 27. Nxb5 Bxb5 28. Bxe7 Bh6 29. Bxg5+ Kf8 30. Qe7+ Kg7 31. Qxf7# 1-0
@@ -44,7 +44,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "greedy"]
 [Result "1-0"]
 
@@ -55,7 +55,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "greedy"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Nf3 Nc6 2. Nh4 g5 3. Nf3 Bh6 4. Nxg5 Bxg5 5. f3 Bh4+ 6. g3 Bf6 7. h3 Be5 8. h4 Bxg3# 0-1
@@ -64,7 +64,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "greedy"]
 [Result "1-0"]
 
@@ -75,7 +75,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "greedy"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. e3 Nc6 2. Qh5 Nf6 3. Qxh7 Nxh7 4. d4 Nb4 5. Nc3 Nxc2+ 6. Kd2 Nxa1 7. Nce2 Nb3+ 8. axb3 Nf6 9. Nc3 Ng4 10. Nd5 Nxf2 11. Nxc7+ Qxc7 12. Be2 Nxh1 13. Bh5 Rxh5 14. Kd1 Qxh2 15. d5 Qxg1+ 16. Kc2 Rxd5 17. Bd2 Qxg2 18. Kc1 Qxd2+ 19. Kb1 Qxe3 20. Kc2 Rd2+ 21. Kb1 Qxb3 22. Kc1 Rd1# 0-1
@@ -84,7 +84,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix25"]
 [Result "1/2-1/2"]
 
@@ -95,7 +95,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "mix25"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "1-0"]
 
 1. d4 Nc6 2. Nc3 Nf6 3. Ne4 Nxe4 4. f3 Nf6 5. e4 Nxe4 6. fxe4 d5 7. e5 e6 8. Ne2 Bb4+ 9. c3 Be7 10. Bf4 g5 11. Bg3 O-O 12. Ng1 Bd7 13. Bd3 Re8 14. Nh3 Rf8 15. O-O Re8 16. a4 Rc8 17. Qf3 Rf8 18. Rae1 Na5 19. Bc2 Nc4 20. Qe2 Nxb2 21. Qh5 Re8 22. Qxh7+ Kf8 23. Qh8# 1-0
@@ -104,7 +104,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix25"]
 [Result "1/2-1/2"]
 
@@ -115,7 +115,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "mix25"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Na3 Nc6 2. Nf3 Nf6 3. c3 e6 4. Ng5 Nh5 5. d4 h6 6. Nh3 Nf6 7. e3 Nd5 8. e4 Nde7 9. f3 d6 10. Be3 Bd7 11. Nf4 e5 12. dxe5 dxe5 13. Nd3 Ng6 14. Qb3 Na5 15. O-O-O Nxb3+ 16. axb3 Be6 17. Nb4 Bxb3 18. Nb1 Qxd1# 0-1
@@ -124,7 +124,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix50"]
 [Result "1-0"]
 
@@ -135,7 +135,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "mix50"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Nf3 Nc6 2. d4 Nf6 3. Nh4 Nd5 4. Qd3 Ndb4 5. Qb3 Nxd4 6. c3 Nxb3 7. a3 Nxa1 8. Nf5 Nc6 9. Nxg7+ Bxg7 10. f3 Nc2+ 11. Kd2 Na1 12. Kd1 Nb3 13. Be3 Ne5 14. Kc2 Na1+ 15. Kd1 Nc4 16. Bd2 Nxb2+ 17. Ke1 Nc2+ 18. Kf2 Nd1+ 19. Kg1 Na1 20. Be1 Nc2 21. h3 Nxe1 22. Nd2 Bxc3 23. Ne4 Bd4+ 24. Kh2 Be5+ 25. f4 Bxf4+ 26. Kg1 Be3+ 27. Kh2 Nf2 28. g4 Nxe4 29. h4 Nf2 30. Bh3 Nxh1 31. a4 Nf2 32. h5 Nxh3 33. Kxh3 Kf8 34. h6 Bxh6 35. e4 d5 36. a5 dxe4 37. Kg3 Qd6+ 38. Kh3 Qa3+ 39. Kh4 Qxa5 40. Kg3 Qe5+ 41. Kh3 Qh5+ 42. Kg3 Qxg4+ 43. Kf2 Nd3+ 44. Kf1 Qh3+ 45. Kg1 Rg8# 0-1
@@ -144,7 +144,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix50"]
 [Result "1/2-1/2"]
 
@@ -155,7 +155,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "mix50"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Na3 Nc6 2. Nf3 Nf6 3. Nh4 g5 4. d3 gxh4 5. Nb5 a6 6. f4 axb5 7. e4 Nd4 8. e5 Ng8 9. Qg4 Nxc2+ 10. Ke2 Nxa1 11. a4 bxa4 12. Bd2 Nh6 13. Qh5 e6 14. f5 Nxf5 15. Kf3 Nd4+ 16. Ke4 Nc6 17. Be3 a3 18. Rg1 axb2 19. Kf3 b1=Q 20. Bb6 Qxb6 21. g4 Qxg1 22. Be2 Qxh2 23. Qg5 Qxg5 24. Bf1 Nxe5+ 25. Ke4 Qhf4# 0-1
@@ -164,7 +164,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix75"]
 [Result "1-0"]
 
@@ -175,7 +175,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "mix75"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Nf3 Nc6 2. e4 Nf6 3. Nh4 Nxe4 4. Bb5 Nd4 5. Na3 Nxb5 6. Rg1 Nxa3 7. b3 Nb5 8. Rb1 g5 9. c4 gxh4 10. h3 Nbd6 11. d3 Nc3 12. Ba3 Nxa2 13. Bc5 Nc3 14. Qg4 Nxb1 15. Qf3 Nc3 16. Bd4 Rg8 17. b4 Na2 18. Qxf7+ Kxf7 19. Bh8 Rxh8 20. Ke2 Nxb4 21. f3 Nf5 22. g4 hxg3 23. Rg2 Nd4+ 24. Kf1 Rg8 25. Rb2 Nxd3 26. Ra2 Nxf3 27. Rf2 Nxf2 28. h4 Nxh4 29. c5 Ng4 30. c6 dxc6 31. Ke2 Ne5 32. Kf1 Qd1# 0-1
@@ -184,7 +184,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "mix75"]
 [Result "1-0"]
 
@@ -195,7 +195,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "mix75"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Na3 Nc6 2. f4 e5 3. Nb1 exf4 4. b4 Nxb4 5. a3 Nc6 6. Nf3 Nf6 7. e4 Nxe4 8. h3 Ng3 9. Ng1 Nxh1 10. Qe2+ Qe7 11. Qxe7+ Kxe7 12. Nc3 Nd4 13. Nge2 Nxc2+ 14. Kd1 Nxa1 15. Ng1 Nf2+ 16. Ke1 Nh1 17. a4 Nb3 18. Bd3 Nxc1 19. Be4 Nb3 20. Bc2 Nd4 21. Kf1 Nxc2 22. Nd5+ Kd6 23. Ne2 Kxd5 24. Ng1 Ng3+ 25. Kf2 Ne4+ 26. Ke2 Nd4+ 27. Ke1 Nc2+ 28. Ke2 Ng3+ 29. Kf2 Ne4+ 30. Ke2 Bc5 31. Kf3 Bxg1 32. h4 Nxd2+ 33. Ke2 Ne4 34. a5 Nd4+ 35. Kf1 Be3 36. a6 bxa6 37. g4 Ng3+ 38. Ke1 Nf3+ 39. Kd1 Nxh4 40. Kc2 h5 41. g5 Nf3 42. Kd3 Nxg5 43. Kc2 Kd6 44. Kb1 Rb8+ 45. Kc2 N5e4 46. Kd3 Nc5+ 47. Kc4 Nb7 48. Kb4 Nc5+ 49. Kc4 Ne6 50. Kd3 Bb6 51. Kd2 Ba5+ 52. Kd1 Rb1+ 53. Kc2 Rb8 54. Kc1 Ne2+ 55. Kc2 N6d4+ 56. Kd3 Ne6 57. Kxe2 Nd4+ 58. Kf1 Rb1+ 59. Kg2 Rb2+ 60. Kh3 Rb3+ 61. Kh2 Nf3+ 62. Kg2 Nh4+ 63. Kh2 Nf3+ 64. Kg2 Ng5 65. Kh1 Rb1+ 66. Kh2 Nf3+ 67. Kh3 Ng5+ 68. Kh4 Nf3+ 69. Kh3 Ng5+ 70. Kg2 Rb2+ 71. Kh1 Rb1+ 72. Kh2 Nf3+ 73. Kg2 Nh4+ 74. Kf2 Rb2+ 75. Kg1 Nf3+ 76. Kh1 Rh2# 0-1
@@ -204,7 +204,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "random"]
 [Result "1-0"]
 
@@ -215,7 +215,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "random"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Nf3 Nc6 2. d3 Nf6 3. a3 e6 4. c4 Bc5 5. Ra2 O-O 6. Ne5 Nxe5 7. Qd2 Nc6 8. h4 Ng4 9. e4 Nxf2 10. Ke2 Nxh1 11. d4 Nxd4+ 12. Qxd4 Bxd4 13. Kd3 Bf6 14. Nc3 Bxh4 15. Nb1 Nf2+ 16. Ke2 Nxe4 17. g4 Ng3+ 18. Ke3 Nxf1+ 19. Kf4 Bg5+ 20. Ke5 Bxc1 21. b3 Qg5+ 22. Ke4 Qxg4+ 23. Kd3 Qd1+ 24. Rd2 Nxd2 25. c5 Nxb1+ 26. Kc4 Nxa3+ 27. Kc3 Qd2# 0-1
@@ -224,7 +224,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "random"]
 [Result "1-0"]
 
@@ -235,7 +235,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "random"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "0-1"]
 
 1. Na3 Nc6 2. f4 e5 3. Nb1 exf4 4. b4 Nxb4 5. Nf3 Nxc2+ 6. Qxc2 Nf6 7. Qe4+ Nxe4 8. Bb2 Nd6 9. Ng5 Qxg5 10. Kf2 Nc4 11. Bd4 Bc5 12. g3 Bxd4+ 13. Ke1 Bxa1 14. e3 Nd6 15. e4 Nxe4 16. Be2 fxg3 17. Bb5 Qxb5 18. a3 Qxb1+ 19. Ke2 Qxh1 20. h3 Qxh3 21. Ke1 Bb2 22. d4 Bxd4 23. Kd1 Nf2+ 24. Kc2 Qf5+ 25. Kb3 Qe6+ 26. Ka4 Qa6+ 27. Kb3 Qb5+ 28. Ka2 Qb2# 0-1
@@ -244,7 +244,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "1"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "sf0"]
 [Result "0-1"]
 
@@ -255,7 +255,7 @@
 [Date "????.??.??"]
 [Round "2"]
 [White "sf0"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "*"]
 [Termination "stopped at the 160-ply cap; ladder adjudication 1/2-1/2"]
 
@@ -265,7 +265,7 @@
 [Site "?"]
 [Date "????.??.??"]
 [Round "3"]
-[White "Startlux-Decision-9B"]
+[White "StartLux-Decision-9B"]
 [Black "sf0"]
 [Result "0-1"]
 
@@ -276,7 +276,7 @@
 [Date "????.??.??"]
 [Round "4"]
 [White "sf0"]
-[Black "Startlux-Decision-9B"]
+[Black "StartLux-Decision-9B"]
 [Result "1-0"]
 
 1. e4 Nf6 2. Qe2 Nxe4 3. Qxe4 d5 4. Qe2 Nc6 5. Nf3 Nb4 6. Qb5+ Nc6 7. c3 a6 8. Qe2 Qd7 9. g3 e6 10. d4 Bd6 11. Bg2 O-O 12. b3 Rd8 13. Nbd2 Qe7 14. Bb2 Ba3 15. Nb1 Bxb2 16. Qxb2 b6 17. Na3 Rb8 18. h4 e5 19. O-O exd4 20. Rfe1 Be6 21. Nb1 dxc3 22. Qc1 Qc5 23. Nxc3 d4 24. Ne2 Qxc1 25. Nxc1 Rbc8 26. Nd3 Bf5 27. Nf4 Bd7 28. h5 Bf5 29. Nh4 g5 30. Nxf5 Nb8 31. Ne7+ Kf8 32. Ne6+ Kxe7 33. Nxg5+ Kf6 34. Nxh7+ Kg7 35. Ng5 Kf6 36. Nf3 Nc6 37. Rad1 Rh8 38. a3 Rxh5 39. g4 Rhh8 40. Re4 Rhe8 41. g5+ Kg7 42. Rh4 Kg6 43. Rh6+ Kf5 44. Rf6+ Ke4 45. Nxd4+ Ke5 46. Nxc6# 1-0

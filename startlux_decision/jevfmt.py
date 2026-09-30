@@ -1,4 +1,4 @@
-"""Prompt rendering for Startlux-Decision.
+"""Prompt rendering for StartLux-Decision.
 
 A question about a state is turned into one chat prompt: a fixed system line, then an Evidence / Question / Options
 block with lettered options, and the thinking-off assistant prefix.  The answer is read from the next-token logits of
@@ -6,7 +6,7 @@ the option letters at the last prompt position, so nothing is generated.
 
 Rules worth knowing when you build requests by hand: an option without a description is shown by its id alone, yes/no
 questions are shown as yes / no, choice ids that are bare letters or numbers are hidden (a line such as "A) C: Paris"
-would make the answer letter ambiguous).  Startlux-Decision shows options in the order the request lists them; score levels
+would make the answer letter ambiguous).  StartLux-Decision shows options in the order the request lists them; score levels
 are always lowest first.
 """
 import hashlib

@@ -1,4 +1,4 @@
-area,benchmark,metric,in_index_0.2.1,Startlux-Decision-0.8B_native_x_coverage,Startlux-Decision-2B_native_x_coverage,Startlux-Decision-4B_native_x_coverage,Startlux-Decision-9B_native_x_coverage,Startlux-Decision-27B_native_x_coverage,Jev_1.13_board
+area,benchmark,metric,in_index_0.2.1,StartLux-Decision-0.8B_native_x_coverage,StartLux-Decision-2B_native_x_coverage,StartLux-Decision-4B_native_x_coverage,StartLux-Decision-9B_native_x_coverage,StartLux-Decision-27B_native_x_coverage,Jev_1.13_board
 Knowledge & Reasoning,GPQA Diamond,accuracy,True,32.14,42.35,41.84,50.0,50.51,78.57
 Knowledge & Reasoning,GSM8K,accuracy,True,91.96,87.38,90.41,95.68,96.4,79.87
 Knowledge & Reasoning,ChessBench,accuracy,True,10.66,11.24,11.86,13.04,18.0,17.22

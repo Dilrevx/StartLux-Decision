@@ -1,9 +1,9 @@
-"""A /v1/systemone server for a Startlux-Decision GGUF file run by llama.cpp.
+"""A /v1/systemone server for a StartLux-Decision GGUF file run by llama.cpp.
 
-    llama-server -m Startlux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081
-    python -m startlux_decision.gguf_server --model-dir Startlux-Decision-4B-GGUF --llama http://127.0.0.1:8081 --port 8090
+    llama-server -m StartLux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081
+    python -m startlux_decision.gguf_server --model-dir StartLux-Decision-4B-GGUF --llama http://127.0.0.1:8081 --port 8090
 
-It is StartluxDecision with only the forward pass replaced by a llama-server call: prompt rendering, the option-letter
+It is StartLuxDecision with only the forward pass replaced by a llama-server call: prompt rendering, the option-letter
 readout, the per-type temperatures and wide choices are the package's own code, so the answers match the original
 model question by question up to the numerics of the GGUF file.  MODEL_DIR holds the tokenizer files, config.json and
 decision_config.json (the GGUF repositories ship them next to the .gguf files).  llama-server returns the
@@ -19,10 +19,10 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import torch
 
 from . import jevfmt as J
-from .model import StartluxDecision
+from .model import StartLuxDecision
 
 
-class GGUFDecision(StartluxDecision):
+class GGUFDecision(StartLuxDecision):
     def __init__(self, path, llama, workers):                     # no torch model: llama-server runs the weights
         from transformers import AutoTokenizer
         cfg = json.load(open(os.path.join(path, "decision_config.json")))

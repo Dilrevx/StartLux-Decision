@@ -1,5 +1,5 @@
 {
- "Startlux-Decision-0.8B": {
+ "StartLux-Decision-0.8B": {
   "average_score": 7,
   "obstacles_cleared_per_run": [
    0,
@@ -24,7 +24,7 @@
    0
   ]
  },
- "Startlux-Decision-2B": {
+ "StartLux-Decision-2B": {
   "average_score": 59,
   "obstacles_cleared_per_run": [
    1,
@@ -49,7 +49,7 @@
    12
   ]
  },
- "Startlux-Decision-4B": {
+ "StartLux-Decision-4B": {
   "average_score": 8190,
   "obstacles_cleared_per_run": [
    300,
@@ -74,7 +74,7 @@
    300
   ]
  },
- "Startlux-Decision-9B": {
+ "StartLux-Decision-9B": {
   "average_score": 8190,
   "obstacles_cleared_per_run": [
    300,
@@ -99,7 +99,7 @@
    300
   ]
  },
- "Startlux-Decision-27B": {
+ "StartLux-Decision-27B": {
   "average_score": 8190,
   "obstacles_cleared_per_run": [
    300,

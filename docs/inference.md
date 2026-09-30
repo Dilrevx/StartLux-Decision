@@ -3,12 +3,12 @@
 ## Install
 
 ```bash
-hf download startlux-models/StartLux-Decision-4B --local-dir Startlux-Decision-4B      # or any size, see below
+hf download startlux-models/StartLux-Decision-4B --local-dir StartLux-Decision-4B      # or any size, see below
 pip install -r requirements.txt
 ```
 
-The five models are in the [Startlux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493) on Hugging Face: Startlux-Decision-0.8B, 2B, 4B, 9B and 27B, under
-`startlux-models/`. The examples below use a local folder called `Startlux-Decision-4B`.
+The five models are in the [StartLux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493) on Hugging Face: StartLux-Decision-0.8B, 2B, 4B, 9B and 27B, under
+`startlux-models/`. The examples below use a local folder called `StartLux-Decision-4B`.
 
 `requirements.txt` includes `flash-linear-attention` and `causal-conv1d`. They matter more than anything else on this
 page. The models use linear-attention layers, and without these two packages transformers quietly falls back to a
@@ -18,18 +18,18 @@ against your CUDA and PyTorch, and if pip ends up compiling it, add `--no-build-
 Check that the fast path is really on:
 
 ```bash
-python -m startlux_decision.check Startlux-Decision-4B        # fast kernels: active
+python -m startlux_decision.check StartLux-Decision-4B        # fast kernels: active
 ```
 
-On a machine with a GPU it must say `active`. On CUDA, `StartluxDecision(...)` refuses to start when the kernels are not
+On a machine with a GPU it must say `active`. On CUDA, `StartLuxDecision(...)` refuses to start when the kernels are not
 active; set `STARTLUX_ALLOW_SLOW=1` if you really want to run without them. On a CPU-only machine the check is skipped and
 everything runs, slowly.
 
 ## Serving
 
 ```bash
-python -m startlux_decision.server --model Startlux-Decision-4B --port 8090
-curl -s localhost:8090/health        # {"status": "ok", "model": "Startlux-Decision-4B", "fast_kernels": true}
+python -m startlux_decision.server --model StartLux-Decision-4B --port 8090
+curl -s localhost:8090/health        # {"status": "ok", "model": "StartLux-Decision-4B", "fast_kernels": true}
 ```
 
 The server speaks the TypeSafe `/v1/systemone` format and serves one request at a time per GPU. Run one server per GPU
@@ -54,7 +54,7 @@ A request has a `state` (a string or any JSON value) and `questions`, each with 
 
 </div>
 
-For the support-ticket request in the README, Startlux-Decision-4B answers (numbers rounded here):
+For the support-ticket request in the README, StartLux-Decision-4B answers (numbers rounded here):
 
 ```json
 {"answers": {
@@ -64,7 +64,7 @@ For the support-ticket request in the README, Startlux-Decision-4B answers (numb
    "severity": {"type": "score", "score": 1.340, "confidence": 0.454,
                 "legend": {"0": "cosmetic", "1": "annoying", "2": "blocks the customer"},
                 "probabilities": {"0": 0.114, "1": 0.433, "2": 0.454}}},
- "usage": {"input_tokens": 290, "output_tokens": 0}, "model": "Startlux-Decision-4B", "latency_ms": 27.0}
+ "usage": {"input_tokens": 290, "output_tokens": 0}, "model": "StartLux-Decision-4B", "latency_ms": 27.0}
 ```
 
 Each question is rendered as its own prompt with the full state, options lettered A, B, C and so on in the order you
@@ -78,16 +78,16 @@ Temperatures are per question type and live in `decision_config.json`. Changing 
 ## Python
 
 ```python
-from startlux_decision import StartluxDecision
+from startlux_decision import StartLuxDecision
 
-m = StartluxDecision("Startlux-Decision-4B")                   # device defaults to cuda when available
+m = StartLuxDecision("StartLux-Decision-4B")                   # device defaults to cuda when available
 answers, usage = m.decide(state, questions)
 answers_list = m.decide_batch([(state1, questions1), (state2, questions2), ...])
 ```
 
 `decide` is the latency path. `decide_batch` is the throughput path: every question of every request is sorted by
 length and packed into padded forward passes of up to `max_batch_tokens` tokens (65,536 by default). On a random 2%
-sample of the Decision Index suite (2,678 requests) Startlux-Decision-4B took 140 s with `decide_batch` against 337 s calling
+sample of the Decision Index suite (2,678 requests) StartLux-Decision-4B took 140 s with `decide_batch` against 337 s calling
 `decide` once per request, and the chosen options agreed on 99.94% of the 6,897 questions. The differences are bf16
 rounding between batch shapes; on 981 JevBench and Typed Decisions questions the largest probability difference was
 0.008.
@@ -121,12 +121,12 @@ Intern-Decision's fields do.
 
 | Model | 3 fields: mean | P50 | P95 | one yes/no question |
 |:---:|:---:|:---:|:---:|:---:|
-| Startlux-Decision-0.8B | 12.2 ms | 12.2 ms | 14.2 ms | 8.3 ms |
-| Startlux-Decision-2B | 15.5 ms | 15.5 ms | 17.2 ms | 9.6 ms |
-| Startlux-Decision-4B | 26.0 ms | 26.0 ms | 27.3 ms | 14.7 ms |
-| Startlux-Decision-9B | 35.7 ms | 36.2 ms | 37.4 ms | 17.6 ms |
-| Startlux-Decision-27B | 102.3 ms | 102.5 ms | 104.3 ms | 50.7 ms |
-| Startlux-Decision-4B, graphs off | 90.3 ms | 89.5 ms | 92.5 ms | 87.5 ms |
+| StartLux-Decision-0.8B | 12.2 ms | 12.2 ms | 14.2 ms | 8.3 ms |
+| StartLux-Decision-2B | 15.5 ms | 15.5 ms | 17.2 ms | 9.6 ms |
+| StartLux-Decision-4B | 26.0 ms | 26.0 ms | 27.3 ms | 14.7 ms |
+| StartLux-Decision-9B | 35.7 ms | 36.2 ms | 37.4 ms | 17.6 ms |
+| StartLux-Decision-27B | 102.3 ms | 102.5 ms | 104.3 ms | 50.7 ms |
+| StartLux-Decision-4B, graphs off | 90.3 ms | 89.5 ms | 92.5 ms | 87.5 ms |
 
 </div>
 
@@ -147,15 +147,15 @@ test, ToolACE test) the chosen option matched bf16 in this share of cases:
 
 | Model | agreement with bf16 | accuracy bf16 -> FP8 |
 |:---:|:---:|:---:|
-| Startlux-Decision-0.8B | 96.3% | 78.00 -> 77.76 |
-| Startlux-Decision-2B | 96.5% | 80.44 -> 80.05 |
-| Startlux-Decision-4B | 98.0% | 82.37 -> 81.98 |
-| Startlux-Decision-9B | 98.2% | 83.67 -> 83.23 |
-| Startlux-Decision-27B | 98.6% | 82.96 -> 82.76 |
+| StartLux-Decision-0.8B | 96.3% | 78.00 -> 77.76 |
+| StartLux-Decision-2B | 96.5% | 80.44 -> 80.05 |
+| StartLux-Decision-4B | 98.0% | 82.37 -> 81.98 |
+| StartLux-Decision-9B | 98.2% | 83.67 -> 83.23 |
+| StartLux-Decision-27B | 98.6% | 82.96 -> 82.76 |
 
 </div>
 
-FP8 is a memory option here, not a speed option. Weight memory roughly halves (Startlux-Decision-27B takes 27.5 GiB on the GPU
+FP8 is a memory option here, not a speed option. Weight memory roughly halves (StartLux-Decision-27B takes 27.5 GiB on the GPU
 after quantisation), but in this test FP8 was about 2.7 times slower per decision than bf16, both run eagerly with one
 question per forward pass: for inputs this short, quantising activations on the fly costs more than the smaller
 matmuls save.
@@ -172,10 +172,10 @@ option-letter readout and the per-type temperatures stay in this package, and `s
 in front of llama-server:
 
 ```bash
-hf download startlux-models/StartLux-Decision-4B-Q8_0-GGUF --local-dir Startlux-Decision-4B-Q8_0-GGUF
-cd Startlux-Decision-4B-Q8_0-GGUF
+hf download startlux-models/StartLux-Decision-4B-Q8_0-GGUF --local-dir StartLux-Decision-4B-Q8_0-GGUF
+cd StartLux-Decision-4B-Q8_0-GGUF
 pip install -r requirements.txt                     # transformers and torch; a CPU build of torch is enough
-llama-server -m Startlux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081
+llama-server -m StartLux-Decision-4B-Q8_0.gguf -ngl 99 -c 16384 --parallel 4 --port 8081
 python -m startlux_decision.gguf_server --model-dir . --llama http://127.0.0.1:8081 --port 8090
 ```
 
