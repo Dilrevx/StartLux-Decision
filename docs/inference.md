@@ -13,7 +13,8 @@ The five models are in the [StartLux-Decision collection](https://huggingface.co
 `requirements.txt` includes `flash-linear-attention` and `causal-conv1d`. They matter more than anything else on this
 page. The models use linear-attention layers, and without these two packages transformers quietly falls back to a
 plain PyTorch implementation that is more than ten times slower. Nothing errors; it is just slow. `causal-conv1d` builds
-against your CUDA and PyTorch, and if pip ends up compiling it, add `--no-build-isolation`.
+against your CUDA and PyTorch, and if pip ends up compiling it, add `--no-build-isolation`. On Apple Silicon both are
+skipped and mlx-lm is installed instead; see [Apple Silicon (MLX)](#apple-silicon-mlx).
 
 Check that the fast path is really on:
 
@@ -184,3 +185,45 @@ next-token log-probabilities at the answer position and applies the same readout
 so a GGUF file can be compared with the original weights question by question; the GGUF table in the README does that
 on the public JevBench items. Plain chat with a GGUF file does not give these decisions. llama.cpp has to be recent
 enough to support this model (build b10454 or newer).
+
+## Apple Silicon (MLX)
+
+On a Mac, `pip install -r requirements.txt` installs [mlx-lm](https://github.com/ml-explore/mlx-lm) instead of the CUDA
+kernels, and the same commands run the model with MLX (`--backend auto`, the default; `--backend torch` forces PyTorch):
+
+```bash
+hf download startlux-models/StartLux-Decision-4B --local-dir StartLux-Decision-4B
+pip install -r requirements.txt
+python -m startlux_decision.server --model StartLux-Decision-4B --port 8090           # bf16
+python -m startlux_decision.server --model StartLux-Decision-4B --port 8090 --int8    # M5 and later
+```
+
+```python
+from startlux_decision.mlx_model import MLXDecision
+model = MLXDecision("StartLux-Decision-4B")                       # int8=True on M5 and later
+answers, usage = model.decide(state, questions)
+```
+
+The MLX backend does three things:
+
+- **The forward pass runs in MLX.** `MLXDecision` replaces only the forward pass, as the GGUF server does, and uses
+  mlx-lm's Qwen3.5 implementation with its Metal kernels for the linear-attention layers. PyTorch on MPS has no such
+  kernels and runs reference code. Prompts, the option-letter readout, the temperatures and wide choices are the
+  package's own code. In bf16 the public JevBench scores of 0.8B, 2B, 4B and 9B are the published ones.
+- **Prefixes are reused.** Every prompt starts with the same system text. It runs once when the server starts, and each
+  request continues from its cache (attention keys and values, linear-attention conv and recurrent states). The
+  questions of a request are rows of one forward pass. When they share a long piece of evidence, the evidence runs once,
+  and a later request about the same evidence runs only its questions.
+- **`--int8` uses int8 matmuls on M5 and later.** The large projections run as int8 × int8 matmuls on the GPU's neural
+  accelerators. Activations are quantized per token and weights per channel. SmoothQuant scales, computed at start-up
+  from a few built-in requests, are applied first. On the public JevBench items the decisions match bf16 (the 8-bit
+  model for 27B) on 97.4 to 99.6% of the items.
+
+StartLux-Decision-27B in bf16 needs 56 GB for its weights. On a 64 GB Mac, convert it to 8-bit first. The 8-bit model
+scores 208 of 231 on public JevBench; bf16 scores 209.
+
+```bash
+mlx_lm.convert --hf-path StartLux-Decision-27B --mlx-path StartLux-Decision-27B-MLX-8bit -q --q-bits 8
+cp StartLux-Decision-27B/decision_config.json StartLux-Decision-27B-MLX-8bit/
+python -m startlux_decision.server --model StartLux-Decision-27B-MLX-8bit --port 8090 --int8
+```

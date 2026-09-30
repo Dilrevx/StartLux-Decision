@@ -276,9 +276,12 @@ The weights are on Hugging Face, as the original checkpoints for this package an
 ```bash
 hf download startlux-models/StartLux-Decision-4B --local-dir StartLux-Decision-4B
 pip install -r requirements.txt
-python -m startlux_decision.check StartLux-Decision-4B          # must print "fast kernels: active"
+python -m startlux_decision.check StartLux-Decision-4B          # must print "fast kernels: active" (on a Mac: MLX)
 python -m startlux_decision.server --model StartLux-Decision-4B --port 8090
 ```
+
+On Apple Silicon the same commands run the model with MLX; add `--int8` on an M5 or later. See
+[Apple Silicon (MLX)](docs/inference.md#apple-silicon-mlx).
 
 ```bash
 curl -s localhost:8090/v1/systemone -H 'Content-Type: application/json' -d '{
@@ -312,7 +315,7 @@ Index runner. [docs/finetuning.md](docs/finetuning.md) shows how to adapt a mode
 ## Layout
 
 ```
-startlux_decision/       inference: prompt rendering, letter readout, CUDA graphs, HTTP servers (also for GGUF), kernel check
+startlux_decision/       inference: prompt rendering, letter readout, CUDA graphs, MLX for Apple Silicon, HTTP servers (also for GGUF), kernel check
 demos/          the computer-use harness and its two mock sites
 eval/           evaluation: Intern-Decision suites and JevBench public tiers, Typed Decisions, Decision Index, latency
 finetune/       LoRA fine-tuning on your own data and temperature calibration

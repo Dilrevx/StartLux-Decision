@@ -4,10 +4,13 @@
 
 POST /v1/systemone  {"state": ..., "questions": {key: {"type", "instructions", "criteria"}}}
   -> {"answers": {key: answer}, "usage": {"input_tokens", "output_tokens"}, "model": ...}
-GET  /health        {"status", "model", "fast_kernels", "cuda_graphs"}
+GET  /health        {"status", "model", "backend", "fast_kernels", "cuda_graphs"}
 GET  /v1/models
 Requests are served one at a time on one GPU.  At start-up one request runs through both the CUDA-graph path and the
 eager path; if their probabilities differ by more than 0.02 the graphs are dropped.
+
+--backend auto (the default) runs the model with MLX on Apple Silicon when mlx-lm is installed (mlx_model.py) and with
+PyTorch everywhere else; --int8 adds int8 matmuls on M5 and later Macs (mlx_int8.py).
 """
 import argparse
 import json
@@ -17,17 +20,37 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 
+def mlx_available():
+    """True on Apple Silicon with mlx-lm installed (requirements.txt installs it there)."""
+    try:
+        import mlx.core as mx
+        import mlx_lm  # noqa: F401
+        return mx.metal.is_available()
+    except ImportError:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, help="local StartLux-Decision directory")
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--port", type=int, default=8090)
-    ap.add_argument("--device", help="cuda or cpu (default: cuda when available)")
+    ap.add_argument("--device", help="cuda or cpu for the torch backend (default: cuda when available)")
+    ap.add_argument("--backend", choices=("auto", "torch", "mlx"), default="auto",
+                    help="auto: MLX on Apple Silicon when mlx-lm is installed, else torch")
+    ap.add_argument("--int8", action="store_true", help="MLX on M5 and later: int8 matmuls on the neural accelerators")
     ap.add_argument("--name", help="model name reported in responses (default: the directory name)")
     a = ap.parse_args()
-    from .model import StartLuxDecision
-
-    engine = StartLuxDecision(a.model, device=a.device)
+    backend = a.backend
+    if backend == "auto":
+        backend = "mlx" if a.device is None and mlx_available() else "torch"
+    if backend == "mlx":
+        from .mlx_model import MLXDecision
+        engine = MLXDecision(a.model, int8=a.int8)
+        engine.warm_up()
+    else:
+        from .model import StartLuxDecision
+        engine = StartLuxDecision(a.model, device=a.device)
     demo_state = {"ticket": "I was charged twice for order #4411 and the app still shows it as unpaid."}
     demo_questions = {
         "team": {"type": "choice", "instructions": "Which team should handle this ticket?",
@@ -59,7 +82,7 @@ def main():
         def do_GET(self):
             path = self.path.rstrip("/")
             if path in ("/health", "/v1/health"):
-                return self._send(200, {"status": "ok", "model": name, "fast_kernels": engine.fast_kernels,
+                return self._send(200, {"status": "ok", "model": name, "backend": backend, "fast_kernels": engine.fast_kernels,
                                         "cuda_graphs": len(engine.graphs)})
             if path == "/v1/models":
                 return self._send(200, {"models": [{"name": name, "description": "StartLux-Decision typed decision model"}]})
@@ -87,8 +110,9 @@ def main():
         def log_message(self, *args):
             pass
 
-    print(f"{name} serving on http://{a.host}:{a.port}/v1/systemone (fast kernels: {engine.fast_kernels}, "
-          f"cuda graphs: {len(engine.graphs)})", flush=True)
+    detail = (f"MLX, int8 projections: {engine.int8}" if backend == "mlx" else
+              f"fast kernels: {engine.fast_kernels}, cuda graphs: {len(engine.graphs)}")
+    print(f"{name} serving on http://{a.host}:{a.port}/v1/systemone ({detail})", flush=True)
     ThreadingHTTPServer((a.host, a.port), Handler).serve_forever()
 
 

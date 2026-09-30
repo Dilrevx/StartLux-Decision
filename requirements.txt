@@ -4,8 +4,10 @@ transformers>=5.8
 huggingface_hub>=0.34
 safetensors>=0.4
 # required on CUDA: without them transformers silently runs a plain torch path (>10x slower)
-flash-linear-attention>=0.5.2
-causal-conv1d>=1.7          # CUDA build; if pip compiles it, add --no-build-isolation
+flash-linear-attention>=0.5.2; sys_platform == "linux"
+causal-conv1d>=1.7; sys_platform == "linux"          # CUDA build; if pip compiles it, add --no-build-isolation
+# Apple Silicon: the forward pass runs in MLX instead (startlux_decision/mlx_model.py)
+mlx-lm>=0.31.3; sys_platform == "darwin" and platform_machine == "arm64"
 # fine-tuning
 peft>=0.20
 # evaluation (Typed Decisions parquet); the Decision Index kit is installed from its own repository
