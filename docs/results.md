@@ -379,9 +379,13 @@ StartLux-Decision-27B on one H200, 739 to 2,515 input tokens per request. The lo
 
 - [media/computer_use_store_27b.gif](../media/computer_use_store_27b.gif) ([MP4](../media/computer_use_store_27b.mp4)) and
   [media/computer_use_workspace_27b.gif](../media/computer_use_workspace_27b.gif)
-  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above. The side panel lists the four
+  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above (the README shows the first). The side panel lists the four
   likeliest controls and the rest in one row (the block adds up to 100%), and below it the probability that the task
   is done, which is a separate question.
+- [media/chess_27b_scotch_vs_jev.gif](../media/chess_27b_scotch_vs_jev.gif) ([MP4](../media/chess_27b_scotch_vs_jev.mp4)):
+  game `rich_book_openings/m05_oursW` of the match: StartLux-Decision-27B, with White, against Jev 1.13 at the rich level
+  after the first four moves of a Scotch Game; checkmate on move 19. Every move of both sides is a real answer; the
+  panel shows each move with its probability, and Stockfish only draws the evaluation bar.
 - [media/mario_1-1_27b.gif](../media/mario_1-1_27b.gif) ([MP4](../media/mario_1-1_27b.mp4)),
   [media/sc2_hard_27b.gif](../media/sc2_hard_27b.gif) ([MP4](../media/sc2_hard_27b.mp4)),
   [media/doom_deathmatch_27b.gif](../media/doom_deathmatch_27b.gif) ([MP4](../media/doom_deathmatch_27b.mp4)) and
