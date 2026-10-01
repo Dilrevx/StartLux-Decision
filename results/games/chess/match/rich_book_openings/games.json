@@ -1,0 +1,4610 @@
+[
+ {
+  "game": "m00_jevW",
+  "level": "rich",
+  "start": "Ruy Lopez, Morphy Defence: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 77,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 193.4,
+   "Jev 1.13": 279.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m00_oursW",
+  "level": "rich",
+  "start": "Ruy Lopez, Morphy Defence: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 168.2,
+   "Jev 1.13": 217.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m01_jevW",
+  "level": "rich",
+  "start": "Ruy Lopez, Berlin Defence: e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 94,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 132.1,
+   "Jev 1.13": 140.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m01_oursW",
+  "level": "rich",
+  "start": "Ruy Lopez, Berlin Defence: e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.6,
+   "Jev 1.13": 130.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m02_jevW",
+  "level": "rich",
+  "start": "Ruy Lopez, Exchange Variation: e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.4,
+   "Jev 1.13": 276.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m02_oursW",
+  "level": "rich",
+  "start": "Ruy Lopez, Exchange Variation: e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 77,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 273.9,
+   "Jev 1.13": 134.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m03_jevW",
+  "level": "rich",
+  "start": "Italian Game, Giuoco Piano: e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 113.0,
+   "Jev 1.13": 272.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m03_oursW",
+  "level": "rich",
+  "start": "Italian Game, Giuoco Piano: e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 29,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.5,
+   "Jev 1.13": 254.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m04_jevW",
+  "level": "rich",
+  "start": "Italian Game, Two Knights: e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.9,
+   "Jev 1.13": 123.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m04_oursW",
+  "level": "rich",
+  "start": "Italian Game, Two Knights: e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 195.4,
+   "Jev 1.13": 236.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m05_jevW",
+  "level": "rich",
+  "start": "Scotch Game: e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 32,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 300.2,
+   "Jev 1.13": 118.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m05_oursW",
+  "level": "rich",
+  "start": "Scotch Game: e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 57.1,
+   "Jev 1.13": 217.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m06_jevW",
+  "level": "rich",
+  "start": "Four Knights, Spanish: e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 85.4,
+   "Jev 1.13": 161.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m06_oursW",
+  "level": "rich",
+  "start": "Four Knights, Spanish: e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 136,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 105.7,
+   "Jev 1.13": 176.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m07_jevW",
+  "level": "rich",
+  "start": "Petrov Defence: e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 95,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 69.9,
+   "Jev 1.13": 122.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m07_oursW",
+  "level": "rich",
+  "start": "Petrov Defence: e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 105.8,
+   "Jev 1.13": 137.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m08_jevW",
+  "level": "rich",
+  "start": "Philidor Defence: e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 53,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.3,
+   "Jev 1.13": 279.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m08_oursW",
+  "level": "rich",
+  "start": "Philidor Defence: e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 105,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.7,
+   "Jev 1.13": 185.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m09_jevW",
+  "level": "rich",
+  "start": "Vienna Game: e4 e5 Nc3 Nf6 Bc4 Nc6 d3 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 73,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.8,
+   "Jev 1.13": 230.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m09_oursW",
+  "level": "rich",
+  "start": "Vienna Game: e4 e5 Nc3 Nf6 Bc4 Nc6 d3 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 67,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.6,
+   "Jev 1.13": 162.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m100_jevW",
+  "level": "rich",
+  "start": "Random-walk line 101: Nf3 c6 d4 d5 g3 Be6 Bg2 g6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 97,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 126.5,
+   "Jev 1.13": 191.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m100_oursW",
+  "level": "rich",
+  "start": "Random-walk line 101: Nf3 c6 d4 d5 g3 Be6 Bg2 g6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.6,
+   "Jev 1.13": 202.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m101_jevW",
+  "level": "rich",
+  "start": "Random-walk line 102: d4 c6 Nd2 g6 Ngf3 Nf6 e4 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 86,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 143.5,
+   "Jev 1.13": 243.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m101_oursW",
+  "level": "rich",
+  "start": "Random-walk line 102: d4 c6 Nd2 g6 Ngf3 Nf6 e4 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 122.4,
+   "Jev 1.13": 185.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m102_jevW",
+  "level": "rich",
+  "start": "Random-walk line 103: Nf3 c6 e4 d5 d3 Qc7 Nbd2 Bg4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 254.4,
+   "Jev 1.13": 70.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m102_oursW",
+  "level": "rich",
+  "start": "Random-walk line 103: Nf3 c6 e4 d5 d3 Qc7 Nbd2 Bg4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 108,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 127.6,
+   "Jev 1.13": 191.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m103_jevW",
+  "level": "rich",
+  "start": "Random-walk line 104: e4 e5 Nf3 Nc6 Be2 Nf6 d3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 52,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.0,
+   "Jev 1.13": 149.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m103_oursW",
+  "level": "rich",
+  "start": "Random-walk line 104: e4 e5 Nf3 Nc6 Be2 Nf6 d3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 24.5,
+   "Jev 1.13": 163.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m104_jevW",
+  "level": "rich",
+  "start": "Random-walk line 105: e4 d6 g3 c6 c3 d5 d3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 68,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 171.2,
+   "Jev 1.13": 305.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m104_oursW",
+  "level": "rich",
+  "start": "Random-walk line 105: e4 d6 g3 c6 c3 d5 d3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 263.0,
+   "Jev 1.13": 142.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m105_jevW",
+  "level": "rich",
+  "start": "Random-walk line 106: Nf3 e6 g3 Be7 e4 h5 e5 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 48,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 364.2,
+   "Jev 1.13": 142.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m105_oursW",
+  "level": "rich",
+  "start": "Random-walk line 106: Nf3 e6 g3 Be7 e4 h5 e5 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 128.0,
+   "Jev 1.13": 251.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m106_jevW",
+  "level": "rich",
+  "start": "Random-walk line 107: c4 e6 g3 d5 Bg2 d4 e3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 189.2,
+   "Jev 1.13": 301.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m106_oursW",
+  "level": "rich",
+  "start": "Random-walk line 107: c4 e6 g3 d5 Bg2 d4 e3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 175.3,
+   "Jev 1.13": 92.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m107_jevW",
+  "level": "rich",
+  "start": "Random-walk line 108: d4 d5 c4 Nf6 Nf3 c6 Qb3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 85,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 235.5,
+   "Jev 1.13": 302.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m107_oursW",
+  "level": "rich",
+  "start": "Random-walk line 108: d4 d5 c4 Nf6 Nf3 c6 Qb3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.7,
+   "Jev 1.13": 172.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m108_jevW",
+  "level": "rich",
+  "start": "Random-walk line 109: e3 e6 Nf3 c5 d4 Nf6 Bd3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 34,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 67.2,
+   "Jev 1.13": 188.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m108_oursW",
+  "level": "rich",
+  "start": "Random-walk line 109: e3 e6 Nf3 c5 d4 Nf6 Bd3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 159.4,
+   "Jev 1.13": 195.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m109_jevW",
+  "level": "rich",
+  "start": "Random-walk line 110: e4 c6 c3 d5 exd5 cxd5 d4 Bf5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 67,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 57.0,
+   "Jev 1.13": 52.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m109_oursW",
+  "level": "rich",
+  "start": "Random-walk line 110: e4 c6 c3 d5 exd5 cxd5 d4 Bf5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 69,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 251.9,
+   "Jev 1.13": 241.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m10_jevW",
+  "level": "rich",
+  "start": "Sicilian, Najdorf: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 101,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 236.8,
+   "Jev 1.13": 190.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m10_oursW",
+  "level": "rich",
+  "start": "Sicilian, Najdorf: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 255.7,
+   "Jev 1.13": 86.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m110_jevW",
+  "level": "rich",
+  "start": "Random-walk line 111: Nf3 Nf6 d4 e6 Bf4 Be7 c4 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 139,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 389.5,
+   "Jev 1.13": 194.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m110_oursW",
+  "level": "rich",
+  "start": "Random-walk line 111: Nf3 Nf6 d4 e6 Bf4 Be7 c4 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 146.0,
+   "Jev 1.13": 130.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m111_jevW",
+  "level": "rich",
+  "start": "Random-walk line 112: Nf3 c5 c3 Nf6 e3 Nc6 d4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 38,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.0,
+   "Jev 1.13": 227.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m111_oursW",
+  "level": "rich",
+  "start": "Random-walk line 112: Nf3 c5 c3 Nf6 e3 Nc6 d4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 68,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 82.2,
+   "Jev 1.13": 76.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m112_jevW",
+  "level": "rich",
+  "start": "Random-walk line 113: Nf3 d5 g3 Nf6 d3 Nc6 Nc3 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 70,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 163.1,
+   "Jev 1.13": 183.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m112_oursW",
+  "level": "rich",
+  "start": "Random-walk line 113: Nf3 d5 g3 Nf6 d3 Nc6 Nc3 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 55,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 341.6,
+   "Jev 1.13": 167.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m113_jevW",
+  "level": "rich",
+  "start": "Random-walk line 114: d4 e6 Nd2 c5 e3 Qc7 c3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.9,
+   "Jev 1.13": 187.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m113_oursW",
+  "level": "rich",
+  "start": "Random-walk line 114: d4 e6 Nd2 c5 e3 Qc7 c3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.8,
+   "Jev 1.13": 334.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m114_jevW",
+  "level": "rich",
+  "start": "Random-walk line 115: g3 g6 c3 d6 d4 e5 e4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 114,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.7,
+   "Jev 1.13": 264.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m114_oursW",
+  "level": "rich",
+  "start": "Random-walk line 115: g3 g6 c3 d6 d4 e5 e4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 253.2,
+   "Jev 1.13": 108.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m115_jevW",
+  "level": "rich",
+  "start": "Random-walk line 116: e3 e5 d4 exd4 exd4 d5 Nf3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 239.2,
+   "Jev 1.13": 333.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m115_oursW",
+  "level": "rich",
+  "start": "Random-walk line 116: e3 e5 d4 exd4 exd4 d5 Nf3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.1,
+   "Jev 1.13": 228.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m116_jevW",
+  "level": "rich",
+  "start": "Random-walk line 117: d4 e6 Nc3 a6 Nh3 Nf6 e4 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "threefold repetition",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 171.2,
+   "Jev 1.13": 221.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m116_oursW",
+  "level": "rich",
+  "start": "Random-walk line 117: d4 e6 Nc3 a6 Nh3 Nf6 e4 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 84.3,
+   "Jev 1.13": 231.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m117_jevW",
+  "level": "rich",
+  "start": "Random-walk line 118: c4 e6 d4 Be7 e4 d5 exd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 52,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 263.5,
+   "Jev 1.13": 235.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m117_oursW",
+  "level": "rich",
+  "start": "Random-walk line 118: c4 e6 d4 Be7 e4 d5 exd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 49,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 236.9,
+   "Jev 1.13": 105.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m118_jevW",
+  "level": "rich",
+  "start": "Random-walk line 119: e3 e5 Nc3 Nf6 d4 d6 Bd3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 29,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 285.9,
+   "Jev 1.13": 117.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m118_oursW",
+  "level": "rich",
+  "start": "Random-walk line 119: e3 e5 Nc3 Nf6 d4 d6 Bd3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 71,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.7,
+   "Jev 1.13": 123.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m119_jevW",
+  "level": "rich",
+  "start": "Random-walk line 120: d4 d5 g3 c6 Nf3 g6 Bg2 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 234.1,
+   "Jev 1.13": 130.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m119_oursW",
+  "level": "rich",
+  "start": "Random-walk line 120: d4 d5 g3 c6 Nf3 g6 Bg2 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 124,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 105.6,
+   "Jev 1.13": 111.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m11_jevW",
+  "level": "rich",
+  "start": "Sicilian, Dragon: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 199.9,
+   "Jev 1.13": 198.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m11_oursW",
+  "level": "rich",
+  "start": "Sicilian, Dragon: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 124,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.4,
+   "Jev 1.13": 101.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m120_jevW",
+  "level": "rich",
+  "start": "Random-walk line 121: c4 d6 Nf3 e5 d3 Be7 e3 f5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 35,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 263.3,
+   "Jev 1.13": 115.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m120_oursW",
+  "level": "rich",
+  "start": "Random-walk line 121: c4 d6 Nf3 e5 d3 Be7 e3 f5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 49,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.4,
+   "Jev 1.13": 177.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m121_jevW",
+  "level": "rich",
+  "start": "Random-walk line 122: e4 d6 Nf3 e5 Nc3 Nf6 a4 Bd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 33,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 359.4,
+   "Jev 1.13": 109.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m121_oursW",
+  "level": "rich",
+  "start": "Random-walk line 122: e4 d6 Nf3 e5 Nc3 Nf6 a4 Bd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 57.5,
+   "Jev 1.13": 160.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m122_jevW",
+  "level": "rich",
+  "start": "Random-walk line 123: d4 Nf6 c3 d5 a4 e6 e3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 53,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 164.4,
+   "Jev 1.13": 38.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m122_oursW",
+  "level": "rich",
+  "start": "Random-walk line 123: d4 Nf6 c3 d5 a4 e6 e3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 78.4,
+   "Jev 1.13": 166.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m123_jevW",
+  "level": "rich",
+  "start": "Random-walk line 124: e3 e6 a3 a6 Be2 c5 c3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 66,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 216.9,
+   "Jev 1.13": 158.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m123_oursW",
+  "level": "rich",
+  "start": "Random-walk line 124: e3 e6 a3 a6 Be2 c5 c3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.1,
+   "Jev 1.13": 210.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m124_jevW",
+  "level": "rich",
+  "start": "Random-walk line 125: c4 Nf6 Nc3 e5 e3 Bb4 d4 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 66,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.9,
+   "Jev 1.13": 171.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m124_oursW",
+  "level": "rich",
+  "start": "Random-walk line 125: c4 Nf6 Nc3 e5 e3 Bb4 d4 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 49,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 82.9,
+   "Jev 1.13": 111.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m125_jevW",
+  "level": "rich",
+  "start": "Random-walk line 126: c4 e5 d3 Be7 Nc3 f5 Nf3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 34,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 203.5,
+   "Jev 1.13": 368.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m125_oursW",
+  "level": "rich",
+  "start": "Random-walk line 126: c4 e5 d3 Be7 Nc3 f5 Nf3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.2,
+   "Jev 1.13": 71.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m126_jevW",
+  "level": "rich",
+  "start": "Random-walk line 127: c4 e6 Nf3 Nf6 a3 d5 e3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.7,
+   "Jev 1.13": 184.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m126_oursW",
+  "level": "rich",
+  "start": "Random-walk line 127: c4 e6 Nf3 Nf6 a3 d5 e3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 101,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 159.2,
+   "Jev 1.13": 104.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m127_jevW",
+  "level": "rich",
+  "start": "Random-walk line 128: c4 Nf6 g3 c6 Bg2 e5 Nf3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 56,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.4,
+   "Jev 1.13": 305.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m127_oursW",
+  "level": "rich",
+  "start": "Random-walk line 128: c4 Nf6 g3 c6 Bg2 e5 Nf3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 66,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 213.0,
+   "Jev 1.13": 72.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m12_jevW",
+  "level": "rich",
+  "start": "Sicilian, Scheveningen: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 71,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 103.3,
+   "Jev 1.13": 219.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m12_oursW",
+  "level": "rich",
+  "start": "Sicilian, Scheveningen: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 81,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.5,
+   "Jev 1.13": 87.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m13_jevW",
+  "level": "rich",
+  "start": "Sicilian, Sveshnikov: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 87,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 382.2,
+   "Jev 1.13": 265.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m13_oursW",
+  "level": "rich",
+  "start": "Sicilian, Sveshnikov: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 93,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.8,
+   "Jev 1.13": 188.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m14_jevW",
+  "level": "rich",
+  "start": "Sicilian, Taimanov: e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 55,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.1,
+   "Jev 1.13": 316.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m14_oursW",
+  "level": "rich",
+  "start": "Sicilian, Taimanov: e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 99,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 231.0,
+   "Jev 1.13": 163.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m15_jevW",
+  "level": "rich",
+  "start": "Sicilian, Kan: e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 35,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 214.2,
+   "Jev 1.13": 73.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m15_oursW",
+  "level": "rich",
+  "start": "Sicilian, Kan: e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 240.9,
+   "Jev 1.13": 92.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m16_jevW",
+  "level": "rich",
+  "start": "Sicilian, Rossolimo: e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.5,
+   "Jev 1.13": 307.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m16_oursW",
+  "level": "rich",
+  "start": "Sicilian, Rossolimo: e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 91,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.5,
+   "Jev 1.13": 186.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m17_jevW",
+  "level": "rich",
+  "start": "Sicilian, Alapin: e4 c5 c3 Nf6 e5 Nd5 d4 cxd4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 69,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 105.9,
+   "Jev 1.13": 260.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m17_oursW",
+  "level": "rich",
+  "start": "Sicilian, Alapin: e4 c5 c3 Nf6 e5 Nd5 d4 cxd4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 79.6,
+   "Jev 1.13": 183.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m18_jevW",
+  "level": "rich",
+  "start": "Sicilian, Closed: e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 105,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 133.9,
+   "Jev 1.13": 156.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m18_oursW",
+  "level": "rich",
+  "start": "Sicilian, Closed: e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.0,
+   "Jev 1.13": 169.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m19_jevW",
+  "level": "rich",
+  "start": "French, Winawer: e4 e6 d4 d5 Nc3 Bb4 e5 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 69,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 325.5,
+   "Jev 1.13": 346.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m19_oursW",
+  "level": "rich",
+  "start": "French, Winawer: e4 e6 d4 d5 Nc3 Bb4 e5 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 94.4,
+   "Jev 1.13": 246.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m20_jevW",
+  "level": "rich",
+  "start": "French, Tarrasch: e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 58,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 146.2,
+   "Jev 1.13": 194.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m20_oursW",
+  "level": "rich",
+  "start": "French, Tarrasch: e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 100,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 189.7,
+   "Jev 1.13": 281.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m21_jevW",
+  "level": "rich",
+  "start": "French, Advance: e4 e6 d4 d5 e5 c5 c3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 215.9,
+   "Jev 1.13": 131.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m21_oursW",
+  "level": "rich",
+  "start": "French, Advance: e4 e6 d4 d5 e5 c5 c3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 27,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 134.2,
+   "Jev 1.13": 337.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m22_jevW",
+  "level": "rich",
+  "start": "French, Classical: e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 38,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 198.3,
+   "Jev 1.13": 308.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m22_oursW",
+  "level": "rich",
+  "start": "French, Classical: e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 110,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 82.6,
+   "Jev 1.13": 185.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m23_jevW",
+  "level": "rich",
+  "start": "Caro-Kann, Classical: e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 93,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.3,
+   "Jev 1.13": 98.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m23_oursW",
+  "level": "rich",
+  "start": "Caro-Kann, Classical: e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 84.5,
+   "Jev 1.13": 181.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m24_jevW",
+  "level": "rich",
+  "start": "Caro-Kann, Advance: e4 c6 d4 d5 e5 Bf5 Nf3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 86,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.8,
+   "Jev 1.13": 82.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m24_oursW",
+  "level": "rich",
+  "start": "Caro-Kann, Advance: e4 c6 d4 d5 e5 Bf5 Nf3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 137.6,
+   "Jev 1.13": 109.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m25_jevW",
+  "level": "rich",
+  "start": "Caro-Kann, Panov Attack: e4 c6 d4 d5 exd5 cxd5 c4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 353.8,
+   "Jev 1.13": 236.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m25_oursW",
+  "level": "rich",
+  "start": "Caro-Kann, Panov Attack: e4 c6 d4 d5 exd5 cxd5 c4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 58,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 131.8,
+   "Jev 1.13": 128.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m26_jevW",
+  "level": "rich",
+  "start": "Pirc Defence: e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 71,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 214.3,
+   "Jev 1.13": 176.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m26_oursW",
+  "level": "rich",
+  "start": "Pirc Defence: e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 86,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 104.7,
+   "Jev 1.13": 249.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m27_jevW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Orthodox: d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 40,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 148.9,
+   "Jev 1.13": 278.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m27_oursW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Orthodox: d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 119,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.4,
+   "Jev 1.13": 83.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m28_jevW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Exchange: d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 56,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 213.2,
+   "Jev 1.13": 260.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m28_oursW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Exchange: d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 98,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 247.5,
+   "Jev 1.13": 162.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m29_jevW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Tarrasch: d4 d5 c4 e6 Nc3 c5 cxd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 44,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 48.1,
+   "Jev 1.13": 159.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m29_oursW",
+  "level": "rich",
+  "start": "Queen's Gambit Declined, Tarrasch: d4 d5 c4 e6 Nc3 c5 cxd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 127,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 143.2,
+   "Jev 1.13": 300.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m30_jevW",
+  "level": "rich",
+  "start": "Queen's Gambit Accepted: d4 d5 c4 dxc4 Nf3 Nf6 e3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 67.1,
+   "Jev 1.13": 186.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m30_oursW",
+  "level": "rich",
+  "start": "Queen's Gambit Accepted: d4 d5 c4 dxc4 Nf3 Nf6 e3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 48,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 175.3,
+   "Jev 1.13": 128.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m31_jevW",
+  "level": "rich",
+  "start": "Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 108,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.9,
+   "Jev 1.13": 179.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m31_oursW",
+  "level": "rich",
+  "start": "Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 126.2,
+   "Jev 1.13": 189.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m32_jevW",
+  "level": "rich",
+  "start": "Semi-Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 86,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 143.6,
+   "Jev 1.13": 301.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m32_oursW",
+  "level": "rich",
+  "start": "Semi-Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.9,
+   "Jev 1.13": 112.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m33_jevW",
+  "level": "rich",
+  "start": "Nimzo-Indian, Rubinstein: d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 30,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 117.4,
+   "Jev 1.13": 285.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m33_oursW",
+  "level": "rich",
+  "start": "Nimzo-Indian, Rubinstein: d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 76,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 231.7,
+   "Jev 1.13": 115.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m34_jevW",
+  "level": "rich",
+  "start": "Nimzo-Indian, Classical: d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 91.9,
+   "Jev 1.13": 236.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m34_oursW",
+  "level": "rich",
+  "start": "Nimzo-Indian, Classical: d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.2,
+   "Jev 1.13": 141.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m35_jevW",
+  "level": "rich",
+  "start": "Queen's Indian Defence: d4 Nf6 c4 e6 Nf3 b6 g3 Ba6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.4,
+   "Jev 1.13": 102.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m35_oursW",
+  "level": "rich",
+  "start": "Queen's Indian Defence: d4 Nf6 c4 e6 Nf3 b6 g3 Ba6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 74,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 175.9,
+   "Jev 1.13": 106.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m36_jevW",
+  "level": "rich",
+  "start": "Bogo-Indian Defence: d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 34,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 51.5,
+   "Jev 1.13": 198.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m36_oursW",
+  "level": "rich",
+  "start": "Bogo-Indian Defence: d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 73,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 239.0,
+   "Jev 1.13": 101.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m37_jevW",
+  "level": "rich",
+  "start": "King's Indian, Classical: d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 169.5,
+   "Jev 1.13": 258.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m37_oursW",
+  "level": "rich",
+  "start": "King's Indian, Classical: d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 136.0,
+   "Jev 1.13": 132.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m38_jevW",
+  "level": "rich",
+  "start": "Grunfeld, Exchange: d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 382.1,
+   "Jev 1.13": 276.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m38_oursW",
+  "level": "rich",
+  "start": "Grunfeld, Exchange: d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 99,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 177.5,
+   "Jev 1.13": 172.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m39_jevW",
+  "level": "rich",
+  "start": "Dutch, Leningrad: d4 f5 g3 Nf6 Bg2 g6 Nf3 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 69,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 237.9,
+   "Jev 1.13": 111.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m39_oursW",
+  "level": "rich",
+  "start": "Dutch, Leningrad: d4 f5 g3 Nf6 Bg2 g6 Nf3 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 131,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 131.1,
+   "Jev 1.13": 174.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m40_jevW",
+  "level": "rich",
+  "start": "Catalan Opening: d4 Nf6 c4 e6 g3 d5 Bg2 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 36,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.6,
+   "Jev 1.13": 248.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m40_oursW",
+  "level": "rich",
+  "start": "Catalan Opening: d4 Nf6 c4 e6 g3 d5 Bg2 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 138,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 115.4,
+   "Jev 1.13": 121.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m41_jevW",
+  "level": "rich",
+  "start": "London System: d4 d5 Bf4 Nf6 e3 e6 Nf3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 252.3,
+   "Jev 1.13": 152.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m41_oursW",
+  "level": "rich",
+  "start": "London System: d4 d5 Bf4 Nf6 e3 e6 Nf3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 131.2,
+   "Jev 1.13": 115.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m42_jevW",
+  "level": "rich",
+  "start": "Trompowsky Attack: d4 Nf6 Bg5 e6 e4 h6 Bxf6 Qxf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 70,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.4,
+   "Jev 1.13": 117.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m42_oursW",
+  "level": "rich",
+  "start": "Trompowsky Attack: d4 Nf6 Bg5 e6 e4 h6 Bxf6 Qxf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 252.9,
+   "Jev 1.13": 203.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m43_jevW",
+  "level": "rich",
+  "start": "English, Symmetrical: c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.9,
+   "Jev 1.13": 169.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m43_oursW",
+  "level": "rich",
+  "start": "English, Symmetrical: c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 116.3,
+   "Jev 1.13": 121.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m44_jevW",
+  "level": "rich",
+  "start": "English, Reversed Sicilian: c4 e5 Nc3 Nf6 g3 d5 cxd5 Nxd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 36,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.6,
+   "Jev 1.13": 193.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m44_oursW",
+  "level": "rich",
+  "start": "English, Reversed Sicilian: c4 e5 Nc3 Nf6 g3 d5 cxd5 Nxd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 87.6,
+   "Jev 1.13": 86.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m45_jevW",
+  "level": "rich",
+  "start": "Reti Opening: Nf3 d5 c4 e6 g3 Nf6 Bg2 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 266.0,
+   "Jev 1.13": 84.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m45_oursW",
+  "level": "rich",
+  "start": "Reti Opening: Nf3 d5 c4 e6 g3 Nf6 Bg2 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.7,
+   "Jev 1.13": 157.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m46_jevW",
+  "level": "rich",
+  "start": "King's Indian Attack: Nf3 d5 g3 Nf6 Bg2 c6 O-O Bg4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 134.3,
+   "Jev 1.13": 63.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m46_oursW",
+  "level": "rich",
+  "start": "King's Indian Attack: Nf3 d5 g3 Nf6 Bg2 c6 O-O Bg4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 88.0,
+   "Jev 1.13": 86.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m47_jevW",
+  "level": "rich",
+  "start": "Bird Opening: f4 d5 Nf3 Nf6 e3 g6 Be2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 68,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 185.8,
+   "Jev 1.13": 283.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m47_oursW",
+  "level": "rich",
+  "start": "Bird Opening: f4 d5 Nf3 Nf6 e3 g6 Be2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 71,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 95.0,
+   "Jev 1.13": 107.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m48_jevW",
+  "level": "rich",
+  "start": "Nimzo-Larsen Attack: b3 e5 Bb2 Nc6 e3 d5 Bb5 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 68,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 158.5,
+   "Jev 1.13": 172.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m48_oursW",
+  "level": "rich",
+  "start": "Nimzo-Larsen Attack: b3 e5 Bb2 Nc6 e3 d5 Bb5 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 174.3,
+   "Jev 1.13": 88.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m49_jevW",
+  "level": "rich",
+  "start": "Scotch Four Knights: e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 62,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 266.9,
+   "Jev 1.13": 320.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m49_oursW",
+  "level": "rich",
+  "start": "Scotch Four Knights: e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 176.1,
+   "Jev 1.13": 100.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m50_jevW",
+  "level": "rich",
+  "start": "Random-walk line 51: Nf3 e6 g3 c6 Bg2 Nf6 d3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 93,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 125.3,
+   "Jev 1.13": 96.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m50_oursW",
+  "level": "rich",
+  "start": "Random-walk line 51: Nf3 e6 g3 c6 Bg2 Nf6 d3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 324.4,
+   "Jev 1.13": 151.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m51_jevW",
+  "level": "rich",
+  "start": "Random-walk line 52: c4 e5 Nc3 Nf6 e4 Nc6 Nf3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 153.0,
+   "Jev 1.13": 277.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m51_oursW",
+  "level": "rich",
+  "start": "Random-walk line 52: c4 e5 Nc3 Nf6 e4 Nc6 Nf3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.6,
+   "Jev 1.13": 179.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m52_jevW",
+  "level": "rich",
+  "start": "Random-walk line 53: e4 e5 Bc4 Nf6 d4 exd4 Nf3 Bb4+",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 66,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 206.0,
+   "Jev 1.13": 184.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m52_oursW",
+  "level": "rich",
+  "start": "Random-walk line 53: e4 e5 Bc4 Nf6 d4 exd4 Nf3 Bb4+",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 96.0,
+   "Jev 1.13": 146.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m53_jevW",
+  "level": "rich",
+  "start": "Random-walk line 54: e4 d6 Nf3 e5 a4 Nf6 d3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 79.5,
+   "Jev 1.13": 280.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m53_oursW",
+  "level": "rich",
+  "start": "Random-walk line 54: e4 d6 Nf3 e5 a4 Nf6 d3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 100,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.8,
+   "Jev 1.13": 75.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m54_jevW",
+  "level": "rich",
+  "start": "Random-walk line 55: c4 c6 e3 e6 Nf3 Nf6 Be2 a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.1,
+   "Jev 1.13": 146.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m54_oursW",
+  "level": "rich",
+  "start": "Random-walk line 55: c4 c6 e3 e6 Nf3 Nf6 Be2 a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.9,
+   "Jev 1.13": 170.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m55_jevW",
+  "level": "rich",
+  "start": "Random-walk line 56: e3 d5 Nf3 e6 Be2 a6 d4 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 87,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 168.2,
+   "Jev 1.13": 247.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m55_oursW",
+  "level": "rich",
+  "start": "Random-walk line 56: e3 d5 Nf3 e6 Be2 a6 d4 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.1,
+   "Jev 1.13": 131.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m56_jevW",
+  "level": "rich",
+  "start": "Random-walk line 57: g3 Nf6 Bg2 d5 Nf3 c6 c3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 98,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 111.9,
+   "Jev 1.13": 181.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m56_oursW",
+  "level": "rich",
+  "start": "Random-walk line 57: g3 Nf6 Bg2 d5 Nf3 c6 c3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 50,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 245.2,
+   "Jev 1.13": 186.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m57_jevW",
+  "level": "rich",
+  "start": "Random-walk line 58: Nf3 c6 e3 d5 Be2 Nf6 O-O a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.2,
+   "Jev 1.13": 72.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m57_oursW",
+  "level": "rich",
+  "start": "Random-walk line 58: Nf3 c6 e3 d5 Be2 Nf6 O-O a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 62,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 263.8,
+   "Jev 1.13": 105.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m58_jevW",
+  "level": "rich",
+  "start": "Random-walk line 59: c4 c6 Nc3 d5 d4 e6 e3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 77,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 103.0,
+   "Jev 1.13": 86.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m58_oursW",
+  "level": "rich",
+  "start": "Random-walk line 59: c4 c6 Nc3 d5 d4 e6 e3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 41,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 37.8,
+   "Jev 1.13": 183.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m59_jevW",
+  "level": "rich",
+  "start": "Random-walk line 60: c4 d6 e3 g6 Nf3 Nf6 d4 a5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 119.4,
+   "Jev 1.13": 211.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m59_oursW",
+  "level": "rich",
+  "start": "Random-walk line 60: c4 d6 e3 g6 Nf3 Nf6 d4 a5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 81,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 230.5,
+   "Jev 1.13": 210.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m60_jevW",
+  "level": "rich",
+  "start": "Random-walk line 61: e4 c5 Nf3 Nc6 Nc3 e5 Bd3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 55,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 177.7,
+   "Jev 1.13": 95.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m60_oursW",
+  "level": "rich",
+  "start": "Random-walk line 61: e4 c5 Nf3 Nc6 Nc3 e5 Bd3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 120,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.2,
+   "Jev 1.13": 139.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m61_jevW",
+  "level": "rich",
+  "start": "Random-walk line 62: c4 Nf6 g3 e5 Nc3 h6 a3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.0,
+   "Jev 1.13": 313.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m61_oursW",
+  "level": "rich",
+  "start": "Random-walk line 62: c4 Nf6 g3 e5 Nc3 h6 a3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 287.7,
+   "Jev 1.13": 161.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m62_jevW",
+  "level": "rich",
+  "start": "Random-walk line 63: d4 c6 Nf3 d5 Nbd2 Bf5 h3 h5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 91,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.8,
+   "Jev 1.13": 231.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m62_oursW",
+  "level": "rich",
+  "start": "Random-walk line 63: d4 c6 Nf3 d5 Nbd2 Bf5 h3 h5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 101,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 122.5,
+   "Jev 1.13": 227.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m63_jevW",
+  "level": "rich",
+  "start": "Random-walk line 64: Nf3 e6 c4 d5 g3 Nc6 d4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 224.1,
+   "Jev 1.13": 243.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m63_oursW",
+  "level": "rich",
+  "start": "Random-walk line 64: Nf3 e6 c4 d5 g3 Nc6 d4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 137,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 146.6,
+   "Jev 1.13": 94.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m64_jevW",
+  "level": "rich",
+  "start": "Random-walk line 65: d4 c6 Nf3 Nf6 e3 e6 Bd3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 32,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 46.6,
+   "Jev 1.13": 59.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m64_oursW",
+  "level": "rich",
+  "start": "Random-walk line 65: d4 c6 Nf3 Nf6 e3 e6 Bd3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 73,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.0,
+   "Jev 1.13": 197.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m65_jevW",
+  "level": "rich",
+  "start": "Random-walk line 66: c4 c6 Nc3 e6 Nf3 d5 e3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 44,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.7,
+   "Jev 1.13": 209.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m65_oursW",
+  "level": "rich",
+  "start": "Random-walk line 66: c4 c6 Nc3 e6 Nf3 d5 e3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 183.3,
+   "Jev 1.13": 76.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m66_jevW",
+  "level": "rich",
+  "start": "Random-walk line 67: g3 g6 c3 Nc6 Na3 e5 Qc2 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 118,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 79.6,
+   "Jev 1.13": 207.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m66_oursW",
+  "level": "rich",
+  "start": "Random-walk line 67: g3 g6 c3 Nc6 Na3 e5 Qc2 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 182.0,
+   "Jev 1.13": 75.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m67_jevW",
+  "level": "rich",
+  "start": "Random-walk line 68: c4 Nf6 g3 Nc6 d4 d5 cxd5 Qxd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 273.4,
+   "Jev 1.13": 97.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m67_oursW",
+  "level": "rich",
+  "start": "Random-walk line 68: c4 Nf6 g3 Nc6 d4 d5 cxd5 Qxd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.5,
+   "Jev 1.13": 245.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m68_jevW",
+  "level": "rich",
+  "start": "Random-walk line 69: d4 e6 Nc3 d5 Bf4 Bb4 Qd3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 195.0,
+   "Jev 1.13": 98.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m68_oursW",
+  "level": "rich",
+  "start": "Random-walk line 69: d4 e6 Nc3 d5 Bf4 Bb4 Qd3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 148,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.7,
+   "Jev 1.13": 132.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m69_jevW",
+  "level": "rich",
+  "start": "Random-walk line 70: g3 e5 c4 Nf6 a3 d5 cxd5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 76,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.7,
+   "Jev 1.13": 268.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m69_oursW",
+  "level": "rich",
+  "start": "Random-walk line 70: g3 e5 c4 Nf6 a3 d5 cxd5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 67,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 166.2,
+   "Jev 1.13": 240.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m70_jevW",
+  "level": "rich",
+  "start": "Random-walk line 71: c4 e5 Nc3 Bb4 d4 exd4 Qxd4 Qf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 27,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 291.6,
+   "Jev 1.13": 104.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m70_oursW",
+  "level": "rich",
+  "start": "Random-walk line 71: c4 e5 Nc3 Bb4 d4 exd4 Qxd4 Qf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 25,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.4,
+   "Jev 1.13": 270.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m71_jevW",
+  "level": "rich",
+  "start": "Random-walk line 72: Nf3 c6 c4 a6 g3 d5 a4 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 50,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 101.8,
+   "Jev 1.13": 285.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m71_oursW",
+  "level": "rich",
+  "start": "Random-walk line 72: Nf3 c6 c4 a6 g3 d5 a4 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 78,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 340.0,
+   "Jev 1.13": 215.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m72_jevW",
+  "level": "rich",
+  "start": "Random-walk line 73: g3 d5 d4 c5 Bg2 Nf6 dxc5 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 226.1,
+   "Jev 1.13": 86.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m72_oursW",
+  "level": "rich",
+  "start": "Random-walk line 73: g3 d5 d4 c5 Bg2 Nf6 dxc5 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 78,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 227.8,
+   "Jev 1.13": 175.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m73_jevW",
+  "level": "rich",
+  "start": "Random-walk line 74: g3 e6 c4 a5 Bg2 Nf6 a3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 69,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 242.1,
+   "Jev 1.13": 220.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m73_oursW",
+  "level": "rich",
+  "start": "Random-walk line 74: g3 e6 c4 a5 Bg2 Nf6 a3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.1,
+   "Jev 1.13": 185.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m74_jevW",
+  "level": "rich",
+  "start": "Random-walk line 75: e4 d6 h3 Nf6 c3 b6 Bc4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 84,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 207.6,
+   "Jev 1.13": 251.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m74_oursW",
+  "level": "rich",
+  "start": "Random-walk line 75: e4 d6 h3 Nf6 c3 b6 Bc4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 68,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 230.5,
+   "Jev 1.13": 117.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m75_jevW",
+  "level": "rich",
+  "start": "Random-walk line 76: e3 Nf6 a3 d5 d4 e6 c4 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 94,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 183.9,
+   "Jev 1.13": 359.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m75_oursW",
+  "level": "rich",
+  "start": "Random-walk line 76: e3 Nf6 a3 d5 d4 e6 c4 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 85,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 144.6,
+   "Jev 1.13": 80.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m76_jevW",
+  "level": "rich",
+  "start": "Random-walk line 77: c4 g6 Nf3 c5 Nc3 Nc6 d4 cxd4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.5,
+   "Jev 1.13": 163.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m76_oursW",
+  "level": "rich",
+  "start": "Random-walk line 77: c4 g6 Nf3 c5 Nc3 Nc6 d4 cxd4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 105,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 130.5,
+   "Jev 1.13": 61.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m77_jevW",
+  "level": "rich",
+  "start": "Random-walk line 78: e4 e6 Be2 c5 d4 d5 dxc5 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 195.6,
+   "Jev 1.13": 95.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m77_oursW",
+  "level": "rich",
+  "start": "Random-walk line 78: e4 e6 Be2 c5 d4 d5 dxc5 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 50,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.8,
+   "Jev 1.13": 246.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m78_jevW",
+  "level": "rich",
+  "start": "Random-walk line 79: d4 c6 e4 d5 Nd2 Qc7 Qe2 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 246.5,
+   "Jev 1.13": 103.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m78_oursW",
+  "level": "rich",
+  "start": "Random-walk line 79: d4 c6 e4 d5 Nd2 Qc7 Qe2 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 98,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 193.7,
+   "Jev 1.13": 95.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m79_jevW",
+  "level": "rich",
+  "start": "Random-walk line 80: Nf3 e6 d4 d5 e3 a6 Nbd2 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.7,
+   "Jev 1.13": 215.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m79_oursW",
+  "level": "rich",
+  "start": "Random-walk line 80: Nf3 e6 d4 d5 e3 a6 Nbd2 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 91,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 132.8,
+   "Jev 1.13": 97.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m80_jevW",
+  "level": "rich",
+  "start": "Random-walk line 81: c4 d6 Nf3 e5 e3 g6 b3 f5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 92,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 128.4,
+   "Jev 1.13": 131.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m80_oursW",
+  "level": "rich",
+  "start": "Random-walk line 81: c4 d6 Nf3 e5 e3 g6 b3 f5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 81,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 136.9,
+   "Jev 1.13": 227.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m81_jevW",
+  "level": "rich",
+  "start": "Random-walk line 82: e3 Nf6 Be2 e6 b3 h6 Nf3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 207.0,
+   "Jev 1.13": 178.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m81_oursW",
+  "level": "rich",
+  "start": "Random-walk line 82: e3 Nf6 Be2 e6 b3 h6 Nf3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 47,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.5,
+   "Jev 1.13": 200.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m82_jevW",
+  "level": "rich",
+  "start": "Random-walk line 83: g3 Nf6 Bg2 e5 c4 d6 a3 c6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.2,
+   "Jev 1.13": 372.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m82_oursW",
+  "level": "rich",
+  "start": "Random-walk line 83: g3 Nf6 Bg2 e5 c4 d6 a3 c6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 92,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 206.1,
+   "Jev 1.13": 90.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m83_jevW",
+  "level": "rich",
+  "start": "Random-walk line 84: g3 c5 c4 d5 cxd5 Nf6 e4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 52,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 193.6,
+   "Jev 1.13": 306.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m83_oursW",
+  "level": "rich",
+  "start": "Random-walk line 84: g3 c5 c4 d5 cxd5 Nf6 e4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 229.0,
+   "Jev 1.13": 453.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m84_jevW",
+  "level": "rich",
+  "start": "Random-walk line 85: d4 c6 Nf3 Nf6 h3 e6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 47,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 265.2,
+   "Jev 1.13": 128.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m84_oursW",
+  "level": "rich",
+  "start": "Random-walk line 85: d4 c6 Nf3 Nf6 h3 e6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 234.6,
+   "Jev 1.13": 115.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m85_jevW",
+  "level": "rich",
+  "start": "Random-walk line 86: g3 d5 Nf3 g6 c3 c6 Qb3 Bh6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 67,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 345.4,
+   "Jev 1.13": 157.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m85_oursW",
+  "level": "rich",
+  "start": "Random-walk line 86: g3 d5 Nf3 g6 c3 c6 Qb3 Bh6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 138,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 155.4,
+   "Jev 1.13": 53.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m86_jevW",
+  "level": "rich",
+  "start": "Random-walk line 87: g3 c6 d3 Nf6 b3 c5 c4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 81.6,
+   "Jev 1.13": 263.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m86_oursW",
+  "level": "rich",
+  "start": "Random-walk line 87: g3 c6 d3 Nf6 b3 c5 c4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 124,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 200.0,
+   "Jev 1.13": 113.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m87_jevW",
+  "level": "rich",
+  "start": "Random-walk line 88: Nf3 c6 d4 Nf6 c4 g6 Bf4 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 130.3,
+   "Jev 1.13": 233.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m87_oursW",
+  "level": "rich",
+  "start": "Random-walk line 88: Nf3 c6 d4 Nf6 c4 g6 Bf4 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 104,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 127.8,
+   "Jev 1.13": 254.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m88_jevW",
+  "level": "rich",
+  "start": "Random-walk line 89: g3 Nf6 c4 g6 Bg2 Bg7 Nc3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 113,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.6,
+   "Jev 1.13": 74.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m88_oursW",
+  "level": "rich",
+  "start": "Random-walk line 89: g3 Nf6 c4 g6 Bg2 Bg7 Nc3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 203.1,
+   "Jev 1.13": 74.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m89_jevW",
+  "level": "rich",
+  "start": "Random-walk line 90: d4 d5 c3 c5 a3 e6 e3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 113,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 191.6,
+   "Jev 1.13": 78.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m89_oursW",
+  "level": "rich",
+  "start": "Random-walk line 90: d4 d5 c3 c5 a3 e6 e3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 109,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.1,
+   "Jev 1.13": 120.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m90_jevW",
+  "level": "rich",
+  "start": "Random-walk line 91: Nf3 c5 c3 d5 g3 h6 a3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 47,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 237.2,
+   "Jev 1.13": 58.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m90_oursW",
+  "level": "rich",
+  "start": "Random-walk line 91: Nf3 c5 c3 d5 g3 h6 a3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 43,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.8,
+   "Jev 1.13": 208.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m91_jevW",
+  "level": "rich",
+  "start": "Random-walk line 92: c4 c6 e3 d5 Nc3 b6 d4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 55,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 243.3,
+   "Jev 1.13": 59.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m91_oursW",
+  "level": "rich",
+  "start": "Random-walk line 92: c4 c6 e3 d5 Nc3 b6 d4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 184.3,
+   "Jev 1.13": 239.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m92_jevW",
+  "level": "rich",
+  "start": "Random-walk line 93: d4 e6 Nc3 Nf6 e4 d5 e5 Nfd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 153.8,
+   "Jev 1.13": 331.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m92_oursW",
+  "level": "rich",
+  "start": "Random-walk line 93: d4 e6 Nc3 Nf6 e4 d5 e5 Nfd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 47,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 267.1,
+   "Jev 1.13": 344.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m93_jevW",
+  "level": "rich",
+  "start": "Random-walk line 94: c4 c5 d3 e6 Nf3 b6 h3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 51,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.9,
+   "Jev 1.13": 260.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m93_oursW",
+  "level": "rich",
+  "start": "Random-walk line 94: c4 c5 d3 e6 Nf3 b6 h3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 215.0,
+   "Jev 1.13": 114.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m94_jevW",
+  "level": "rich",
+  "start": "Random-walk line 95: c4 Nf6 g3 c5 Nf3 b6 Bg2 Bb7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 236.7,
+   "Jev 1.13": 103.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m94_oursW",
+  "level": "rich",
+  "start": "Random-walk line 95: c4 Nf6 g3 c5 Nf3 b6 Bg2 Bb7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 207.8,
+   "Jev 1.13": 81.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m95_jevW",
+  "level": "rich",
+  "start": "Random-walk line 96: d4 c6 Nc3 d5 Nf3 Nf6 a3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 160.9,
+   "Jev 1.13": 127.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m95_oursW",
+  "level": "rich",
+  "start": "Random-walk line 96: d4 c6 Nc3 d5 Nf3 Nf6 a3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 53,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 217.0,
+   "Jev 1.13": 201.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m96_jevW",
+  "level": "rich",
+  "start": "Random-walk line 97: g3 c6 c4 h6 Nc3 d5 d4 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 103,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 210.1,
+   "Jev 1.13": 118.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m96_oursW",
+  "level": "rich",
+  "start": "Random-walk line 97: g3 c6 c4 h6 Nc3 d5 d4 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 121,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.7,
+   "Jev 1.13": 250.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m97_jevW",
+  "level": "rich",
+  "start": "Random-walk line 98: e3 d5 a3 c5 Bb5+ Nc6 Nc3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 128,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 117.1,
+   "Jev 1.13": 180.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m97_oursW",
+  "level": "rich",
+  "start": "Random-walk line 98: e3 d5 a3 c5 Bb5+ Nc6 Nc3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 137,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.3,
+   "Jev 1.13": 168.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m98_jevW",
+  "level": "rich",
+  "start": "Random-walk line 99: g3 c6 Bg2 g6 e4 Bg7 f4 h5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 48,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.4,
+   "Jev 1.13": 314.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m98_oursW",
+  "level": "rich",
+  "start": "Random-walk line 99: g3 c6 Bg2 g6 e4 Bg7 f4 h5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 263.3,
+   "Jev 1.13": 225.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "m99_jevW",
+  "level": "rich",
+  "start": "Random-walk line 100: Nf3 d5 h3 Bf5 d3 Nc6 g4 Bg6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 38,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.7,
+   "Jev 1.13": 219.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "m99_oursW",
+  "level": "rich",
+  "start": "Random-walk line 100: Nf3 d5 h3 Bf5 d3 Nc6 g4 Bg6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "fivefold repetition",
+  "plies": 47,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 269.6,
+   "Jev 1.13": 102.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ }
+]

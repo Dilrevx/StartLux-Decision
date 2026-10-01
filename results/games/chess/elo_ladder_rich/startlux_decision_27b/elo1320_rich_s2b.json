@@ -1,0 +1,131 @@
+{
+ "experiment": "G_play_game",
+ "level": "rich",
+ "opponent": "elo1320",
+ "filter_blunders": false,
+ "seed": 2,
+ "code_forced_moves": 0,
+ "adjudicated_result": null,
+ "model_color": "black",
+ "summary": {
+  "result": "1-0",
+  "termination": "CHECKMATE",
+  "plies": 25,
+  "model_mean_cp_loss": 282.7,
+  "model_pct_best_move": 16.7,
+  "model_blunders_200cp": 3,
+  "final_eval_cp_white": null
+ },
+ "pgn_moves": "1. d4 Nf6 2. Nc3 Nc6 3. e4 d5 4. e5 e6 5. exf6 gxf6 6. Bb5 b6 7. Bxc6+ Ke7 8. a3 Rb8 9. b4 e5 10. Na2 exd4 11. Ba4 Qd6 12. Qe2+ Kd8 13. Qe8#",
+ "final_fen": "1rbkQb1r/p1p2p1p/1p1q1p2/3p4/BP1p4/P7/N1P2PPP/R1B1K1NR b KQ - 5 13",
+ "model_moves": [
+  {
+   "ply": 1,
+   "san": "Nf6",
+   "cp_loss": 4,
+   "rank": 2,
+   "confidence": 0.3967185914516449,
+   "n_legal": 20,
+   "n_offered": 20
+  },
+  {
+   "ply": 3,
+   "san": "Nc6",
+   "cp_loss": 77,
+   "rank": 6,
+   "confidence": 0.5533270239830017,
+   "n_legal": 22,
+   "n_offered": 22
+  },
+  {
+   "ply": 5,
+   "san": "d5",
+   "cp_loss": 46,
+   "rank": 4,
+   "confidence": 0.2117614895105362,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 7,
+   "san": "e6",
+   "cp_loss": 473,
+   "rank": 10,
+   "confidence": 0.32510638222750193,
+   "n_legal": 29,
+   "n_offered": 29
+  },
+  {
+   "ply": 9,
+   "san": "gxf6",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.8495335868833831,
+   "n_legal": 29,
+   "n_offered": 29
+  },
+  {
+   "ply": 11,
+   "san": "b6",
+   "cp_loss": 524,
+   "rank": 22,
+   "confidence": 0.2569042146205902,
+   "n_legal": 22,
+   "n_offered": 22
+  },
+  {
+   "ply": 13,
+   "san": "Ke7",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.4388635456562042,
+   "n_legal": 3,
+   "n_offered": 3
+  },
+  {
+   "ply": 15,
+   "san": "Rb8",
+   "cp_loss": 17,
+   "rank": 5,
+   "confidence": 0.30614277720451355,
+   "n_legal": 18,
+   "n_offered": 18
+  },
+  {
+   "ply": 17,
+   "san": "e5",
+   "cp_loss": 24,
+   "rank": 2,
+   "confidence": 0.15511035919189453,
+   "n_legal": 19,
+   "n_offered": 19
+  },
+  {
+   "ply": 19,
+   "san": "exd4",
+   "cp_loss": 151,
+   "rank": 4,
+   "confidence": 0.09631965309381485,
+   "n_legal": 25,
+   "n_offered": 25
+  },
+  {
+   "ply": 21,
+   "san": "Qd6",
+   "cp_loss": 76,
+   "rank": 3,
+   "confidence": 0.1371406614780426,
+   "n_legal": 26,
+   "n_offered": 26
+  },
+  {
+   "ply": 23,
+   "san": "Kd8",
+   "cp_loss": 2000,
+   "rank": 4,
+   "confidence": 0.3921204209327698,
+   "n_legal": 4,
+   "n_offered": 4
+  }
+ ]
+}

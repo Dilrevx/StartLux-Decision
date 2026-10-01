@@ -286,6 +286,51 @@ Against Stockfish at skill 0 (depth 1, rated 1166 on this ladder) StartLux-Decis
 Stockfish limited to 1320 Elo it scored three of four. Games that reach the 160-ply cap are adjudicated at ±300
 centipawns, as the ladder does for every player.
 
+The same ladder at the rich level, with both players run by us under the same conditions: the seven bots, eight games
+against each with alternating colours.
+
+<div align="center">
+
+| Model | Score | Performance rating | 80% bootstrap interval |
+|:---:|:---:|:---:|:---:|
+| StartLux-Decision-27B | 30 / 56 | **585** | 511 to 651 |
+| Jev 1.13 | 28 / 56 | 533 | 466 to 605 |
+
+</div>
+
+Both lose every game to Stockfish limited to 1320 Elo and to Stockfish at skill 0 (Jev draws one), so without the
+tactical facts both rate below the weakest Stockfish setting on the ladder.
+
+**Against Jev 1.13** ([demos/chess](../demos/chess) puts the two models on the two sides of one board in the same
+harness). Each side gets exactly the request the harness sends at the chosen level, answers one choice question over
+all legal moves, and its most likely move is played: no search, and code never overrides a move. Each start is played
+twice, once with each colour. Book openings: 128 lines that Stockfish rates within 0.6 pawns of level, 50 named main
+lines and 78 more from a random walk over Stockfish's good moves. Chess960: 128 starting positions drawn at random, the
+standard one excluded. Games end by the rules (fivefold repetition included) or are adjudicated at ±300 centipawns
+after 160 plies. The Elo intervals are 95% bootstrap intervals that resample starts together with both of their games.
+
+<div align="center">
+
+| Level | Starts | Games | StartLux-Decision-27B | Wins, draws, losses | Elo difference | Checkmates for / against | Mean centipawn loss, ours / Jev |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| rich | book openings | 256 | **58.4%** | 64, 171, 21 | **+59** (+37 to +82) | 64 / 20 | 161 / 173 |
+| rich | Chess960 | 256 | 53.7% | 44, 187, 25 | +26 (+4 to +48) | 44 / 25 | 164 / 178 |
+| tactical | book openings | 256 | 48.6% | 113, 23, 120 | −10 (−51 to +33) | 42 / 40 | 130 / 124 |
+| tactical | Chess960 | 256 | 46.1% | 109, 18, 129 | −27 (−67 to +14) | 51 / 54 | 120 / 124 |
+
+</div>
+
+At the rich level the request does not say what a move wins or loses, and with no search both sides drift into
+repeating a position: about seven games in ten end in a fivefold repetition, and StartLux-Decision-27B wins more of the
+rest. With the tactical facts the games are decisive (160 and 140 of the 256 reach the ply cap and are adjudicated)
+and the two are even. Jev answered as jev-1.13.0 in all 1,024 games, and no request failed. Mean centipawn loss caps
+each move at 1,000.
+
+Before this match we played 36 exploratory games under mixed conditions: the two rich games from the standard
+position (StartLux-Decision-27B won both; the README demo is one of them), 16 rich and 16 tactical Chess960 games, and
+two tactical games from the standard position. StartLux-Decision-27B scored 22 of the 36 points. We report the match
+above instead, because its conditions were fixed before it was played and it is large enough to measure.
+
 **Dino Run** (surafel-kindu/system-one-models-game-test). One decision per obstacle (jump, duck or keep running);
 a wrong answer ends the run. 20 runs per model, capped at 300 obstacles.
 
@@ -328,9 +373,12 @@ StartLux-Decision-27B on one H200, 739 to 2,515 input tokens per request. The lo
 
 - [media/computer_use_store_27b.gif](../media/computer_use_store_27b.gif) ([MP4](../media/computer_use_store_27b.mp4)) and
   [media/computer_use_workspace_27b.gif](../media/computer_use_workspace_27b.gif)
-  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above. The side panel lists the four
+  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above (the README shows the first). The side panel lists the four
   likeliest controls and the rest in one row (the block adds up to 100%), and below it the probability that the task
   is done, which is a separate question.
+- [media/chess_vs_jev_27b.gif](../media/chess_vs_jev_27b.gif) ([MP4](../media/chess_vs_jev_27b.mp4)):
+  StartLux-Decision-27B, with White, against Jev 1.13 at the rich level from the usual starting position; checkmate on
+  move 19. The panel shows each move with its probability, and Stockfish only draws the evaluation bar.
 - [media/mario_1-1_27b.gif](../media/mario_1-1_27b.gif) ([MP4](../media/mario_1-1_27b.mp4)),
   [media/sc2_hard_27b.gif](../media/sc2_hard_27b.gif) ([MP4](../media/sc2_hard_27b.mp4)),
   [media/doom_deathmatch_27b.gif](../media/doom_deathmatch_27b.gif) ([MP4](../media/doom_deathmatch_27b.mp4)) and
@@ -348,5 +396,10 @@ released model names and the harnesses' "jev_*" field names (which mean "the mod
 
 - `chess/elo_ladder/<model>/`: every ladder game as JSON, all of them as PGN, and the fitted rating.
 - `chess/positions/<model>/`: move choice at four state levels, mate in one, and the harness's other chess probes.
+- `chess/match/<condition>/`: the 1,024 games against Jev 1.13 as PGN and as JSON (start, result, how the game ended,
+  mean centipawn loss per side); `chess/match/summary.json` has the four conditions, the openings and the Chess960
+  positions.
+- `chess/elo_ladder_rich/<player>/`: the rich-level ladder games of StartLux-Decision-27B and Jev 1.13, as JSON and
+  PGN, and the fitted ratings.
 - `npc_addressee/<model>.json`: every utterance in all three transcript variants, with probabilities per character.
 - `arcade/dino.json`: obstacles cleared in every Dino Run.

@@ -1,0 +1,4610 @@
+[
+ {
+  "game": "c010_jevW",
+  "level": "tactical",
+  "start": "Chess960 #10",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 214.6,
+   "Jev 1.13": 422.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c010_oursW",
+  "level": "tactical",
+  "start": "Chess960 #10",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.9,
+   "Jev 1.13": 109.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c020_jevW",
+  "level": "tactical",
+  "start": "Chess960 #20",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.0,
+   "Jev 1.13": 187.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c020_oursW",
+  "level": "tactical",
+  "start": "Chess960 #20",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.2,
+   "Jev 1.13": 119.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c027_jevW",
+  "level": "tactical",
+  "start": "Chess960 #27",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.0,
+   "Jev 1.13": 113.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c027_oursW",
+  "level": "tactical",
+  "start": "Chess960 #27",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.0,
+   "Jev 1.13": 74.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c031_jevW",
+  "level": "tactical",
+  "start": "Chess960 #31",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 115,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.1,
+   "Jev 1.13": 115.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c031_oursW",
+  "level": "tactical",
+  "start": "Chess960 #31",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 152,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.2,
+   "Jev 1.13": 66.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c045_jevW",
+  "level": "tactical",
+  "start": "Chess960 #45",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 130.7,
+   "Jev 1.13": 123.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c045_oursW",
+  "level": "tactical",
+  "start": "Chess960 #45",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 50,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.1,
+   "Jev 1.13": 66.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c048_jevW",
+  "level": "tactical",
+  "start": "Chess960 #48",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 54.5,
+   "Jev 1.13": 52.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c048_oursW",
+  "level": "tactical",
+  "start": "Chess960 #48",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.5,
+   "Jev 1.13": 63.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c054_jevW",
+  "level": "tactical",
+  "start": "Chess960 #54",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 127.7,
+   "Jev 1.13": 96.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c054_oursW",
+  "level": "tactical",
+  "start": "Chess960 #54",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.1,
+   "Jev 1.13": 49.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c067_jevW",
+  "level": "tactical",
+  "start": "Chess960 #67",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.7,
+   "Jev 1.13": 114.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c067_oursW",
+  "level": "tactical",
+  "start": "Chess960 #67",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 116,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 172.1,
+   "Jev 1.13": 204.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c078_jevW",
+  "level": "tactical",
+  "start": "Chess960 #78",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 17,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 242.6,
+   "Jev 1.13": 59.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c078_oursW",
+  "level": "tactical",
+  "start": "Chess960 #78",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 91.5,
+   "Jev 1.13": 65.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c093_jevW",
+  "level": "tactical",
+  "start": "Chess960 #93",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 114,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 91.1,
+   "Jev 1.13": 74.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c093_oursW",
+  "level": "tactical",
+  "start": "Chess960 #93",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 151.7,
+   "Jev 1.13": 133.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c104_jevW",
+  "level": "tactical",
+  "start": "Chess960 #104",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 172.3,
+   "Jev 1.13": 165.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c104_oursW",
+  "level": "tactical",
+  "start": "Chess960 #104",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 176.4,
+   "Jev 1.13": 214.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c107_jevW",
+  "level": "tactical",
+  "start": "Chess960 #107",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 109.5,
+   "Jev 1.13": 146.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c107_oursW",
+  "level": "tactical",
+  "start": "Chess960 #107",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 139,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 112.6,
+   "Jev 1.13": 111.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c111_jevW",
+  "level": "tactical",
+  "start": "Chess960 #111",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 93.0,
+   "Jev 1.13": 87.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c111_oursW",
+  "level": "tactical",
+  "start": "Chess960 #111",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.9,
+   "Jev 1.13": 89.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c112_jevW",
+  "level": "tactical",
+  "start": "Chess960 #112",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 25,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.6,
+   "Jev 1.13": 39.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c112_oursW",
+  "level": "tactical",
+  "start": "Chess960 #112",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 167.9,
+   "Jev 1.13": 108.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c139_jevW",
+  "level": "tactical",
+  "start": "Chess960 #139",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 166.5,
+   "Jev 1.13": 209.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c139_oursW",
+  "level": "tactical",
+  "start": "Chess960 #139",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 121,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.3,
+   "Jev 1.13": 88.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c149_jevW",
+  "level": "tactical",
+  "start": "Chess960 #149",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 181.0,
+   "Jev 1.13": 275.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c149_oursW",
+  "level": "tactical",
+  "start": "Chess960 #149",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 21.0,
+   "Jev 1.13": 104.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c150_jevW",
+  "level": "tactical",
+  "start": "Chess960 #150",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 31,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 147.5,
+   "Jev 1.13": 19.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c150_oursW",
+  "level": "tactical",
+  "start": "Chess960 #150",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 67.0,
+   "Jev 1.13": 73.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c157_jevW",
+  "level": "tactical",
+  "start": "Chess960 #157",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 109.3,
+   "Jev 1.13": 102.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c157_oursW",
+  "level": "tactical",
+  "start": "Chess960 #157",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 122,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.8,
+   "Jev 1.13": 74.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c167_jevW",
+  "level": "tactical",
+  "start": "Chess960 #167",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 159.6,
+   "Jev 1.13": 160.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c167_oursW",
+  "level": "tactical",
+  "start": "Chess960 #167",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 87.3,
+   "Jev 1.13": 109.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c171_jevW",
+  "level": "tactical",
+  "start": "Chess960 #171",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 149,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 190.1,
+   "Jev 1.13": 203.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c171_oursW",
+  "level": "tactical",
+  "start": "Chess960 #171",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 51.3,
+   "Jev 1.13": 40.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c172_jevW",
+  "level": "tactical",
+  "start": "Chess960 #172",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.8,
+   "Jev 1.13": 65.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c172_oursW",
+  "level": "tactical",
+  "start": "Chess960 #172",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 30,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 195.4,
+   "Jev 1.13": 90.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c173_jevW",
+  "level": "tactical",
+  "start": "Chess960 #173",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.7,
+   "Jev 1.13": 67.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c173_oursW",
+  "level": "tactical",
+  "start": "Chess960 #173",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.5,
+   "Jev 1.13": 276.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c177_jevW",
+  "level": "tactical",
+  "start": "Chess960 #177",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 94.3,
+   "Jev 1.13": 100.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c177_oursW",
+  "level": "tactical",
+  "start": "Chess960 #177",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 104.5,
+   "Jev 1.13": 191.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c186_jevW",
+  "level": "tactical",
+  "start": "Chess960 #186",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 137.5,
+   "Jev 1.13": 112.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c186_oursW",
+  "level": "tactical",
+  "start": "Chess960 #186",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 149.9,
+   "Jev 1.13": 121.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c187_jevW",
+  "level": "tactical",
+  "start": "Chess960 #187",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 70,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 144.5,
+   "Jev 1.13": 180.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c187_oursW",
+  "level": "tactical",
+  "start": "Chess960 #187",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 64.9,
+   "Jev 1.13": 62.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c201_jevW",
+  "level": "tactical",
+  "start": "Chess960 #201",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 29,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 151.3,
+   "Jev 1.13": 21.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c201_oursW",
+  "level": "tactical",
+  "start": "Chess960 #201",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 156,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.7,
+   "Jev 1.13": 132.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c206_jevW",
+  "level": "tactical",
+  "start": "Chess960 #206",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 40,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 29.9,
+   "Jev 1.13": 107.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c206_oursW",
+  "level": "tactical",
+  "start": "Chess960 #206",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 144,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 100.4,
+   "Jev 1.13": 103.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c209_jevW",
+  "level": "tactical",
+  "start": "Chess960 #209",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.5,
+   "Jev 1.13": 103.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c209_oursW",
+  "level": "tactical",
+  "start": "Chess960 #209",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 48,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.2,
+   "Jev 1.13": 69.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c212_jevW",
+  "level": "tactical",
+  "start": "Chess960 #212",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 95,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 91.8,
+   "Jev 1.13": 74.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c212_oursW",
+  "level": "tactical",
+  "start": "Chess960 #212",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 101.0,
+   "Jev 1.13": 109.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c213_jevW",
+  "level": "tactical",
+  "start": "Chess960 #213",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 105.8,
+   "Jev 1.13": 149.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c213_oursW",
+  "level": "tactical",
+  "start": "Chess960 #213",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.5,
+   "Jev 1.13": 250.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c222_jevW",
+  "level": "tactical",
+  "start": "Chess960 #222",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 141,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.1,
+   "Jev 1.13": 144.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c222_oursW",
+  "level": "tactical",
+  "start": "Chess960 #222",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.7,
+   "Jev 1.13": 47.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c223_jevW",
+  "level": "tactical",
+  "start": "Chess960 #223",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.7,
+   "Jev 1.13": 190.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c223_oursW",
+  "level": "tactical",
+  "start": "Chess960 #223",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 96.2,
+   "Jev 1.13": 121.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c232_jevW",
+  "level": "tactical",
+  "start": "Chess960 #232",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 210.9,
+   "Jev 1.13": 145.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c232_oursW",
+  "level": "tactical",
+  "start": "Chess960 #232",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 349.2,
+   "Jev 1.13": 214.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c235_jevW",
+  "level": "tactical",
+  "start": "Chess960 #235",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 170.8,
+   "Jev 1.13": 257.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c235_oursW",
+  "level": "tactical",
+  "start": "Chess960 #235",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 56.7,
+   "Jev 1.13": 59.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c244_jevW",
+  "level": "tactical",
+  "start": "Chess960 #244",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 88.2,
+   "Jev 1.13": 92.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c244_oursW",
+  "level": "tactical",
+  "start": "Chess960 #244",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 50.8,
+   "Jev 1.13": 52.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c250_jevW",
+  "level": "tactical",
+  "start": "Chess960 #250",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.4,
+   "Jev 1.13": 63.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c250_oursW",
+  "level": "tactical",
+  "start": "Chess960 #250",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 126.2,
+   "Jev 1.13": 87.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c257_jevW",
+  "level": "tactical",
+  "start": "Chess960 #257",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.3,
+   "Jev 1.13": 77.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c257_oursW",
+  "level": "tactical",
+  "start": "Chess960 #257",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 143.7,
+   "Jev 1.13": 201.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c259_jevW",
+  "level": "tactical",
+  "start": "Chess960 #259",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 133,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.0,
+   "Jev 1.13": 101.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c259_oursW",
+  "level": "tactical",
+  "start": "Chess960 #259",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 290.2,
+   "Jev 1.13": 176.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c266_jevW",
+  "level": "tactical",
+  "start": "Chess960 #266",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.0,
+   "Jev 1.13": 136.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c266_oursW",
+  "level": "tactical",
+  "start": "Chess960 #266",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 98,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.0,
+   "Jev 1.13": 155.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c268_jevW",
+  "level": "tactical",
+  "start": "Chess960 #268",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 32,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 33.1,
+   "Jev 1.13": 137.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c268_oursW",
+  "level": "tactical",
+  "start": "Chess960 #268",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.6,
+   "Jev 1.13": 81.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c271_jevW",
+  "level": "tactical",
+  "start": "Chess960 #271",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 140,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 81.7,
+   "Jev 1.13": 76.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c271_oursW",
+  "level": "tactical",
+  "start": "Chess960 #271",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 58.1,
+   "Jev 1.13": 61.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c275_jevW",
+  "level": "tactical",
+  "start": "Chess960 #275",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 55,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.6,
+   "Jev 1.13": 71.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c275_oursW",
+  "level": "tactical",
+  "start": "Chess960 #275",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 174.3,
+   "Jev 1.13": 93.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c283_jevW",
+  "level": "tactical",
+  "start": "Chess960 #283",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 22,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 58.2,
+   "Jev 1.13": 240.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c283_oursW",
+  "level": "tactical",
+  "start": "Chess960 #283",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 67,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 84.6,
+   "Jev 1.13": 133.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c298_jevW",
+  "level": "tactical",
+  "start": "Chess960 #298",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 136,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 85.3,
+   "Jev 1.13": 77.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c298_oursW",
+  "level": "tactical",
+  "start": "Chess960 #298",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 138,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.1,
+   "Jev 1.13": 102.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c313_jevW",
+  "level": "tactical",
+  "start": "Chess960 #313",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 117,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.1,
+   "Jev 1.13": 74.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c313_oursW",
+  "level": "tactical",
+  "start": "Chess960 #313",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 169.2,
+   "Jev 1.13": 247.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c316_jevW",
+  "level": "tactical",
+  "start": "Chess960 #316",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 8,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 34.8,
+   "Jev 1.13": 291.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c316_oursW",
+  "level": "tactical",
+  "start": "Chess960 #316",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 8,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 291.2,
+   "Jev 1.13": 34.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c319_jevW",
+  "level": "tactical",
+  "start": "Chess960 #319",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 139,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.2,
+   "Jev 1.13": 62.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c319_oursW",
+  "level": "tactical",
+  "start": "Chess960 #319",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 112.9,
+   "Jev 1.13": 143.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c322_jevW",
+  "level": "tactical",
+  "start": "Chess960 #322",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 57.9,
+   "Jev 1.13": 85.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c322_oursW",
+  "level": "tactical",
+  "start": "Chess960 #322",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.7,
+   "Jev 1.13": 189.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c327_jevW",
+  "level": "tactical",
+  "start": "Chess960 #327",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 103,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.9,
+   "Jev 1.13": 81.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c327_oursW",
+  "level": "tactical",
+  "start": "Chess960 #327",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 114.1,
+   "Jev 1.13": 122.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c329_jevW",
+  "level": "tactical",
+  "start": "Chess960 #329",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.3,
+   "Jev 1.13": 134.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c329_oursW",
+  "level": "tactical",
+  "start": "Chess960 #329",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 100.0,
+   "Jev 1.13": 124.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c354_jevW",
+  "level": "tactical",
+  "start": "Chess960 #354",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 95.8,
+   "Jev 1.13": 157.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c354_oursW",
+  "level": "tactical",
+  "start": "Chess960 #354",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 290.2,
+   "Jev 1.13": 185.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c357_jevW",
+  "level": "tactical",
+  "start": "Chess960 #357",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 135.2,
+   "Jev 1.13": 187.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c357_oursW",
+  "level": "tactical",
+  "start": "Chess960 #357",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 169.4,
+   "Jev 1.13": 187.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c388_jevW",
+  "level": "tactical",
+  "start": "Chess960 #388",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 161.7,
+   "Jev 1.13": 110.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c388_oursW",
+  "level": "tactical",
+  "start": "Chess960 #388",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.4,
+   "Jev 1.13": 91.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c391_jevW",
+  "level": "tactical",
+  "start": "Chess960 #391",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 192.9,
+   "Jev 1.13": 186.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c391_oursW",
+  "level": "tactical",
+  "start": "Chess960 #391",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 155,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.8,
+   "Jev 1.13": 138.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c397_jevW",
+  "level": "tactical",
+  "start": "Chess960 #397",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 134,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.9,
+   "Jev 1.13": 65.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c397_oursW",
+  "level": "tactical",
+  "start": "Chess960 #397",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 136.9,
+   "Jev 1.13": 127.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c398_jevW",
+  "level": "tactical",
+  "start": "Chess960 #398",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.6,
+   "Jev 1.13": 140.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c398_oursW",
+  "level": "tactical",
+  "start": "Chess960 #398",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 387.2,
+   "Jev 1.13": 233.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c402_jevW",
+  "level": "tactical",
+  "start": "Chess960 #402",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 41,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 122.8,
+   "Jev 1.13": 35.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c402_oursW",
+  "level": "tactical",
+  "start": "Chess960 #402",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 100,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.2,
+   "Jev 1.13": 150.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c403_jevW",
+  "level": "tactical",
+  "start": "Chess960 #403",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 82.0,
+   "Jev 1.13": 73.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c403_oursW",
+  "level": "tactical",
+  "start": "Chess960 #403",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 109,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 116.9,
+   "Jev 1.13": 149.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c409_jevW",
+  "level": "tactical",
+  "start": "Chess960 #409",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.3,
+   "Jev 1.13": 92.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c409_oursW",
+  "level": "tactical",
+  "start": "Chess960 #409",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 135,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.5,
+   "Jev 1.13": 100.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c448_jevW",
+  "level": "tactical",
+  "start": "Chess960 #448",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 186.0,
+   "Jev 1.13": 226.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c448_oursW",
+  "level": "tactical",
+  "start": "Chess960 #448",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.3,
+   "Jev 1.13": 143.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c481_jevW",
+  "level": "tactical",
+  "start": "Chess960 #481",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 128,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 173.8,
+   "Jev 1.13": 149.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c481_oursW",
+  "level": "tactical",
+  "start": "Chess960 #481",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 40,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.5,
+   "Jev 1.13": 55.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c486_jevW",
+  "level": "tactical",
+  "start": "Chess960 #486",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 153,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.4,
+   "Jev 1.13": 139.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c486_oursW",
+  "level": "tactical",
+  "start": "Chess960 #486",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 148,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.9,
+   "Jev 1.13": 61.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c487_jevW",
+  "level": "tactical",
+  "start": "Chess960 #487",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.4,
+   "Jev 1.13": 48.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c487_oursW",
+  "level": "tactical",
+  "start": "Chess960 #487",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 93,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 211.0,
+   "Jev 1.13": 116.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c490_jevW",
+  "level": "tactical",
+  "start": "Chess960 #490",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.4,
+   "Jev 1.13": 120.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c490_oursW",
+  "level": "tactical",
+  "start": "Chess960 #490",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 106,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 82.3,
+   "Jev 1.13": 114.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c492_jevW",
+  "level": "tactical",
+  "start": "Chess960 #492",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.5,
+   "Jev 1.13": 70.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c492_oursW",
+  "level": "tactical",
+  "start": "Chess960 #492",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 46.6,
+   "Jev 1.13": 36.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c493_jevW",
+  "level": "tactical",
+  "start": "Chess960 #493",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 70,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 93.2,
+   "Jev 1.13": 89.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c493_oursW",
+  "level": "tactical",
+  "start": "Chess960 #493",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 283.6,
+   "Jev 1.13": 183.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c496_jevW",
+  "level": "tactical",
+  "start": "Chess960 #496",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 49.2,
+   "Jev 1.13": 118.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c496_oursW",
+  "level": "tactical",
+  "start": "Chess960 #496",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.5,
+   "Jev 1.13": 206.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c497_jevW",
+  "level": "tactical",
+  "start": "Chess960 #497",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.0,
+   "Jev 1.13": 72.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c497_oursW",
+  "level": "tactical",
+  "start": "Chess960 #497",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.7,
+   "Jev 1.13": 73.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c499_jevW",
+  "level": "tactical",
+  "start": "Chess960 #499",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 93.2,
+   "Jev 1.13": 94.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c499_oursW",
+  "level": "tactical",
+  "start": "Chess960 #499",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 129.0,
+   "Jev 1.13": 83.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c501_jevW",
+  "level": "tactical",
+  "start": "Chess960 #501",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 104,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.5,
+   "Jev 1.13": 105.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c501_oursW",
+  "level": "tactical",
+  "start": "Chess960 #501",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.5,
+   "Jev 1.13": 244.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c510_jevW",
+  "level": "tactical",
+  "start": "Chess960 #510",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 120,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 62.1,
+   "Jev 1.13": 69.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c510_oursW",
+  "level": "tactical",
+  "start": "Chess960 #510",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 149,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 114.7,
+   "Jev 1.13": 166.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c529_jevW",
+  "level": "tactical",
+  "start": "Chess960 #529",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 45.1,
+   "Jev 1.13": 46.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c529_oursW",
+  "level": "tactical",
+  "start": "Chess960 #529",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.0,
+   "Jev 1.13": 111.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c531_jevW",
+  "level": "tactical",
+  "start": "Chess960 #531",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 50.5,
+   "Jev 1.13": 45.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c531_oursW",
+  "level": "tactical",
+  "start": "Chess960 #531",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 95.1,
+   "Jev 1.13": 162.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c539_jevW",
+  "level": "tactical",
+  "start": "Chess960 #539",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 119,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 113.6,
+   "Jev 1.13": 141.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c539_oursW",
+  "level": "tactical",
+  "start": "Chess960 #539",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.3,
+   "Jev 1.13": 154.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c555_jevW",
+  "level": "tactical",
+  "start": "Chess960 #555",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.0,
+   "Jev 1.13": 104.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c555_oursW",
+  "level": "tactical",
+  "start": "Chess960 #555",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 102,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.6,
+   "Jev 1.13": 59.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c559_jevW",
+  "level": "tactical",
+  "start": "Chess960 #559",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 49,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.1,
+   "Jev 1.13": 95.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c559_oursW",
+  "level": "tactical",
+  "start": "Chess960 #559",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.7,
+   "Jev 1.13": 105.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c565_jevW",
+  "level": "tactical",
+  "start": "Chess960 #565",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 117.0,
+   "Jev 1.13": 202.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c565_oursW",
+  "level": "tactical",
+  "start": "Chess960 #565",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.8,
+   "Jev 1.13": 50.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c567_jevW",
+  "level": "tactical",
+  "start": "Chess960 #567",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 308.1,
+   "Jev 1.13": 116.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c567_oursW",
+  "level": "tactical",
+  "start": "Chess960 #567",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 195.7,
+   "Jev 1.13": 118.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c573_jevW",
+  "level": "tactical",
+  "start": "Chess960 #573",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 119.5,
+   "Jev 1.13": 112.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c573_oursW",
+  "level": "tactical",
+  "start": "Chess960 #573",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 353.1,
+   "Jev 1.13": 249.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c584_jevW",
+  "level": "tactical",
+  "start": "Chess960 #584",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 20,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 54.6,
+   "Jev 1.13": 154.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c584_oursW",
+  "level": "tactical",
+  "start": "Chess960 #584",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 268.3,
+   "Jev 1.13": 182.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c587_jevW",
+  "level": "tactical",
+  "start": "Chess960 #587",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.2,
+   "Jev 1.13": 64.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c587_oursW",
+  "level": "tactical",
+  "start": "Chess960 #587",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 155,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.1,
+   "Jev 1.13": 130.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c601_jevW",
+  "level": "tactical",
+  "start": "Chess960 #601",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 137.3,
+   "Jev 1.13": 82.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c601_oursW",
+  "level": "tactical",
+  "start": "Chess960 #601",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 115.5,
+   "Jev 1.13": 107.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c607_jevW",
+  "level": "tactical",
+  "start": "Chess960 #607",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.4,
+   "Jev 1.13": 120.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c607_oursW",
+  "level": "tactical",
+  "start": "Chess960 #607",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.4,
+   "Jev 1.13": 98.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c609_jevW",
+  "level": "tactical",
+  "start": "Chess960 #609",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.3,
+   "Jev 1.13": 84.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c609_oursW",
+  "level": "tactical",
+  "start": "Chess960 #609",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 45.8,
+   "Jev 1.13": 41.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c624_jevW",
+  "level": "tactical",
+  "start": "Chess960 #624",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 144,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 161.1,
+   "Jev 1.13": 197.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c624_oursW",
+  "level": "tactical",
+  "start": "Chess960 #624",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.2,
+   "Jev 1.13": 110.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c625_jevW",
+  "level": "tactical",
+  "start": "Chess960 #625",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 108,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.1,
+   "Jev 1.13": 95.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c625_oursW",
+  "level": "tactical",
+  "start": "Chess960 #625",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 40.2,
+   "Jev 1.13": 52.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c637_jevW",
+  "level": "tactical",
+  "start": "Chess960 #637",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 214.5,
+   "Jev 1.13": 121.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c637_oursW",
+  "level": "tactical",
+  "start": "Chess960 #637",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.4,
+   "Jev 1.13": 68.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c643_jevW",
+  "level": "tactical",
+  "start": "Chess960 #643",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 45.4,
+   "Jev 1.13": 50.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c643_oursW",
+  "level": "tactical",
+  "start": "Chess960 #643",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 88,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 164.3,
+   "Jev 1.13": 212.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c645_jevW",
+  "level": "tactical",
+  "start": "Chess960 #645",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.2,
+   "Jev 1.13": 79.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c645_oursW",
+  "level": "tactical",
+  "start": "Chess960 #645",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 104,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 169.8,
+   "Jev 1.13": 185.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c646_jevW",
+  "level": "tactical",
+  "start": "Chess960 #646",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 56,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 31.4,
+   "Jev 1.13": 119.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c646_oursW",
+  "level": "tactical",
+  "start": "Chess960 #646",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 38.8,
+   "Jev 1.13": 133.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c648_jevW",
+  "level": "tactical",
+  "start": "Chess960 #648",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 103,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 84.1,
+   "Jev 1.13": 83.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c648_oursW",
+  "level": "tactical",
+  "start": "Chess960 #648",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 172.6,
+   "Jev 1.13": 263.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c662_jevW",
+  "level": "tactical",
+  "start": "Chess960 #662",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 143,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 94.9,
+   "Jev 1.13": 78.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c662_oursW",
+  "level": "tactical",
+  "start": "Chess960 #662",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 90,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.5,
+   "Jev 1.13": 53.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c671_jevW",
+  "level": "tactical",
+  "start": "Chess960 #671",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 70.8,
+   "Jev 1.13": 75.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c671_oursW",
+  "level": "tactical",
+  "start": "Chess960 #671",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 136,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 94.8,
+   "Jev 1.13": 125.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c692_jevW",
+  "level": "tactical",
+  "start": "Chess960 #692",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 81.3,
+   "Jev 1.13": 79.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c692_oursW",
+  "level": "tactical",
+  "start": "Chess960 #692",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 58.3,
+   "Jev 1.13": 116.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c699_jevW",
+  "level": "tactical",
+  "start": "Chess960 #699",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 91.9,
+   "Jev 1.13": 67.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c699_oursW",
+  "level": "tactical",
+  "start": "Chess960 #699",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.0,
+   "Jev 1.13": 81.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c720_jevW",
+  "level": "tactical",
+  "start": "Chess960 #720",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 154,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 69.5,
+   "Jev 1.13": 81.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c720_oursW",
+  "level": "tactical",
+  "start": "Chess960 #720",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.1,
+   "Jev 1.13": 119.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c733_jevW",
+  "level": "tactical",
+  "start": "Chess960 #733",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 77.5,
+   "Jev 1.13": 97.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c733_oursW",
+  "level": "tactical",
+  "start": "Chess960 #733",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.8,
+   "Jev 1.13": 270.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c739_jevW",
+  "level": "tactical",
+  "start": "Chess960 #739",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 19,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 224.9,
+   "Jev 1.13": 41.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c739_oursW",
+  "level": "tactical",
+  "start": "Chess960 #739",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 294.6,
+   "Jev 1.13": 315.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c743_jevW",
+  "level": "tactical",
+  "start": "Chess960 #743",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 159,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.4,
+   "Jev 1.13": 141.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c743_oursW",
+  "level": "tactical",
+  "start": "Chess960 #743",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 96.3,
+   "Jev 1.13": 155.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c753_jevW",
+  "level": "tactical",
+  "start": "Chess960 #753",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 160.9,
+   "Jev 1.13": 80.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c753_oursW",
+  "level": "tactical",
+  "start": "Chess960 #753",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.3,
+   "Jev 1.13": 129.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c760_jevW",
+  "level": "tactical",
+  "start": "Chess960 #760",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 99.7,
+   "Jev 1.13": 46.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c760_oursW",
+  "level": "tactical",
+  "start": "Chess960 #760",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 119.1,
+   "Jev 1.13": 194.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c780_jevW",
+  "level": "tactical",
+  "start": "Chess960 #780",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 135,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.7,
+   "Jev 1.13": 65.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c780_oursW",
+  "level": "tactical",
+  "start": "Chess960 #780",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 82,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 134.0,
+   "Jev 1.13": 101.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c792_jevW",
+  "level": "tactical",
+  "start": "Chess960 #792",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 188.1,
+   "Jev 1.13": 104.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c792_oursW",
+  "level": "tactical",
+  "start": "Chess960 #792",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 127.8,
+   "Jev 1.13": 63.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c793_jevW",
+  "level": "tactical",
+  "start": "Chess960 #793",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 62,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 58.3,
+   "Jev 1.13": 92.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c793_oursW",
+  "level": "tactical",
+  "start": "Chess960 #793",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 115,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 259.1,
+   "Jev 1.13": 152.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c794_jevW",
+  "level": "tactical",
+  "start": "Chess960 #794",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 77.9,
+   "Jev 1.13": 89.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c794_oursW",
+  "level": "tactical",
+  "start": "Chess960 #794",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.6,
+   "Jev 1.13": 70.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c800_jevW",
+  "level": "tactical",
+  "start": "Chess960 #800",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.3,
+   "Jev 1.13": 52.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c800_oursW",
+  "level": "tactical",
+  "start": "Chess960 #800",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.8,
+   "Jev 1.13": 45.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c813_jevW",
+  "level": "tactical",
+  "start": "Chess960 #813",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 91,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 150.7,
+   "Jev 1.13": 159.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c813_oursW",
+  "level": "tactical",
+  "start": "Chess960 #813",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.5,
+   "Jev 1.13": 154.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c814_jevW",
+  "level": "tactical",
+  "start": "Chess960 #814",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 77.7,
+   "Jev 1.13": 62.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c814_oursW",
+  "level": "tactical",
+  "start": "Chess960 #814",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 212.8,
+   "Jev 1.13": 366.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c830_jevW",
+  "level": "tactical",
+  "start": "Chess960 #830",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.2,
+   "Jev 1.13": 104.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c830_oursW",
+  "level": "tactical",
+  "start": "Chess960 #830",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 101.5,
+   "Jev 1.13": 305.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c842_jevW",
+  "level": "tactical",
+  "start": "Chess960 #842",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 59.8,
+   "Jev 1.13": 53.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c842_oursW",
+  "level": "tactical",
+  "start": "Chess960 #842",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 154,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 81.6,
+   "Jev 1.13": 99.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c844_jevW",
+  "level": "tactical",
+  "start": "Chess960 #844",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.5,
+   "Jev 1.13": 141.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c844_oursW",
+  "level": "tactical",
+  "start": "Chess960 #844",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.4,
+   "Jev 1.13": 49.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c852_jevW",
+  "level": "tactical",
+  "start": "Chess960 #852",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.0,
+   "Jev 1.13": 123.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c852_oursW",
+  "level": "tactical",
+  "start": "Chess960 #852",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 33,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.5,
+   "Jev 1.13": 147.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c865_jevW",
+  "level": "tactical",
+  "start": "Chess960 #865",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.7,
+   "Jev 1.13": 149.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c865_oursW",
+  "level": "tactical",
+  "start": "Chess960 #865",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 113,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.4,
+   "Jev 1.13": 174.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c866_jevW",
+  "level": "tactical",
+  "start": "Chess960 #866",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 88.4,
+   "Jev 1.13": 51.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c866_oursW",
+  "level": "tactical",
+  "start": "Chess960 #866",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 174.4,
+   "Jev 1.13": 178.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c877_jevW",
+  "level": "tactical",
+  "start": "Chess960 #877",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 44,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 132.6,
+   "Jev 1.13": 156.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c877_oursW",
+  "level": "tactical",
+  "start": "Chess960 #877",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 137.2,
+   "Jev 1.13": 60.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c881_jevW",
+  "level": "tactical",
+  "start": "Chess960 #881",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 32,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 80.9,
+   "Jev 1.13": 253.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c881_oursW",
+  "level": "tactical",
+  "start": "Chess960 #881",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 175.4,
+   "Jev 1.13": 114.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c884_jevW",
+  "level": "tactical",
+  "start": "Chess960 #884",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 28,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 69.1,
+   "Jev 1.13": 226.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c884_oursW",
+  "level": "tactical",
+  "start": "Chess960 #884",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.7,
+   "Jev 1.13": 152.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c887_jevW",
+  "level": "tactical",
+  "start": "Chess960 #887",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.7,
+   "Jev 1.13": 129.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c887_oursW",
+  "level": "tactical",
+  "start": "Chess960 #887",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 204.3,
+   "Jev 1.13": 141.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c896_jevW",
+  "level": "tactical",
+  "start": "Chess960 #896",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 72,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 61.2,
+   "Jev 1.13": 115.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c896_oursW",
+  "level": "tactical",
+  "start": "Chess960 #896",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 96,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.2,
+   "Jev 1.13": 56.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c904_jevW",
+  "level": "tactical",
+  "start": "Chess960 #904",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 88.0,
+   "Jev 1.13": 82.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c904_oursW",
+  "level": "tactical",
+  "start": "Chess960 #904",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 39,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 34.2,
+   "Jev 1.13": 89.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c908_jevW",
+  "level": "tactical",
+  "start": "Chess960 #908",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.7,
+   "Jev 1.13": 102.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c908_oursW",
+  "level": "tactical",
+  "start": "Chess960 #908",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 64,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.0,
+   "Jev 1.13": 60.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c911_jevW",
+  "level": "tactical",
+  "start": "Chess960 #911",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 26,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 29.0,
+   "Jev 1.13": 190.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c911_oursW",
+  "level": "tactical",
+  "start": "Chess960 #911",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 141.2,
+   "Jev 1.13": 117.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c919_jevW",
+  "level": "tactical",
+  "start": "Chess960 #919",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 28,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 21.2,
+   "Jev 1.13": 97.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c919_oursW",
+  "level": "tactical",
+  "start": "Chess960 #919",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 52,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 210.7,
+   "Jev 1.13": 292.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c926_jevW",
+  "level": "tactical",
+  "start": "Chess960 #926",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.4,
+   "Jev 1.13": 58.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c926_oursW",
+  "level": "tactical",
+  "start": "Chess960 #926",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.5,
+   "Jev 1.13": 129.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c929_jevW",
+  "level": "tactical",
+  "start": "Chess960 #929",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 161.9,
+   "Jev 1.13": 153.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c929_oursW",
+  "level": "tactical",
+  "start": "Chess960 #929",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 45,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.4,
+   "Jev 1.13": 137.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c939_jevW",
+  "level": "tactical",
+  "start": "Chess960 #939",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 157.3,
+   "Jev 1.13": 90.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c939_oursW",
+  "level": "tactical",
+  "start": "Chess960 #939",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 100.7,
+   "Jev 1.13": 124.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c941_jevW",
+  "level": "tactical",
+  "start": "Chess960 #941",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 66,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 72.2,
+   "Jev 1.13": 130.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c941_oursW",
+  "level": "tactical",
+  "start": "Chess960 #941",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 352.4,
+   "Jev 1.13": 276.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "c958_jevW",
+  "level": "tactical",
+  "start": "Chess960 #958",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 54,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 112.1,
+   "Jev 1.13": 126.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "c958_oursW",
+  "level": "tactical",
+  "start": "Chess960 #958",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 229.0,
+   "Jev 1.13": 235.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ }
+]

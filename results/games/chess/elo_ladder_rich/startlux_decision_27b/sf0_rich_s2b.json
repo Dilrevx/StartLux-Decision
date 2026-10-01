@@ -1,0 +1,239 @@
+{
+ "experiment": "G_play_game",
+ "level": "rich",
+ "opponent": "sf0",
+ "filter_blunders": false,
+ "seed": 2,
+ "code_forced_moves": 0,
+ "adjudicated_result": null,
+ "model_color": "black",
+ "summary": {
+  "result": "1-0",
+  "termination": "CHECKMATE",
+  "plies": 49,
+  "model_mean_cp_loss": 154.5,
+  "model_pct_best_move": 25.0,
+  "model_blunders_200cp": 5,
+  "final_eval_cp_white": null
+ },
+ "pgn_moves": "1. d4 Nf6 2. Nc3 Nc6 3. Bg5 g6 4. d5 Bg7 5. dxc6 dxc6 6. Qxd8+ Kxd8 7. e4 h6 8. O-O-O+ Ke8 9. Bh4 e5 10. f3 Nd5 11. exd5 cxd5 12. Re1 d4 13. Ne4 Be6 14. f4 exf4 15. Kb1 g5 16. Nc5 gxh4 17. Nh3 b6 18. Nd3 Ke7 19. b3 Bf6 20. Be2 Bxh3 21. gxh3 f3 22. Bxf3+ Kf8 23. Bxa8 Kg7 24. Rhg1+ Kh7 25. Be4#",
+ "final_fen": "7r/p1p2p1k/1p3b1p/8/3pB2p/1P1N3P/P1P4P/1K2R1R1 b - - 4 25",
+ "model_moves": [
+  {
+   "ply": 1,
+   "san": "Nf6",
+   "cp_loss": 4,
+   "rank": 2,
+   "confidence": 0.3967185914516449,
+   "n_legal": 20,
+   "n_offered": 20
+  },
+  {
+   "ply": 3,
+   "san": "Nc6",
+   "cp_loss": 77,
+   "rank": 6,
+   "confidence": 0.5533270239830017,
+   "n_legal": 22,
+   "n_offered": 22
+  },
+  {
+   "ply": 5,
+   "san": "g6",
+   "cp_loss": 67,
+   "rank": 7,
+   "confidence": 0.26526975631713867,
+   "n_legal": 23,
+   "n_offered": 23
+  },
+  {
+   "ply": 7,
+   "san": "Bg7",
+   "cp_loss": 390,
+   "rank": 7,
+   "confidence": 0.2833847105503082,
+   "n_legal": 23,
+   "n_offered": 23
+  },
+  {
+   "ply": 9,
+   "san": "dxc6",
+   "cp_loss": 251,
+   "rank": 12,
+   "confidence": 0.7352076768875122,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 11,
+   "san": "Kxd8",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 1.0,
+   "n_legal": 1,
+   "n_offered": 1
+  },
+  {
+   "ply": 13,
+   "san": "h6",
+   "cp_loss": 36,
+   "rank": 7,
+   "confidence": 0.3344712710797011,
+   "n_legal": 29,
+   "n_offered": 29
+  },
+  {
+   "ply": 15,
+   "san": "Ke8",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.6054719686508179,
+   "n_legal": 4,
+   "n_offered": 4
+  },
+  {
+   "ply": 17,
+   "san": "e5",
+   "cp_loss": 29,
+   "rank": 8,
+   "confidence": 0.24908561503643584,
+   "n_legal": 27,
+   "n_offered": 27
+  },
+  {
+   "ply": 19,
+   "san": "Nd5",
+   "cp_loss": 276,
+   "rank": 18,
+   "confidence": 0.09779521822929382,
+   "n_legal": 26,
+   "n_offered": 26
+  },
+  {
+   "ply": 21,
+   "san": "cxd5",
+   "cp_loss": 52,
+   "rank": 7,
+   "confidence": 0.2578127086162567,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 23,
+   "san": "d4",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.12703636288642883,
+   "n_legal": 25,
+   "n_offered": 25
+  },
+  {
+   "ply": 25,
+   "san": "Be6",
+   "cp_loss": 40,
+   "rank": 6,
+   "confidence": 0.14120660722255707,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 27,
+   "san": "exf4",
+   "cp_loss": 30,
+   "rank": 9,
+   "confidence": 0.5126528653559922,
+   "n_legal": 31,
+   "n_offered": 31
+  },
+  {
+   "ply": 29,
+   "san": "g5",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.21272064449295117,
+   "n_legal": 32,
+   "n_offered": 32
+  },
+  {
+   "ply": 31,
+   "san": "gxh4",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.6968227028846741,
+   "n_legal": 24,
+   "n_offered": 24
+  },
+  {
+   "ply": 33,
+   "san": "b6",
+   "cp_loss": 7,
+   "rank": 3,
+   "confidence": 0.20952951908111572,
+   "n_legal": 22,
+   "n_offered": 22
+  },
+  {
+   "ply": 35,
+   "san": "Ke7",
+   "cp_loss": 19,
+   "rank": 3,
+   "confidence": 0.11135377734899521,
+   "n_legal": 22,
+   "n_offered": 22
+  },
+  {
+   "ply": 37,
+   "san": "Bf6",
+   "cp_loss": 43,
+   "rank": 9,
+   "confidence": 0.23105456475124553,
+   "n_legal": 31,
+   "n_offered": 31
+  },
+  {
+   "ply": 39,
+   "san": "Bxh3",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.38389147869164575,
+   "n_legal": 36,
+   "n_offered": 36
+  },
+  {
+   "ply": 41,
+   "san": "f3",
+   "cp_loss": 203,
+   "rank": 27,
+   "confidence": 0.19668487418354968,
+   "n_legal": 29,
+   "n_offered": 29
+  },
+  {
+   "ply": 43,
+   "san": "Kf8",
+   "cp_loss": 152,
+   "rank": 4,
+   "confidence": 0.27295416593551636,
+   "n_legal": 5,
+   "n_offered": 5
+  },
+  {
+   "ply": 45,
+   "san": "Kg7",
+   "cp_loss": 32,
+   "rank": 3,
+   "confidence": 0.12155704945325851,
+   "n_legal": 15,
+   "n_offered": 15
+  },
+  {
+   "ply": 47,
+   "san": "Kh7",
+   "cp_loss": 2000,
+   "rank": 3,
+   "confidence": 0.4555228054523468,
+   "n_legal": 3,
+   "n_offered": 3
+  }
+ ]
+}

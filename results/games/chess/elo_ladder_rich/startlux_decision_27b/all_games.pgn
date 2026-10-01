@@ -1,0 +1,560 @@
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "elo1320"]
+[Result "0-1"]
+
+1. e4 Nc6 2. Nf3 d5 3. Nc3 d4 4. Bc4 Bg4 5. O-O dxc3 6. dxc3 e6 7. Bb5 a6 8. Ba4 b5 9. Bb3 Bd6 10. h3 Bxf3 11. gxf3 Qh4 12. Kh1 Qxh3+ 13. Kg1 Qh2# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "elo1320"]
+[Result "0-1"]
+
+1. e4 Nc6 2. Nf3 d5 3. Nc3 Nf6 4. Bd3 d4 5. O-O dxc3 6. dxc3 g6 7. Bf4 Nh5 8. Be3 e5 9. Kh1 Qd6 10. Bc4 Qxd1 11. Raxd1 Bg4 12. h3 Bd7 13. Bb5 Bg7 14. Bc4 Be6 15. Bb5 h6 16. Bxc6+ bxc6 17. Bd2 a5 18. a3 g5 19. Nxg5 Bc8 20. Nf3 a4 21. b3 Be6 22. b4 Nf4 23. g3 Nxh3 24. Nh4 O-O-O 25. Kh2 Ng5 26. Bxg5 hxg5 27. Rxd8+ Kxd8 28. Rd1+ Kc8 29. Kg2 gxh4 30. gxh4 Rf8 31. Rd3 Re8 32. Rd2 Kb7 33. Rd3 Kc8 34. Rd2 Rf8 35. Rd3 Rh8 36. Rd2 Rxh4 37. Rd3 Rh6 38. Rd2 Bd7 39. Rd3 Rh7 40. Rd2 c5 41. bxc5 Bh6 42. Rxd7 Kxd7 43. c6+ Ke8 44. c4 Rg7+ 45. Kh1 Bc1 46. Kh2 Rh7+ 47. Kg1 Rg7+ 48. Kh1 Rg6 49. Kh2 Rg8 50. Kh1 Bxa3 51. c3 Rh8+ 52. Kg2 Rh6 53. Kg1 Bc5 54. Kg2 Rg6+ 55. Kh1 Rh6+ 56. Kg1 Bxf2+ 57. Kxf2 Rg6 58. Ke3 a3 59. Kd3 a2 60. Ke2 Rh6 61. Ke3 Ke7 62. Kf2 f6 63. Kf1 a1=Q+ 64. Kf2 Qa2+ 65. Kf3 Qb3 66. c5 Qxc3+ 67. Kg2 Qc2+ 68. Kg1 Qh2+ 69. Kf1 Qf4+ 70. Ke2 Qg4+ 71. Ke1 Qxe4+ 72. Kd2 Qd4+ 73. Ke1 Qe3+ 74. Kd1 Qf3+ 75. Kc1 Rh1+ 76. Kb2 Qf2+ 77. Ka3 Qg3+ 78. Ka4 Qf4+ 79. Ka5 Ra1+ 80. Kb5 Qa4# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elo1320"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. d4 Nf6 2. Nc3 Nc6 3. e4 d5 4. e5 e6 5. exf6 gxf6 6. Bb5 b6 7. Bxc6+ Ke7 8. a3 Rb8 9. b4 e5 10. Na2 exd4 11. Ba4 Qd6 12. Qe2+ Kd8 13. Qe8# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elo1320"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. e4 Nf6 2. Qe2 Nc6 3. e5 e6 4. exf6 gxf6 5. Kd1 d5 6. g3 Nd4 7. Qb5+ Nxb5 8. f3 Nd6 9. d4 e5 10. Bg2 exd4 11. Bh3 Nc4 12. Bf4 Nxb2+ 13. Kc1 Nc4 14. Nd2 Ba3+ 15. Kb1 O-O 16. Bf1 Nxd2+ 17. Bxd2 Bc5 18. a3 c6 19. Ka2 Qb6 20. Rb1 Rb8 21. Rxb6 axb6 22. Bd3 Be6 23. g4 f5 24. gxf5 Bxf5 25. Bxf5 f6 26. Ne2 Rfe8 27. Re1 Rxe2 28. Rxe2 Rd8 29. Kb2 Bxa3+ 30. Kxa3 Ra8+ 31. Kb2 Ra2+ 32. Kb3 Ra8 33. Re7 Ra7 34. Bc8 Ra8 35. Bxb7 Rd8 36. Bh6 Kh8 37. Bg7+ Kg8 38. Bxc6 Rc8 39. Bxd5# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "elo1320"]
+[Result "0-1"]
+
+1. e4 Nc6 2. Nf3 d5 3. d3 Bg4 4. h3 Bxf3 5. gxf3 e5 6. Nc3 d4 7. f4 Bb4 8. Bd2 g5 9. a3 dxc3 10. Be3 cxb2+ 11. axb4 bxa1=N 12. Qxa1 Qf6 13. fxg5 Qe6 14. b5 Nce7 15. Bxa7 h5 16. Bc5 Rxa1+ 17. Ke2 h4 18. Bb4 Qc8 19. Bc5 b6 20. Bb4 f6 21. gxf6 Nxf6 22. Bxe7 Qe6 23. Bb4 Qa2 24. Bc3 Rb1 25. Bxe5 Qxc2+ 26. Ke3 Re1+ 27. Kf3 Qd1+ 28. Kg2 Rg8+ 29. Kh2 c6 30. Bxf6 Kf7 31. Bxh4 cxb5 32. f4 Qe2+ 33. Bxe2 Rxe2+ 34. Bf2 Rxf2# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elo1320"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. Nf3 Nf6 2. d4 Nc6 3. g3 e6 4. Nc3 d6 5. e4 d5 6. Bg5 h6 7. Bxf6 gxf6 8. Bd3 Bd6 9. O-O O-O 10. exd5 exd5 11. a3 Nxd4 12. Nxd4 Be5 13. Nb3 Bxc3 14. bxc3 d4 15. f3 dxc3 16. Qc1 Kh8 17. h3 Bxh3 18. Qxh6+ Kg8 19. Qh7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "elo1320"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Nxe4 5. d3 d5 6. dxe4 dxc4 7. Nc3 f6 8. Re1 Qxd1 9. Rxd1 Be6 10. Be3 Bd6 11. Nb5 Ke7 12. Nxd6 cxd6 13. c3 Rhd8 14. b3 Na5 15. b4 d5 16. bxa5 Ke8 17. Re1 dxe4 18. Bc5 Rd5 19. Rxe4 Rxc5 20. Rae1 Rxa5 21. Ra1 h5 22. Re3 Rd8 23. Nxe5 Rxe5 24. Rxe5 fxe5 25. a3 Bd5 26. Rd1 b5 27. Rxd5 e4 28. Rxb5 Rd1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "elo1320"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. c4 Nf6 2. a3 Nc6 3. d4 d5 4. Nc3 dxc4 5. Be3 Nxd4 6. Bxd4 Qd6 7. Qa4+ Kd8 8. Nf3 Qxd4 9. Nxd4 b6 10. Ne6+ fxe6 11. g4 Nxg4 12. O-O-O+ Bd7 13. Qxd7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "greedy"]
+[Result "1-0"]
+
+1. e4 e6 2. Nf3 d6 3. Bc4 f6 4. O-O Ke7 5. d4 g6 6. Nc3 d5 7. Bb3 dxe4 8. Nxe4 Qxd4 9. Nxd4 c5 10. Nxc5 Nh6 11. Ncxe6 Bxe6 12. Nxe6 Nf7 13. Nc7 b5 14. Nxa8 Nh6 15. Qe1+ Kd8 16. Qd1+ Bd6 17. Qxd6+ Nd7 18. Bxh6 b4 19. Qxb4 Nb6 20. Qd6+ Kc8 21. Be6+ Kb7 22. Qe7+ Kxa8 23. Qxf6 Rc8 24. Rac1 Rxc2 25. Rxc2 Kb8 26. Qf8+ Kb7 27. Qg7+ Ka8 28. Qh8+ Kb7 29. Qxh7+ Ka6 30. Qxg6 Nc8 31. Bxc8+ Ka5 32. Rc5+ Ka4 33. Qa6+ Kb4 34. Qb7+ Kxc5 35. Qxa7+ Kb5 36. a4+ Kb4 37. Qb7+ Kxa4 38. Ra1# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "greedy"]
+[Result "1/2-1/2"]
+
+1. e4 h6 2. Nf3 a5 3. Bc4 Nc6 4. O-O Nd4 5. Nxd4 Ra7 6. Nf3 d5 7. Bb5+ Bd7 8. exd5 Bxb5 9. Nc3 Bxf1 10. Qxf1 Qxd5 11. Nxd5 Kd7 12. Ne5+ Ke6 13. Nxc7+ Kxe5 14. Qb5+ Ke4 15. Qc4+ Ke5 16. Qxf7 b6 17. Qxf8 Rxc7 18. Qxg7+ Ke4 19. Qxh8 Rxc2 20. Qxg8 Rxc1+ 21. Rxc1 Kd4 22. Qg4+ Kd3 23. Qf3+ Kxd2 24. Qf4+ Ke2 25. Rc2+ Kd3 26. Qf3+ Kxc2 27. Qe4+ Kxb2 28. Qe2+ Ka1 29. Qd1+ Kxa2 30. Qe2+ Ka1 31. Qe1+ Kb2 32. Qe2+ Kc1 33. Qe1+ Kc2 34. Qe2+ Kb3 35. Qxe7 b5 36. Qe3+ Kc2 37. Qe2+ Kb3 38. Qxb5+ Kc2 39. Qxa5 Kb3 40. Qb6+ Ka2 41. Qa7+ Kb3 42. Qe3+ Kc2 43. Qxh6 Kb3 44. Qh3+ Kc4 45. Qg4+ Kd3 46. Qf3+ Kd4 47. Qg4+ Kd5 48. Qh5+ Kc4 49. Qg4+ Kb3 50. Qf3+ Ka4 51. Qa8+ Kb5 52. Qd5+ Kb4 53. Qe4+ Ka3 54. Qe3+ Ka2 55. Qe2+ Ka3 56. Qe3+ Kb2 57. Qe2+ Ka3 58. Qe3+ Ka2 59. Qe2+ Ka1 60. Qf1+ Kb2 61. Qe2+ Kc1 62. Qe1+ Kc2 63. Qe2+ Kb1 64. Qe1+ Kb2 65. Qe2+ Ka1 66. Qe1+ Kb2 67. Qe2+ Ka3 68. Qe3+ Kb2 69. Qe2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "greedy"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. Nf3 Nf6 2. Nh4 Nc6 3. Nf3 Nd5 4. d3 Nf6 5. e4 d5 6. exd5 Nxd5 7. c3 e6 8. Bd2 Bc5 9. Be3 O-O 10. Bxc5 b6 11. Bxf8 Qxf8 12. d4 Nf6 13. Be2 e5 14. dxe5 Nxe5 15. Nxe5 Qd6 16. Qxd6 cxd6 17. Nxf7 Kxf7 18. O-O Ne4 19. Kh1 Nxf2+ 20. Rxf2+ Ke7 21. a4 d5 22. Rf8 Kxf8 23. Nd2 Kg8 24. h4 a5 25. g4 Bxg4 26. Bxg4 Kh8 27. b4 axb4 28. cxb4 Rxa4 29. Rxa4 b5 30. Ne4 bxa4 31. Bh3 dxe4 32. Kg2 e3 33. Be6 e2 34. Bc4 e1=Q 35. Bb3 axb3 36. Kh3 Qxb4 37. Kh2 Qxh4+ 38. Kg1 Qg3+ 39. Kh1 Qh3+ 40. Kg1 Qg3+ 41. Kf1 Qd3+ 42. Kf2 b2 43. Kg1 b1=Q+ 44. Kg2 Qd2+ 45. Kf3 Qf1+ 46. Kg3 Qg1+ 47. Kh3 Qh1+ 48. Kg3 Qg1+ 49. Kh3 Qh6# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "greedy"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. e3 Nf6 2. Qh5 Nxh5 3. Ba6 bxa6 4. d3 Nf6 5. f3 Nc6 6. Kd2 Nd5 7. Kd1 Nxe3+ 8. Bxe3 Ne5 9. Bxa7 Rxa7 10. g3 Nc6 11. c4 d5 12. cxd5 Qxd5 13. Ne2 Qxd3+ 14. Ke1 Qxf3 15. h4 Qxh1+ 16. Ng1 Qxg1+ 17. Kd2 Qg2+ 18. Kc3 Qxg3+ 19. Kc4 Qxh4+ 20. Kd5 Nb4+ 21. Kc5 Nd3+ 22. Kc6 Qc4# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "greedy"]
+[Result "1-0"]
+
+1. e4 a5 2. Nf3 f6 3. Bc4 f5 4. exf5 d5 5. Bb5+ Kf7 6. Ne5+ Kf6 7. Ng4+ Kxf5 8. Qf3+ Kg5 9. Qe3+ Kxg4 10. Qd4+ Kh5 11. Qe5+ Kh6 12. Qf4+ Kh5 13. Qf7+ Kg4 14. f3+ Kg5 15. h4+ Kh6 16. Qf4+ g5 17. Qe5 gxh4 18. Qxh8 e6 19. Qxg8 Qe7 20. Qxf8+ Qxf8 21. Rxh4+ Kg5 22. Rxh7 Qxf3 23. gxf3 d4 24. Rg7+ Kh5 25. Rh7+ Kg6 26. Rxc7 d3 27. Bxd3+ Kg5 28. Rxc8 Na6 29. Rxa8 b5 30. Rxa6 Kf6 31. Rxa5 Kf7 32. Ra7+ Kf6 33. Bxb5 Kg5 34. d4+ Kf6 35. Bg5+ Kxg5 36. Rg7+ Kh6 37. Rf7 Kh5 38. Rh7+ Kg6 39. Bd3+ Kf6 40. Rh6+ Kf7 41. Rh7+ Ke8 42. Rh8+ Ke7 43. Rh7+ Ke8 44. Bg6+ Kf8 45. Rh8+ Kg7 46. Re8 Kxg6 47. Rxe6+ Kh5 48. Re5+ Kg6 49. Re6+ Kh7 50. Re7+ Kh6 51. Re6+ Kg5 52. Re5+ Kg6 53. Re6+ Kg7 54. Re7+ Kf8 55. Re6 Kg8 56. Rg6+ Kh7 57. Re6 Kg8 58. Re8+ Kf7 59. Rh8 Ke6 60. Rh6+ Kf7 61. Rh7+ Kf6 62. Rh6+ Ke7 63. Rh7+ Kf8 64. Rh8+ Kf7 65. Rh7+ Ke8 66. Rh8+ Ke7 67. Rh7+ Kf6 68. Rh6+ Ke7 69. Rh7+ Ke8 70. Rh8+ Ke7 71. Rh7+ Kf6 72. Rh6+ Kf7 73. Rh7+ Kg8 74. Rh6 Kg7 75. Re6 Kh8 76. Re8+ Kg7 77. Re7+ Kh6 78. Re6+ Kh7 79. Re7+ Kg6 80. Re6+ Kf7 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "greedy"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. b4 Nf6 2. Ba3 Nc6 3. f4 e5 4. fxe5 Nxe5 5. Bc1 Bxb4 6. Nh3 O-O 7. Rg1 Nc4 8. a4 Bxd2+ 9. Nxd2 Ne5 10. Bb2 Nc6 11. Bxf6 gxf6 12. Ng5 fxg5 13. Qb1 Nd4 14. Qxb7 Bxb7 15. Kf2 Nxc2 16. a5 Nxa1 17. Ne4 Bxe4 18. Rh1 Qf6+ 19. Kg1 Qd4+ 20. e3 Qxe3# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "greedy"]
+[Result "1-0"]
+
+1. e4 b6 2. Nf3 Nc6 3. Bc4 f6 4. O-O a5 5. Nc3 Bb7 6. d3 Qb8 7. Be3 d6 8. Nd5 Kd7 9. Nc3 Ba6 10. Nd5 Bxc4 11. dxc4 Nb4 12. c3 Nxd5 13. exd5 Qe8 14. Qa4+ Kd8 15. Qb3 Ra6 16. Nd4 g6 17. Ne6+ Kc8 18. Nxf8 Qxf8 19. Bxb6 Rxb6 20. Qxb6 cxb6 21. Rfd1 Qe8 22. Re1 a4 23. Re6 Qf7 24. Re4 Qxd5 25. cxd5 b5 26. Re6 a3 27. bxa3 b4 28. cxb4 Nh6 29. Rxe7 Ng4 30. Rc1+ Kb8 31. g3 Nxh2 32. Kxh2 Rd8 33. Rxh7 Rh8 34. Rxh8+ Kb7 35. Rh7+ Kb6 36. Rc6+ Kb5 37. Rxd6 Ka4 38. Ra7+ Kb5 39. Rxf6 g5 40. Rb7+ Kc4 41. d6 Kd5 42. d7 g4 43. d8=Q+ Kc4 44. Rc6# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "greedy"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. e3 Nf6 2. Qf3 Nc6 3. Qxc6 bxc6 4. Bb5 cxb5 5. Nc3 b4 6. g4 Nxg4 7. Nb5 Ba6 8. Nxc7+ Qxc7 9. Rb1 Qxc2 10. Ra1 Qxc1+ 11. Rxc1 Ne5 12. Rb1 Nd3+ 13. Kd1 Nxf2+ 14. Kc2 Nxh1 15. b3 Rc8+ 16. Kd1 Nf2+ 17. Ke1 Nd3+ 18. Kf1 Ne5+ 19. Ne2 Nd3 20. Kg2 Rc2 21. Rb2 Rxb2 22. Kf3 Rxd2 23. Nc3 bxc3 24. e4 Ne5+ 25. Kf4 Nd3+ 26. Ke3 Rxa2 27. e5 Nxe5 28. h3 c2 29. Kf2 c1=Q+ 30. Kg3 Qg1+ 31. Kf4 Qf2+ 32. Kxe5 Qg3+ 33. Ke4 Qe1+ 34. Kf5 Qf2+ 35. Kg5 Qg2+ 36. Kf4 Qf1+ 37. Kg3 Qg1+ 38. Kf4 Qh2+ 39. Kg5 Qg3+ 40. Kh5 Qxh3+ 41. Kg5 Qxb3 42. Kf5 Qh3+ 43. Kg5 Qg3+ 44. Kf5 Qf2+ 45. Ke5 Qc5+ 46. Kf4 Qf2+ 47. Kg5 Qg2+ 48. Kh5 Qh3+ 49. Kg5 Qg3+ 50. Kh5 Qh3+ 51. Kg5 Qg3+ 52. Kf5 Qf2+ 53. Ke4 Qe1+ 54. Kf4 Qf2+ 55. Kg4 Qg2+ 56. Kf4 Qh2+ 57. Kf5 Qh5+ 58. Kf4 Qh4+ 59. Kf5 Qf2+ 60. Kg4 Qg2+ 61. Kh4 Qh1+ 62. Kg3 Ra3+ 63. Kf4 Qh2+ 64. Kf5 Qf2+ 65. Kg4 Qg2+ 66. Kf5 Qf2+ 67. Kg4 Qg2+ 68. Kh4 Qh2+ 69. Kg5 Qg3+ 70. Kh5 Qh3+ 71. Kg5 Qg3+ 72. Kh5 Qh3+ 73. Kg5 Qg3+ 74. Kf5 Qf2+ 75. Kg4 Qg2+ 76. Kf5 Qf2+ 77. Kg4 Qg2+ 78. Kh5 Qh3+ 79. Kg5 Qg3+ 80. Kf5 Qf2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix25"]
+[Result "0-1"]
+
+1. e4 c5 2. Nf3 d5 3. d4 dxe4 4. dxc5 Qxd1+ 5. Kxd1 exf3 6. gxf3 Bd7 7. Nc3 Bc6 8. Be3 Nf6 9. Bf4 h5 10. Bd3 g5 11. Bxg5 Rg8 12. Bf4 a6 13. Be3 Nbd7 14. Rf1 Bh6 15. Bxh6 Nxc5 16. f4 Rd8 17. f5 Ng4 18. Ne2 Nxd3 19. Bd2 e6 20. h3 Rf8 21. Rb1 Ndxf2+ 22. Kc1 Bg2 23. hxg4 Bxf1 24. gxh5 Rh8 25. Ng3 Rg8 26. Nxf1 Rg1 27. Be1 Rd1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix25"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 d6 3. Bc4 Nf6 4. Nc3 e6 5. O-O Be7 6. d3 O-O 7. Bg5 Kh8 8. Bf4 a6 9. e5 Nd7 10. Ne4 d5 11. Bb3 dxe4 12. dxe4 a5 13. Qd3 a4 14. Bc4 Ra5 15. c3 g5 16. Be3 Ra8 17. Bxg5 Kg7 18. Bf6+ Kg6 19. Nh4+ Kh5 20. Qf3+ Kh6 21. Qf4+ Kh5 22. g4# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix25"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. d4 Nf6 2. Nf3 Nc6 3. Nh4 Ne4 4. d5 d6 5. c4 e5 6. Nf3 Nc5 7. dxc6 bxc6 8. b4 d5 9. e3 e4 10. bxc5 Bxc5 11. g3 Bb4+ 12. Nfd2 O-O 13. a3 Bxd2+ 14. Nxd2 c5 15. cxd5 Qxd5 16. Bc4 Qd6 17. O-O Be6 18. Be2 Qxd2 19. Bxd2 Bd5 20. Bg4 Kh8 21. a4 f6 22. Qe1 f5 23. h4 fxg4 24. f4 gxf3 25. g4 f2+ 26. Kg2 fxe1=N+ 27. Kh3 Rxf1 28. Bxe1 Rh1+ 29. Kg2 Rxe1 30. Rd1 Rxd1 31. h5 Rd2+ 32. Kg1 Rd1+ 33. Kh2 Rd2+ 34. Kg1 Rd1+ 35. Kh2 Rd2+ 36. Kg1 Rd1+ 37. Kh2 Rd2+ 38. Kg1 Rd1+ 39. Kh2 Rd2+ 40. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix25"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. Na3 Nf6 2. Nf3 Nc6 3. d3 d6 4. Ng5 g6 5. g3 h6 6. Nf3 Bg7 7. Bd2 O-O 8. c3 e6 9. Rb1 Nd5 10. e4 Nf6 11. Nc4 d5 12. exd5 exd5 13. Nce5 Nxe5 14. Rc1 Nc6 15. Ng1 Ne5 16. f4 Nc6 17. Qh5 gxh5 18. f5 Bxf5 19. Bh3 Bxd3 20. Be3 Bc4 21. Bf1 Bxa2 22. Be2 Ne4 23. Ra1 Bb3 24. Rb1 Bxc3+ 25. Kf1 Qf6+ 26. Bf4 Bxb2 27. Nf3 Nxg3+ 28. Bxg3 Rfc8 29. Rxb2 Qxb2 30. Nh4 Qb1+ 31. Kf2 Qxh1 32. Ng2 Qxg2+ 33. Kxg2 Bc2 34. Bf3 Nd4 35. Bxd5 Rab8 36. h4 Be4+ 37. Kh3 Bxd5 38. Bf4 Be6+ 39. Kh2 Nf3+ 40. Kh1 Nxh4 41. Bh2 Bd5+ 42. Kg1 Nf3+ 43. Kf2 Nxh2 44. Ke2 Bc4+ 45. Kd2 Nf3+ 46. Kc1 Bb3 47. Kb1 Nd2+ 48. Kc1 Ne4 49. Kb1 Nc3+ 50. Ka1 Ba2 51. Kb2 Na4+ 52. Kc1 Nc3 53. Kc2 Bb1+ 54. Kb2 Na4+ 55. Kc1 Ba2 56. Kd2 Rd8+ 57. Ke3 Re8+ 58. Kf2 Bd5 59. Kf1 Bc4+ 60. Kg2 Re2+ 61. Kg1 Re1+ 62. Kh2 Re2+ 63. Kh3 Re3+ 64. Kh2 Re2+ 65. Kh1 Re1+ 66. Kh2 Re2+ 67. Kg1 Re1+ 68. Kh2 Re2+ 69. Kg1 Re1+ 70. Kg2 Re2+ 71. Kg1 Re1+ 72. Kf2 Re2+ 73. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix25"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 Qe7 3. Bc4 d6 4. O-O Nf6 5. Nc3 Be6 6. Bb5+ c6 7. d4 d5 8. dxe5 dxe4 9. exf6 Nd7 10. Nxe4 gxf6 11. Ba4 b5 12. Nc3 Rd8 13. Ne4 Ne5 14. Nd6+ Kd7 15. Nb7+ Kc8 16. Qxd8+ Qxd8 17. Nxd8 Nxf3+ 18. gxf3 b4 19. Nxc6 f5 20. Nxa7+ Kb7 21. Nb5 Rg8+ 22. Kh1 Bc4 23. Re1 Kc8 24. Re8+ Kd7 25. Na7+ Kc7 26. Bf4+ Kb6 27. Nc8+ Ka6 28. Rd8 Be2 29. Re1 Bxf3# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix25"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. e4 Nf6 2. d3 Nc6 3. Nc3 Ne5 4. f4 Nc6 5. e5 e6 6. exf6 gxf6 7. Nf3 d5 8. d4 e5 9. Bb5 a6 10. dxe5 fxe5 11. Ba4 e4 12. Ne5 Qh4+ 13. Kf1 Qxf4+ 14. Bxf4 f6 15. Qh5+ Ke7 16. Nb1 fxe5 17. Bg5+ Kd7 18. Ke1 Bb4+ 19. c3 Bxc3+ 20. Nxc3 d4 21. Nxe4 d3 22. Qf7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix25"]
+[Result "1-0"]
+
+1. e4 d6 2. Nf3 h5 3. Bc4 b5 4. Bxb5+ Nd7 5. O-O Bb7 6. Bc4 Bd5 7. exd5 Nh6 8. Nc3 Ng8 9. Ne4 Nh6 10. Re1 Ng8 11. d4 h4 12. Nxd6+ cxd6 13. Ba6 Rb8 14. c4 Qa5 15. Ng5 f5 16. Ne6 h3 17. Ng5 Rb6 18. Bc8 Ndf6 19. Bxf5 Qxe1+ 20. Qxe1 Rh4 21. Bg6+ Kd8 22. Nf7+ Kc8 23. Qe6+ Kc7 24. Qxh3 Rh8 25. Nxh8 Kb8 26. Nf7 a5 27. Qh8 Nh7 28. Qxg8 Ka8 29. Bxh7 Rb8 30. Qh8 Kb7 31. Qg8 Rc8 32. Nd8+ Kb6 33. Qxf8 Rxc4 34. Qxe7 Rxd4 35. Qxd6+ Kb5 36. Qb8+ Kc5 37. Ne6+ Kxd5 38. Nxg7 Ra4 39. Qg8+ Kd4 40. Ne6+ Kc4 41. Qc8+ Kd5 42. Qd7+ Ke5 43. Qxa4 Kf6 44. Qh4+ Ke5 45. Qg5+ Kxe6 46. Qxa5 Kf7 47. Qa7+ Ke6 48. Qb6+ Ke7 49. Qb7+ Kf8 50. Qb8+ Ke7 51. Qe5+ Kf7 52. Qc7+ Ke8 53. Bg6+ Kf8 54. Qc8+ Kg7 55. Qc7+ Kg8 56. Qc8+ Kg7 57. Qd7+ Kh8 58. Qe8+ Kg7 59. Qd7+ Kg8 60. Qe8+ Kg7 61. Qe7+ Kh8 62. Qf8# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix25"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. h4 Nf6 2. Rh2 Nc6 3. g3 Ne4 4. Bg2 Nf6 5. d4 d6 6. Rh1 e5 7. f4 exf4 8. Bxf4 d5 9. Qd3 Bb4+ 10. Nc3 O-O 11. Qc4 dxc4 12. Be3 Bxc3+ 13. Kf1 Bxb2 14. Rb1 Ba3 15. Ke1 Nxd4 16. Rb2 Bxb2 17. Kf2 Nxc2 18. Bf4 Ng4+ 19. Kf3 Qd5+ 20. e4 Ne1+ 21. Ke2 Nxg2 22. Bh6 Qxe4+ 23. Kd2 gxh6 24. Nf3 Qxf3 25. Rh3 Qf2+ 26. Kd1 Qg1+ 27. Kd2 Qd4+ 28. Kc2 N2e3+ 29. Kb1 Qd1+ 30. Kxb2 Qe2+ 31. Ka3 Qd3+ 32. Kb2 Qd2+ 33. Ka3 Qd3+ 34. Kb4 Nc2+ 35. Ka5 Qa3+ 36. Kb5 Nd4+ 37. Kxc4 Qxa2+ 38. Kxd4 Qd2+ 39. Kc4 Qe2+ 40. Kb3 Qd3+ 41. Ka2 Qd2+ 42. Kb3 Qe3+ 43. Ka2 Qd2+ 44. Kb1 Qe1+ 45. Kb2 Qe2+ 46. Ka1 Qd1+ 47. Ka2 Qd2+ 48. Ka3 Qa5+ 49. Kb3 Qd5+ 50. Ka3 Qf3+ 51. Ka4 Qe4+ 52. Ka5 Qf5+ 53. Ka4 Qe4+ 54. Ka3 Qf3+ 55. Ka2 Qe2+ 56. Ka3 Qa6+ 57. Kb4 Qb6+ 58. Kc3 Qe3+ 59. Kc4 Qe4+ 60. Kc3 Qf3+ 61. Kb2 Qe2+ 62. Kc1 Qf1+ 63. Kb2 Qxh3 64. Ka2 Qh2+ 65. Ka3 Qxg3+ 66. Ka2 Qxh4 67. Kb1 Qh1+ 68. Kc2 Qh2+ 69. Kd1 Qh1+ 70. Kc2 Qg2+ 71. Kc1 Qh1+ 72. Kc2 Qh2+ 73. Kb3 Qg3+ 74. Kc2 Qg2+ 75. Kc1 Qh1+ 76. Kd2 Qg2+ 77. Kc1 Qh1+ 78. Kc2 Qg2+ 79. Kc1 Qh1+ 80. Kb2 Qg2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix50"]
+[Result "1-0"]
+
+1. e4 c5 2. Nf3 d5 3. d4 h6 4. dxc5 Rh7 5. exd5 Rh8 6. Bc4 g6 7. Bb5+ Nc6 8. Bxc6+ bxc6 9. dxc6 Qxd1+ 10. Kxd1 Bd7 11. c7 Rc8 12. Ke1 Bg7 13. Nbd2 Nf6 14. Kd1 Ng4 15. g3 Nxf2+ 16. Ke1 Rh7 17. Kxf2 Kf8 18. Kg1 Ke8 19. Nc4 Bh3 20. Nd6+ Kd7 21. Nxf7 Bxb2 22. Bxb2 Rxf7 23. Ne5+ Ke8 24. Nxg6 Bg2 25. Kxg2 Rxc7 26. Rhc1 Rc6 27. Ne5 Rg7 28. Nxc6 Rh7 29. Nxa7 Kf8 30. Rf1+ Rf7 31. Rxf7+ Kxf7 32. Rf1+ Ke6 33. Re1+ Kd5 34. Rd1+ Ke4 35. Re1+ Kf5 36. Rxe7 Kg5 37. h4+ Kh5 38. Re5+ Kg4 39. Re4+ Kh5 40. g4+ Kxh4 41. Bf6# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix50"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Bc4 e6 4. O-O d6 5. Nc3 Nf6 6. Bb3 Rg8 7. Kh1 h4 8. Nxh4 Nb4 9. Ba4+ Nc6 10. Nf3 g6 11. Bxc6+ Qd7 12. Bxd7+ Nxd7 13. d4 Nb6 14. Be3 Rh8 15. e5 dxe5 16. dxe5 Bb4 17. Nd4 Bc5 18. Ne4 Bxd4 19. Bxd4 Bd7 20. Nf6+ Kd8 21. Ne4 Rh4 22. Nf6 c5 23. Bxc5 Kc8 24. Qxd7+ Kb8 25. Qd8+ Nc8 26. Nd7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix50"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. e4 Nf6 2. d3 Nc6 3. Kd2 Nxe4+ 4. Ke2 Nd4+ 5. Ke3 Nf5+ 6. Ke2 Nd4+ 7. Ke3 Nf5+ 8. Ke2 Nd4+ 9. Ke1 Nf6 10. Be3 Nc6 11. c3 Nd5 12. Bc1 Ne5 13. d4 Nc6 14. Bc4 Nf6 15. Bd2 Ne4 16. Qe2 Nf6 17. Bb3 d6 18. Nf3 Ng4 19. Qf1 Nf6 20. Qe2 d5 21. a3 Bd7 22. Qe6 fxe6 23. Ng5 g6 24. Nf3 Bg7 25. Rf1 O-O 26. Rg1 Ne4 27. Bc1 Nf6 28. g4 Ne4 29. Rf1 Rxf3 30. h3 Rxh3 31. Nd2 Nxc3 32. Bc2 Nxd4 33. Bd3 Rxd3 34. f4 Nc2+ 35. Kf2 Nxa1 36. bxc3 Rxd2+ 37. Ke1 Nc2+ 38. Kxd2 Na1 39. Re1 Nb3+ 40. Kc2 Na1+ 41. Kb2 Bxc3+ 42. Ka2 Bxe1 43. Kxa1 Bc3+ 44. Bb2 Bxb2+ 45. Kxb2 e5 46. Kc3 d4+ 47. Kc2 Bxg4 48. Kb1 Bf5+ 49. Kb2 exf4 50. Kc1 Bd3 51. Kb2 Be2 52. a4 d3 53. Ka3 Qd6+ 54. Kb2 Qd4+ 55. Kc1 Qa1+ 56. Kd2 Qb2+ 57. Ke1 d2+ 58. Kf2 d1=Q 59. Kg2 Qf1+ 60. Kh2 Qf2+ 61. Kh3 Qf3+ 62. Kh2 Bf1+ 63. Kg1 Qg3+ 64. Kh1 Qh3+ 65. Kg1 Qg3+ 66. Kh1 Qh3+ 67. Kg1 Qg3+ 68. Kh1 Qh3+ 69. Kg1 Qg3+ 70. Kh1 Qh3+ 71. Kg1 Qg3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix50"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. Na3 Nf6 2. d3 Nc6 3. Nb1 Nd5 4. d4 Nf6 5. c3 e6 6. g4 Nxg4 7. Nd2 Nf6 8. e4 e5 9. Bd3 exd4 10. Ne2 Bc5 11. Bb5 O-O 12. Nb3 Nxe4 13. Nxc5 Nxc5 14. cxd4 Ne6 15. Bg5 Nxg5 16. O-O Nf3+ 17. Kh1 Nfxd4 18. Nxd4 Ne5 19. f4 Ng6 20. Qc1 a6 21. b3 b6 22. f5 axb5 23. Qc5 bxc5 24. fxg6 cxd4 25. gxf7+ Kh8 26. Rfe1 Rxf7 27. Rad1 Rxa2 28. Rf1 Rxf1+ 29. Rxf1 Bb7+ 30. Rf3 Bxf3+ 31. Kg1 Ra1+ 32. Kf2 Ra2+ 33. Kg1 Ra1+ 34. Kf2 Ra2+ 35. Kg1 Ra1+ 36. Kf2 Ra2+ 37. Kxf3 Qf6+ 38. Kg4 Rg2+ 39. Kh3 Qh6+ 40. Kxg2 Qd2+ 41. Kf1 Qd1+ 42. Kf2 Qxb3 43. Ke1 Qb1+ 44. Ke2 Qb2+ 45. Kf3 Qa3+ 46. Ke2 Qa2+ 47. Kd1 Qa1+ 48. Kd2 Qa2+ 49. Kd1 Qxh2 50. Ke1 Qh1+ 51. Kf2 Qh2+ 52. Ke1 Qh1+ 53. Ke2 Qh2+ 54. Ke1 Qh1+ 55. Kf2 Qh2+ 56. Kf1 Qh1+ 57. Kf2 Qh2+ 58. Ke1 Qh1+ 59. Kd2 Qh2+ 60. Ke1 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix50"]
+[Result "1-0"]
+
+1. e4 d6 2. Nf3 Bg4 3. h3 Bh5 4. Bd3 e6 5. O-O Be7 6. Nc3 h6 7. Bc4 Bg4 8. hxg4 h5 9. Bb5+ Kf8 10. Bc4 hxg4 11. Nd4 b5 12. Ndxb5 a6 13. Qxg4 Rh4 14. Qg3 Nc6 15. f3 Na7 16. Nxd6 Bg5 17. Bxa6 Bf4 18. Nb7 Qd4+ 19. Rf2 Ke7 20. Qxh4+ g5 21. Qh7 Nh6 22. Qxh6 Nc6 23. Nd5+ Kd7 24. Bb5 Kc8 25. Qf8+ Kd7 26. Qxa8 Qh8 27. Qxh8 Bh2+ 28. Qxh2 Ke8 29. Bxc6+ Kf8 30. Qh8# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix50"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. c4 Nf6 2. Nc3 Nc6 3. Qb3 Nd4 4. Nd1 Nc6 5. Nf3 e6 6. a3 d5 7. e3 Bc5 8. Ng5 h6 9. Qc3 hxg5 10. cxd5 exd5 11. Ra2 Bb6 12. Qxf6 gxf6 13. f4 O-O 14. f5 Bxf5 15. Bd3 Bxd3 16. g4 Bg6 17. Kf1 Bd3+ 18. Ke1 Bc2 19. Rf1 Bxd1 20. d3 Bxg4 21. h3 Bxh3 22. Rf4 gxf4 23. b4 fxe3 24. Rh2 Be6 25. Rg2+ Kh7 26. Rg7+ Kxg7 27. d4 Bxd4 28. Bb2 Bxb2 29. Kf1 Bh3+ 30. Ke2 Bxa3 31. Kxe3 Bxb4 32. Kf2 Bc5+ 33. Ke1 Bb4+ 34. Kf2 Bc5+ 35. Ke2 Nd4+ 36. Kd2 Nf3+ 37. Kd1 Bf1 38. Kc2 Nd4+ 39. Kb1 Bd3+ 40. Ka2 Bc4+ 41. Kb2 Be2 42. Ka2 Bc4+ 43. Kb2 Be2 44. Kb1 Bd3+ 45. Ka2 Bc4+ 46. Kb2 Be2 47. Kc1 Ba3+ 48. Kb1 Bd3+ 49. Ka1 Nb3+ 50. Ka2 Nc1+ 51. Ka1 Nb3+ 52. Ka2 Nc1+ 53. Ka1 Nb3+ 54. Ka2 Nc1+ 55. Ka1 Nb3+ 56. Ka2 Nc1+ 57. Kxa3 Qd6+ 58. Kb2 Qb4+ 59. Kxc1 Qa3+ 60. Kd2 Qa2+ 61. Ke1 Qa1+ 62. Kd2 Qb2+ 63. Kxd3 Qa3+ 64. Kc2 Qa2+ 65. Kc1 Qa1+ 66. Kc2 Qa2+ 67. Kc3 Qa3+ 68. Kc2 Qa2+ 69. Kd1 Qa1+ 70. Kc2 Qa2+ 71. Kd1 Qa1+ 72. Kc2 Qa2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix50"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 Nf6 3. Nc3 g5 4. d4 e5 5. dxe5 Ng4 6. h3 Bg7 7. hxg4 Rh7 8. Nd5 c5 9. Nf6+ Kf8 10. Nxh7+ Ke7 11. Bxg5+ hxg5 12. Nhxg5 Qf8 13. Nh7 f5 14. exf6+ Kd8 15. Nxf8 b5 16. fxg7 Na6 17. g8=Q Ke7 18. Qg7+ Kd8 19. Qf6+ Kc7 20. Qe5+ Kc6 21. Qf6+ d6 22. Qg7 Bxg4 23. Qxg4 Nb8 24. Qc8+ Kb6 25. Qxd6+ Ka5 26. Qcd8+ Kb4 27. c3+ Ka4 28. Qxc5 a6 29. Qdd4+ b4 30. Qdxb4# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix50"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. h4 Nf6 2. Rh2 Nc6 3. g3 Ne4 4. Bg2 Nf6 5. c4 d5 6. Rh3 dxc4 7. Na3 Bxh3 8. h5 Bxg2 9. f3 Nxh5 10. Qb3 Nxg3 11. Qxb7 Na5 12. Qa6 Qb8 13. Qxa5 Qb7 14. Qa4+ Kd8 15. Nxc4 Kc8 16. Qe8# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 c5 2. Nf3 d5 3. d4 h6 4. dxc5 Rh7 5. exd5 Qxd5 6. Qxd5 f5 7. Qxg8 e5 8. Qxh7 e4 9. Qg6+ Kd7 10. Qxf5+ Kc7 11. Qxf8 Bh3 12. Qxg7+ Kc8 13. Qh8+ Kd7 14. gxh3 Na6 15. Qxa8 b6 16. Qxa7+ Ke8 17. Qa8+ Kd7 18. Qb7+ Nc7 19. Ne5+ Ke6 20. Qxb6+ Kd5 21. Qb8 Nb5 22. Bxb5 Kd4 23. Nc6+ Kd5 24. Ne7+ Kxc5 25. Be3+ Kb4 26. Bc6+ Kc4 27. Bxe4 h5 28. Qc7+ Kb4 29. Nc6+ Kc4 30. Ne7+ Kb5 31. Qd7+ Ka5 32. Nc6+ Ka4 33. Qd4+ Kb5 34. Qd5+ Ka4 35. Qc4# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Bc4 e6 4. O-O d6 5. Nc3 Nf6 6. Bb3 Rg8 7. Kh1 g5 8. d3 Ne5 9. Nd4 c6 10. f4 a6 11. fxe5 a5 12. exf6 Bg7 13. Bxg5 Bf8 14. Qxh5 Rh8 15. Qxh8 Kd7 16. Bxe6+ fxe6 17. Qh7+ Bg7 18. Qxg7+ Ke8 19. f7+ Kd7 20. f8=Q+ Qe7 21. Qfxe7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix75"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. c4 Nf6 2. e3 Nc6 3. Ne2 d6 4. Rg1 d5 5. f4 dxc4 6. Qa4 Nd5 7. Qb4 Ndxb4 8. a4 Nc2+ 9. Kd1 Nxa1 10. d4 cxd3 11. Nec3 Bg4+ 12. Be2 Bxe2+ 13. Kd2 Nb3+ 14. Ke1 Nxc1 15. Na3 d2+ 16. Kf2 Nd3+ 17. Kg3 Nxb2 18. Na2 d1=Q 19. Nc2 Qxg1 20. Nd4 Qxe3+ 21. Nf3 Nxa4 22. Nb4 Nxb4 23. Kg4 Bxf3+ 24. gxf3 Qg1+ 25. Kh3 Qf1+ 26. Kg4 Qg2+ 27. Kh4 Qxh2+ 28. Kg4 Qg2+ 29. Kf5 Qxf3 30. Ke5 Nd3+ 31. Kf5 Qh3+ 32. Ke4 Qg2+ 33. Ke3 Qh3+ 34. Ke2 Nxf4+ 35. Ke1 Qh1+ 36. Kf2 Nh3+ 37. Kg3 Qg1+ 38. Kh4 Qf2+ 39. Kh5 Nf4+ 40. Kg4 Qg2+ 41. Kxf4 Qf2+ 42. Ke4 Qe2+ 43. Kf4 Qf2+ 44. Ke5 Qe3+ 45. Kf5 Qf2+ 46. Kg4 Qg2+ 47. Kh5 Qh3+ 48. Kg5 Qg2+ 49. Kh5 Qh3+ 50. Kg5 Qg2+ 51. Kh5 Qh3+ 52. Kg5 Qg2+ 53. Kf5 Qh3+ 54. Kg5 Qg2+ 55. Kh5 Qh3+ 56. Kg5 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix75"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. Na3 Nf6 2. f4 Nc6 3. Nb1 Nd5 4. c4 Nxf4 5. Nc3 Nd4 6. e3 Ng6 7. exd4 d5 8. h3 dxc4 9. Nb1 Qxd4 10. Nf3 Qe4+ 11. Kf2 Qd5 12. Nc3 Qc5+ 13. Ke2 Nf4+ 14. Ke1 Nxg2+ 15. Bxg2 Be6 16. d4 Qc6 17. Qe2 O-O-O 18. h4 Qd6 19. Rh3 Bxh3 20. Bxh3+ Kb8 21. Nb1 Qb4+ 22. Qd2 Qxd2+ 23. Nfxd2 Rxd4 24. Nf3 Re4+ 25. Kf2 Re6 26. Kg2 Re2+ 27. Kg1 Rc2 28. Bg2 Rxc1+ 29. Ne1 Rxe1+ 30. Bf1 Re4 31. Kg2 Rxh4 32. Bxc4 Rxc4 33. Nd2 Rg4+ 34. Kh2 Rh4+ 35. Kg1 Rg4+ 36. Kf1 Rf4+ 37. Ke2 Rb4 38. Rg1 Rxb2 39. Rg3 Rxa2 40. Ke1 Ra1+ 41. Nb1 Rxb1+ 42. Ke2 Rb2+ 43. Kf3 Rb3+ 44. Ke4 Rxg3 45. Kf5 Rf3+ 46. Ke5 Re3+ 47. Kd5 e6+ 48. Kd4 e5+ 49. Kxe3 Bc5+ 50. Kd3 Rd8+ 51. Kc3 Bd4+ 52. Kd3 Ba1+ 53. Kc4 Rd4+ 54. Kb3 Rd3+ 55. Ka2 Rd2+ 56. Kb3 Rd3+ 57. Kb4 Rd4+ 58. Kb5 Rd5+ 59. Kb4 Rd4+ 60. Kb5 Rd5+ 61. Kc4 Rd6 62. Kb3 Rd3+ 63. Ka4 Rd4+ 64. Kb5 Rd5+ 65. Kb4 Rd4+ 66. Kb5 Rd5+ 67. Kc4 Rd8 68. Kc5 b6+ 69. Kb5 Rd5+ 70. Ka6 Ra5# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 a6 2. Nf3 d6 3. Bc4 b5 4. Bb3 e6 5. O-O Nc6 6. Nc3 Bb7 7. d3 Be7 8. Be3 Nf6 9. h3 b4 10. a4 bxc3 11. bxc3 Qd7 12. e5 Rg8 13. c4 h6 14. Bf4 Nb4 15. Nd4 Rd8 16. exd6 Nxc2 17. Bxc2 Rh8 18. dxe7 Kxe7 19. Nb3 Qc8 20. Nc5 Bxg2 21. Kxg2 Rd4 22. Bg3 Qb7+ 23. Nxb7 Nh7 24. Bxc7 f5 25. Bd8+ Kd7 26. Nc5+ Kc8 27. Nxe6 Kb8 28. Nxd4 Ng5 29. Nc6+ Kb7 30. Na5+ Ka8 31. Nc6 Nf3 32. Qxf3 Re8 33. Qxf5 Re1 34. Rfxe1 a5 35. Qxa5+ Kb7 36. Qb5+ Kc8 37. Ne7+ Kxd8 38. Qb8+ Kd7 39. Qb7+ Kd8 40. Nc6# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix75"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. e4 Nf6 2. Nc3 Nc6 3. Qf3 Ne5 4. Qe2 Nc6 5. Nf3 e6 6. e5 Nd5 7. Qa6 bxa6 8. Nxd5 exd5 9. a4 Nxe5 10. Ra3 Nc6 11. Re3+ Qe7 12. Nd4 Nxd4 13. c3 Nc2+ 14. Kd1 Nxe3+ 15. Ke2 Nc2+ 16. Kd3 Ne1+ 17. Kd4 Nc2+ 18. Kd3 Ne1+ 19. Kd4 Nc2+ 20. Kxd5 Qg5+ 21. Ke4 Qh4+ 22. f4 Qe1+ 23. Kf5 Qxc1 24. Bb5 Qxh1 25. h3 Qxg2 26. Bf1 Qxf1 27. Ke4 Qe2+ 28. Kf5 Qd3+ 29. Kg5 Qg3+ 30. Kf5 Qxh3+ 31. Kg5 Qg2+ 32. Kh4 Qh1+ 33. Kg5 Qd5+ 34. Kg4 Qxd2 35. Kh4 Qxf4+ 36. Kh5 Qf5+ 37. Kh4 Qe4+ 38. Kg5 Qxa4 39. b3 Qxb3 40. Kf5 Qxc3 41. Kg5 Qe5+ 42. Kg4 Ne3+ 43. Kf3 Qf6+ 44. Kxe3 Qc3+ 45. Ke2 Qb2+ 46. Kd1 Qa1+ 47. Ke2 Qb2+ 48. Kf1 Qb1+ 49. Kf2 Qb2+ 50. Kg1 Qb1+ 51. Kh2 Qb2+ 52. Kh3 Qb3+ 53. Kg2 Qc2+ 54. Kh1 Qc1+ 55. Kg2 Qb2+ 56. Kh1 Qb1+ 57. Kg2 Qb2+ 58. Kg3 Qb3+ 59. Kf2 Qb2+ 60. Kg1 Qb1+ 61. Kh2 Qb2+ 62. Kh3 Qb3+ 63. Kh2 Qb2+ 64. Kg1 Qb1+ 65. Kf2 Qb2+ 66. Kg1 Qb1+ 67. Kf2 Qb2+ 68. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "mix75"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 Nf6 3. Nc3 g5 4. d4 e5 5. dxe5 Ng4 6. h3 Bg7 7. hxg4 Rh7 8. Nd5 c5 9. Nf6+ Kf8 10. Nxh7+ Kg8 11. Nf6+ Kh8 12. Nxd7 Nxd7 13. Qd5 Qf6 14. exf6 Bxf6 15. Qxf7 Ne5 16. Qxf6+ Kh7 17. Qxe5 c4 18. Qe7+ Kg6 19. Qd6+ Kg7 20. Qc7+ Kf6 21. Rxh6# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "mix75"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. h4 Nf6 2. Rh2 Nc6 3. g3 Ne4 4. d3 Nf6 5. Be3 Nd5 6. f4 Nxe3 7. Nc3 Nxd1 8. Rh3 Nxb2 9. Nf3 Nxd3+ 10. cxd3 Nb4 11. Rh2 Nc2+ 12. Kd1 Nxa1 13. Rg2 f5 14. e3 h5 15. e4 fxe4 16. Rg1 exf3 17. Bh3 f2 18. Be6 fxg1=Q+ 19. Ke2 dxe6 20. d4 Qg2+ 21. Kd3 Qxg3+ 22. Kc4 Qxf4 23. Ne2 Qxh4 24. a3 Qdxd4+ 25. Kb5 Qb2+ 26. Ka5 Qxa3+ 27. Kb5 Qd3+ 28. Ka5 Qxe2 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 c5 2. Nf3 d5 3. d4 h6 4. dxc5 Rh7 5. exd5 Na6 6. Bb5+ Qd7 7. Bxd7+ Bxd7 8. Nc3 e5 9. Nxe5 Be6 10. O-O Bxc5 11. dxe6 Rd8 12. exf7+ Ke7 13. Ng6+ Ke6 14. Qxd8 Nb8 15. fxg8=Q+ Kf5 16. Qf7+ Kg4 17. Qxb8 Ba3 18. Qe6+ Kh5 19. Qf5# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 Nc6 2. Nf3 h5 3. Bc4 a6 4. O-O Nb8 5. d4 Rh7 6. Nc3 a5 7. Ne5 Nh6 8. Qxh5 g6 9. Bxf7+ Rxf7 10. Qxg6 Ra7 11. Qxf7+ Nxf7 12. Ng6 d5 13. Nxd5 Nc6 14. Nxc7+ Qxc7 15. d5 a4 16. dxc6 bxc6 17. Nh4 e5 18. Ng6 Bg4 19. Nxf8 Bd1 20. Rxd1 Kxf8 21. Be3 Qa5 22. Bxa7 Ke7 23. Bb8 a3 24. Bd6+ Ke8 25. Bxa3 Qc3 26. bxc3 Nd6 27. Bxd6 Kf7 28. Bxe5 Kg6 29. Rd6+ Kg5 30. Rxc6 Kg4 31. Rg6+ Kh5 32. g4+ Kh4 33. Bf6+ Kh3 34. Rh6+ Kxg4 35. h3+ Kf4 36. Rh4+ Kf3 37. Rf4+ Kxf4 38. e5 Ke4 39. Re1+ Kf3 40. Re3+ Kf4 41. e6 Kf5 42. Rf3+ Ke4 43. e7 Kd5 44. e8=Q Kc5 45. Qe5+ Kc4 46. Qe4+ Kb5 47. Qd5+ Ka4 48. Qd4+ Kb5 49. a4+ Ka5 50. Qd5+ Kb6 51. Qd6+ Ka5 52. Qe5+ Kb6 53. a5+ Kc6 54. Qe6+ Kb7 55. Qe7+ Kc6 56. Qe6+ Kc5 57. Qe5+ Kc6 58. Qe6+ Kc5 59. Qe5+ Kc6 60. Qe6+ Kb7 61. a6+ Ka8 62. Qg8+ Ka7 63. Qg7+ Kb8 64. a7+ Kc8 65. a8=Q# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "random"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. Nf3 Nf6 2. d3 Nc6 3. a3 d6 4. c4 d5 5. Bg5 h6 6. Nfd2 hxg5 7. g4 Nxg4 8. b4 Nge5 9. a4 Nxb4 10. h3 Nexd3+ 11. exd3 Nxd3+ 12. Ke2 Nf4+ 13. Ke3 d4+ 14. Kf3 g4+ 15. Ke4 Ne6 16. Bd3 Ng5+ 17. Ke5 Nf3+ 18. Ke4 Ng5+ 19. Kf4 Ne6+ 20. Kg3 Qd6+ 21. Kg2 Nf4+ 22. Kg1 Nxd3 23. Qc2 Ne5 24. f3 Nxf3+ 25. Kf2 Qh2+ 26. Rxh2 Nxh2 27. Qc3 dxc3 28. Nf3 gxh3 29. Nbd2 Ng4+ 30. Kg1 h2+ 31. Nxh2 cxd2 32. Ra2 d1=Q+ 33. Nf1 Qd4+ 34. Kg2 Qe4+ 35. Kg3 Qd3+ 36. Ne3 Qxe3+ 37. Kg2 Qe4+ 38. Kf1 Qxc4+ 39. Re2 Rh1+ 40. Kg2 Qxe2+ 41. Kxh1 Qf1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "random"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. Na3 Nf6 2. f4 Nc6 3. Nb1 Nd5 4. c4 Nxf4 5. Nf3 d5 6. d3 Ne6 7. Qd2 Nc5 8. Qf4 Nxd3+ 9. Kd2 Nxf4 10. a4 dxc4+ 11. Kc2 Nb4+ 12. Kc3 Nfd5+ 13. Kd2 Nf4+ 14. Ke1 Nc2+ 15. Kf2 Nxa1 16. Na3 Nd3+ 17. Ke3 Nxc1 18. Nh4 Ncb3 19. Nc2 Nxc2+ 20. Kf3 Ne1+ 21. Kg3 Qd6+ 22. Kf2 Qd4+ 23. e3 Qxh4+ 24. Kg1 Nc1 25. e4 Qxe4 26. Kf2 Qc2+ 27. Kxe1 Qxb2 28. Kd1 Qd4+ 29. Bd3 Qxd3+ 30. Ke1 Qe3+ 31. Kf1 Qd3+ 32. Kf2 Qc2+ 33. Kg1 Qd1+ 34. Kf2 Qxh1 35. g3 Qxh2+ 36. Ke3 Qxg3+ 37. Ke4 Qh4+ 38. Kd5 Qg5+ 39. Kxc4 Qf4+ 40. Kc5 Qxa4 41. Kd5 Qb5+ 42. Ke4 Qe2+ 43. Kd4 Nb3+ 44. Kc3 Qf3+ 45. Kc2 Qe2+ 46. Kxb3 Qb5+ 47. Ka3 Qa6+ 48. Kb3 Qd3+ 49. Kb4 Qe4+ 50. Kb5 Qd5+ 51. Ka4 Qa2+ 52. Kb4 Qd2+ 53. Kb5 Qb2+ 54. Kc5 Qe5+ 55. Kb4 Qb2+ 56. Kc4 Qc2+ 57. Kd5 Qf5+ 58. Kd4 Qf4+ 59. Kc5 Qe5+ 60. Kc4 Qe4+ 61. Kb5 Qd5+ 62. Kb4 Qd4+ 63. Ka3 Qd3+ 64. Kb2 Qe2+ 65. Kc3 Qf3+ 66. Kb4 Qe4+ 67. Kc3 Qe3+ 68. Kb4 Qe4+ 69. Kb5 Qd5+ 70. Ka4 Qa2+ 71. Kb4 Qd2+ 72. Ka3 Qd3+ 73. Ka4 Qa6+ 74. Kb4 Qd6+ 75. Kc4 Qc6+ 76. Kb4 Qd6+ 77. Ka4 Qa6+ 78. Kb4 Qd6+ 79. Kc4 Qc6+ 80. Kb3 Qf3+ 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 a6 2. Nf3 d5 3. d4 h6 4. Nc3 Bf5 5. exf5 Qd6 6. Be3 c5 7. Bd3 Qe6 8. dxc5 g6 9. fxe6 Ra7 10. Nxd5 Bg7 11. Nc7+ Kd8 12. exf7 Kc8 13. fxg8=Q+ Bf8 14. Qxh8 Kd8 15. Qg8 Kc8 16. Qh8 Nd7 17. Bxg6 Kxc7 18. Bf4+ Kc6 19. Nd4+ Kd5 20. Qg8+ Kxc5 21. Qh5+ Kxd4 22. Qh8+ Ne5 23. Qxf8 Kc4 24. Bxe5 Kc5 25. Qxe7+ Kd5 26. Qf7+ Kc6 27. Qc4+ Kb6 28. Qe6+ Kb5 29. Qd7+ Kc4 30. b3+ Kc5 31. Qe7+ Kb6 32. Qf6+ Kc5 33. Bf4+ Kb4 34. Qb6+ Kc3 35. Qxa7 a5 36. Qhxa5+ Kb2 37. Qxb7 Kxa1 38. O-O+ Kb2 39. Be5# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "random"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+
+1. Nc3 Nf6 2. h3 Nc6 3. Nb1 Nd5 4. d4 Nf6 5. e4 Nxe4 6. Nf3 Nf6 7. Be2 Nd5 8. O-O Nf6 9. Ba6 bxa6 10. Bd2 Nd5 11. g3 Nf6 12. Bh6 gxh6 13. Qd3 Nd5 14. Re1 Nf6 15. Qe2 Nd5 16. Qe6 fxe6 17. c3 Nf6 18. Rxe6 dxe6 19. Ne5 Nxd4 20. Nf3 Nxf3+ 21. Kh1 Qd1+ 22. Kg2 Ne1+ 23. Kh2 Nf3+ 24. Kg2 Ne1+ 25. Kg1 Nf3+ 26. Kg2 Ne1+ 27. Kh1 Nf3+ 28. Kg2 Ne1+ 29. Kh1 Nf3+ 30. Kg2 1/2-1/2
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "random"]
+[Result "1-0"]
+
+1. e4 h6 2. Nf3 Nf6 3. Nc3 g5 4. d4 e5 5. dxe5 Ng4 6. h3 Bg7 7. hxg4 Rh7 8. Nd5 c5 9. Nf6+ Kf8 10. Nxh7+ Ke7 11. Bxg5+ Ke8 12. Bxd8 c4 13. Bxc4 f6 14. Bc7 a5 15. Nxf6+ Ke7 16. Nd5+ Kf8 17. Bd6+ Kf7 18. Nc7+ Kg6 19. Nxa8 a4 20. Bxb8 d6 21. Qxd6+ Bf6 22. Qxf6+ Kh7 23. Qf7+ Kh8 24. Rxh6# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "random"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+
+1. h4 Nf6 2. Rh2 Nc6 3. g3 Ne4 4. a3 d5 5. b4 Nf6 6. e3 Ne4 7. Qg4 Bxg4 8. Be2 Be6 9. Bc4 dxc4 10. Kd1 Bg4+ 11. f3 Nxg3 12. h5 Bxf3+ 13. Nxf3 Nf1 14. Nh4 Nxh2 15. a4 Nxb4 16. Nf5 Nf3 17. Nh6 gxh6 18. c3 Nc6 19. Bb2 Nxd2 20. Ke2 Qd3+ 21. Kd1 Qxe3 22. Ra2 Nxb1 23. Bc1 Nxc3+ 24. Kc2 Nxa2 25. a5 Qxc1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 c5 2. Nf3 e6 3. d4 d5 4. exd5 Nf6 5. Nc3 a6 6. Bc4 b5 7. Bb3 exd5 8. O-O Be6 9. Ne5 c4 10. Bxc4 bxc4 11. b3 Bb4 12. bxc4 Bxc3 13. Rb1 Ne4 14. f3 Nf6 15. Qd3 Qa5 16. Qe3 h6 17. Rxb8+ Rxb8 18. Nc6 Qa4 19. Nxb8 Qxc4 20. Qxe6+ fxe6 21. a3 Qxf1+ 22. Kxf1 Kf7 23. Nxa6 Bxd4 24. Nc7 Bc5 25. Na6 Bd6 26. h3 e5 27. Nb4 Re8 28. Nxd5 Rh8 29. Nb6 Bb8 30. Nc4 Kg6 31. Nxe5+ Kh7 32. Nf7 Rf8 33. Nxh6 Nd7 34. Ng4 Nf6 35. Nxf6+ Rxf6 36. Bg5 Rf7 37. Bd8 Rd7 38. Bb6 g6 39. Bc5 Rd2 40. c3 Rd1+ 41. Kf2 Kg8 42. Ke2 Ra1 43. Kd2 Bf4+ 44. Be3 Bc7 45. Kc2 Rxa3 46. Kb2 Ra8 47. Kb1 Be5 48. c4 Rb8+ 49. Kc2 Bc7 50. Kc1 Re8 51. Ba7 Bf4+ 52. Kb2 Be5+ 53. Kb3 Kf7 54. Bb6 Bh8 55. Bc7 Re3+ 56. Kc2 Re2+ 57. Kd3 Rxg2 58. Ke3 Rb2 59. Kd3 Rb1 60. Kc2 Rb2+ 61. Kd3 Ke6 62. Bf4 Bg7 63. Bc7 Bh8 64. Ba5 Rb3+ 65. Kc2 Rb2+ 66. Kd3 Rb3+ 67. Ke4 Bc3 68. Bxc3 Rxc3 69. Kd4 Ra3 70. f4 Rg3 71. f5+ Ke7 72. f6+ Kf7 73. Kd5 Rg5+ 74. Kd4 Rh5 75. Ke3 Re5+ 76. Kd4 Rf5 77. Ke3 Kxf6 78. Kd4 Rh5 79. Ke3 Rh7 80. Kf3 Rxh3+ 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 Nc6 2. Nf3 e5 3. Bc4 Be7 4. O-O a6 5. Nc3 b5 6. Bb3 d6 7. d4 exd4 8. Nd5 Ne5 9. Nxd4 h6 10. f4 Bg4 11. Bd2 Bxd1 12. Rfxd1 Nc4 13. Bxc4 bxc4 14. Nb4 Bh4 15. Ndc6 Qc8 16. g3 Qg4 17. Kh1 Bd8 18. f5 Qxe4+ 19. Kg1 Qf3 20. Re1+ Kf8 21. Nd4 Qg4 22. Ne6+ fxe6 23. Rxe6 Bf6 24. Rxf6+ Nxf6 25. Nc6 c3 26. bxc3 Rh7 27. Be3 Re8 28. Re1 Qe4 29. Re2 Qxc6 30. Ba7 Qb6+ 31. Bxb6 Rc8 32. Ba7 Kg8 33. Re7 a5 34. Re6 h5 35. Re7 h4 36. Kh1 a4 37. Re6 Rh5 38. Re7 a3 39. Re6 Ra8 40. Re8+ Nxe8 41. g4 Rh6 42. g5 Rh7 43. Be3 Nf6 44. gxf6 c6 45. f7+ Kf8 46. Bb6 Rh5 47. Bc7 Kxf7 48. Bxd6 Rh7 49. Bxa3 Rh6 50. Bc5 Rah8 51. h3 Rf6 52. Kg2 Rxf5 53. Be3 Rf6 54. Kh1 Ke6 55. Ba7 g5 56. Bb6 Rff8 57. Ba7 Re8 58. Bb6 Rh7 59. Be3 Rf8 60. Bxg5 Rg8 61. Bf4 Rf8 62. Be3 Rff7 63. Bb6 Rf1+ 64. Kg2 Rf8 65. Be3 Rg7+ 66. Kh1 Rf6 67. Kh2 Rgf7 68. Kh1 Rd7 69. Bb6 Rf1+ 70. Kh2 Rd2+ 71. Bf2 c5 72. Kg2 Rdxf2# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sf0"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. d4 Nf6 2. Nc3 Nc6 3. Bg5 g6 4. d5 Bg7 5. dxc6 dxc6 6. Qxd8+ Kxd8 7. e4 h6 8. O-O-O+ Ke8 9. Bh4 e5 10. f3 Nd5 11. exd5 cxd5 12. Re1 d4 13. Ne4 Be6 14. f4 exf4 15. Kb1 g5 16. Nc5 gxh4 17. Nh3 b6 18. Nd3 Ke7 19. b3 Bf6 20. Be2 Bxh3 21. gxh3 f3 22. Bxf3+ Kf8 23. Bxa8 Kg7 24. Rhg1+ Kh7 25. Be4# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sf0"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. Nf3 Nf6 2. d4 Nc6 3. a3 e6 4. c3 d5 5. e3 Bd6 6. Be2 O-O 7. O-O h6 8. c4 e5 9. c5 b6 10. cxd6 cxd6 11. Ra2 exd4 12. exd4 Ne4 13. Ne1 Nf6 14. h3 Ne4 15. Nc3 Nxc3 16. bxc3 Ne5 17. Bd2 Nc6 18. g4 f5 19. Bc1 fxg4 20. Bxg4 Bb7 21. Ng2 g5 22. Bh5 Qf6 23. Re1 Qxf2+ 24. Rxf2 Rfd8 25. Rf8+ Rxf8 26. h4 Rfd8 27. Qg4 Kh8 28. Re8+ Rxe8 29. Qd1 Re7 30. Be3 Rxe3 31. hxg5 Rxc3 32. Qe1 Rxa3 33. Qe6 Ra1+ 34. Kh2 Nxd4 35. Qf6+ Kg8 36. Bf7+ Kf8 37. Bxd5+ Ke8 38. Qg6+ Kd7 39. Qg7+ Kc8 40. Qxb7+ Kd8 41. g6 Ke8 42. Bc6+ Kf8 43. Qf7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Nc4 Bc5 5. Ne5 Nxf2 6. Qe2 Nxh1 7. Nc4+ Qe7 8. Na5 Qxe2+ 9. Bxe2 Nc6 10. Nc4 d5 11. d3 dxc4 12. dxc4 Bd7 13. Kf1 Ng3+ 14. hxg3 Be7 15. Kg1 Bc5+ 16. Kf1 Bd6 17. Bf3 Bxg3 18. Bxc6 Rd8 19. Bxb7 Rb8 20. Ba6 Rb6 21. Bb5 Rd6 22. Bxd7+ Kxd7 23. Ke2 h5 24. Kf3 h4 25. Nc3 Rf6+ 26. Ke3 Re6+ 27. Kf3 Rf6+ 28. Ke2 Re8+ 29. Kd2 Rd6+ 30. Nd5 Be1+ 31. Kd3 c6 32. Kd4 Bf2+ 33. Kd3 Bc5 34. Kc3 a5 35. Nf4 Bd4+ 36. Kb3 Re1 37. Nd3 Rg1 38. Nf4 g5 39. Nh3 a4+ 40. Kb4 Rh1 41. Kxa4 g4 42. Kb3 f5 43. Nf4 h3 44. gxh3 g3 45. Ka3 Rf1 46. h4 Be5 47. Ka4 Bxf4 48. Kb3 Bxc1 49. Rxc1 Rf2 50. Rg1 Rdd2 51. Rxg3 Rg2 52. Rxg2 Rxg2 53. Kc3 Rg8 54. Kd3 Rg3+ 55. Ke2 Rg8 56. Kf3 Rb8 57. b3 Ke6 58. c5 Rb4 59. a3 Rb8 60. Ke3 Rb7 61. Kd3 Ke5 62. Ke3 Rf7 63. Kf3 Rd7 64. Ke3 f4+ 65. Kf2 Ke4 66. Ke2 f3+ 67. Kf1 Kf4 68. Kg1 Kg3 69. Kf1 Rd1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sf0"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. e4 Nf6 2. d3 Nc6 3. c3 e6 4. Be2 d5 5. Qc2 Bc5 6. Nf3 O-O 7. b4 Bb6 8. e5 Nd7 9. a4 Ndxe5 10. O-O Nxf3+ 11. Bxf3 Ne5 12. a5 Nc6 13. axb6 cxb6 14. Re1 b5 15. Be3 d4 16. cxd4 Nxb4 17. Qb3 Qd6 18. h3 Nd5 19. Nd2 Rb8 20. Bg5 Ra8 21. Ne4 Qc7 22. Qb2 Rb8 23. Bh4 Nf4 24. Qb3 Nxh3+ 25. gxh3 b6 26. Rac1 Qxc1 27. Rxc1 f5 28. Ng5 g6 29. Bh1 h6 30. Qa3 hxg5 31. Kh2 gxh4 32. Qd6 Kh8 33. Qxf8+ Kh7 34. Rc7+ Bd7 35. Rxd7# 1-0
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "StartLux-Decision-27B"]
+[Black "sf0"]
+[Result "0-1"]
+
+1. e4 e5 2. Nf3 d6 3. Bc4 Nf6 4. Nc3 Nc6 5. O-O Na5 6. Bb5+ Nd7 7. d4 Nc6 8. d5 Na5 9. a4 a6 10. Bxd7+ Qxd7 11. b4 Nc4 12. b5 axb5 13. Qd3 f6 14. Be3 b4 15. Qxc4 bxc3 16. Qxc3 b6 17. Qd3 Kf7 18. Nxe5+ dxe5 19. Rae1 Kg8 20. Bd2 h6 21. a5 Ba6 22. Bc3 h5 23. Qd2 Bc8 24. axb6 cxb6 25. Qd3 Bd6 26. Kh1 Qc7 27. Qb5 Kh7 28. Bd2 Bd7 29. Qd3 h4 30. g3 Ra3 31. gxh4 g6 32. Qxa3 Bxa3 33. Be3 Qd6 34. Bd2 Rb8 35. Bc3 Qf8 36. Bd2 Rb7 37. Be3 g5 38. hxg5 Bg4 39. g6+ Kg7 40. Bh6+ Kxh6 41. Rg1 Bf3+ 42. Rg2 Bxg2+ 43. Kxg2 Rg7 44. Kg3 Rxg6+ 45. Kh3 Rg5 46. Kh4 Rh5+ 47. Kg3 Qg8+ 48. Kf3 Rxh2 49. Ke2 Qg4+ 50. Kf1 Rh1# 0-1
+
+[Event "StartLux-Decision-27B on the harness's Elo ladder, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "????.??.??"]
+[Round "?"]
+[White "sf0"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+
+1. e4 Nf6 2. d3 Nc6 3. Nc3 Ne5 4. Be2 d6 5. Be3 Nxd3+ 6. Bxd3 d5 7. e5 e6 8. exf6 gxf6 9. Bd2 Bg7 10. Nb5 a6 11. Nd4 O-O 12. f4 e5 13. Nb3 exf4 14. Be2 f5 15. Kf1 Bxb2 16. Rb1 Be5 17. Nh3 Qh4 18. a3 Qh6 19. Qc1 Qh4 20. a4 Qh6 21. a5 Qh4 22. Rg1 Qxh3 23. gxh3+ Kh8 24. Bf3 Bd6 25. Bxf4 Bxf4 26. Qb2+ f6 27. Nd4 Bxh2 28. Qb4 Bxg1 29. Qxf8# 1-0
+

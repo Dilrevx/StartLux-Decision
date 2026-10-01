@@ -1,0 +1,3328 @@
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m00_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Ruy Lopez, Morphy Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. d3 a5 6. O-O b6 7. Nc3 d6 8. Bxc6+ Bd7 9. Bb7 Rb8 10. Ba6 c5 11. Bc4 d5 12. Nxe5 dxc4 13. dxc4 Be6 14. Nc6 Bxc4 15. Nxd8 Bxf1 16. Kxf1 Rxd8 17. Qe1 c4 18. Nd5 Nxd5 19. exd5+ Kd7 20. Qe5 f6 21. Qf5+ Kc7 22. Qf4+ Kc8 23. Qxc4+ Kd7 24. Qb5+ Ke7 25. Qxb6 Rxd5 26. Qc7+ Ke8 27. Qc8+ Kf7 28. Qc7+ Kg8 29. Qc8 Rd1+ 30. Ke2 Rxc1 31. Rxc1 Kf7 32. Qd7+ Kg8 33. Qc8 Kf7 34. Qd7+ Kg8 35. Qc8 Kf7 36. Qd7+ Kg8 37. Qc8 Kf7 38. Qd7+ Kg8 39. Qc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m00_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Ruy Lopez, Morphy Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Nxe4 6. Bb3 Bc5 7. d4 O-O 8. Be3 Bxd4 9. c4 Bxb2 10. Qc2 Bxa1 11. Qxe4 Bb2 12. Nbd2 Nb4 13. Rb1 Rb8 14. Rxb2 Qf6 15. a3 Nc6 16. Nxe5 Nxe5 17. Nf3 Nxf3+ 18. gxf3 Qxb2 19. Ba4 Qxa3 20. Bc2 Qa1+ 21. Kg2 Qf6 22. Qxh7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m01_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Ruy Lopez, Berlin Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. Bc4 d5 6. Bb3 Nxd2 7. Nfxd2 Bc5 8. Qh5 Bxf2+ 9. Kxf2 Qf6+ 10. Kg3 g6 11. Rxf6 gxh5 12. Bxd5 O-O 13. Bxc6 h4+ 14. Kxh4 bxc6 15. Rxc6 Bd7 16. Rxc7 Bf5 17. Re7 Bxc2 18. Rxe5 Bxb1 19. Nxb1 Rfe8 20. Rg5+ Kh8 21. Rg8+ Rxg8 22. g3 Kg7 23. Bh6+ Kxh6 24. Nc3 Kg7 25. Rg1 Kg6 26. Nd5 Kg7 27. Ne7 Rgf8 28. Nf5+ Kg8 29. Ne7+ Kh8 30. Nd5 Kg7 31. Ne7 Rfe8 32. Nf5+ Kf8 33. Rf1 Re4+ 34. Kg5 f6+ 35. Kxf6 Ree8 36. Ne7 Rxe7 37. Kg5+ Kg7 38. Rf7+ Rxf7 39. Kh5 Rf5+ 40. Kh4 Kh6 41. Kg4 Rg5+ 42. Kh4 Rh5+ 43. Kg4 Rxh2 44. b3 Rxa2 45. Kf5 Rf2+ 46. Kg4 Rg8+ 47. Kh4 Rh2# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m01_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Ruy Lopez, Berlin Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Nxe4 5. d3 Nf6 6. Bc4 Bc5 7. Bg5 O-O 8. Nc3 Bxf2+ 9. Rxf2 Ng4 10. Bxd8 Nxd8 11. h3 Ne3 12. Nxe5 Nxd1 13. Nxd1 Re8 14. Nf3 Nc6 15. Nc3 Nb4 16. a3 Nc6 17. Nd5 d6 18. Nxc7 Rd8 19. Nxa8 Rf8 20. Nc7 Rd8 21. Nb5 Rf8 22. Nxd6 Rd8 23. Bxf7+ Kf8 24. Nb5 Kxf7 25. Ng5+ Kg8 26. Nc7 Rd7 27. Nb5 Rd8 28. Nc7 Rd7 29. Nce6 Ne7 30. Rf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m02_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Ruy Lopez, Exchange Variation"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nxe5 Qd4 6. Nf3 Qxe4+ 7. Kf1 Qc4+ 8. Kg1 Nf6 9. Qe1+ Kd8 10. c3 Nd5 11. Ne5 Nf6 12. Nxc4 c5 13. Ne5 Be7 14. Nxf7+ Ke8 15. Nxh8 Kf8 16. Qe5 c6 17. Qc7 Kg8 18. Qxe7 Kxh8 19. Qxc5 Bd7 20. Qe7 Kg8 21. Qc5 Kh8 22. Qe7 Kg8 23. Qc5 Kh8 24. Qe7 Kg8 25. Qc5 Kh8 26. Qe7 Kg8 27. Qc5 Kh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m02_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Ruy Lopez, Exchange Variation"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. Nxe5 Nf6 6. Nf3 Nxe4 7. Ne5 Nf6 8. O-O Nd5 9. d4 Nb4 10. a3 Nxc2 11. Qxc2 Qxd4 12. Nf3 Qf6 13. Qe4+ Kd7 14. Qg4+ Kd8 15. Rd1+ Ke8 16. Qe4+ Be7 17. Re1 Qxf3 18. gxf3 Kd7 19. Rd1+ Ke8 20. Rd8+ Kxd8 21. Qd4+ Ke8 22. Qxg7 Rf8 23. Qxh7 Kd8 24. Qd3+ Ke8 25. Qe4 Rg8+ 26. Kh1 Rf8 27. Qh7 Kd8 28. Qe4 Bxa3 29. bxa3 Bh3 30. Qh4+ Kc8 31. Qxh3+ Kd8 32. Qh4+ Kc8 33. Qh3+ Kd8 34. Qh4+ Kc8 35. Qh3+ Kd8 36. Qh4+ Kc8 37. Qh3+ Kd8 38. Qh4+ Kc8 39. Qh3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m03_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Italian Game, Giuoco Piano"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O Nxe4 6. Bd5 Bxf2+ 7. Kh1 Ng3+ 8. hxg3 Bxg3 9. Rg1 Qh4+ 10. Nxh4 Bxh4 11. Qh5 Bf6 12. Qf5 d6 13. Qf3 O-O 14. Bxc6 bxc6 15. Qxc6 Rb8 16. Qxc7 Ba6 17. Qxd6 Bb7 18. Qd7 Bxg2+ 19. Kxg2 Ra8 20. Qc7 Kh8 21. Qd7 Kg8 22. Qc7 Kh8 23. Qd7 Kg8 24. Qc7 Kh8 25. Qd7 Kg8 26. Qc7 Kh8 27. Qd7 Kg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m03_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Italian Game, Giuoco Piano"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. O-O Nxe4 6. d3 Nf6 7. d4 Bb6 8. dxe5 O-O 9. Bg5 Ne4 10. Bxd8 Nxd8 11. Qd5 Bxf2+ 12. Kh1 Ng3+ 13. hxg3 Bxg3 14. Qxf7+ Kh8 15. Qxf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m04_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Italian Game, Two Knights"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Nc3 d6 7. Bxf7+ Rxf7 8. Ng5 h6 9. Nf3 d5 10. exd5 Nxd5 11. Ne4 Be6 12. Ng3 Nf6 13. d4 exd4 14. Qxd4 Qxd4 15. Nxd4 Nxd4 16. c3 Nc6 17. Bf4 Rc8 18. Rac1 Bxa2 19. Ra1 Be6 20. Rae1 Bd7 21. Rxe7 Nxe7 22. Be5 Ng6 23. Bd4 a6 24. Bxf6 gxf6 25. Ne4 f5 26. Nd2 Ne5 27. Rc1 Nd3 28. Rd1 Nxb2 29. Rb1 Na4 30. Rxb7 Nxc3 31. Nc4 Ne2+ 32. Kf1 Ng3+ 33. fxg3 Be6 34. Nd2 Bc4+ 35. Nxc4 f4 36. gxf4 Rxf4+ 37. Ke2 Rxc4 38. Rxc7 R8xc7 39. Kd2 Rd7+ 40. Ke3 Rc3+ 41. Kf4 Rd4+ 42. Kf5 Rd5+ 43. Kg6 Rd6+ 44. Kh5 Rd5+ 45. Kxh6 Rc6# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m04_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Italian Game, Two Knights"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Bg5 h6 7. Nc3 hxg5 8. Nxg5 Nd4 9. Bxf7+ Rxf7 10. f3 Nxf3+ 11. gxf3 Bc5+ 12. Kh1 Rf8 13. f4 exf4 14. Rxf4 Bd4 15. Nf3 Bxc3 16. bxc3 Nxe4 17. dxe4 Rxf4 18. Qd5+ Kf8 19. Qc5+ Kg8 20. Qc4+ Kh8 21. Nd2 Qh4 22. Qxc7 Rxe4 23. Nf3 Re1+ 24. Nxe1 Qxe1+ 25. Rxe1 Kg8 26. Qd8+ Kf7 27. Rf1+ Ke6 28. Qg8+ Kd6 29. Qf8+ Kc7 30. Qc5+ Kb8 31. Qf8 g6 32. Qd6# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m05_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Scotch Game"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nf3 Nxe4 6. Qd5 Bb4+ 7. Ke2 Nf6 8. Qg5 Qe7+ 9. Kd1 Qd6+ 10. Ke2 Qe7+ 11. Kd1 Qd6+ 12. Ke2 Qe7+ 13. Kd1 Qd6+ 14. Ke2 Qe7+ 15. Kd1 Qd6+ 16. Ke2 Qe7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m05_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Scotch Game"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6 5. Nf3 Nxe4 6. Be3 Bb4+ 7. c3 Bxc3+ 8. bxc3 O-O 9. Qd5 Nf6 10. Qd3 Ng4 11. h3 Nf6 12. Qd2 Ne4 13. Qd5 Nf6 14. Qd3 Re8 15. Be2 Qe7 16. O-O Qxe3 17. fxe3 Rxe3 18. Qxe3 Nd5 19. Qe8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m06_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Four Knights, Spanish"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. Nd5 Nxe4 7. Ne3 Nxd2 8. Qxd2 Bxd2 9. Bxd2 a6 10. Ba4 b5 11. Bb3 d6 12. Nd5 Be6 13. Ne7+ Nxe7 14. Bxe6 fxe6 15. Ng5 g6 16. Nxe6 Rf6 17. Ng5 h6 18. Ne4 Rf7 19. Bxh6 Kh8 20. Bg7+ Rxg7 21. Nf6 Qf8 22. Nd7 Qd8 23. Nf6 Qf8 24. Nd7 Qf7 25. Rfd1 Nf5 26. Rd2 Qxd7 27. Rd5 Qe6 28. Rdd1 Qc4 29. Rac1 Qxa2 30. Ra1 Qxb2 31. Rd2 Qxa1+ 32. Rd1 Qxd1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m06_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Four Knights, Spanish"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 Bxc3 7. bxc3 Nxe4 8. dxe4 Nd4 9. Nxe5 Nxb5 10. Qd5 Nxc3 11. Qxf7+ Rxf7 12. Bd2 Nxe4 13. Ba5 Nxf2 14. Nxf7 Kxf7 15. Rxf2+ Qf6 16. Bxc7 Qxf2+ 17. Kxf2 Ke6 18. Re1+ Kd5 19. Rd1+ Kc4 20. Bd6 Kb5 21. Rd5+ Kc6 22. Bf8 Kxd5 23. Bxg7 Ke4 24. g3 Kf5 25. g4+ Kxg4 26. h3+ Kxh3 27. Kf3 Rb8 28. Kf4 Kg2 29. Ke3 Kg3 30. Be5+ Kg2 31. Bxb8 a6 32. Kf4 Kf2 33. Bc7 d5 34. Bb6+ Ke2 35. Ke5 Kf3 36. Kxd5 Be6+ 37. Kxe6 Ke4 38. Kf7 Kf5 39. Ke7 Ke4 40. Ke6 Kf3 41. Ke5 Ke2 42. Kd6 Kf3 43. Kc7 Ke4 44. Kxb7 Kf5 45. Kxa6 Ke4 46. Bc5 Kd5 47. c4+ Kxc5 48. Kb7 Kxc4 49. Kb6 Kb4 50. a3+ Kxa3 51. Kb5 Kb3 52. Ka5 Kc4 53. Kb6 Kd5 54. Ka7 h6 55. Ka6 h5 56. Kb6 h4 57. Kb7 h3 58. Kb6 h2 59. Kb7 h1=Q 60. Kb8 Qb1+ 61. Kc8 Qc1+ 62. Kb8 Qb1+ 63. Kc8 Qc1+ 64. Kb8 Qb1+ 65. Kc8 Qc1+ 66. Kb8 Qb1+ 67. Kc8 Qc1+ 68. Kb8 Qb1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m07_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Petrov Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Bb5+ Bd7 6. Bc4 Nc6 7. O-O Nf6 8. Qe2+ Qe7 9. Qxe7+ Bxe7 10. Bxf7+ Kxf7 11. Ng5+ Kg8 12. Nf3 Nd5 13. Rd1 Ne5 14. Nd4 Nc4 15. Nf3 Nxd2 16. Nfxd2 Be6 17. Ne4 Nf6 18. Ng3 Bc4 19. Nf5 Bf8 20. Nh6+ gxh6 21. Bf4 Be6 22. Rxd6 cxd6 23. Bxd6 Bxd6 24. Nc3 Bxh2+ 25. Kxh2 Ng4+ 26. Kg1 Ne5 27. Ne4 Nf3+ 28. gxf3 Bd5 29. Nf6+ Kf8 30. Nxd5 Rg8+ 31. Kf1 Rg5 32. Nc7 Rb8 33. Ne6+ Kg8 34. Nxg5 hxg5 35. Rb1 Kg7 36. Rd1 Kg6 37. Rd6+ Kg7 38. Rd7+ Kg8 39. Re7 Kf8 40. Rxh7 Kg8 41. Rd7 Kf8 42. Rh7 Kg8 43. Rd7 Kf8 44. Rh7 Kg8 45. Rd7 Kf8 46. Rh7 Kg8 47. Rd7 Kf8 48. Rh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m07_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Petrov Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nd4 Nc5 6. Bc4 Qe7+ 7. Kf1 Qh4 8. Nf3 Qxc4+ 9. Kg1 Qf1+ 10. Qxf1 Ne4 11. Qb5+ Kd8 12. d3 Nf6 13. Qg5 Rg8 14. Qxf6+ gxf6 15. Nd4 d5 16. Nb5 Nc6 17. N1c3 d4 18. Ne4 f5 19. Nf6 Rh8 20. Nd5 Ne5 21. Nxd4 Nxd3 22. cxd3 Bg7 23. Bg5+ Kd7 24. Nxf5 Bxb2 25. Rb1 Rb8 26. Rxb2 Rg8 27. Nf6+ Ke6 28. Nxg8 Kxf5 29. Ne7+ Kxg5 30. Rb5+ Kf6 31. Ng8+ Ke6 32. Nh6 Kf6 33. Ng8+ Ke6 34. Nh6 Kd6 35. Nxf7+ Kc6 36. Ne5+ Kxb5 37. a4+ Kxa4 38. Nf7 Kb3 39. Ne5 Kc2 40. Nf7 Kxd3 41. Ne5+ Ke4 42. Nf7 Kd3 43. Ne5+ Ke4 44. Nf7 Kd3 45. Ne5+ Ke4 46. Nf7 Kd3 47. Ne5+ Ke4 48. Nf7 Kd3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m08_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Philidor Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nf6 4. Nc3 Nbd7 5. dxe5 dxe5 6. Bc4 Nb6 7. Nxe5 Nxc4 8. Nxc4 Be6 9. Ne5 Be7 10. O-O O-O 11. Nf3 Bg4 12. Ne5 Bc5 13. Nxg4 Bxf2+ 14. Kxf2 Nxe4+ 15. Nxe4 Qxd1 16. Rxd1 f5 17. Nef6+ gxf6 18. Nh6+ Kh8 19. Nxf5 Kg8 20. Ne7+ Kh8 21. Nf5 Kg8 22. Ne7+ Kh8 23. Nf5 Kg8 24. Ne7+ Kh8 25. Nf5 Kg8 26. Ne7+ Kh8 27. Nf5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m08_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Philidor Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nf6 4. Nc3 Nbd7 5. Bg5 Be7 6. Bc4 O-O 7. O-O Ng4 8. h3 Bxg5 9. hxg4 exd4 10. Nxd4 Nc5 11. Nf3 Bxg4 12. Qd5 Bxf3 13. gxf3 Nxe4 14. fxe4 b6 15. Qxf7+ Rxf7 16. Bxf7+ Kxf7 17. Nd5 Bd2 18. Rfd1 Qg5+ 19. Kh1 c5 20. Nc7 Rc8 21. Na6 Qh5+ 22. Kg1 Qg6+ 23. Kf1 Qxe4 24. Rxd2 Rd8 25. Nc7 Qc4+ 26. Ke1 Qe4+ 27. Kd1 Qh1+ 28. Ke2 Qxa1 29. Kf3 Qxb2 30. Na6 Qxa2 31. Nc7 Qa3+ 32. Kf4 Qb4+ 33. Ke3 Qc3+ 34. Kf4 Qxd2+ 35. Kf3 Qxc2 36. Na6 Qd3+ 37. Kf4 Qxa6 38. Kf3 Qf1 39. Kg3 Qd3+ 40. Kg2 Qg6+ 41. Kf1 Qd3+ 42. Kg1 Qd1+ 43. Kg2 Qg4+ 44. Kh1 Qh3+ 45. Kg1 Qg4+ 46. Kf1 Qd1+ 47. Kg2 Qg4+ 48. Kf1 Qd1+ 49. Kg2 Qg4+ 50. Kf1 Qd1+ 51. Kg2 Qg4+ 52. Kf1 Qd1+ 53. Kg2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m09_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Vienna Game"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nc6 4. d3 Bb4 5. Nf3 O-O 6. O-O d5 7. Bb3 Be6 8. exd5 Qxd5 9. Bxd5 Bxd5 10. Nxd5 Nxd5 11. Ng5 f6 12. Ne6 Be7 13. Nxf8 Bxf8 14. Qh5 g6 15. Qf3 Ndb4 16. Qxf6 Nxc2 17. Qe6+ Kh8 18. Rb1 N6d4 19. Qxe5+ Kg8 20. Qxc7 Ne2+ 21. Kh1 Nxc1 22. Rbxc1 Nd4 23. Qxb7 Re8 24. Qxa7 Nf5 25. Qd7 Ng3+ 26. hxg3 Rb8 27. Rb1 Kh8 28. Qf7 Bh6 29. Qf6+ Kg8 30. Qe6+ Kh8 31. Qf6+ Kg8 32. Qe6+ Kh8 33. Qf6+ Kg8 34. Qe6+ Kh8 35. Qf6+ Kg8 36. Qe6+ Kh8 37. Qf6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m09_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Vienna Game"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nc3 Nf6 3. Bc4 Nc6 4. d3 Bb4 5. Nf3 O-O 6. O-O Bxc3 7. bxc3 Nxe4 8. dxe4 Re8 9. Qd3 Nd4 10. cxd4 exd4 11. Nxd4 Qh4 12. Nf5 Qf6 13. Rb1 Qxf5 14. exf5 Rf8 15. Qd5 Rd8 16. Qxf7+ Kh8 17. Qg8+ Rxg8 18. Bf7 Rf8 19. Bd5 Rxf5 20. Be4 Rf8 21. Bd5 Re8 22. Bxb7 Rb8 23. Bxc8 Rbxc8 24. Rb7 a6 25. Ra7 Ra8 26. Rxc7 d6 27. Rc6 d5 28. Rc5 d4 29. Rc4 Re4 30. Rb4 d3 31. Rxe4 dxc2 32. Re2 Rc8 33. Rd2 Rc3 34. Rd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m100_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 101"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. d4 d5 3. g3 Be6 4. Bg2 g6 5. O-O Nf6 6. Nc3 Bg7 7. Ne5 O-O 8. Nxd5 cxd5 9. Nf3 Nc6 10. Ng5 h6 11. Nf3 Nxd4 12. Nxd4 Qd6 13. Nb5 a6 14. Nc3 Ne4 15. Bxe4 dxe4 16. Nxe4 Qxd1 17. Rxd1 Rfe8 18. Nc5 Rab8 19. Ne4 f5 20. Nc5 Bc4 21. e3 b6 22. Nd7 Red8 23. Nxb8 Rxd1+ 24. Kg2 Bd5+ 25. Kh3 Bg2+ 26. Kxg2 Rxc1 27. Rxc1 Bxb2 28. Nxa6 Bxc1 29. Nc7 Bxe3 30. fxe3 e5 31. Ne8 Kh8 32. Nc7 e4 33. Nd5 b5 34. Nc7 b4 35. Nd5 Kh7 36. Nxb4 Kg7 37. Nc6 Kf6 38. Nd8 Kg5 39. Nf7+ Kf6 40. Nxh6 Kg5 41. Nf7+ Kf6 42. Nd6 Kg5 43. Nf7+ Kf6 44. Nd6 Kg5 45. Nf7+ Kf6 46. Nd6 Kg5 47. Nf7+ Kf6 48. Nd6 Kg5 49. Nf7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m100_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 101"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. d4 d5 3. g3 Be6 4. Bg2 g6 5. O-O Nf6 6. Nc3 Bg7 7. e4 O-O 8. exd5 cxd5 9. Ne5 Re8 10. Bg5 Bg4 11. Nxg4 Nxg4 12. Qxg4 Nc6 13. Bf4 Nxd4 14. Be3 Nxc2 15. Rac1 Nxe3 16. fxe3 Bxc3 17. bxc3 Qb6 18. Bxd5 Qxe3+ 19. Kg2 Qd2+ 20. Kg1 Qxd5 21. a3 Qc5+ 22. Kh1 Qxa3 23. Qd7 b6 24. Qc6 Qxc1 25. Rxc1 Rec8 26. Qxc8+ Rxc8 27. Rc2 Rxc3 28. Rxc3 Kg7 29. Rc7 e6 30. Rxa7 Kf6 31. Ra6 b5 32. Ra5 b4 33. Ra8 b3 34. Ra3 b2 35. Rf3+ Kg7 36. Rf2 b1=Q+ 37. Kg2 Qb7+ 38. Kg1 Qb1+ 39. Kg2 Qb7+ 40. Kg1 Qb1+ 41. Kg2 Qb7+ 42. Kg1 Qb1+ 43. Kg2 Qb7+ 44. Kg1 Qb1+ 45. Kg2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m101_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 102"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nd2 g6 3. Ngf3 Nf6 4. e4 d6 5. Bd3 Bg7 6. O-O O-O 7. Ng5 h6 8. Ngf3 e5 9. Nxe5 dxe5 10. dxe5 Qd7 11. exf6 Bxf6 12. Bc4 c5 13. Bxf7+ Rxf7 14. Nc4 Rh7 15. Qf3 Be7 16. Ne5 Qe6 17. Nd3 c4 18. Nf4 Qxe4 19. Qxe4 g5 20. Qxc4+ Kh8 21. Qxc8+ Kg7 22. Qxb7 gxf4 23. Qxe7+ Kh8 24. Bxf4 Rxe7 25. Bxh6 Kg8 26. Rae1 Rxe1 27. Rxe1 Kh8 28. Re8+ Kh7 29. Re7+ Kxh6 30. Re6+ Kg7 31. Re7+ Kh8 32. Re8+ Kh7 33. Re7+ Kh6 34. Re6+ Kh5 35. Re5+ Kh4 36. Re4+ Kh5 37. Re5+ Kh4 38. Re4+ Kg5 39. Re5+ Kh4 40. Re4+ Kh5 41. Re5+ Kh4 42. Re4+ Kh5 43. Re5+ Kh4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m101_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 102"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nd2 g6 3. Ngf3 Nf6 4. e4 d6 5. Bc4 Bg7 6. O-O O-O 7. e5 dxe5 8. dxe5 Nfd7 9. Ne4 Bxe5 10. Bb3 Bxh2+ 11. Nxh2 Ne5 12. f4 Qb6+ 13. Kh1 Ned7 14. Nc3 Qxb3 15. cxb3 Nc5 16. b4 Nca6 17. Qb3 Rd8 18. Ne4 Re8 19. Be3 Bf5 20. Ng3 Rd8 21. Qc4 Re8 22. Rfe1 Rd8 23. Nf3 Re8 24. Ne5 Rd8 25. Nxf7 Rf8 26. Nh6+ Kg7 27. Nhxf5+ gxf5 28. Nh5+ Kh8 29. Qd4+ Kg8 30. Qg7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m102_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 103"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. e4 d5 3. d3 Qc7 4. Nbd2 Bg4 5. Ng5 Bxd1 6. Kxd1 Nf6 7. Ngf3 dxe4 8. dxe4 e6 9. Ng5 h6 10. Ngf3 Bc5 11. Bd3 Bxf2 12. Rf1 Bc5 13. Nc4 O-O 14. Ncd2 Ng4 15. Nh4 Nxh2 16. Rh1 Qg3 17. Rxh2 Qxh2 18. Nhf3 Qh1+ 19. Ke2 Qxg2+ 20. Kd1 Qh1+ 21. Ke2 Qg2+ 22. Kd1 Qh1+ 23. Ke2 Qg2+ 24. Kd1 Qh1+ 25. Ke2 Qg2+ 26. Kd1 Qh1+ 27. Ke2 Qg2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m102_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 103"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. e4 d5 3. d3 Qc7 4. Nbd2 Bg4 5. Be2 Nf6 6. h3 Bh5 7. O-O dxe4 8. dxe4 Bxf3 9. gxf3 Qe5 10. Nc4 Qc7 11. Bd3 Nbd7 12. Be3 O-O-O 13. Bxa7 Qf4 14. Bd4 Qg5+ 15. Kh1 Nxe4 16. fxe4 Re8 17. Ba7 Rd8 18. Bd4 Re8 19. Ba7 Rd8 20. Nb6+ Kc7 21. Nd5+ cxd5 22. f4 Qh4 23. exd5 Qxh3+ 24. Kg1 Qg3+ 25. Kh1 Qh4+ 26. Kg2 Rg8 27. d6+ Kxd6 28. Bf5+ Kc7 29. Qxd7+ Rxd7 30. Bxd7 Kxd7 31. Rad1+ Kc7 32. Kf3 Qh3+ 33. Kf2 Qh2+ 34. Kf3 Qxc2 35. Ke3 Qxb2 36. a4 Qb3+ 37. Kf2 Qxa4 38. Rc1+ Kd7 39. Bb8 Qd4+ 40. Kf3 Qd3+ 41. Kg2 Qe2+ 42. Kh1 Qxf1+ 43. Rxf1 Rh8 44. Rd1+ Kc8 45. Rc1+ Kxb8 46. Rc8+ Kxc8 47. Kg2 Rg8 48. Kh1 Rh8 49. Kg2 Rg8 50. Kh1 Rh8 51. Kg1 Rg8 52. Kh1 Rh8 53. Kg2 Rg8 54. Kh1 Rh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m103_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 104"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Be2 Nf6 4. d3 Be7 5. O-O O-O 6. Nc3 d6 7. d4 Nxd4 8. Nxd4 d5 9. exd5 exd4 10. Qxd4 Bf5 11. Bd2 Bxc2 12. Rac1 Bg6 13. Qe5 Nxd5 14. Qxd5 Qxd5 15. Nxd5 Bd6 16. Rxc7 Bxc7 17. Nxc7 Rfc8 18. Nd5 Rc5 19. Ne7+ Kh8 20. Nxg6+ hxg6 21. Ra1 Rc1+ 22. Bxc1 Kg8 23. Bb5 b6 24. Bd7 Kf8 25. Bc6 Rd8 26. Bb7 Rd1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m103_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 104"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Be2 Nf6 4. d3 Be7 5. Nc3 O-O 6. O-O Bc5 7. Bg5 Bxf2+ 8. Rxf2 Ng4 9. Bxd8 Nxd8 10. h3 Nxf2 11. Kxf2 Ne6 12. Nxe5 Nd4 13. Bf3 Nxf3 14. Qxf3 Rd8 15. Qxf7+ Kh8 16. Ng6+ hxg6 17. Qxg6 Rf8+ 18. Kg1 Rg8 19. Qh5# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m104_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 105"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. g3 c6 3. c3 d5 4. d3 Qc7 5. Nf3 Nf6 6. Bg2 e6 7. O-O Bc5 8. Ng5 h6 9. Nf3 O-O 10. Qb3 Bxf2+ 11. Kxf2 Nxe4+ 12. dxe4 dxe4 13. Nd4 e3+ 14. Kxe3 Qe5+ 15. Be4 Qg5+ 16. Rf4 Qxf4+ 17. Kxf4 g5+ 18. Ke5 Nd7+ 19. Kd6 Nf6 20. Bd3 Ne8+ 21. Ke7 Kh8 22. Kxf8 Nf6 23. Kxf7 Nd7 24. Kxe6 Nc5+ 25. Kf7 Nxd3 26. Bd2 Ne5+ 27. Ke7 Ng6+ 28. Kf7 Ne5+ 29. Ke7 Ng6+ 30. Kf7 Ne5+ 31. Ke7 Ng6+ 32. Kf7 Ne5+ 33. Ke7 Ng6+ 34. Kf7 Ne5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m104_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 105"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. g3 c6 3. c3 d5 4. d3 Qc7 5. Nf3 Nf6 6. Bg2 Nxe4 7. Nd4 Nxg3 8. fxg3 Qe5+ 9. Kf2 Qf6+ 10. Ke2 Qe5+ 11. Kf1 Qf6+ 12. Kg1 Qxd4+ 13. cxd4 Bf5 14. g4 Bg6 15. Nc3 Nd7 16. Be3 O-O-O 17. Nxd5 cxd5 18. Bxd5 Re8 19. Qc1+ Kb8 20. Bf4+ Ka8 21. Bc4 Rd8 22. Bc7 Rc8 23. Bf4 Re8 24. Bc7 Rc8 25. Bf4 Re8 26. Bc7 Rc8 27. Bf4 Re8 28. Bc7 Rc8 29. Bf4 Re8 30. Bc7 Rc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m105_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 106"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. g3 Be7 3. e4 h5 4. e5 d5 5. Bb5+ Bd7 6. Bd3 Nc6 7. O-O b6 8. Nc3 Nf6 9. exf6 gxf6 10. Nxd5 exd5 11. c3 O-O 12. Qb3 Na5 13. Qxd5 Bg4 14. Qb5 Bxf3 15. Qf5 Bc6 16. Qxh5 Qxd3 17. Qg4+ Kh8 18. Qh5+ Kg8 19. Qg4+ Kh8 20. Qh5+ Kg8 21. Qg4+ Kh8 22. Qh5+ Kg8 23. Qg4+ Kh8 24. Qh5+ Kg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m105_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 106"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. g3 Be7 3. e4 h5 4. e5 d5 5. Nc3 Nc6 6. Bg2 Nxe5 7. Nxe5 Nf6 8. O-O O-O 9. d4 Bb4 10. Bd2 Bxc3 11. bxc3 Ne4 12. Qxh5 Nxd2 13. Qxf7+ Rxf7 14. Nxf7 Kxf7 15. Kh1 Nxf1 16. Bxf1 Qg5 17. f4 Qh6 18. g4 Qxf4 19. Kg2 Qxg4+ 20. Kh1 Qf3+ 21. Kg1 Qxc3 22. Rc1 Qxd4+ 23. Kh1 Qe4+ 24. Kg1 Qg4+ 25. Kh1 Qf3+ 26. Kg1 Qg4+ 27. Kh1 Qf3+ 28. Kg1 Qg4+ 29. Kh1 Qf3+ 30. Kg1 Qg4+ 31. Kh1 Qf3+ 32. Kg1 Qg4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m106_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 107"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. g3 d5 3. Bg2 d4 4. e3 Be7 5. Nf3 Nf6 6. O-O O-O 7. exd4 Nc6 8. Ng5 Nxd4 9. Nc3 g6 10. d3 h6 11. Nh3 Kh8 12. Bxh6 Kg8 13. Bxf8 Kxf8 14. Ng5 Nf5 15. Qf3 Nd4 16. Qf4 Nf3+ 17. Bxf3 Qxd3 18. Qxc7 Qxf1+ 19. Kxf1 Kg8 20. Qxe7 Kh8 21. Qxf6+ Kg8 22. Qd8+ Kg7 23. Qd4+ Kg8 24. Qd8+ Kg7 25. Qd4+ Kg8 26. Qd8+ Kg7 27. Qd4+ Kg8 28. Qd8+ Kg7 29. Qd4+ Kg8 30. Qd8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m106_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 107"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. g3 d5 3. Bg2 d4 4. e3 Be7 5. Nf3 Nf6 6. O-O O-O 7. Nc3 dxc3 8. dxc3 Ne4 9. Ne5 Nc5 10. Qf3 Nd3 11. Qxf7+ Rxf7 12. Ng4 Nxf2 13. Ne5 Rf8 14. Rxf2 Qd1+ 15. Rf1 Qxf1+ 16. Bxf1 Rxf1+ 17. Kxf1 Bc5 18. e4 Bd6 19. Nf3 Nc6 20. Be3 Bxg3 21. hxg3 Kf7 22. Ng5+ Kg8 23. Kg2 Ne5 24. c5 Ng4 25. Bd4 Ne3+ 26. Bxe3 g6 27. e5 Kg7 28. Ne4 Kf7 29. Rf1+ Kg8 30. Nf6+ Kf7 31. Nxh7+ Kg8 32. Nf6+ Kf7 33. Ne4+ Kg8 34. Nf6+ Kf7 35. Nh7+ Kg8 36. Nf6+ Kf7 37. Nh7+ Kg8 38. Nf6+ Kf7 39. Nh7+ Kg8 40. Nf6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m107_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 108"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 Nf6 3. Nf3 c6 4. Qb3 e6 5. cxd5 cxd5 6. Nc3 Nc6 7. Nxd5 Qa5+ 8. Kd1 exd5 9. Qe3+ Kd8 10. Ng5 Qa4+ 11. Kd2 Qxd4+ 12. Kc2 Nb4+ 13. Kb3 Qxe3+ 14. Bxe3 g6 15. Nxf7+ Ke8 16. Nxh8 Ke7 17. Kxb4 Kd7+ 18. Bc5 Bxc5+ 19. Kxc5 Ne4+ 20. Kxd5 Nf6+ 21. Ke5 Ng4+ 22. Kf4 Nxf2 23. Rg1 g5+ 24. Kxg5 Ne4+ 25. Kf5 Nd6+ 26. Kf6 Ne4+ 27. Kg7 Ke8 28. Kxh7 Ng5+ 29. Kg8 Be6+ 30. Nf7 Bxf7+ 31. Kg7 Ne6+ 32. Kh8 Kd7+ 33. Kh7 Nf8+ 34. Kg7 Ne6+ 35. Kxf7 Ng5+ 36. Kg7 Ne6+ 37. Kf7 Ng5+ 38. Kg7 Ne6+ 39. Kf7 Ng5+ 40. Kg7 Ne6+ 41. Kf7 Ng5+ 42. Kg7 Ne6+ 43. Kf7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m107_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 108"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 Nf6 3. Nf3 c6 4. Qb3 e6 5. Nc3 Be7 6. cxd5 O-O 7. Bf4 cxd5 8. O-O-O Nc6 9. e4 Nxe4 10. Nxd5 Nxf2 11. Nxe7+ Nxe7 12. Rg1 Nxd1 13. Qxd1 Bd7 14. Ne5 Rc8+ 15. Kb1 Nd5 16. Bg3 Nc3+ 17. bxc3 Rxc3 18. Qd2 Qb6+ 19. Ka1 Rcc8 20. Nxd7 Rcd8 21. Nxb6 axb6 22. d5 Rxd5 23. Qc2 Rd1+ 24. Qxd1 Ra8 25. Qd7 Ra7 26. Qd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m108_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 109"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e6 2. Nf3 c5 3. d4 Nf6 4. Bd3 Qc7 5. O-O Nc6 6. Nc3 Nxd4 7. exd4 cxd4 8. Nxd4 d5 9. Bb5+ Bd7 10. Bxd7+ Qxd7 11. Nf3 O-O-O 12. Qxd5 exd5 13. Nxd5 Nxd5 14. Rd1 Nb4 15. Rxd7 Rxd7 16. c3 Rd1+ 17. Ne1 Rxe1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m108_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 109"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e6 2. Nf3 c5 3. d4 Nf6 4. Bd3 Qc7 5. O-O Nc6 6. Nc3 cxd4 7. exd4 Bd6 8. Bg5 O-O 9. Bc4 Bxh2+ 10. Kh1 Kh8 11. Qe2 Kg8 12. Qe1 Kh8 13. Nxh2 Nxd4 14. Bd3 Qxh2+ 15. Kxh2 Ng4+ 16. Kg1 Kg8 17. Ne4 Re8 18. Nf6+ gxf6 19. Bh4 d5 20. Bg3 Nxf2 21. Qxf2 Nc6 22. Qxf6 Rf8 23. Qg5+ Kh8 24. Qf6+ Kg8 25. Qxf7+ Rxf7 26. Bxh7+ Kxh7 27. Rxf7+ Kg8 28. Rc7 Nb4 29. Rxc8+ Rxc8 30. Rc1 Nxa2 31. Rf1 Rxc2 32. Rb1 Rc1+ 33. Rxc1 Nxc1 34. Kh2 Nd3 35. b3 Nb2 36. Kh1 Nd3 37. Bh2 Nf2+ 38. Kg1 Nd3 39. Kh1 Nf2+ 40. Kg1 Nd3 41. Kh1 Nf2+ 42. Kg1 Nd3 43. Kh1 Nf2+ 44. Kg1 Nd3 45. Kh1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m109_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 110"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. c3 d5 3. exd5 cxd5 4. d4 Bf5 5. Bb5+ Nd7 6. Nf3 Nf6 7. O-O a6 8. Ba4 e6 9. Bxd7+ Qxd7 10. Ne5 O-O-O 11. Nxd7 Rxd7 12. Qa4 Bxb1 13. Rxb1 Bd6 14. Qxd7+ Kxd7 15. Rd1 Bxh2+ 16. Kxh2 Ng4+ 17. Kg1 Nf6 18. Be3 Ne4 19. Bf4 Nf6 20. Be5 Ke7 21. Bc7 b5 22. Re1 Re8 23. Rxe6+ fxe6 24. Re1 Kf7 25. Bd6 Kg6 26. Bc7 Re7 27. Bd8 Re8 28. Bc7 Re7 29. Bd8 Re8 30. Bc7 Re7 31. Bd8 Re8 32. Bc7 Re7 33. Bd8 Re8 34. Bc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m109_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 110"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. c3 d5 3. exd5 cxd5 4. d4 Bf5 5. Nf3 Nc6 6. Bd3 Bd7 7. O-O Nf6 8. Bg5 Bg4 9. h3 Bh5 10. Bf4 Bxf3 11. gxf3 Nxd4 12. cxd4 Ne4 13. Bb5+ Qd7 14. Bxd7+ Kxd7 15. Qa4+ Ke6 16. Bc7 Rc8 17. Qxa7 Rxc7 18. Qb6+ Kd7 19. Qb5+ Kc8 20. Qxd5 f6 21. fxe4 Kb8 22. Qd8+ Ka7 23. Qxc7 Ka8 24. Qc8+ Ka7 25. Qc5+ Kb8 26. Qb5 Kc8 27. Qe8+ Kc7 28. Rc1+ Kd6 29. Qb8+ Kd7 30. Qxb7+ Kd8 31. Qa8+ Kd7 32. Qa7+ Kd8 33. Qa8+ Kd7 34. Qd5+ Ke8 35. Rc8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m10_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Najdorf"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bb5+ axb5 7. Ndxb5 Nc6 8. O-O b6 9. Nxd6+ exd6 10. Nd5 Nxe4 11. Nf4 Nc5 12. Re1+ Be7 13. Rxe7+ Qxe7 14. Nd5 O-O 15. Nxb6 Ra7 16. Nd5 Qe6 17. Nb6 Qe5 18. Nc4 Ne4 19. Nxe5 dxe5 20. Qd3 Nf6 21. Qd6 Na5 22. Qxe5 Be6 23. Qd6 Bf5 24. c3 Nc4 25. Qc6 Ne5 26. Qd6 Nf3+ 27. gxf3 Bc2 28. Bd2 Bf5 29. Qxf8+ Kxf8 30. Re1 Rxa2 31. b3 Rxd2 32. Rf1 Rd3 33. Rc1 Rxf3 34. Rf1 Rxc3 35. b4 Rb3 36. Rc1 Rxb4 37. Rf1 Rg4+ 38. Kh1 Be4+ 39. f3 Bxf3+ 40. Rxf3 Rg1+ 41. Kxg1 Ne4 42. Rxf7+ Kxf7 43. Kh1 Nf2+ 44. Kg2 Ne4 45. Kh1 Nf2+ 46. Kg2 Ne4 47. Kh1 Nf2+ 48. Kg2 Ne4 49. Kh1 Nf2+ 50. Kg2 Ne4 51. Kh1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m10_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Najdorf"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bc4 Qb6 7. O-O Qxd4 8. Qxd4 Nc6 9. Qd3 Nxe4 10. Nxe4 Ne5 11. Nxd6+ exd6 12. Qd5 Nxc4 13. Qxc4 Kd7 14. Qxf7+ Kc6 15. Qc4+ Kb6 16. Qb4+ Kc7 17. Qc4+ Kb6 18. Be3+ Ka5 19. Qd5+ Ka4 20. Qc4+ Ka5 21. Qd5+ Ka4 22. Qc4+ Ka5 23. Qd5+ Ka4 24. b3+ Kb4 25. Qd4+ Ka5 26. Qd5+ Kb4 27. Bd2+ Ka3 28. Qa5+ Kb2 29. Rab1+ Kxc2 30. Qc7+ Kxd2 31. Qa5+ Kc2 32. Qc7+ Kd3 33. Rbd1+ Ke4 34. Qc4+ Kf5 35. Qf7+ Ke4 36. Qc4+ Kf5 37. Qd5+ Kg6 38. Qe4+ Kf7 39. Qd5+ Kg6 40. Qe4+ Kf7 41. Qd5+ Kg6 42. Qe4+ Kf7 43. Qd5+ Kg6 44. Qe4+ Kf7 45. Qd5+ Kg6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m110_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 111"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 Nf6 2. d4 e6 3. Bf4 Be7 4. c4 b6 5. Nc3 O-O 6. Ne5 d6 7. Nf3 Nc6 8. Bg5 h6 9. Bh4 h5 10. Bg5 d5 11. cxd5 Nb4 12. Nb5 exd5 13. Ne5 Be6 14. Nc3 g6 15. Bh6 Kh8 16. Bxf8 Bxf8 17. Nb5 Ne4 18. Nf3 Nf6 19. Ng5 a6 20. Nc3 Nc6 21. Nf3 Ne4 22. Nxe4 dxe4 23. e3 Bb4+ 24. Ke2 Bc4+ 25. Qd3 exd3+ 26. Kd1 d2 27. Bxc4 Qd7 28. Nxd2 Qg4+ 29. Kc2 Qxg2 30. Bxf7 Qxf2 31. Bxg6 Qxd2+ 32. Kb3 Qxe3+ 33. Kc4 Na5+ 34. Kxb4 Qxd4+ 35. Ka3 Qe3+ 36. Kb4 Qf4+ 37. Ka3 Qe3+ 38. Kb4 Nc6+ 39. Kc4 Ne5+ 40. Kd5 Nxg6 41. Rhd1 Nf4+ 42. Kc4 Qe2+ 43. Kd4 Qxb2+ 44. Kc4 Qe2+ 45. Kd4 Ne6+ 46. Kd5 Nf4+ 47. Kc6 Qc4+ 48. Kd7 Qf7+ 49. Kc6 Qe6+ 50. Kxc7 Ra7+ 51. Kd8 Ra8+ 52. Kc7 Qf7+ 53. Kxb6 Qe6+ 54. Kc7 Qf7+ 55. Kd6 Qf6+ 56. Kd7 Qf7+ 57. Kc6 Qe6+ 58. Kc7 Qf7+ 59. Kd6 Qf6+ 60. Kd7 Qf7+ 61. Kc6 Qe6+ 62. Kc7 Qf7+ 63. Kd6 Qf6+ 64. Kd7 Qf7+ 65. Kc6 Qe6+ 66. Kc7 Qf7+ 67. Kd6 Qf6+ 68. Kd7 Qf7+ 69. Kc6 Qe6+ 70. Kc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m110_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 111"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 Nf6 2. d4 e6 3. Bf4 Be7 4. c4 b6 5. Nc3 O-O 6. e3 Nc6 7. Bd3 Bb7 8. O-O Nxd4 9. exd4 Ne4 10. Bxe4 Bc8 11. Bxa8 Ba6 12. Be4 Bxc4 13. Nd2 Bxf1 14. Qxf1 Qa8 15. Bxc7 Qc8 16. Be5 Bb4 17. Qb5 Bxc3 18. Nf3 Bxd4 19. Nxd4 Rd8 20. Rd1 Re8 21. Bxh7+ Kxh7 22. Qd3+ Kg8 23. Nb5 a6 24. Nd6 Rd8 25. Ne4 Re8 26. Qxd7 Qxd7 27. Rxd7 Rc8 28. Nf6+ gxf6 29. Bxf6 Rc1+ 30. Rd1 Rxd1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m111_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 112"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c5 2. c3 Nf6 3. e3 Nc6 4. d4 e6 5. dxc5 Bxc5 6. Bd3 O-O 7. O-O d5 8. Bb5 b6 9. Bxc6 Rb8 10. Bb5 a6 11. Bc6 Qc7 12. Ba4 d4 13. exd4 Nd5 14. dxc5 bxc5 15. Qxd5 exd5 16. Rd1 Rd8 17. Rxd5 Rxd5 18. Be8 Rd1+ 19. Ne1 Rxe1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m111_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 112"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c5 2. c3 Nf6 3. e3 Nc6 4. d4 e6 5. Bc4 Nxd4 6. cxd4 Qa5+ 7. Nc3 Qxc3+ 8. bxc3 Ne4 9. Qd3 Nf6 10. O-O Be7 11. d5 O-O 12. Ne5 Nxd5 13. Qxd5 exd5 14. Bxd5 Rd8 15. Bxf7+ Kf8 16. Bd5 Bd6 17. Nc4 Be7 18. Ne5 Re8 19. Nxd7+ Bxd7 20. Bxb7 Rab8 21. Ba6 Ba4 22. a3 Bc2 23. Ra2 Bb1 24. Ra1 Bc2 25. Bc4 Rec8 26. Be6 Re8 27. Bd7 Red8 28. Be6 Re8 29. Ra2 Bb1 30. Ra1 Bc2 31. Ra2 Bb1 32. Ra1 Bc2 33. Ra2 Bb1 34. Ra1 Bc2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m112_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 113"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. g3 Nf6 3. d3 Nc6 4. Nc3 e5 5. Bg2 Bc5 6. O-O O-O 7. Ng5 g6 8. Nf3 d4 9. Ng5 h6 10. Nf3 Be6 11. Bxh6 Kh8 12. Bxf8 Bxf8 13. Ng5 Bc5 14. Nf3 dxc3 15. bxc3 Bxf2+ 16. Kxf2 Ng4+ 17. Kg1 Ne3 18. Nd2 Nxd1 19. Rfxd1 Qd7 20. Bxc6 bxc6 21. Ne4 Qd4+ 22. cxd4 exd4 23. Nf6 Bh3 24. Ne4 f5 25. Nf6 Kg7 26. Nd7 Kh7 27. Nf6+ Kh8 28. Nd7 Rd8 29. Nf6 Kg7 30. Kf2 Kxf6 31. Rg1 Bg4 32. Rgd1 Bxe2 33. Kxe2 Re8+ 34. Kf3 Re3+ 35. Kf4 g5# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m112_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 113"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. g3 Nf6 3. d3 Nc6 4. Nc3 e5 5. Bg2 Ne4 6. O-O Nf6 7. d4 Nxd4 8. Nxe5 Ne6 9. Nxd5 Nxd5 10. Qxd5 Qxd5 11. Bxd5 Nd4 12. Bxf7+ Ke7 13. Bg5+ Kd6 14. Nc4+ Kc5 15. Ne5 Nxe2+ 16. Kh1 Nxg3+ 17. hxg3 Bd6 18. Nd3+ Kd4 19. c3+ Kxd3 20. Rfd1+ Ke4 21. Re1+ Kd3 22. Red1+ Ke4 23. Re1+ Kd3 24. Red1+ Ke4 25. Re1+ Kd3 26. Red1+ Ke4 27. Re1+ Kd3 28. Red1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m113_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 114"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nd2 c5 3. e3 Qc7 4. c3 d5 5. Bb5+ Bd7 6. Bd3 Nf6 7. Ngf3 a6 8. O-O Nc6 9. Ng5 h6 10. Ngf3 O-O-O 11. Qb3 cxd4 12. cxd4 Na5 13. Qd1 Nc6 14. Qb3 Ne4 15. Nxe4 dxe4 16. Bxe4 e5 17. Qxf7 Kb8 18. Nxe5 Nxe5 19. dxe5 Qxe5 20. Bd3 Qxh2+ 21. Kxh2 Bd6+ 22. Kh1 Rhg8 23. Qg6 Bf8 24. Qg3+ Kc8 25. Qg6 Be7 26. Qf7 Bd6 27. Qc4+ Kb8 28. Qf7 Be5 29. Qe7 Bc7 30. Qf7 Be5 31. Qe7 Bc7 32. Qf7 Be5 33. Qe7 Bc7 34. Qf7 Be5 35. Qe7 Bc7 36. Qf7 Be5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m113_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 114"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nd2 c5 3. e3 Qc7 4. c3 d5 5. Bb5+ Kd8 6. Ndf3 Nf6 7. c4 Qa5+ 8. Kf1 Ne4 9. Qd3 Nd2+ 10. Ke1 Nxc4+ 11. Kf1 Qxb5 12. Qc3 Nd6+ 13. Ke1 Nc6 14. Qc2 Qb4+ 15. Kf1 Qb5+ 16. Ke1 Qa5+ 17. Kf1 Qb5+ 18. Ke1 Qa5+ 19. Kf1 Qb5+ 20. Ke1 Qa5+ 21. Kf1 Qb5+ 22. Ke1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m114_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 115"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 g6 2. c3 d6 3. d4 e5 4. e4 Nf6 5. Nf3 Nxe4 6. dxe5 dxe5 7. Nxe5 Nc5 8. Bb5+ Bd7 9. Bxd7+ Qxd7 10. O-O Qxd1 11. Rxd1 Ne6 12. Nc4 Nc6 13. Nd6+ cxd6 14. Re1 O-O-O 15. Rxe6 fxe6 16. Bf4 e5 17. Bg5 Re8 18. Bf6 Rg8 19. Bg5 h6 20. Bf6 Re6 21. Bh4 e4 22. Nd2 Re5 23. Bf6 Re8 24. Nxe4 Rxe4 25. Rd1 Re1+ 26. Rxe1 d5 27. Re8+ Kd7 28. Ra8 Kc7 29. Re8 Bd6 30. Rxg8 Kd7 31. Rxg6 Ke8 32. Rg8+ Kf7 33. Rh8 Kxf6 34. Rxh6+ Kg7 35. Rxd6 Kh8 36. Rxd5 Kh7 37. Rd7+ Kh6 38. Rxb7 Kg6 39. Rd7 Kh6 40. Rd6+ Kg7 41. Rxc6 Kg8 42. Rc8+ Kh7 43. Rc7+ Kh8 44. Rxa7 Kg8 45. Ra8+ Kh7 46. Ra7+ Kh6 47. Ra6+ Kh5 48. Ra5+ Kg6 49. Ra6+ Kh7 50. Ra7+ Kh6 51. Ra6+ Kh5 52. Ra5+ Kg6 53. Ra6+ Kh5 54. Ra5+ Kg6 55. Ra6+ Kh5 56. Ra5+ Kg6 57. Ra6+ Kh5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m114_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 115"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 g6 2. c3 d6 3. d4 e5 4. e4 Nf6 5. Nf3 Nxe4 6. Bb5+ Ke7 7. Bg5+ Ke6 8. Bxd8 c6 9. Bc4+ Kd7 10. Bxf7 Kxd8 11. Bc4 exd4 12. cxd4 Bg7 13. Bf7 Rf8 14. Bc4 Re8 15. Bf7 Nf6+ 16. Bxe8 Kxe8 17. Qe2+ Kd7 18. Ne5+ dxe5 19. dxe5 Nd5 20. Qg4+ Kc7 21. Qg5 Nb4 22. Qe7+ Kb6 23. Qxb4+ Kc7 24. Qe7+ Kb6 25. Qxg7 h5 26. Qxg6 Kc7 27. Qg7+ Kb6 28. Qg8 Bd7 29. Qd8+ Kc5 30. Qf8+ Kb6 31. Qb4+ Kc7 32. Qa5+ Kc8 33. Qc5 Kc7 34. Qa5+ Kc8 35. Qc5 Kc7 36. Qa5+ Kc8 37. Qc5 Kc7 38. Qa5+ Kc8 39. Qc5 Kc7 40. Qa5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m115_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 116"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e5 2. d4 exd4 3. exd4 d5 4. Nf3 Bd6 5. Bb5+ c6 6. Ba4 Nf6 7. O-O O-O 8. Nc3 a6 9. Bb3 Bxh2+ 10. Kxh2 Ng4+ 11. Kg1 Nf6 12. Ng5 h6 13. Nf3 Ne4 14. Nxe4 dxe4 15. Ne5 Qf6 16. Bxf7+ Kh7 17. Bg6+ Qxg6 18. Nc4 b5 19. Ne5 Rf6 20. Nxg6 Rxg6 21. Qh5 Rxg2+ 22. Kxg2 Bh3+ 23. Kxh3 g6 24. Qe5 Nd7 25. Qxe4 c5 26. Qxa8 cxd4 27. Qxa6 Kh8 28. Qxg6 Nf8 29. Qxh6+ Kg8 30. Qg5+ Kh8 31. Qxb5 Kh7 32. Qh5+ Kg8 33. Qg5+ Kh8 34. Qh5+ Kg8 35. Qg5+ Kh8 36. Qh5+ Kg8 37. Qg5+ Kh8 38. Qh5+ Kg8 39. Qg5+ Kh8 40. Qh5+ Kg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m115_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 116"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e5 2. d4 exd4 3. exd4 d5 4. Nf3 Bd6 5. Nc3 Nc6 6. Nxd5 Bb4+ 7. Nxb4 Nxb4 8. c3 Nc6 9. Qe2+ Kf8 10. Qb5 Qe7+ 11. Kd1 Nf6 12. Bc4 Ne4 13. Rf1 Nxc3+ 14. bxc3 Nxd4 15. cxd4 Qe4 16. Qb4+ Ke8 17. Bb5+ Kd8 18. Bg5+ Qe7 19. Qxe7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m116_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "threefold repetition"]
+[Opening "Random-walk line 117"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 a6 3. Nh3 Nf6 4. e4 d5 5. exd5 exd5 6. Qe2+ Qe7 7. Qxe7+ Bxe7 8. Bb5+ c6 9. O-O O-O 10. Ba4 c5 11. dxc5 Bxc5 12. Bb3 Bxf2+ 13. Kxf2 Ng4+ 14. Kg3 Ne5 15. Bxd5 Be6 16. Bxb7 Ra7 17. Be4 Bxh3 18. Kxh3 Nc4 19. Nd5 Ne5 20. Nb6 Kh8 21. Nd5 Nc4 22. Nf4 Nxb2 23. Bxb2 Nd7 24. Ng6+ fxg6 25. Rxf8+ Nxf8 26. Bxg7+ Kxg7 27. Rg1 Re7 28. Re1 Rxe4 29. Rxe4 Nd7 30. Re7+ Kg8 31. Rxd7 Kf8 32. Rxh7 Kg8 33. Ra7 Kh8 34. Rxa6 Kh7 35. Ra7+ Kh6 36. Rh7+ Kxh7 37. Kg4 Kg8 38. Kg5 Kf8 39. Kxg6 Ke8 40. Kg7 Ke7 41. Kg8 Ke6 42. Kf8 Kf5 43. g4+ Kxg4 44. Kg7 Kh3 45. Kh8 Kxh2 46. Kg7 Kh1 47. Kh8 Kg1 48. Kg7 Kf1 49. Kf8 Kf2 50. Kg7 Ke2 51. Kf7 Kf3 52. c3 Kf4 53. Ke6 Kf3 54. Kf5 Ke3 55. Ke5 Kd3 56. Kd5 Kxc3 57. Kc5 Kc2 58. a3 Kc3 59. Kc6 Kc4 60. a4 Kb4 61. Kb6 Kc4 62. a5 Kd4 63. a6 Kd5 64. a7 Kd6 65. a8=Q Ke5 66. Qe8+ Kf4 67. Qf7+ Kg3 68. Qg8+ Kf2 69. Qf7+ Kg1 70. Qg8+ Kf1 71. Qf7+ Ke1 72. Qe8+ Kd1 73. Qd8+ Kc1 74. Qc7+ Kb2 75. Qg7+ Kb1 76. Qg1+ Ka2 77. Qh2+ Ka1 78. Qh1+ Ka2 79. Qh2+ Ka1 80. Qh1+ Ka2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m116_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 117"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 a6 3. Nh3 Nf6 4. e4 d5 5. exd5 exd5 6. Bg5 Qe7+ 7. Be2 Qxe2+ 8. Qxe2+ Kd7 9. O-O Nc6 10. Bf4 Nxd4 11. Qd3 Nc6 12. Qf5+ Ke8 13. Bxc7 Bxf5 14. Rfe1+ Kd7 15. Bb6 Bxc2 16. Rec1 Bd3 17. Rd1 Bc4 18. Rxd5+ Bxd5 19. Nxd5 Nxd5 20. Be3 Nxe3 21. fxe3 Ne5 22. Rd1+ Kc6 23. Rc1+ Kd7 24. Rd1+ Kc6 25. Rc1+ Kd7 26. Rd1+ Kc6 27. Rc1+ Kd7 28. Rd1+ Kc6 29. Rc1+ Kd7 30. Rd1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m117_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 118"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. d4 Be7 3. e4 d5 4. exd5 exd5 5. Nf3 Nf6 6. Nc3 O-O 7. Nxd5 Nc6 8. Nxe7+ Qxe7+ 9. Kd2 Ne4+ 10. Ke3 Nd6+ 11. Kf4 Qf6+ 12. Ke3 Nf5+ 13. Kf4 Qxd4+ 14. Nxd4 g5+ 15. Kxg5 f6+ 16. Kf4 Nfxd4 17. Qxd4 Nxd4 18. Bd3 Ne6+ 19. Kf5 Ng7+ 20. Kf4 Ne6+ 21. Kf5 Ng7+ 22. Kf4 Ne6+ 23. Kf5 Ng7+ 24. Kf4 Ne6+ 25. Kf5 Ng7+ 26. Kf4 Ne6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m117_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 118"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. d4 Be7 3. e4 d5 4. exd5 exd5 5. Nf3 Bb4+ 6. Bd2 Bxd2+ 7. Nfxd2 Qe7+ 8. Qe2 Qxe2+ 9. Bxe2 dxc4 10. Nxc4 Nc6 11. O-O Nxd4 12. Nbd2 Nxe2+ 13. Kh1 Ng3+ 14. fxg3 Bg4 15. Rfe1+ Kd7 16. Ne5+ Ke6 17. Nxg4+ Kd7 18. Ne5+ Ke6 19. Ng4+ Kd7 20. Ne5+ Ke6 21. Ng4+ Kd7 22. Ne5+ Ke6 23. Ng4+ Kd7 24. Ne5+ Ke6 25. Ng4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m118_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 119"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e5 2. Nc3 Nf6 3. d4 d6 4. Bd3 Nbd7 5. Nf3 d5 6. O-O c6 7. dxe5 Nc5 8. exf6 gxf6 9. Nd4 Bg7 10. Nf5 Bxf5 11. Bxf5 O-O 12. Nxd5 cxd5 13. Qd4 Ne6 14. Qh4 Kh8 15. Qxh7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m118_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 119"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e5 2. Nc3 Nf6 3. d4 d6 4. Bd3 Nbd7 5. Nf3 Be7 6. O-O O-O 7. Bc4 Ng4 8. h3 Ngf6 9. Bb5 a6 10. Bc4 e4 11. g3 exf3 12. Qxf3 Re8 13. Re1 Nc5 14. Kh2 Ng4+ 15. hxg4 Bxg4 16. Qxg4 Bf6 17. Nd5 Na4 18. Bb3 Nb6 19. Nxf6+ Qxf6 20. Bxf7+ Kxf7 21. Qh5+ Qg6 22. Qxg6+ Kxg6 23. e4 Rxe4 24. Rxe4 Nc4 25. Re6+ Kf7 26. Re4 Nxb2 27. Bxb2 Re8 28. Rf4+ Kg6 29. Rg4+ Kf7 30. Rf4+ Kg6 31. Rg4+ Kf7 32. Rf4+ Kg6 33. Rg4+ Kf7 34. Rf4+ Kg6 35. Rg4+ Kf7 36. Rf4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m119_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 120"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. g3 c6 3. Nf3 g6 4. Bg2 Nf6 5. O-O Bg7 6. Nc3 O-O 7. Ne5 e6 8. Nxd5 cxd5 9. Nf3 Nc6 10. Ng5 h6 11. Nf3 Ne4 12. Ne1 Nf6 13. Nf3 Nxd4 14. Nxd4 e5 15. Nf3 e4 16. Ne5 Qd6 17. Nf3 Be6 18. Nd4 Qe5 19. e3 Qd6 20. Nb5 Qd7 21. Nc3 d4 22. exd4 Qd6 23. Nxe4 Nxe4 24. Bxe4 Qxd4 25. Bxb7 Qxd1 26. Rxd1 Rfb8 27. Bxa8 Rxa8 28. Rd8+ Rxd8 29. Bf4 Bxb2 30. Bxh6 Bxa1 31. a3 Rd1+ 32. Kg2 Bd5+ 33. Kh3 Be6+ 34. Kg2 Bd5+ 35. Kh3 Be6+ 36. Kg2 Bd5+ 37. Kh3 Be6+ 38. Kg2 Bd5+ 39. Kh3 Be6+ 40. Kg2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m119_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 120"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. g3 c6 3. Nf3 g6 4. Bg2 Nf6 5. O-O Bg7 6. Nc3 O-O 7. e4 Nxe4 8. Ne5 Bxe5 9. dxe5 Nxc3 10. bxc3 c5 11. Qxd5 Qxd5 12. Bxd5 Rd8 13. Bc4 Nc6 14. e6 fxe6 15. Bxe6+ Bxe6 16. Re1 Re8 17. Rxe6 Rad8 18. Re3 Rd1+ 19. Kg2 Rxc1 20. Rxc1 Rd8 21. Re6 Re8 22. Rd1 Rd8 23. Rde1 Re8 24. Rxe7 Nxe7 25. Rxe7 Rxe7 26. c4 Re2 27. c3 Rxa2 28. Kf1 Ra1+ 29. Kg2 Rg1+ 30. Kxg1 Kf7 31. Kg2 Kf6 32. Kf3 Kf5 33. g4+ Kg5 34. h4+ Kxh4 35. Kg2 Kxg4 36. f3+ Kf4 37. Kf2 Ke5 38. f4+ Kxf4 39. Ke2 Ke4 40. Kd2 Kf3 41. Kc2 Ke2 42. Kb2 Kd3 43. Kb3 Ke4 44. Kc2 Ke3 45. Kb2 Kd2 46. Kb3 Kc1 47. Ka4 Kd2 48. Kb5 Kxc3 49. Kxc5 b6+ 50. Kd5 Kb4 51. Kc6 Kxc4 52. Kc7 Kc5 53. Kc8 Kc6 54. Kb8 a6 55. Kc8 Kd5 56. Kb8 Kc6 57. Ka8 Kc7 58. Ka7 a5 59. Ka8 a4 60. Ka7 a3 61. Ka8 a2 62. Ka7 a1=Q# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m11_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Dragon"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bb5+ Bd7 7. O-O Bg7 8. Bxd7+ Qxd7 9. Nf3 O-O 10. Ng5 h6 11. Nf3 Nc6 12. Nd5 Nxe4 13. Nf4 e5 14. Nd5 Qe6 15. Nc7 Rfb8 16. Nb5 b6 17. Nc7 Rc8 18. Nb5 a6 19. Na3 Nc5 20. Be3 e4 21. b3 Bxa1 22. Qxa1 Kh7 23. Nh4 Qd5 24. Bf4 g5 25. Bg3 gxh4 26. Bxh4 Qxb3 27. cxb3 Nd3 28. Rd1 Nf4 29. Rxd6 Ne2+ 30. Kf1 Ng3+ 31. Bxg3 Na5 32. Rxb6 Rc1+ 33. Qxc1 Ra7 34. Rxa6 Rxa6 35. Qxh6+ Kxh6 36. Bf4+ Kh7 37. Bc7 Kh8 38. Be5+ Kh7 39. Bc7 Kh8 40. Be5+ Kh7 41. Bc7 Kh8 42. Be5+ Kh7 43. Bc7 Kh8 44. Be5+ Kh7 45. Bc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m11_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Dragon"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. Bc4 Bg7 7. O-O O-O 8. Nf3 Nc6 9. Be3 Nxe4 10. Nxe4 Bxb2 11. Rb1 Ba3 12. Rb3 Bc5 13. Nc3 Bxe3 14. fxe3 Bg4 15. Rxb7 Rb8 16. Rxb8 Nxb8 17. h3 Bh5 18. Qd5 Bxf3 19. gxf3 Qb6 20. Na4 Qxe3+ 21. Kg2 Qf4 22. Qxf7+ Rxf7 23. Bxf7+ Kxf7 24. Nc3 Qd2+ 25. Kh1 Qxc3 26. Rc1 Qxf3+ 27. Kg1 Qxh3 28. Rf1+ Qxf1+ 29. Kxf1 Nc6 30. Kf2 Nd4 31. c3 Nc6 32. Kg2 Ne5 33. Kg3 Nd3 34. Kg2 Nf4+ 35. Kg1 Ne2+ 36. Kh1 Nxc3 37. a3 Nd1 38. Kh2 Nf2 39. Kg1 Nh3+ 40. Kf1 Nf4 41. Ke1 Ng2+ 42. Kd1 Ne3+ 43. Kc1 Nc4 44. Kb1 Nxa3+ 45. Kc1 Nc4 46. Kc2 Na3+ 47. Kd2 Nc4+ 48. Ke1 Ne3 49. Kf2 Nd1+ 50. Kf3 Nc3 51. Kg2 Ne2 52. Kh1 Ng3+ 53. Kg1 Ne2+ 54. Kf1 Ng3+ 55. Ke1 Ne4 56. Kf1 Ng3+ 57. Ke1 Ne4 58. Kf1 Ng3+ 59. Ke1 Ne4 60. Kf1 Ng3+ 61. Ke1 Ne4 62. Kf1 Ng3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m120_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 121"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. Nf3 e5 3. d3 Be7 4. e3 f5 5. Qa4+ Nc6 6. Nc3 Nf6 7. Qb5 a6 8. Qa4 O-O 9. Qb3 Bd7 10. Qxb7 Na5 11. Qb4 Nc6 12. Qb7 Na5 13. Qb4 Nc6 14. Qb7 Na5 15. Qb4 Nc6 16. Qb7 Na5 17. Qb4 Nc6 18. Qb7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m120_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 121"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. Nf3 e5 3. d3 Be7 4. e3 f5 5. Nc3 Nc6 6. Nd5 Nd4 7. exd4 exd4 8. Nxd4 Nf6 9. Qa4+ Kf8 10. Nf3 Nxd5 11. cxd5 Bf6 12. Qb5 Qe7+ 13. Kd1 Rb8 14. Bd2 Qf7 15. Ke1 Qe7+ 16. Kd1 Qf7 17. Qc4 Bxb2 18. Rb1 Ba3 19. Rb3 Qd7 20. Rxa3 Ra8 21. Qf4 Qf7 22. Qd4 Qxd5 23. Qxd5 Ke8 24. Qb5+ Kd8 25. Bg5# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m121_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 122"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. Nf3 e5 3. Nc3 Nf6 4. a4 Bd7 5. Bc4 Nc6 6. O-O d5 7. Bb3 dxe4 8. Nxe4 Nxe4 9. Bd5 Nf6 10. Bc4 Ne4 11. Bd5 Nf6 12. Bc4 Ne4 13. Bd5 Nf6 14. Bc4 Ne4 15. Bd5 Nf6 16. Bc4 Ne4 17. Bd5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m121_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 122"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. Nf3 e5 3. Nc3 Nf6 4. a4 Bd7 5. Bc4 Nc6 6. O-O Nxe4 7. Nxe4 Nb4 8. c3 Nc6 9. d4 exd4 10. cxd4 Nxd4 11. Nxd4 Qh4 12. Nc3 Qxh2+ 13. Kxh2 O-O-O 14. Bxf7 Be7 15. Ne6 Bxe6 16. Bxe6+ Kb8 17. Bf7 Rdf8 18. Be6 Re8 19. Bf7 Rhf8 20. Bxe8 Rxe8 21. Nd5 Rd8 22. Nxe7 Rd7 23. Nd5 Rf7 24. Qh5 Rd7 25. Qe8+ Rd8 26. Qxd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m122_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 123"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c3 d5 3. a4 e6 4. e3 Bd6 5. Bb5+ c6 6. Bd3 O-O 7. Nf3 b5 8. O-O a6 9. axb5 axb5 10. Rxa8 Bxh2+ 11. Kxh2 Ng4+ 12. Kg1 Nd7 13. Ra1 Nge5 14. dxe5 Nxe5 15. Nxe5 c5 16. Bxb5 Qb6 17. Bd3 d4 18. cxd4 cxd4 19. exd4 Qxd4 20. Nc6 Qxd3 21. Qxd3 Kh8 22. Ra8 Kg8 23. Ne7+ Kh8 24. Rxc8 Rxc8 25. Nxc8 Kg8 26. Ne7+ Kh8 27. Qd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m122_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 123"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c3 d5 3. a4 e6 4. e3 Bd6 5. Nf3 O-O 6. Bd3 Nc6 7. O-O e5 8. dxe5 Bxe5 9. c4 Bxh2+ 10. Nxh2 Ne5 11. f4 Ned7 12. cxd5 Nxd5 13. e4 N5f6 14. Nc3 Nxe4 15. Nxe4 Qh4 16. Qf3 Qxh2+ 17. Kxh2 Rd8 18. Kh1 Rf8 19. Rd1 Rd8 20. Nc3 Nc5 21. Ne4 Nd7 22. Be3 Rf8 23. Ng5 Nf6 24. Bxh7+ Nxh7 25. Qh5 Kh8 26. Qxh7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m123_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 124"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e6 2. a3 a6 3. Be2 c5 4. c3 d5 5. Nf3 Nf6 6. O-O Nc6 7. Bd3 Bd6 8. Ng5 O-O 9. Bxh7+ Kh8 10. Bd3 Bxh2+ 11. Kxh2 Qc7+ 12. Kg1 g6 13. Qf3 Ne4 14. Nh3 Qe5 15. Qxe4 dxe4 16. Bc2 Nd4 17. exd4 Qc7 18. Bxe4 Qd6 19. Bf3 cxd4 20. Ng5 f6 21. Nh3 d3 22. Rd1 Qe5 23. Bg4 f5 24. Bf3 f4 25. Bg4 Qe4 26. Ng5 Qe5 27. Nh3 Qe4 28. Ng5 Qe5 29. Nh3 Qe4 30. Ng5 Qd5 31. Nh3 Qe4 32. Ng5 Qe5 33. Nh3 Qe4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m123_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 124"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 e6 2. a3 a6 3. Be2 c5 4. c3 d5 5. Nf3 Nf6 6. O-O Nc6 7. d4 cxd4 8. exd4 Ne4 9. Bd3 Bd6 10. g3 O-O 11. Be3 Nxg3 12. hxg3 Bxg3 13. fxg3 Nxd4 14. cxd4 Qb6 15. Qc2 Qxd4 16. Bxd4 Rd8 17. Be5 Re8 18. Bxh7+ Kf8 19. Bd6+ Re7 20. Bxe7+ Kxe7 21. Qc7+ Kf8 22. Qd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m124_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 125"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. Nc3 e5 3. e3 Bb4 4. d4 Nc6 5. Nf3 O-O 6. dxe5 Bxc3+ 7. bxc3 Nxe5 8. Nxe5 d5 9. cxd5 Qxd5 10. Qxd5 Nxd5 11. Nc4 Nxc3 12. Ne5 Be6 13. Nd3 Nxa2 14. Rxa2 Bxa2 15. Ba3 Rfe8 16. Nc5 b6 17. Nd7 Red8 18. Ne5 f6 19. Nf3 Bd5 20. Nd4 Bxg2 21. Bxg2 Re8 22. Bd5+ Kh8 23. Bxa8 Rxa8 24. Ne6 c6 25. Nc7 Rg8 26. Ne6 Re8 27. Nc7 Rg8 28. Ne6 Re8 29. Nc7 Rg8 30. Ne6 Re8 31. Nc7 Rg8 32. Ne6 Re8 33. Nc7 Rg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m124_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 125"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. Nc3 e5 3. e3 Bb4 4. d4 Nc6 5. Nf3 O-O 6. dxe5 Bxc3+ 7. bxc3 Ne4 8. Qc2 Nc5 9. Be2 Nxe5 10. Nxe5 Qg5 11. Nf3 Qxg2 12. Qd1 Qxh1+ 13. Kd2 Qxd1+ 14. Bxd1 Ne4+ 15. Ke2 Nxc3+ 16. Ke1 Nxd1 17. Kxd1 Rd8 18. Ne5 Re8 19. Nf3 Rd8 20. Nd4 Re8 21. Nf5 Rd8 22. Ne7+ Kf8 23. Nd5 c6 24. Ba3+ Ke8 25. Nc7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m125_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 126"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. d3 Be7 3. Nc3 f5 4. Nf3 Nc6 5. Nd5 d6 6. Nxe7 Qxe7 7. d4 Nxd4 8. Qxd4 Nf6 9. Nxe5 dxe5 10. Qf4 O-O 11. Qg5 h6 12. Qg6 Kh8 13. Qg3 Qb4+ 14. Kd1 Qxc4 15. Qxe5 Rd8+ 16. Ke1 Qb4+ 17. Bd2 Qxd2# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m125_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 126"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. d3 Be7 3. Nc3 f5 4. Nf3 Nc6 5. Nd5 Bb4+ 6. Bd2 Bxd2+ 7. Nxd2 Nd4 8. e3 Nc6 9. Nf3 Nf6 10. Nc3 O-O 11. d4 exd4 12. exd4 Re8+ 13. Qe2 Rxe2+ 14. Nxe2 Ne4 15. d5 Nc5 16. O-O-O Ne4 17. dxc6 Nxf2 18. cxd7 Nxh1 19. dxc8=Q Rxc8 20. Rxd8+ Rxd8 21. Ne5 Re8 22. Nd7 Rxe2 23. Bxe2 Nf2 24. Bf1 Ne4 25. Ne5 Nc5 26. Nf3 Nd3+ 27. Bxd3 f4 28. Ne5 Kf8 29. Nd7+ Kg8 30. Nc5 b6 31. Ne6 c6 32. Nxf4 Kf7 33. Bxh7 Kf8 34. Ne6+ Kf7 35. Ng5+ Kf8 36. Ne6+ Kf7 37. Nd8+ Kf8 38. Nxc6 a6 39. Ne5 Ke7 40. Ng6+ Kf7 41. Ne5+ Kf8 42. Ng6+ Kf7 43. Ne5+ Kf8 44. Ng6+ Kf7 45. Ne5+ Kf8 46. Ng6+ Kf7 47. Ne5+ Kf8 48. Ng6+ Kf7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m126_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 127"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. Nf3 Nf6 3. a3 d5 4. e3 b6 5. Qa4+ Ke7 6. Qb4+ Ke8 7. Qb5+ Ke7 8. Qb4+ Kd7 9. Qb5+ Ke7 10. Qb4+ Qd6 11. Qb5 c5 12. Nc3 Nc6 13. Nxd5+ exd5 14. Qa4 Ne5 15. Qb5 Nxf3+ 16. gxf3 Be6 17. Qa4 dxc4 18. Qxc4 Bxc4 19. Bxc4 Qc6 20. Rf1 Qxf3 21. Rg1 Qxe3+ 22. fxe3 Ne4 23. Bd5 Nf6 24. Bxa8 Kd7 25. Bb7 Kc7 26. Ba8 Kc8 27. Bc6 Kb8 28. Rb1 Kc8 29. Ba8 Kd8 30. Bc6 Kc8 31. Ba8 Kd8 32. Bc6 Kc8 33. Ba8 Kd8 34. Bc6 Kc8 35. Ba8 Kd8 36. Bc6 Kc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m126_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 127"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e6 2. Nf3 Nf6 3. a3 d5 4. e3 b6 5. d4 Nc6 6. Nc3 Bb7 7. cxd5 exd5 8. Bd3 Nxd4 9. exd4 Qe7+ 10. Kf1 O-O-O 11. Bf5+ Kb8 12. Ne5 Ba6+ 13. Kg1 Qxe5 14. dxe5 Ne8 15. Nxd5 Rxd5 16. Qxd5 Be7 17. Qxf7 Bd8 18. Qd7 Bh4 19. Qc8+ Bxc8 20. g3 Bxf5 21. gxh4 Bd3 22. Bd2 Be2 23. Re1 Bd3 24. Re3 Bb5 25. e6 Nd6 26. e7 Re8 27. Re6 Rxe7 28. Rxe7 g6 29. Rxh7 Ne4 30. Rh8+ Kb7 31. f3 Nxd2 32. Rg8 Nxf3+ 33. Kg2 Nxh4+ 34. Kf2 Nf5 35. Rxg6 Bd3 36. Kg1 Ne3 37. Rg7 Nc2 38. Rxc7+ Kxc7 39. Kf2 Nxa3 40. bxa3 Bc4 41. Rc1 Kd6 42. Rxc4 Kd5 43. Rc8 Ke6 44. Rc6+ Kd5 45. Rc8 Ke6 46. Rc6+ Kd5 47. Rc8 Ke6 48. Rc6+ Kd5 49. Rc8 Ke6 50. Rc6+ Kd5 51. Rc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m127_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 128"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 c6 3. Bg2 e5 4. Nf3 d6 5. O-O d5 6. Nxe5 Be6 7. Bxd5 cxd5 8. Qa4+ Ke7 9. Qb4+ Ke8 10. Qxb7 Qa5 11. Qxa8 dxc4 12. Qxb8+ Ke7 13. Nc6+ Kd7 14. Nxa5 a6 15. Qb7+ Kd6 16. Qxa6+ Ke7 17. Nc6+ Ke8 18. Qa8+ Kd7 19. Qb7+ Ke8 20. Qb8+ Kd7 21. Ne5+ Ke7 22. Nc6+ Kd7 23. Ne5+ Ke7 24. Nc6+ Kd7 25. Ne5+ Ke7 26. Nc6+ Kd7 27. Ne5+ Ke7 28. Nc6+ Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m127_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 128"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 c6 3. Bg2 e5 4. Nf3 d6 5. O-O Ne4 6. Nc3 Nf6 7. d4 exd4 8. Nxd4 Qb6 9. Nf3 Qxf2+ 10. Rxf2 Bg4 11. h3 Bh5 12. g4 Nxg4 13. Ne4 Nxf2 14. Nxf2 Nd7 15. Ne4 O-O-O 16. Nxd6+ Kb8 17. Nf5 Bc5+ 18. Kh1 g6 19. Bf4+ Kc8 20. Nd6+ Kb8 21. Nxf7+ Kc8 22. Nxh8 Rxh8 23. Bh6 Bxf3 24. exf3 Bf2 25. Qf1 Bc5 26. Bg7 Rg8 27. Bh6 Rh8 28. Bg7 Rg8 29. Bh6 Rh8 30. Bg7 Rg8 31. Bh6 Rh8 32. Bg7 Rg8 33. Bh6 Rh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m12_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Scheveningen"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Bb5+ Bd7 7. O-O Nc6 8. Bxc6 bxc6 9. Bg5 g6 10. Qd3 Bg7 11. Bxf6 Bxf6 12. Nf5 gxf5 13. Qxd6 Qb6 14. Rab1 O-O-O 15. Qf4 e5 16. Qh6 Be7 17. Qg7 Rhg8 18. Qxf7 Rh8 19. Qxe7 Rhg8 20. Qxe5 Rgf8 21. Qg7 Qxf2+ 22. Kxf2 fxe4+ 23. Qxf8 Rxf8+ 24. Ke3 Rxf1 25. Rxf1 Bg4 26. Kxe4 Bf3+ 27. Kxf3 Kc7 28. Rc1 Kd6 29. Rd1+ Kc7 30. Rc1 Kc8 31. Rd1 Kc7 32. Rc1 Kc8 33. Rd1 Kc7 34. Rc1 Kc8 35. Rd1 Kc7 36. Rc1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m12_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Scheveningen"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Bb5+ Bd7 7. O-O Bxb5 8. Ncxb5 Nxe4 9. Nf3 Nxf2 10. Rxf2 Nc6 11. Nxd6+ Qxd6 12. Qe2 O-O-O 13. Kh1 Qxh2+ 14. Nxh2 f6 15. Qxe6+ Kb8 16. Bf4+ Ka8 17. Qf7 Nd4 18. Qc7 Re8 19. Qb8+ Rxb8 20. Bxb8 Kxb8 21. c3 Nc6 22. Nf3 Bc5 23. Rff1 Be3 24. Ne1 Ne5 25. Nf3 Nxf3 26. gxf3 Rf8 27. Rfe1 Bc5 28. Re6 Rf7 29. Re8+ Kc7 30. Ra8 Rd7 31. Rh8 Rf7 32. Rxh7 Rd7 33. Rh8 Rf7 34. Rh7 Rd7 35. Rh8 Rf7 36. Ra8 Rd7 37. Rh8 Rf7 38. Rg8 Rd7 39. Rh8 Rf7 40. Rh7 Rd7 41. Rh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m13_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Sveshnikov"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Nf3 d5 7. exd5 Nxd5 8. Nxd5 Qa5+ 9. Ke2 Qb5+ 10. Kd2 Qxd5+ 11. Bd3 Qa5+ 12. Ke3 Qc5+ 13. Nd4 exd4+ 14. Kd2 Qb4+ 15. Ke2 Bg4+ 16. Kf1 Bxd1 17. Bf5 Qb5+ 18. Ke1 Qxf5 19. Kxd1 Qxf2 20. g3 Qf3+ 21. Ke1 Qxh1+ 22. Kf2 Qxh2+ 23. Kf3 Qh1+ 24. Kg4 Qe4+ 25. Kh5 Qf5+ 26. Kh4 Qxc2 27. Kh5 Qh2+ 28. Kg4 Qe2+ 29. Kg5 Qe5+ 30. Kh4 Qf6+ 31. Kh5 g6+ 32. Kg4 Ne5+ 33. Kh3 Qf1+ 34. Kh2 Qf2+ 35. Kh1 Qe1+ 36. Kg2 Qe2+ 37. Kg1 Qe1+ 38. Kg2 Qe2+ 39. Kg1 Qe1+ 40. Kg2 Qe2+ 41. Kg1 Qe1+ 42. Kg2 Qe2+ 43. Kg1 Qe1+ 44. Kg2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m13_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Sveshnikov"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5 6. Bc4 exd4 7. O-O dxc3 8. bxc3 Nxe4 9. f3 Nxc3 10. Qe1+ Ne2+ 11. Qxe2+ Be7 12. Bxf7+ Kxf7 13. Qc4+ d5 14. Qf4+ Bf6 15. Rb1 Rf8 16. Rxb7+ Bxb7 17. Qxf6+ Kxf6 18. Bb2+ Kf7 19. Bxg7 Kxg7 20. Kh1 Qh4 21. Kg1 Qd4+ 22. Kh1 Qg1+ 23. Rxg1 Rg8 24. f4 Nd4 25. Rc1 Nxc2 26. Rxc2 Rac8 27. Rxc8 Bxc8 28. g3 d4 29. Kg2 Bb7+ 30. Kg1 d3 31. Kf1 d2 32. Kf2 d1=Q 33. Ke3 Qe1+ 34. Kd3 Rd8+ 35. Kc2 Rc8+ 36. Kb3 Qe3+ 37. Kb4 Qb6+ 38. Ka4 Rc4+ 39. Ka3 Qa6+ 40. Kb2 Qb6+ 41. Ka3 Qa6+ 42. Kb2 Qb6+ 43. Ka3 Qa6+ 44. Kb2 Qb6+ 45. Ka3 Qa6+ 46. Kb2 Qb6+ 47. Ka3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m14_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Taimanov"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Bc4 Nf6 7. O-O d5 8. Bb3 e5 9. exd5 exd4 10. dxc6 bxc6 11. Qxd4 Bf5 12. Re1+ Qe7 13. Rxe7+ Bxe7 14. Qe5 Bg6 15. Qc7 O-O 16. Qxe7 Kh8 17. Qc7 Bxc2 18. Bxc2 Kg8 19. Qxc6 Kh8 20. Qc7 Kg8 21. Qe7 Kh8 22. Qc7 Kg8 23. Qe7 Kh8 24. Qc7 Kg8 25. Qe7 Kh8 26. Qc7 Kg8 27. Qe7 Kh8 28. Qc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m14_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Taimanov"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 Qc7 6. Bc4 Nf6 7. O-O Bc5 8. Nf3 O-O 9. Bg5 g6 10. Bxf6 Bxf2+ 11. Rxf2 Nb4 12. Bb3 Re8 13. Qd4 Nc6 14. Qd3 Nb4 15. Qb5 Nc6 16. Nd5 exd5 17. exd5 d6 18. dxc6 Qxc6 19. Qxc6 bxc6 20. Bc4 Rf8 21. Bxf7+ Kxf7 22. Ng5+ Ke8 23. Nxh7 Rg8 24. Re1+ Kd7 25. Re7+ Kd8 26. Rf7+ Ke8 27. Rf8+ Kd7 28. Rxg8 Ke6 29. Ng5+ Kd5 30. Rxg6 Bg4 31. Rd2+ Kc4 32. b3+ Kb5 33. Rxd6 Rf8 34. c4+ Kb4 35. Rxc6 Rxf6 36. Rgxf6 Kc3 37. Ne4+ Kd4 38. Rfd6+ Kxe4 39. Re6+ Bxe6 40. Rxe6+ Kf5 41. Re8 Kg6 42. Rg8+ Kf5 43. Rf8+ Kg6 44. Rg8+ Kf5 45. Rf8+ Kg6 46. Rg8+ Kf5 47. Rf8+ Kg6 48. Rg8+ Kf5 49. Rf8+ Kg6 50. Rg8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m15_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Sicilian, Kan"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O Nc6 7. Nf3 d5 8. Nc3 dxe4 9. Nxe4 Nxe4 10. Bxe4 Be7 11. Bxc6+ bxc6 12. Ne5 f6 13. Nxc6 Qxd1 14. Rxd1 O-O 15. Nxe7+ Kh8 16. Nc6 Rf7 17. Rd8+ Rf8 18. Rxf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m15_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Kan"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. Bd3 Nf6 6. O-O Nc6 7. Nf3 Bc5 8. Nc3 O-O 9. Bf4 Bxf2+ 10. Rxf2 Qb6 11. Rb1 Qxf2+ 12. Kxf2 Ng4+ 13. Kg1 Nxh2 14. Kxh2 Rd8 15. Kh1 Nb4 16. a3 Nc6 17. Bd6 Re8 18. Bc7 Rb8 19. Bb6 d5 20. exd5 exd5 21. Nxd5 Bd7 22. Nc7 Rec8 23. Nd5 Bg4 24. Bc5 Bxf3 25. gxf3 Rd8 26. Nc7 Rdc8 27. Nd5 Rd8 28. Nc7 Rdc8 29. Nd5 Rd8 30. Nc7 Rdc8 31. Nd5 Rd8 32. Nc7 Rdc8 33. Nd5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m16_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Rossolimo"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Bc4 Nf6 6. d3 O-O 7. Nc3 d5 8. Bb3 a6 9. exd5 Qxd5 10. Bxd5 Nxd5 11. Nxd5 e6 12. Nc7 Ra7 13. Ng5 f6 14. Ngxe6 Bxe6 15. Nxe6 Re8 16. Nxc5 Ne5 17. Ne4 Nf3+ 18. gxf3 Rxe4 19. dxe4 f5 20. Qd8+ Kf7 21. Qd7+ Kf6 22. Qd6+ Kf7 23. Qd7+ Kf6 24. Qd6+ Kf7 25. Qd7+ Kf6 26. Qd6+ Kf7 27. Qd7+ Kf6 28. Qd6+ Kf7 29. Qd7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m16_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Sicilian, Rossolimo"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. d4 cxd4 6. Nxd4 Nf6 7. Nf3 Nxe4 8. Re1 Nf6 9. Bc4 O-O 10. Nc3 Qb6 11. Na4 Qc7 12. Nc3 Re8 13. Ne5 Nxe5 14. Bb5 Qxc3 15. bxc3 Nc6 16. Bc4 d5 17. Bb3 Rd8 18. Bxd5 Rxd5 19. c4 Rxd1 20. Rxd1 Bg4 21. Rd3 Re8 22. h3 Bxh3 23. gxh3 Ne4 24. Rb1 Rb8 25. f3 Nf6 26. Bf4 Rc8 27. Rxb7 Rb8 28. Rxb8+ Nxb8 29. Bxb8 a6 30. Rd8+ Bf8 31. Rc8 Nd7 32. Rc7 Nxb8 33. Rc8 Nd7 34. Rc6 a5 35. Rc8 Ne5 36. Rxf8+ Kxf8 37. c5 Nxf3+ 38. Kh1 Nh4 39. c6 Nf3 40. c7 Nd2 41. c8=Q+ Kg7 42. Qc3+ Kf8 43. Qxd2 a4 44. Qd8+ Kg7 45. Qxe7 Kh8 46. Qf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m17_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Alapin"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 Nc6 6. Nf3 e6 7. Bc4 Nb6 8. Bb3 Be7 9. O-O O-O 10. Nc3 Nxd4 11. Nxd4 Bf6 12. exf6 gxf6 13. Qg4+ Kh8 14. Nxe6 fxe6 15. Bxe6 dxe6 16. Ne4 f5 17. Qf3 e5 18. Nc5 Nc4 19. Nxb7 Qd7 20. Nc5 Qd8 21. Qxa8 Qa5 22. Nb3 Qb6 23. Qd5 Qf6 24. Qxc4 Qd6 25. Qb5 Qe6 26. Qb8 Qa6 27. Qxe5+ Kg8 28. Qd5+ Kh8 29. Qe5+ Kg8 30. Qd5+ Kh8 31. Qe5+ Kg8 32. Qd5+ Kh8 33. Qe5+ Kg8 34. Qd5+ Kh8 35. Qe5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m17_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Sicilian, Alapin"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. cxd4 Qa5+ 6. Nc3 Qxc3+ 7. bxc3 Nxc3 8. Qd2 Nd5 9. Nf3 Nc6 10. Bc4 Nc7 11. O-O Nxe5 12. dxe5 Kd8 13. Bxf7 Rb8 14. Bc4 Ke8 15. Qd4 Ra8 16. Qc5 Kd8 17. Bf7 Rb8 18. Qxa7 Nb5 19. Qxb8 Nc3 20. Qa8 Ne2+ 21. Kh1 Nc3 22. Qa5+ b6 23. Qxb6# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m18_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Closed"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 cxd4 8. Nxd4 e5 9. Nf3 Nd4 10. Nxe5 Ne6 11. Nc4 d5 12. Ne5 Nxe4 13. Nxe4 Bxe5 14. Nd2 Nc5 15. Bf3 Bd4 16. Bg2 Bxf2+ 17. Kxf2 Qf6+ 18. Kg1 Qd4+ 19. Kh1 Qe3 20. Bxd5 Qe4+ 21. Nxe4 Nxe4 22. Bxe4 Kh8 23. Qd4+ Kg8 24. Qh8+ Kxh8 25. Bd5 Kg7 26. Rxf7+ Kg8 27. Re7+ Kh8 28. Bxb7 Bxb7+ 29. Rxb7 Rf1+ 30. Kg2 Rff8 31. Re7 Kg8 32. Rd7 Rfd8 33. Re7 Rd2+ 34. Bxd2 Kf8 35. Rxh7 Kg8 36. Re7 Kh8 37. Bc3+ Kg8 38. Rg7+ Kf8 39. Rxg6 Kf7 40. Rf1+ Kxg6 41. Rf6+ Kg5 42. Bd2+ Kxf6 43. Bc3+ Kf7 44. Be5 Ke6 45. Bg7 Kf7 46. Bd4 Ke6 47. Bg7 Kf7 48. Bd4 Ke6 49. Bg7 Kf7 50. Bd4 Ke6 51. Bg7 Kf7 52. Bd4 Ke6 53. Bg7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m18_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Sicilian, Closed"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. d4 cxd4 8. Qxd4 Nxd4 9. Nxd4 Nxe4 10. Bxe4 Bxd4 11. Ne2 Bf6 12. Be3 Bxb2 13. Rab1 Rb8 14. Rxb2 a6 15. Bd5 Qc7 16. Bxf7+ Kxf7 17. Nd4 Qd6 18. Nf3 Qxg3+ 19. fxg3 Kg7 20. Bd4+ Kf7 21. Ne5+ Ke6 22. Rxf8 Kd5 23. c4+ Kxd4 24. Rf4+ Kxe5 25. Re2+ Kd6 26. Rd4+ Kc5 27. Rxe7 Kxd4 28. Rxh7 Kxc4 29. Rh4+ Kd5 30. Rh6 g5 31. Rh7 g4 32. Rh5+ Ke4 33. Rh4 Kf3 34. Rh5 Ke4 35. Rh4 Kf3 36. Rh5 Ke4 37. Rh4 Kf3 38. Rh5 Ke4 39. Rh4 Kf3 40. Rh5 Ke4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m19_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Winawer"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. Bb5+ Kf8 6. Nf3 a6 7. O-O b6 8. Ba4 b5 9. Bb3 Nc6 10. Nxd5 Nxd4 11. Qxd4 cxd4 12. Nxb4 Nf6 13. exf6 gxf6 14. Bh6+ Kg8 15. Rad1 a5 16. Nd3 Qd6 17. Rde1 f5 18. Rd1 f6 19. Rde1 f4 20. Bxe6+ Qxe6 21. Nxd4 Qxa2 22. Nxb5 Qd5 23. Nxf4 Qxb5 24. Rb1 Qxf1+ 25. Kxf1 Ba6+ 26. Kg1 f5 27. Ne6 Kf7 28. Ng5+ Kg8 29. Ne6 Kf7 30. Ng5+ Kg8 31. Ne6 Kf7 32. Ng5+ Kg8 33. Ne6 Kf7 34. Ng5+ Kg8 35. Ne6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m19_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Winawer"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. Nf3 Bxc3+ 6. bxc3 cxd4 7. cxd4 Qa5+ 8. Ke2 Qb5+ 9. Ke1 Qb4+ 10. Ke2 Qc4+ 11. Kd2 Qb4+ 12. Ke3 Qc3+ 13. Ke2 Qxa1 14. Qe1 Qxa2 15. Qd1 Qc4+ 16. Ke1 Qc3+ 17. Ke2 Qc4+ 18. Ke1 Qc3+ 19. Ke2 Qc4+ 20. Ke1 Qc3+ 21. Ke2 Qc4+ 22. Ke1 Qc3+ 23. Ke2 Qc4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m20_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "French, Tarrasch"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Ngf3 Nc6 6. Bd3 Be7 7. O-O O-O 8. Ne4 Nxd4 9. Nxd4 Nxe5 10. Ng3 Nxd3 11. cxd3 e5 12. Nf3 e4 13. dxe4 dxe4 14. Nxe4 Be6 15. Qxd8 Rfxd8 16. Ne5 f6 17. Nf3 f5 18. Ng3 Rd6 19. Ne5 Bf6 20. Nf3 Bd4 21. Nxd4 Rxd4 22. Nh5 g6 23. Nf6+ Kh8 24. Bh6 Bf7 25. Rfd1 Rxd1+ 26. Rxd1 Bxa2 27. Ra1 Bf7 28. Rxa7 Rxa7 29. Bf8 Ra1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m20_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Tarrasch"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. Ngf3 Nc6 6. Bd3 Ncxe5 7. O-O Nxf3+ 8. gxf3 Qg5+ 9. Kh1 Qxd2 10. Bxd2 Nf6 11. Bb5+ Kd8 12. c4 Ne4 13. Qb3 Nxd2 14. Rfd1 Nxb3 15. axb3 dxc4 16. bxc4 Bb4 17. d5 exd5 18. Rxd5+ Ke7 19. Re5+ Kd6 20. Rd1+ Kxe5 21. f4+ Kxf4 22. Rd4+ Ke5 23. f4+ Kxd4 24. Ba4 Kxc4 25. b3+ Kd5 26. Bc6+ Kxc6 27. h4 Be1 28. h5 Bf2 29. Kh2 Bg3+ 30. Kxg3 Rg8 31. Kh2 Rd8 32. Kh1 Rd1+ 33. Kh2 Rd2+ 34. Kh1 Rd1+ 35. Kh2 Rd2+ 36. Kh1 Rd1+ 37. Kg2 Rd2+ 38. Kg1 Rd1+ 39. Kf2 Rd2+ 40. Kf3 Rd3+ 41. Kg2 Rxb3 42. Kf1 Rb1+ 43. Ke2 Rb2+ 44. Kf1 Rb1+ 45. Kf2 Rb2+ 46. Kf1 Rb1+ 47. Kf2 Rb2+ 48. Kf1 Rb1+ 49. Kf2 Rb2+ 50. Kf1 Rb1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m21_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Advance"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 Nxd4 6. cxd4 Qa5+ 7. Ke2 Qb5+ 8. Kd2 Qa5+ 9. Kc2 Qa4+ 10. Kd3 Qxd1+ 11. Ke3 Qxc1+ 12. Ke2 Qxb2+ 13. Nbd2 Qxa1 14. Nb3 Qxa2+ 15. Nbd2 Qa6+ 16. Ke3 Qa3+ 17. Kf4 Qb2 18. Ke3 Qc3+ 19. Kf4 Qb4 20. Ke3 cxd4+ 21. Nxd4 Qa3+ 22. Kf4 g5+ 23. Kxg5 Qe7+ 24. Kf4 Qh4+ 25. Ke3 Qg5+ 26. Kd3 Qxe5 27. Kc2 Qxd4 28. Bb5+ Kd8 29. f3 Qc5+ 30. Kd3 Qxb5+ 31. Kd4 Qa4+ 32. Ke5 Bg7+ 33. Kd6 Qa6+ 34. Kc5 Qa5+ 35. Kd6 Qxd2 36. Kc5 Qc2+ 37. Kd6 Bf8+ 38. Ke5 Bg7+ 39. Kd6 Bf8+ 40. Ke5 Bg7+ 41. Kd6 Bf8+ 42. Ke5 Bg7+ 43. Kd6 Bf8+ 44. Ke5 Bg7+ 45. Kd6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m21_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "French, Advance"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. e5 c5 4. c3 Nc6 5. Nf3 cxd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+ 8. Qxd2 Nf6 9. Nc3 O-O 10. O-O-O Nxe5 11. dxe5 Ne4 12. Nxe4 dxe4 13. Qxd8 Rxd8 14. Rxd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m22_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. Bb5+ c6 6. Ba4 O-O 7. Nxd5 Nxe4 8. Nxe7+ Kh8 9. Bh4 Qa5+ 10. Kf1 Qxa4 11. Qd3 Nd6 12. Ng6+ Kg8 13. Ne7+ Kh8 14. Ng6+ Kg8 15. Ne7+ Kh8 16. Ng6+ Kg8 17. Ne7+ Kh8 18. Ng6+ Kg8 19. Ne7+ Kh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m22_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "French, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. Nf3 O-O 6. Bf4 Nxe4 7. Ne5 Nxc3 8. bxc3 Bd6 9. c4 Bb4+ 10. Bd2 Bxd2+ 11. Qxd2 Qh4 12. Nf3 Qe4+ 13. Kd1 Qxf3+ 14. gxf3 Nc6 15. Ke1 Rd8 16. cxd5 exd5 17. Bd3 Nxd4 18. Rd1 Nxf3+ 19. Kf1 Nxd2+ 20. Rxd2 Bh3+ 21. Kg1 d4 22. Bxh7+ Kxh7 23. Rd3 Rh8 24. Rxh3+ Kg8 25. Rxh8+ Kxh8 26. f3 d3 27. cxd3 Rd8 28. Kf2 Rxd3 29. Kg2 Rd2+ 30. Kg3 Rxa2 31. Rb1 b6 32. Kh3 Rxh2+ 33. Kxh2 Kg8 34. Rc1 c5 35. Rxc5 bxc5 36. Kh3 c4 37. Kh2 c3 38. Kh1 c2 39. Kg1 c1=Q+ 40. Kg2 Qb2+ 41. Kf1 Qb1+ 42. Kf2 Qb2+ 43. Kg3 Qe5+ 44. Kg2 Qe2+ 45. Kg1 Qxf3 46. Kh2 Qf2+ 47. Kh3 Qf3+ 48. Kh4 Qf4+ 49. Kh3 Qf3+ 50. Kh4 Qf4+ 51. Kh3 Qf3+ 52. Kh4 Qf4+ 53. Kh3 Qf3+ 54. Kh4 Qf4+ 55. Kh3 Qf3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m23_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Nc3 Nf6 6. Nf3 Nd5 7. Ne5 e6 8. Nc4 b5 9. Ne5 c5 10. Bxb5+ Ke7 11. dxc5 Qc7 12. Nc4 Qxc5 13. O-O Nf6 14. Qd6+ Qxd6 15. Nxd6 Kxd6 16. Bf4+ Ke7 17. Rac1 Nbd7 18. Bc6 Rc8 19. Bb7 Rd8 20. Rcd1 Bxc2 21. Rd2 Bg6 22. Rxd7+ Kxd7 23. Rd1+ Ke7 24. Rxd8 Kxd8 25. Bc6 Ke7 26. Nd5+ exd5 27. Bxd5 Nxd5 28. Bg5+ Ke8 29. Kf1 Bd3+ 30. Ke1 Bb4+ 31. Kd1 Nc3+ 32. bxc3 Bxc3 33. Bf4 Bb2 34. Bb8 a6 35. Bc7 Be2+ 36. Kxe2 Ke7 37. Bb6 Bc3 38. Bc5+ Ke6 39. Bb6 Ke5 40. Bc7+ Ke6 41. Bb6 Ke5 42. Bc7+ Ke6 43. Bb6 Ke5 44. Bc7+ Ke6 45. Bb6 Ke5 46. Bc7+ Ke6 47. Bb6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m23_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Ng3 Bg6 6. Nf3 Nf6 7. Ne5 Qa5+ 8. Qd2 Qxd2+ 9. Bxd2 Bxc2 10. Rc1 Ba4 11. Nc4 Nd5 12. b3 Bb5 13. Bd3 Bxc4 14. bxc4 Nb6 15. O-O N8d7 16. d5 Nxd5 17. cxd5 cxd5 18. Nf5 Ne5 19. Bb5+ Kd8 20. Ba5+ b6 21. Bxb6+ axb6 22. Rc8+ Kxc8 23. Rc1+ Kb7 24. Ra1 Rb8 25. f4 Ng6 26. Nd4 Nxf4 27. Bc6+ Kc8 28. Rc1 Nd3 29. Bxd5+ Nxc1 30. Bxf7 Ne2+ 31. Nxe2 Kb7 32. Bd5+ Kc8 33. Be6+ Kb7 34. Bd5+ Kc8 35. Be6+ Kb7 36. Bd5+ Kc8 37. Be6+ Kb7 38. Bd5+ Kc8 39. Be6+ Kb7 40. Bd5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m24_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Advance"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Nc3 Nf6 6. exf6 gxf6 7. Bf4 e5 8. Bg3 exd4 9. Nxd4 Bg6 10. Qe2+ Qe7 11. Qxe7+ Bxe7 12. O-O-O O-O 13. Bc7 Nd7 14. Re1 Rfe8 15. Rxe7 Rxe7 16. Bd6 Re1+ 17. Kd2 Rxf1 18. Rxf1 Nb6 19. Ra1 Nc4+ 20. Kc1 Nxd6 21. Nf3 Nc4 22. Nd4 c5 23. Nxd5 cxd4 24. Nxf6+ Kf8 25. Nd7+ Kg8 26. Nf6+ Kh8 27. Nd7 Rc8 28. Nf6 Ne5 29. Nd5 Nd3+ 30. Kd2 Nxb2 31. Rb1 Nc4+ 32. Kc1 Rb8 33. Ne7 Na3 34. Nd5 Nxc2 35. Rb2 Na3 36. Ne7 Nc4 37. Nd5 Na3 38. Ne7 Nc4 39. Nd5 Na3 40. Ne7 Nc4 41. Nd5 Na3 42. Ne7 Nc4 43. Nd5 Na3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m24_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Advance"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Nc3 Bb4 6. Bd2 Bxc3 7. bxc3 Be4 8. Qe2 Bxc2 9. Rc1 Bf5 10. Be3 Be4 11. Nd2 Bxg2 12. Bxg2 Qh4 13. Nf3 Qe4 14. Nd2 Qxg2 15. Qf1 Qxf1+ 16. Rxf1 Nd7 17. Nf3 O-O-O 18. Bf4 Nxe5 19. dxe5 Re8 20. Nd4 Rd8 21. Rd1 Re8 22. Nf3 Rd8 23. Nd4 Re8 24. Nf3 Rd8 25. Nd4 Re8 26. Nf3 Rd8 27. Nd4 Re8 28. Nf3 Rd8 29. Nd4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m25_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Panov Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nc3 Nc6 6. Nf3 e5 7. cxd5 exd4 8. dxc6 bxc6 9. Nxd4 Qe7+ 10. Kd2 Ne4+ 11. Nxe4 Qxe4 12. Nb3 Qb4+ 13. Kc2 Bf5+ 14. Bd3 Bxd3+ 15. Kxd3 O-O-O+ 16. Kc2 Qe4+ 17. Kc3 Qxg2 18. Qc2 Qxh1 19. Qf5+ Kc7 20. Qxf7+ Kb8 21. Qf4+ Kc8 22. Qg4+ Kb8 23. Qf4+ Ka8 24. Qf7 Qxh2 25. Qe6 Qxf2 26. Qxc6+ Kb8 27. Qb5+ Kc7 28. Qe5+ Kd7 29. Qd5+ Kc8 30. Qc6+ Kb8 31. Qb5+ Qb6 32. Qe5+ Kc8 33. Qf5+ Kb8 34. Qe5+ Kc8 35. Qf5+ Kb8 36. Qe5+ Ka8 37. Qe4+ Kb8 38. Qf4+ Kc8 39. Qf5+ Kb8 40. Qe5+ Kc8 41. Qf5+ Kb8 42. Qe5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m25_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Caro-Kann, Panov Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4 Nf6 5. Nf3 Nc6 6. Nc3 Bg4 7. Bd3 Bxf3 8. gxf3 Nxd4 9. Qa4+ Qd7 10. Be3 Nxf3+ 11. Kf1 O-O-O 12. Bxa7 Nd2+ 13. Ke1 Nf3+ 14. Ke2 Ne5 15. Bb6 Qg4+ 16. Kf1 Nxd3 17. Qa8+ Kd7 18. Qxb7+ Kd6 19. Bxd8 dxc4 20. Qb8+ Kd7 21. Qb7+ Kxd8 22. Qb6+ Kd7 23. Qb7+ Kd8 24. Qb8+ Kd7 25. Qb7+ Kd8 26. Qb8+ Kd7 27. Qb7+ Kd8 28. Qb8+ Kd7 29. Qb7+ Kd8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m26_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Pirc Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Bb5+ Bd7 6. O-O O-O 7. Bxd7 Nfxd7 8. Nd5 c6 9. Nf4 Nf6 10. Qe2 d5 11. Nxd5 cxd5 12. exd5 Nxd5 13. Ng5 Bxd4 14. Bd2 Bxb2 15. Rab1 Bd4 16. Rxb7 Bxf2+ 17. Kxf2 Qb6+ 18. Rxb6 axb6 19. Ra1 f6 20. Qe6+ Kh8 21. Qxd5 fxg5+ 22. Kg3 Ra3+ 23. Kg4 Ra4+ 24. Kxg5 h6+ 25. Kxh6 Rh4+ 26. Kxg6 Rxh2 27. Qe5+ Kg8 28. Qxh2 Rf6+ 29. Kg5 Nd7 30. Qc7 Kh8 31. Qxd7 e6 32. Kxf6 Kg8 33. Qxe6+ Kh8 34. Qxb6 Kh7 35. Rh1+ Kg8 36. Qd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m26_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Pirc Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3 Bg7 5. Bc4 O-O 6. O-O Nc6 7. Be3 Bg4 8. h3 Bh5 9. h4 Bxf3 10. gxf3 Ne5 11. Bb3 Nxf3+ 12. Qxf3 Qd7 13. Bxf7+ Kxf7 14. Nd5 Qg4+ 15. Qxg4 Nxg4 16. Nxc7 Rac8 17. Rac1 Rxc7 18. f3 Nxe3 19. Rf2 Bxd4 20. Re2 Bxb2 21. Rxe3 Bxc1 22. Rd3 Rxc2 23. a4 Rd2 24. Rxd2 Bxd2 25. Kh1 Be1 26. Kg2 Bxh4 27. Kg1 Bf2+ 28. Kxf2 Kf6 29. e5+ Kxe5 30. f4+ Rxf4+ 31. Kg1 Rxa4 32. Kf1 Ra1+ 33. Kf2 Ra2+ 34. Kf3 Ra3+ 35. Kg2 Ra2+ 36. Kg1 Ra1+ 37. Kg2 Ra2+ 38. Kg1 Ra1+ 39. Kg2 Ra2+ 40. Kg1 Ra1+ 41. Kg2 Ra2+ 42. Kg1 Ra1+ 43. Kg2 Ra2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m27_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Queen's Gambit Declined, Orthodox"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Qa4+ Nc6 7. O-O-O O-O 8. Nf3 h6 9. Bh4 g6 10. Bg3 Bd7 11. Qb5 b6 12. Nxd5 Ne4 13. Nf4 Nd6 14. Qd5 Nb4 15. Qe5 Nxa2+ 16. Kd2 Nc4+ 17. Kd3 Nxb2+ 18. Ke4 Nxd1 19. Qd5 Ndc3+ 20. Ke5 Bf6# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m27_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Queen's Gambit Declined, Orthodox"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. cxd5 exd5 6. Nf3 O-O 7. e4 Nxe4 8. Ne5 Nxg5 9. Nf3 Nxf3+ 10. gxf3 Nc6 11. Bd3 Nxd4 12. O-O Nxf3+ 13. Qxf3 d4 14. Ne4 Qd5 15. Nf6+ gxf6 16. Qxd5 Rd8 17. Qxd8+ Bxd8 18. Rad1 Bg4 19. Kg2 Bxd1 20. Rxd1 Rc8 21. f3 c5 22. Bb5 Bb6 23. Rd3 Rd8 24. Ba4 Rd5 25. Bb5 Rg5+ 26. Kf2 Rd5 27. Ba4 Rf5 28. Rd2 Rxf3+ 29. Kxf3 c4 30. Rg2+ Kf8 31. a3 d3 32. Rd2 Bd4 33. Bb5 Bc5 34. Bxc4 Bd4 35. Bxd3 h6 36. Bc2 Bxb2 37. Rd8+ Ke7 38. Rh8 Bxa3 39. Rxh6 Bc1 40. Rh8 Bd2 41. Kg2 Bc3 42. Rh7 Bd2 43. Rg7 Be3 44. Rg3 Bd4 45. Rg7 Bc3 46. Rg8 Bd4 47. Ra8 Bc3 48. Rxa7 Kd7 49. Rxb7+ Kc6 50. Rxf7 Bd4 51. Ba4+ Kd5 52. Bb3+ Ke4 53. Bc2+ Kd5 54. Bb3+ Ke4 55. Bc2+ Kd5 56. Bb3+ Ke4 57. Bc2+ Kd5 58. Bb3+ Ke4 59. Bc2+ Kd5 60. Bb3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m28_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Queen's Gambit Declined, Exchange"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Qa4+ Nc6 6. Nf3 Bd6 7. Qb5 a6 8. Qa4 O-O 9. Qb3 Be6 10. Qxb7 Ne7 11. Qb3 Nc6 12. Qxd5 Bxd5 13. Nxd5 Nxd5 14. Nd2 Nxd4 15. Nc4 Nc2+ 16. Kd2 Nxa1 17. Nxd6 cxd6 18. Kd3 Nb4+ 19. Kc3 Nxa2+ 20. Kd4 Nxc1 21. Kc3 Qc7+ 22. Kd4 Nc2+ 23. Kd5 Nb4+ 24. Ke4 Qc6+ 25. Kf5 Qd5+ 26. Kg4 Qe4+ 27. Kh5 g6+ 28. Kh6 Qh4# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m28_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Queen's Gambit Declined, Exchange"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5 exd5 5. Nf3 Nc6 6. Nxd5 Nxd5 7. e4 Bb4+ 8. Ke2 O-O 9. Bd2 Nc3+ 10. bxc3 Nxd4+ 11. cxd4 Be7 12. Ne5 Qxd4 13. Nf3 Qxe4+ 14. Be3 Qc4+ 15. Ke1 Bb4+ 16. Bd2 Re8+ 17. Qe2 Rxe2+ 18. Kd1 Rxf2 19. Bxc4 Rxg2 20. Bxb4 Rb2 21. Ba3 Rg2 22. Ne5 Bf5 23. Bxf7+ Kh8 24. Ng6+ hxg6 25. Bxg6 Bxg6 26. h3 Rd8+ 27. Kc1 Rc2+ 28. Kb1 Rc3+ 29. Kb2 Rd2+ 30. Kxc3 Rd8 31. Kc4 Bf7+ 32. Kc3 Bd5 33. Rh2 Rc8 34. Rc2 Rd8 35. Rd2 Rc8 36. Rxd5 Ra8 37. Rh5+ Kg8 38. Ra5 Rd8 39. Rxa7 b6 40. Rxc7 Rd3+ 41. Kxd3 Kh8 42. Rc8+ Kh7 43. Rc7 Kh8 44. Rc8+ Kh7 45. Rc7 Kh8 46. Rc8+ Kh7 47. Rc7 Kh8 48. Rc8+ Kh7 49. Rc7 Kh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m29_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Queen's Gambit Declined, Tarrasch"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Qa4+ Nc6 6. Nf3 Nf6 7. Qb5 Qb6 8. Qa4 cxd4 9. Nxd4 Qxd4 10. Qb5 Qb6 11. Qa4 Bd6 12. Qc2 O-O 13. Qa4 Bc5 14. Qc2 Bxf2+ 15. Kd1 Qd4+ 16. Qd3 Qxd3+ 17. exd3 Bg4+ 18. Be2 Bxe2+ 19. Kxe2 Bc5 20. Nxd5 Nxd5 21. Rd1 Nd4+ 22. Kd2 Bb4# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m29_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Queen's Gambit Declined, Tarrasch"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c5 4. cxd5 exd5 5. Nf3 Nf6 6. Bg5 Nc6 7. Bf4 cxd4 8. Qxd4 Nxd4 9. Nxd4 Bb4 10. a3 Bxc3+ 11. bxc3 O-O 12. O-O-O Ne4 13. e3 Nxf2 14. Rg1 Nxd1 15. Kxd1 Bg4+ 16. Ke1 Qh4+ 17. Kd2 Qf2+ 18. Kc1 Qxg1 19. Kb1 Qxf1+ 20. Ka2 Qxg2+ 21. Kb1 Qf1+ 22. Kb2 Qf2+ 23. Kb3 Bd1+ 24. Kb4 Qb2+ 25. Kc5 Qxc3+ 26. Kxd5 Qxa3 27. Nb5 Qd3+ 28. Ke5 Qxb5+ 29. Ke4 Rfe8+ 30. Kd4 Red8+ 31. Kc3 Rdc8+ 32. Kd4 Rd8+ 33. Kc3 Rdc8+ 34. Kd4 Rd8+ 35. Ke4 Bc2+ 36. Kf3 Qf1+ 37. Kg3 Qg1+ 38. Kh3 Qf1+ 39. Kh4 Qxf4+ 40. exf4 g5+ 41. Kxg5 Rd5+ 42. Kh4 Rh5+ 43. Kxh5 Bd1+ 44. Kh6 Kh8 45. Kg5 Rg8+ 46. Kf5 Bc2+ 47. Kf6 Rf8 48. Kg5 Rg8+ 49. Kh4 Rg4+ 50. Kxg4 Bd1+ 51. Kg3 Bc2 52. Kf3 Bd1+ 53. Kg3 Bc2 54. Kg4 Bd1+ 55. Kg3 Bc2 56. Kh4 Bd1 57. Kh3 Bc2 58. Kh4 Bd1 59. Kh3 Bc2 60. Kh4 Bd1 61. Kh3 Bc2 62. Kh4 Bd1 63. Kh3 Bc2 64. Kh4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m30_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Queen's Gambit Accepted"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 Nc6 6. O-O Be7 7. Nc3 O-O 8. Bb5 a6 9. Ba4 Bd7 10. Bxc6 bxc6 11. Ne5 Bd6 12. Nc4 e5 13. dxe5 Bxe5 14. Nxe5 Be6 15. Nxc6 Qc8 16. Ne7+ Kh8 17. Nxc8 Bxc8 18. Nd5 c6 19. Nc7 Ra7 20. Nd5 cxd5 21. Qd4 Ra8 22. Qb6 Nd7 23. Qc7 Nf6 24. Qe7 Rg8 25. Qxf7 Rd8 26. Qe7 Rg8 27. Qf7 Rd8 28. Qe7 Rg8 29. Qf7 Rd8 30. Qe7 Rg8 31. Qf7 Rd8 32. Qe7 Rg8 33. Qf7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m30_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Queen's Gambit Accepted"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 e6 5. Bxc4 Bb4+ 6. Nc3 O-O 7. O-O Bxc3 8. bxc3 Nc6 9. d5 exd5 10. Bb3 Ne4 11. Qd3 Nxc3 12. Qxc3 Bf5 13. Qc5 Be4 14. Nd2 Bd3 15. Nf3 Bxf1 16. Kxf1 Rc8 17. Kg1 Qf6 18. Bxd5 Qxa1 19. Bxc6 Qxa2 20. Bxb7 Rb8 21. Qxc7 Rxb7 22. Qxb7 Qc4 23. Qxa7 Qxc1+ 24. Ne1 Qxe1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m31_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Slav Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. b3 cxb3 6. axb3 Nd5 7. Ne4 f5 8. Neg5 h6 9. Nh3 Nb4 10. Ne5 e6 11. Bb2 Bd6 12. Nc4 O-O 13. Ne3 g6 14. Nc4 b5 15. Ne3 Nd3+ 16. exd3 Bb4+ 17. Ke2 Qh4 18. f3 Qe1+ 19. Qxe1 Bxe1 20. Kxe1 f4 21. Nc2 Kf7 22. Nxf4 g5 23. Nh3 Kg8 24. Rxa7 Rxa7 25. Nb4 Ra1+ 26. Bxa1 Rxf3 27. gxf3 Kg7 28. d5+ Kg8 29. dxc6 Nxc6 30. Nxc6 Kh7 31. Nxg5+ hxg5 32. Bh3 Kh6 33. Bxe6 Bxe6 34. Bb2 Bxb3 35. Bg7+ Kxg7 36. Rg1 Kg8 37. Rxg5+ Kf8 38. Rxb5 Ba4 39. Rb8+ Kg7 40. Rb7+ Kg8 41. Rb8+ Kg7 42. Rb7+ Kg8 43. Rb8+ Kg7 44. Rb7+ Kg8 45. Rb8+ Kg7 46. Nb4 Kh7 47. Rb7+ Kh8 48. Rb8+ Kh7 49. Rb7+ Kh8 50. Rb8+ Kh7 51. Rb7+ Kh8 52. Rb8+ Kh7 53. Rb7+ Kh8 54. Rb8+ Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m31_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Slav Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4 5. b3 cxb3 6. axb3 e6 7. Bb2 Be7 8. Qd3 O-O 9. O-O-O Bb4 10. Ne5 Bxc3 11. Bxc3 Nd5 12. e4 Qg5+ 13. Kc2 Ne3+ 14. fxe3 Qxe5 15. dxe5 Re8 16. Qd6 Kh8 17. Qc7 Rf8 18. Qe7 Rg8 19. Qxf7 c5 20. Qc7 Re8 21. Qxc5 Kg8 22. Qc7 g6 23. Qd6 Kh8 24. Qc7 Kg8 25. Rd6 Kh8 26. Qf7 h6 27. Qxe8+ Kg7 28. Qxc8 Kf7 29. Qxb7+ Kg8 30. Qxa8 Kf7 31. Qxa7+ Kg8 32. Qxb8+ Kf7 33. Rd7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m32_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Semi-Slav Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. cxd5 cxd5 6. Qa4+ Nc6 7. Qb5 b6 8. Qxc6+ Ke7 9. Qxa8 Qc7 10. Nxd5+ Ke8 11. Nxc7+ Kd8 12. Qxa7 Bb4+ 13. Kd1 Kd7 14. Qxb6 Be7 15. Ne5+ Kd8 16. Nxf7+ Kd7 17. Nxh8 Bf8 18. Qb5+ Kxc7 19. Qe5+ Kd8 20. Nf7+ Ke8 21. Nh8 Be7 22. Qb5+ Kf8 23. Qb8 Kg8 24. Qxc8+ Bf8 25. Qxe6+ Kxh8 26. Qc8 Kg8 27. Qe6+ Kh8 28. Qxf6 gxf6 29. Rg1 Kg8 30. d5 Kg7 31. Bh6+ Kxh6 32. Rh1 Kg7 33. Rg1 Kg6 34. Rh1 Kg7 35. Rg1 Kh8 36. Rh1 Kg8 37. Rg1 Kh8 38. Rh1 Kg8 39. Rg1 Kh8 40. Rh1 Kg8 41. Rg1 Kh8 42. Rh1 Kg8 43. Rg1 Kh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m32_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Semi-Slav Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. cxd5 exd5 6. Bg5 Be7 7. Bf4 O-O 8. e4 Nxe4 9. Ne5 Nxc3 10. bxc3 c5 11. c4 Qa5+ 12. Ke2 Rd8 13. Qd3 Bf6 14. Be3 Bxe5 15. dxe5 Bg4+ 16. f3 Bh5 17. Bf4 Bxf3+ 18. gxf3 Nc6 19. Kf2 dxc4 20. Qxc4 Rd2+ 21. Bxd2 Qxd2+ 22. Kg1 Nxe5 23. Qxc5 Nxf3# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m33_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Nimzo-Indian, Rubinstein"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nf3 Nc6 6. Bd2 d6 7. Nd5 Bxd2+ 8. Kxd2 Ne4+ 9. Kd3 Nxf2+ 10. Kd2 Nxh1 11. Nf4 Nf2 12. Qe2 Ne4+ 13. Kd3 Nb4+ 14. Kxe4 d5+ 15. Ke5 Nc6# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m33_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Nimzo-Indian, Rubinstein"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Nf3 Bxc3+ 6. bxc3 Nc6 7. Bb2 Ne4 8. Bd3 Nf6 9. O-O Nxd4 10. exd4 Ng4 11. h3 Nf6 12. Ne5 Re8 13. d5 exd5 14. Nf3 Qe7 15. Nd4 Qc5 16. Nb3 Qe7 17. Bf5 dxc4 18. Nd4 Nd5 19. Nb5 Nf6 20. Nxc7 Rb8 21. Nxe8 Nxe8 22. Qd5 Nf6 23. Qxc4 Ne4 24. Bxe4 Qxe4 25. Qxe4 Kf8 26. Qxh7 Ke7 27. Qxg7 Kd8 28. Qg8+ Ke7 29. Rae1+ Kd6 30. Qf8+ Kc7 31. Qc5+ Kd8 32. Qf8+ Kc7 33. Qc5+ Kd8 34. Qf8+ Kc7 35. Qc5+ Kd8 36. Qf8+ Kc7 37. Qc5+ Kd8 38. Qf8+ Kc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m34_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Nimzo-Indian, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 Nc6 6. Bg5 d5 7. cxd5 Bxc3+ 8. Qxc3 exd5 9. O-O-O h6 10. Bh4 Ne4 11. Bxd8 Nxd8 12. Qxc7 Nxf2 13. Rg1 Nxd1 14. Kxd1 Ne6 15. Qe7 Kh8 16. Qd6 Nd8 17. Qxf8+ Kh7 18. Qxd8 Be6 19. Qxa8 b6 20. Qxa7 Kh8 21. Qxb6 Kh7 22. Qxe6 fxe6 23. Ng5+ hxg5 24. Rh1 Kh8 25. Rg1 Kh7 26. Rh1 Kh6 27. Rg1 Kg6 28. g4 Kh7 29. Rh1 Kh8 30. Rg1 Kh7 31. Rh1 Kh8 32. Rg1 Kh7 33. Rh1 Kh8 34. Rg1 Kh7 35. Rh1 Kh8 36. Rg1 Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m34_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Nimzo-Indian, Classical"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. Nf3 Bxc3+ 6. bxc3 Nc6 7. Be3 d5 8. O-O-O dxc4 9. d5 exd5 10. Qd2 Ne4 11. Qc2 Nxc3 12. Qxc3 Bf5 13. a3 Be4 14. Nd2 Bd3 15. exd3 cxd3 16. Bxd3 Rc8 17. Nf3 Re8 18. Rde1 Rxe3 19. fxe3 Qe7 20. Qb3 Qc5+ 21. Kb2 Rb8 22. e4 Qf2+ 23. Kc1 Qxg2 24. exd5 Qxf3 25. Kb2 Qf2+ 26. Kb1 Qxe1+ 27. Rxe1 Nd4 28. Qb4 Nf3 29. Qf4 Nxe1 30. Qxc7 Nxd3 31. Qxb8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m35_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Queen's Indian Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Bd2 Bxc4 6. Bc3 Nd5 7. Ne5 Ba6 8. Ng4 Nf6 9. Ne5 d6 10. Nf3 d5 11. Qa4+ b5 12. Qb3 Nc6 13. Ng5 g6 14. Nf3 Ne4 15. Ne5 Ne7 16. Ng4 Nc6 17. Ne3 Nf6 18. Qxd5 exd5 19. Nxd5 Nxd5 20. Nd2 Qd6 21. O-O-O O-O-O 22. Bh3+ Kb8 23. Ne4 Bh6+ 24. Kb1 Nxc3+ 25. bxc3 Qxd4 26. cxd4 Nxd4 27. Rde1 Nxe2 28. Rxe2 Rd5 29. Nc3 Rd6 30. Rhe1 b4 31. Na4 Bd3+ 32. Ka1 Bxe2 33. Rxe2 Rd1+ 34. Kb2 Bg7+ 35. Kc2 Rdd8 36. Nc5 b3+ 37. Kxb3 Rd5 38. Na6+ Ka8 39. Nxc7+ Kb8 40. Nxd5 Rd8 41. Ne7 Rd3+ 42. Kc2 Rc3+ 43. Kd2 Bh6+ 44. Kxc3 Bg7+ 45. Kd2 Bh6+ 46. Kc2 Bg7 47. Nc6+ Ka8 48. Re8+ Kb7 49. Na5+ Kc7 50. Re7+ Kb8 51. Rxf7 Bh8 52. Rxh7 Bf6 53. Nc6+ Ka8 54. Rxa7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m35_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Queen's Indian Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Nc3 Bxc4 6. Bd2 Nc6 7. e3 Bxf1 8. Rxf1 Nxd4 9. exd4 Nd5 10. Ne5 Nxc3 11. bxc3 Qf6 12. Ng4 O-O-O 13. Be3 Qg6 14. Ne5 Qf6 15. d5 Qxe5 16. Rc1 Qxe3+ 17. fxe3 f6 18. dxe6 dxe6 19. Ke2 Rxd1 20. Rcxd1 Bc5 21. c4 Rd8 22. e4 Rxd1 23. Rxd1 Kb7 24. Rd7 g6 25. Rxh7 Bd4 26. Re7 Bc3 27. Rxe6 Kc8 28. Re8+ Kd7 29. Rh8 Ke6 30. Re8+ Kf7 31. Rh8 Ke6 32. Re8+ Kf7 33. Rh8 Ke6 34. Re8+ Kf7 35. Rh8 Ke6 36. Re8+ Kf7 37. Rh8 Ke6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m36_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Bogo-Indian Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. Ne5 O-O 6. Nf3 Nc6 7. Bxb4 Nxb4 8. Ne5 d5 9. Nf3 dxc4 10. Ne5 Nbd5 11. Nxc4 Qb4+ 12. Qd2 Qxc4 13. Qg5 Qxd4 14. b3 Qxa1 15. Qc1 Qxa2 16. Qa3 Qxb1+ 17. Kd2 Ne4# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m36_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Bogo-Indian Defence"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7 5. Nc3 O-O 6. a3 Ba5 7. b4 Bb6 8. e3 Nc6 9. Bd3 Nxd4 10. exd4 Bxd4 11. Nxd4 Rd8 12. O-O e5 13. Nf3 Qxb4 14. axb4 Re8 15. Nd5 c6 16. Nc7 Rb8 17. Rxa7 Rd8 18. Nxe5 Rf8 19. Bxh7+ Kxh7 20. Qb1+ Kg8 21. Ra8 Rxa8 22. Nxa8 Rd8 23. Nc7 Rf8 24. Na8 Rd8 25. Nc7 Rf8 26. Nxd7 Nxd7 27. Qf5 Rd8 28. Qa5 Rf8 29. Qa8 Rd8 30. Qa7 Rf8 31. Qa8 Rd8 32. Qa7 Rf8 33. Qa8 Rd8 34. Qa7 Rf8 35. Qa8 Rd8 36. Qa7 Rf8 37. Qa8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m37_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "King's Indian, Classical"]
+[Annotator "book moves: 10 plies"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Ng5 h6 7. Nf3 Nc6 8. Bd3 d5 9. O-O dxe4 10. Nxe4 Be6 11. Nc5 b6 12. Nb7 Qb8 13. Nc5 b5 14. cxb5 Na5 15. Na6 Qb7 16. Nc5 Qb6 17. Na4 Rab8 18. Nxb6 cxb6 19. Ne5 Nd5 20. Nf3 Bxd4 21. Nxd4 Nb4 22. Bxh6 Kh8 23. Bxf8 Rxf8 24. Nxe6 fxe6 25. Bxg6 Kg8 26. Qh5 Kg7 27. Qe5+ Kxg6 28. Qxe6+ Kg7 29. Qxe7+ Kh8 30. Qxf8+ Kh7 31. Qxb4 Kh8 32. Qf8+ Kh7 33. Qf7+ Kh8 34. Qxa7 Nc4 35. Qb8+ Kh7 36. b3 Na5 37. Qxb6 Kh8 38. Qxa5 Kh7 39. Qa7+ Kh6 40. Qa6+ Kh5 41. g4+ Kxg4 42. Qg6+ Kf4 43. Qf7+ Kg4 44. Qg6+ Kh3 45. Qg3# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m37_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "King's Indian, Classical"]
+[Annotator "book moves: 10 plies"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Bf4 Nc6 7. e5 Nxe5 8. dxe5 dxe5 9. Nxe5 Qxd1+ 10. Nxd1 Ne4 11. f3 Nd6 12. c5 Nf5 13. g4 Nd4 14. Be3 Bxe5 15. Bxd4 Bxd4 16. Bb5 Bxc5 17. Nc3 Rd8 18. Ne4 Bb4+ 19. Ke2 Rd2+ 20. Nxd2 Bxd2 21. Kxd2 Bxg4 22. fxg4 Rd8+ 23. Ke1 Rd1+ 24. Rxd1 Kg7 25. Rd7 e6 26. Rxc7 b6 27. Rxa7 Kf6 28. Rf1+ Kg7 29. Raxf7+ Kh8 30. Rf8+ Kg7 31. Ra8 e5 32. Ra7+ Kh8 33. Rf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m38_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Grunfeld, Exchange"]
+[Annotator "book moves: 10 plies"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Bb5+ Kf8 8. Nf3 Kg8 9. O-O b6 10. Bc4 Nc6 11. Bxf7+ Kxf7 12. Ng5+ Kg8 13. Qb3+ Kf8 14. Nf3 Qd7 15. Ng5 h6 16. Nf3 Bf6 17. Bf4 Bg7 18. Ne5 Bf6 19. Nxg6+ Ke8 20. Nxh8 Bxh8 21. Bxh6 Bf6 22. Qg8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m38_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Grunfeld, Exchange"]
+[Annotator "book moves: 10 plies"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nxc3 6. bxc3 Bg7 7. Nf3 O-O 8. Bb2 Nc6 9. c4 Nxd4 10. Nxd4 Bxd4 11. Qxd4 Qxd4 12. Bxd4 Rd8 13. Rd1 Rxd4 14. Rxd4 Be6 15. Rd1 Re8 16. e5 Bxc4 17. Rg1 Bxa2 18. Rd2 Ra8 19. Rxa2 Rd8 20. Rxa7 b6 21. Rxc7 Re8 22. Rc6 Rb8 23. Rc7 Re8 24. Rb7 Ra8 25. Rxe7 Ra1+ 26. Ke2 Ra2+ 27. Ke3 Ra3+ 28. Ke4 Ra4+ 29. Kf3 Ra3+ 30. Kf4 Ra4+ 31. Kg3 Ra3+ 32. Kh4 Ra4+ 33. Kg5 Re4 34. Re8+ Kg7 35. f3 Rd4 36. Ra8 Rd7 37. Re8 f6+ 38. exf6+ Kf7 39. Bc4+ Kxe8 40. Re1+ Kd8 41. f7 Rc7 42. f8=Q+ Kd7 43. Qg7+ Kc6 44. Qf6+ Kd7 45. Bb5+ Kc8 46. Re8+ Kb7 47. Qd8 Rc5+ 48. Kf4 Rxb5 49. Qd7+ Ka6 50. Ra8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m39_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Dutch, Leningrad"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. Ne5 e6 7. Nc4 d5 8. Ne5 Nc6 9. Nf3 Ne4 10. Ne5 Nxe5 11. dxe5 Bxe5 12. Bxe4 fxe4 13. Re1 Bd6 14. Qd4 e5 15. Qxd5+ Kh8 16. Qxe4 Bc5 17. Qxe5+ Qf6 18. Qxc5 Qxf2+ 19. Kh1 Qxe1+ 20. Kg2 Qxe2+ 21. Kh1 Qf1+ 22. Qg1 Qxg1+ 23. Kxg1 Re8 24. Bh6 Re1+ 25. Kf2 Re8 26. Bg7+ Kxg7 27. Nc3 Rf8+ 28. Ke3 Re8+ 29. Kf2 Rf8+ 30. Ke3 Re8+ 31. Kf2 Rf8+ 32. Ke3 Re8+ 33. Kf2 Rf8+ 34. Ke3 Re8+ 35. Kf2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m39_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Dutch, Leningrad"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. Nf3 Bg7 5. O-O O-O 6. Nc3 Nc6 7. e4 Nxe4 8. Nd5 Nxd4 9. Nxd4 Nc5 10. Nf4 Bxd4 11. Qxd4 Na6 12. Qd5+ Kh8 13. Qe5+ Kg8 14. Bd5+ e6 15. Bxe6+ dxe6 16. Qb5 Rb8 17. Qe5 Qe7 18. Be3 Ra8 19. Qxe6+ Bxe6 20. Nd3 Bd5 21. c4 Bxc4 22. Nf4 Bxf1 23. Kxf1 Qxe3 24. fxe3 Nb4 25. Ne6 c6 26. Nc7 Rac8 27. Ne6 Rfe8 28. Nf4 Rxe3 29. Kf2 Ree8 30. Ng2 Nd3+ 31. Kf1 Nxb2 32. Rb1 Na4 33. Rxb7 a6 34. Rd7 Nc3 35. Rd2 Nxa2 36. Rxa2 Ra8 37. Nf4 Re1+ 38. Kxe1 Re8+ 39. Kf2 Ra8 40. Ne6 Re8 41. Rxa6 Rxe6 42. Ra8+ Kf7 43. Ra7+ Re7 44. Rxe7+ Kxe7 45. Ke3 f4+ 46. Kxf4 Kf6 47. g4 g5+ 48. Kg3 Ke5 49. Kf3 Kd4 50. Kf2 Kd3 51. Kg3 Ke4 52. Kf2 Kd3 53. Kg3 Ke4 54. Kg2 Kd3 55. Kf2 Ke4 56. Kg2 Kd3 57. Kf2 Ke4 58. Kg3 Kd3 59. Kg2 Ke4 60. Kg3 Kd3 61. Kg2 Ke4 62. Kg3 Kd3 63. Kg2 Ke4 64. Kg3 Kd3 65. Kg2 Ke4 66. Kg3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m40_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Catalan Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. cxd5 O-O 6. Nf3 exd5 7. O-O Nc6 8. Nc3 Be6 9. Ng5 h6 10. Nf3 Bg4 11. h3 Be6 12. Nxd5 Bxd5 13. Ne5 Be6 14. Nxc6 bxc6 15. Bxc6 Bxh3 16. Bxa8 Qxa8 17. Re1 Qd5 18. Be3 Qg2# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m40_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Catalan Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7 5. Nf3 dxc4 6. Nc3 O-O 7. O-O Nc6 8. b3 cxb3 9. axb3 Nxd4 10. Qxd4 Qxd4 11. Nxd4 Rd8 12. Rd1 Rxd4 13. Rxd4 Bc5 14. Rd8+ Bf8 15. Rxc8 Rxc8 16. Bxb7 Rb8 17. Rxa7 Rxb7 18. Rxb7 c6 19. Rb8 Nd7 20. Ra8 Nc5 21. Ra7 Nxb3 22. Bb2 Nd4 23. e3 Nf3+ 24. Kg2 Ne1+ 25. Kh1 Nd3 26. Ba1 Nxf2+ 27. Kg1 Nh3+ 28. Kf1 Bc5 29. Ra8+ Bf8 30. Rxf8+ Kxf8 31. Kg2 Ng5 32. Na4 Ne4 33. Bxg7+ Kxg7 34. Nb6 Nxg3 35. Kxg3 Kf6 36. Nd7+ Kg7 37. Ne5 c5 38. Nc6 c4 39. Ne5 c3 40. Kf2 c2 41. Ke2 c1=Q 42. Nd7 Qc2+ 43. Kf1 Qxh2 44. Ke1 Qg1+ 45. Kd2 Qg2+ 46. Kd1 Qf1+ 47. Kd2 Qg2+ 48. Kc1 Qf1+ 49. Kb2 Qb5+ 50. Kc3 Qxd7 51. e4 Qc7+ 52. Kd2 Qf4+ 53. Kd3 Qd6+ 54. Ke3 Qc5+ 55. Kf3 Qc3+ 56. Kf4 Qf6+ 57. Ke3 Qc3+ 58. Kf4 Qf6+ 59. Kg3 Qg6+ 60. Kf2 Qxe4 61. Kg1 Qe1+ 62. Kg2 Qe2+ 63. Kg1 Qe1+ 64. Kg2 Qe2+ 65. Kg1 Qe1+ 66. Kh2 Qh4+ 67. Kg1 Qe1+ 68. Kh2 Qh4+ 69. Kg1 Qe1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m41_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "London System"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Nf3 c5 5. Nc3 Nc6 6. Bg5 h6 7. Bh4 cxd4 8. exd4 Be7 9. Bd3 O-O 10. O-O Ne4 11. Nxe4 dxe4 12. Bxe4 Nxd4 13. Qxd4 Bxh4 14. Nxh4 Qxd4 15. Bf3 Qxh4 16. Be2 Qb4 17. b3 Qd2 18. Rfd1 Qxe2 19. c3 Qxd1+ 20. Rxd1 Re8 21. Re1 Rd8 22. Rxe6 fxe6 23. Kf1 Rd1+ 24. Ke2 Rd8 25. Kf3 Rd3+ 26. Ke2 Rxc3 27. Kd2 Rc7 28. Kd3 Rd7+ 29. Ke4 Rd6 30. Ke5 Rd5+ 31. Kf4 Rd4+ 32. Ke5 Rd8 33. Kf4 g5+ 34. Ke5 Rd5+ 35. Kf6 Rf5+ 36. Ke7 Rxf2 37. g3 Rxh2 38. a3 Re2 39. Ke8 Re1 40. Kd8 Rd1+ 41. Kc7 Rc1+ 42. Kd8 Rd1+ 43. Kc7 Rc1+ 44. Kd8 Rd1+ 45. Kc7 Rc1+ 46. Kd8 Rd1+ 47. Kc7 Rc1+ 48. Kd8 Rd1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m41_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "London System"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. Nf3 c5 5. Nc3 Nc6 6. Bd3 cxd4 7. exd4 Nxd4 8. Nxd4 Ne4 9. Bxe4 dxe4 10. Nxe4 Bb4+ 11. Kf1 O-O 12. Nb5 Qxd1+ 13. Rxd1 Re8 14. Nc7 Rf8 15. Nxa8 Re8 16. Nc7 Rf8 17. Na8 Re8 18. Nc7 Rf8 19. Nf6+ gxf6 20. Rd3 Kg7 21. Rg3+ Kh8 22. Kg1 Rd8 23. Nb5 Rd1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m42_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Trompowsky Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nc3 Nc6 6. Nd5 d6 7. Nxc7+ Kd8 8. Nxa8 Ke8 9. Nc7+ Ke7 10. Nd5+ exd5 11. exd5 Qxd4 12. Qe2+ Kd7 13. dxc6+ Kxc6 14. Qe8+ Kc7 15. Qxf7+ Kb8 16. b3 Qxa1+ 17. Kd2 Qxf1 18. g3 Qb1 19. a3 Qf1 20. Qe8 Qxf2+ 21. Kc3 Qf6+ 22. Kd2 Qd4+ 23. Kc1 Qa1+ 24. Kd2 Qxa3 25. Qb5 Qa2 26. Qe8 Qa5+ 27. Kc1 Qa1+ 28. Kd2 Qd4+ 29. Kc1 Qa1+ 30. Kd2 Qd4+ 31. Kc1 Qa1+ 32. Kd2 Qd4+ 33. Kc1 Qa1+ 34. Kd2 Qd4+ 35. Kc1 Qa1+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m42_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Trompowsky Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nc3 Nc6 6. Bc4 Be7 7. Nf3 O-O 8. O-O d6 9. e5 dxe5 10. Ne4 Nxd4 11. Nxf6+ gxf6 12. Nxd4 exd4 13. Qxd4 Bb4 14. Qxf6 Kh7 15. Bd3+ Kg8 16. Qxh6 Rd8 17. Qg5+ Kf8 18. Qxd8+ Kg7 19. Qg5+ Kf8 20. Qd8+ Kg7 21. Qg5+ Kf8 22. Qh6+ Kg8 23. Qg5+ Kf8 24. Qh6+ Kg8 25. Qg5+ Kf8 26. Qh6+ Kg8 27. Qg5+ Kf8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m43_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "English, Symmetrical"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. Nf3 Nf6 6. O-O O-O 7. Ng5 h6 8. Nf3 d6 9. Nd5 e6 10. Nf4 d5 11. cxd5 Nxd5 12. Nd3 c4 13. Nc5 b6 14. Ne4 e5 15. Re1 Be6 16. Nf6+ Nxf6 17. Nh4 Nd4 18. Bb7 Rb8 19. Ba6 Nxe2+ 20. Rxe2 Re8 21. Rxe5 Qd6 22. Re1 Nd5 23. Bxc4 b5 24. Bb3 Qb4 25. Bxd5 Bxd5 26. Rxe8+ Rxe8 27. Qc2 Re1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m43_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "English, Symmetrical"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e4 Nf6 6. Nf3 O-O 7. O-O Nd4 8. Ne5 Ne6 9. d3 Nd4 10. Be3 Qb6 11. Qd2 Qb4 12. a3 Qb6 13. Na4 Nb3 14. Nxb6 axb6 15. Qc2 Nxa1 16. Rxa1 Rxa3 17. Rxa3 Rd8 18. Ra8 Re8 19. Rxc8 Rxc8 20. d4 Rd8 21. dxc5 Rb8 22. cxb6 Nxe4 23. Qxe4 d6 24. Nd7 Bxb2 25. Nxb8 Bg7 26. Qxe7 Bb2 27. Qe8+ Kg7 28. Bxb7 Kf6 29. Nd7+ Kg7 30. Qf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m44_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "English, Reversed Sicilian"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Qa4+ Nc6 6. Bg2 Nb6 7. Bxc6+ bxc6 8. Qxc6+ Ke7 9. Qc5+ Kd7 10. Qxe5 c6 11. Qd4+ Ke7 12. Qe5+ Kd7 13. Qd4+ Ke7 14. Qe5+ Kd7 15. Qd4+ Ke7 16. Qe5+ Kd7 17. Qd4+ Ke7 18. Qe5+ Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m44_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "English, Reversed Sicilian"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Nxc3 6. bxc3 Bc5 7. e4 O-O 8. Nf3 Qf6 9. O-O Nc6 10. c4 Bxf2+ 11. Rxf2 Qxf3 12. Bxf3 Nd4 13. d3 Nxf3+ 14. Rxf3 Rd8 15. d4 exd4 16. Qd3 Bh3 17. Kh1 Bg2+ 18. Kxg2 Rf8 19. Qxd4 Rae8 20. Qxa7 Rxe4 21. Qxb7 Rxc4 22. a3 Rc2+ 23. Kf1 Rxh2 24. Qxc7 Rh1+ 25. Kg2 Kh8 26. Kxh1 Ra8 27. Qxf7 Rd8 28. Qf8+ Rxf8 29. Rxf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m45_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Reti Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O dxc4 6. Qa4+ Nc6 7. Qxc4 O-O 8. Nc3 Bd7 9. Qd3 h6 10. Nd5 exd5 11. Rd1 d4 12. Qxd4 Nxd4 13. Nxd4 Rb8 14. Nf3 Ne4 15. Ne5 Nf6 16. Nc4 b5 17. Ne5 Bd6 18. Nf3 Ne4 19. Nd4 Nf6 20. Nf3 Ne4 21. Nd4 Nf6 22. Nf3 Ne4 23. Nd4 Nf6 24. Nf3 Ne4 25. Nd4 Nf6 26. Nf3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m45_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Reti Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. c4 e6 3. g3 Nf6 4. Bg2 Be7 5. O-O dxc4 6. Nc3 O-O 7. b3 cxb3 8. axb3 Nc6 9. Bb2 Nd4 10. e3 Nxf3+ 11. Bxf3 Qd3 12. Qe1 Qxf1+ 13. Qxf1 Bb4 14. Qb5 Bd6 15. Ne4 Nxe4 16. Bxe4 Rb8 17. Rxa7 Rd8 18. Bxh7+ Kxh7 19. Qh5+ Kg8 20. Qb5 g6 21. Qg5 Rf8 22. Qh6 Rd8 23. Qg7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m46_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "King's Indian Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. Nc3 e6 6. Ne5 d4 7. Nc4 c5 8. Bxb7 Qc7 9. Bxa8 dxc3 10. dxc3 Bxe2 11. Qxe2 e5 12. Qxe5+ Qxe5 13. Nxe5 Bd6 14. Nd3 O-O 15. Nxc5 Bxc5 16. Bb7 Bxf2+ 17. Kxf2 Ng4+ 18. Kg1 Ne5 19. Bd5 Nf3+ 20. Bxf3 Nd7 21. Bb7 Kh8 22. Rxf7 Rxf7 23. Bc8 Rf8 24. Bxd7 Rf1+ 25. Kxf1 Kg8 26. Be6+ Kh8 27. Bg8 Kxg8 28. c4 Kh8 29. c5 a6 30. c6 a5 31. c7 a4 32. c8=Q# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m46_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "adjudicated by Stockfish at the 160-ply cap"]
+[Opening "King's Indian Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. g3 Nf6 3. Bg2 c6 4. O-O Bg4 5. h3 Bh5 6. e3 Bxf3 7. Bxf3 Ne4 8. d3 Nf6 9. Nc3 d4 10. Bg2 dxc3 11. bxc3 Qxd3 12. cxd3 Nbd7 13. Bb2 O-O-O 14. d4 Re8 15. Rc1 Rd8 16. d5 cxd5 17. Bf3 Nc5 18. e4 dxe4 19. Be2 Rxd1 20. Bxd1 Nd3 21. Bg4+ Nxg4 22. hxg4 Nxb2 23. Rb1 Nd3 24. Rb3 Ne5 25. g5 Nf3+ 26. Kg2 Nxg5 27. g4 Nf3 28. Rb4 Nh4+ 29. Kg1 Nf3+ 30. Kh1 Nd2 31. Rg1 Rg8 32. Rb2 Nc4 33. Rb5 Nd2 34. Rc5+ Kd7 35. Rd5+ Kc6 36. Rxd2 Kb5 37. Rd5+ Kc6 38. Rd8 Rh8 39. Rc8+ Kd7 40. Rd1+ Kxc8 41. Rd5 Rg8 42. Rc5+ Kd7 43. Rd5+ Kc6 44. Rd8 Rh8 45. Rc8+ Kd7 46. Rxf8 Rxf8 47. Kg2 Kc6 48. Kg3 Kd5 49. c4+ Kxc4 50. Kg2 Kd3 51. Kg1 Kc2 52. Kf1 Kd1 53. Kg1 Rd8 54. Kg2 Rd2 55. a3 Rxf2+ 56. Kxf2 e3+ 57. Kxe3 Kc2 58. Ke4 Kc3 59. Ke5 f6+ 60. Ke4 Kc4 61. Kf5 g6+ 62. Kf4 g5+ 63. Ke4 f5+ 64. Kxf5 Kd5 65. Kxg5 Ke4 66. Kh5 Kd5 67. Kg5 Ke4 68. Kh4 Kf4 69. Kh3 Kg5 70. Kg2 Kxg4 71. Kf2 Kf4 72. Ke2 Ke4 73. Kd2 Kd4 74. Kc2 Kc4 75. Kb2 Kb5 76. a4+ Kxa4 77. Kc2 Kb4 78. Kd2 Kb3 79. Ke2 Kc2 80. Ke3 Kc3 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m47_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Bird Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. f4 d5 2. Nf3 Nf6 3. e3 g6 4. Be2 Bg7 5. O-O O-O 6. Ne5 Nc6 7. Nxf7 Rxf7 8. Rf2 Ne4 9. Rf3 Nxd2 10. Nxd2 Qd7 11. Rg3 Qf5 12. Rf3 Qxf4 13. exf4 Bd4+ 14. Kh1 Bxb2 15. Bxb2 Nb4 16. Rb3 Rxf4 17. Rg3 Rf1+ 18. Nxf1 Kf8 19. Rf3+ Kg8 20. Rb3 Nc6 21. Qxd5+ Kf8 22. Rf3+ Ke8 23. Qg8+ Kd7 24. Qxh7 Ke8 25. Qxg6+ Kd8 26. Qg8+ Kd7 27. Qd5+ Ke8 28. Qg8+ Kd7 29. Qd5+ Ke8 30. Qg8+ Kd7 31. Qd5+ Ke8 32. Qg8+ Kd7 33. Qd5+ Ke8 34. Qg8+ Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m47_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Bird Opening"]
+[Annotator "book moves: 8 plies"]
+
+1. f4 d5 2. Nf3 Nf6 3. e3 g6 4. Be2 Bg7 5. O-O O-O 6. Nc3 Nc6 7. Bd3 Bg4 8. h3 Bh5 9. e4 Nxe4 10. Nxe4 dxe4 11. Bxe4 Bxf3 12. gxf3 Qd4+ 13. Kg2 Qxe4 14. fxe4 Nd4 15. c3 Nc6 16. Qb3 Rab8 17. Qd5 Bxc3 18. bxc3 Rbe8 19. Qd7 Rb8 20. Qxc7 Rbc8 21. Qxb7 Rb8 22. Qxc6 Rbc8 23. Qd7 Rcd8 24. Qxe7 a5 25. Qf6 Rxd2+ 26. Bxd2 Re8 27. Rfe1 Rf8 28. Qe7 Rc8 29. Qd6 Rc4 30. Qd8+ Kg7 31. Qxa5 Kg8 32. Qa8+ Kg7 33. Qe8 Kh6 34. Qf8+ Kh5 35. Qxf7 Rc8 36. Qxh7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m48_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Nimzo-Larsen Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. Nf3 Nf6 6. O-O O-O 7. Nc3 a6 8. Ba4 a5 9. Bb5 b6 10. Bxc6 Ra7 11. Nxd5 Nxd5 12. Bxd5 Bc5 13. Bxe5 Qxd5 14. Bf4 Qe4 15. Qe2 Qxc2 16. Rac1 Qxa2 17. Ra1 Qxb3 18. Rac1 Be6 19. Ne5 Bxe3 20. dxe3 f6 21. Nc6 Raa8 22. Bxc7 Rfc8 23. Ne7+ Kh8 24. Nc6 Rxc7 25. Nd4 Rxc1 26. Rxc1 Qa4 27. Nxe6 Qe4 28. Nc7 Rc8 29. Na6 Rxc1+ 30. Qf1 Rc8 31. Qa1 Rc4 32. Qf1 Qc2 33. Qa1 Qc1+ 34. Qxc1 Rxc1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m48_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Nimzo-Larsen Attack"]
+[Annotator "book moves: 8 plies"]
+
+1. b3 e5 2. Bb2 Nc6 3. e3 d5 4. Bb5 Bd6 5. Nf3 Nf6 6. O-O O-O 7. Nc3 Bg4 8. h3 Bh5 9. d4 exd4 10. exd4 Nxd4 11. Nxd4 Bxd1 12. Rfxd1 Bb4 13. Nf3 Bxc3 14. Bxc3 Ne4 15. Be5 Nxf2 16. Kxf2 Qe7 17. Rxd5 Qxe5 18. Nxe5 Rfd8 19. Rxd8+ Rxd8 20. Nc4 Rd4 21. c3 Rf4+ 22. Kg3 Rf6 23. Ne5 Rd6 24. Nc4 Rg6+ 25. Kh2 Rxg2+ 26. Kxg2 Kf8 27. Bd7 Ke7 28. Re1+ Kxd7 29. Ne5+ Ke6 30. Nc4+ Kd5 31. Ne3+ Ke4 32. Ng4+ Kf5 33. Ne3+ Kf4 34. Nd5+ Kf5 35. Nxc7 Kg6 36. Nd5 Kf5 37. Ne7+ Kf6 38. Ng8+ Kf5 39. Ne7+ Kf6 40. Ng8+ Kf5 41. Ne7+ Kf6 42. Ng8+ Kf5 43. Ne7+ Kf6 44. Ng8+ Kf5 45. Ne7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m49_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Scotch Four Knights"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Bd2 Nxd4 7. Nd5 Nxe4 8. Bxb4 Nc6 9. Nf4 Nxb4 10. Qd4 Nxc2+ 11. Kd1 Nxd4 12. f3 Nf2+ 13. Ke1 Nxh1 14. Bd3 Qh4+ 15. Kd2 Qxf4+ 16. Kc3 Qxh2 17. Kxd4 Qd6+ 18. Kc3 Qf6+ 19. Kd2 Qxb2+ 20. Ke3 Qxa1 21. Bc2 Qg1+ 22. Kf4 Qh2+ 23. g3 Qxc2 24. a3 Qc4+ 25. Kg5 Nxg3 26. f4 f6+ 27. Kh4 Qxf4+ 28. Kh3 Qh6+ 29. Kxg3 Qe3+ 30. Kh4 Qxa3 31. Kh5 Qh3# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m49_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Scotch Four Knights"]
+[Annotator "book moves: 10 plies"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. d4 exd4 5. Nxd4 Bb4 6. Nf3 O-O 7. a3 Bxc3+ 8. bxc3 Nxe4 9. Qd3 Nf6 10. Be3 Re8 11. O-O-O Rxe3 12. fxe3 Qe7 13. Kb1 Qxa3 14. Qd2 Qc5 15. Qd3 Qb6+ 16. Kc1 Qxe3+ 17. Qxe3 g6 18. Qc5 Ne4 19. Qd5 Nxc3 20. Qd3 Na2+ 21. Kd2 Nab4 22. c3 Nxd3 23. Kxd3 Ne5+ 24. Nxe5 d5 25. Nf3 Bf5+ 26. Ke2 Rd8 27. Kf2 Bc2 28. Rd2 Be4 29. Nd4 Re8 30. Nb3 Rd8 31. Nc5 b6 32. Nb7 Rb8 33. Rb2 Rxb7 34. Rb5 Bc2 35. Rxd5 Be4 36. Rd8+ Kg7 37. Rd7 Bc2 38. Be2 Be4 39. Rd8 Bc2 40. Rc1 Be4 41. Rd7 Kf6 42. Rd8 Kg7 43. Rd7 Kf6 44. Rd8 Kg7 45. Rd7 Kf6 46. Rd8 Kg7 47. Rd7 Kf6 48. Rd8 Kg7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m50_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 51"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. g3 c6 3. Bg2 Nf6 4. d3 d5 5. O-O Bc5 6. Ne5 O-O 7. Nf3 Bb6 8. Ne5 Qd6 9. Nf3 d4 10. Ng5 h6 11. Nf3 Nd5 12. e4 dxe3 13. fxe3 Nxe3 14. Bxe3 Bxe3+ 15. Kh1 Bc5 16. Qe2 e5 17. Qxe5 Qxe5 18. Nxe5 Be6 19. Re1 f6 20. Ng6 Bf7 21. Nxf8 Kxf8 22. Be4 Bd4 23. b3 Bxa1 24. Bh7 Bd5+ 25. Kg1 Bd4+ 26. Kf1 Bg2+ 27. Kxg2 Kf7 28. Bf5 Bc5 29. Be6+ Kf8 30. Nc3 Ke7 31. Bg8+ Kd6 32. Ne4+ Ke7 33. Nxc5+ Kf8 34. Nxb7 Kxg8 35. Re8+ Kf7 36. Nd6+ Kg6 37. Rxb8 Rxb8 38. Ne4 f5 39. Nd6 Rb6 40. Ne8 Rb8 41. Nd6 Ra8 42. Nb7 Rb8 43. Nd6 Ra8 44. Nb7 Rb8 45. Nd6 Ra8 46. Nb7 Rb8 47. Nd6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m50_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 51"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. g3 c6 3. Bg2 Nf6 4. d3 d5 5. O-O Ne4 6. d4 Nxg3 7. fxg3 Nd7 8. Nc3 Nf6 9. Bg5 Ng4 10. Bxd8 Kxd8 11. h3 Nf6 12. Ne5 Ne8 13. Nxf7+ Ke7 14. Nxh8 Nc7 15. Nxd5+ exd5 16. Rf7+ Kd8 17. Rxf8+ Kd7 18. Rf7+ Kd8 19. Rf8+ Kd7 20. Rf7+ Kd8 21. Rxg7 h6 22. Rg8+ Kd7 23. Rg7+ Kd8 24. Nf7+ Kd7 25. Nxh6+ Kd8 26. Rg8+ Kd7 27. Rg7+ Kd8 28. Rg8+ Kd7 29. Rg7+ Kd8 30. Rg8+ Kd7 31. Rg7+ Kd8 32. Rg8+ Kd7 33. Rg7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m51_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 52"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Nf6 3. e4 Nc6 4. Nf3 h6 5. Nd5 Nxe4 6. Ne3 Nc5 7. Nd5 d6 8. Nc3 d5 9. cxd5 Qd6 10. dxc6 bxc6 11. Bc4 Nd3+ 12. Bxd3 Qxd3 13. Nxe5 Qxc3 14. dxc3 c5 15. O-O f6 16. Qh5+ Ke7 17. Nc6+ Kd7 18. Qd5+ Ke8 19. Re1+ Be7 20. Rxe7+ Kf8 21. Rxc7 Rh7 22. Qxc5+ Kg8 23. Ne7+ Kh8 24. Ng6+ Kg8 25. Ne7+ Kh8 26. Ng6+ Kg8 27. Ne7+ Kh8 28. Ng6+ Kg8 29. Ne7+ Kh8 30. Ng6+ Kg8 31. Ne7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m51_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 52"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Nf6 3. e4 Nc6 4. Nf3 h6 5. Bd3 Bc5 6. O-O O-O 7. Nxe5 Nxe5 8. Qe2 Nxd3 9. Qxd3 Bxf2+ 10. Rxf2 Ng4 11. h3 Nxf2 12. Kxf2 Qh4+ 13. Kg1 Qe1+ 14. Kh2 Qf2 15. Qd5 Qf4+ 16. Kh1 Qf1+ 17. Kh2 Qf4+ 18. Kh1 Qf1+ 19. Kh2 Qf4+ 20. Kh1 Qf1+ 21. Kh2 Qf4+ 22. Kh1 Qf1+ 23. Kh2 Qf4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m52_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 53"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. Nf3 Bb4+ 5. Bd2 Nxe4 6. Nxd4 Bxd2+ 7. Qxd2 O-O 8. O-O Nxd2 9. Nxd2 Nc6 10. Nf5 g6 11. Nh6+ Kh8 12. Nxf7+ Kg8 13. Nxd8+ Kg7 14. Ne6+ dxe6 15. Bxe6 Bxe6 16. Ne4 Bd5 17. Ng5 h6 18. Nh3 Ne5 19. Rfd1 Nf3+ 20. Kf1 Nxh2+ 21. Ke2 Bc4+ 22. Kd2 Rfd8+ 23. Ke3 Ng4+ 24. Kf4 g5+ 25. Kxg4 Be6+ 26. Kh5 Bf7+ 27. Kg4 Be6+ 28. Kh5 Bf7+ 29. Kg4 Be6+ 30. Kh5 Bf7+ 31. Kg4 Be6+ 32. Kh5 Bf7+ 33. Kg4 Be6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m52_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 53"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e5 2. Bc4 Nf6 3. d4 exd4 4. Nf3 Bb4+ 5. Kf1 Nxe4 6. Nxd4 O-O 7. f3 Nf6 8. c3 Ba5 9. Kg1 Bxc3 10. bxc3 Nc6 11. Be3 Nxd4 12. cxd4 Re8 13. Bf4 Qe7 14. Bxc7 Qe3+ 15. Kf1 Qe1+ 16. Qxe1 Rxe1+ 17. Kxe1 Kf8 18. Bd6+ Ke8 19. Bxf7+ Kxf7 20. Bc7 Nd5 21. Bd8 Ne3 22. Kf2 Nd5 23. Nd2 Nf4 24. g3 Nd3+ 25. Kg2 Nb2 26. Rab1 Na4 27. Nb3 Nc3 28. Rbc1 Nxa2 29. Rc2 Nb4 30. Rc5 Nd3 31. Rf5+ Ke8 32. Bc7 Nb4 33. Re1# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m53_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 54"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. Nf3 e5 3. a4 Nf6 4. d3 c5 5. Nc3 Nc6 6. Ng5 h6 7. Nf3 d5 8. exd5 Nxd5 9. Ne4 Qa5+ 10. Bd2 Qxd2+ 11. Kxd2 Nf4 12. Ng3 Nd5 13. Ne4 Nf4 14. Ng3 Nd5 15. Ne4 Nf4 16. Ng3 Nd5 17. Ne4 Nf4 18. Ng3 Nd5 19. Ne4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m53_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 54"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. Nf3 e5 3. a4 Nf6 4. d3 c5 5. Nc3 Nc6 6. Bg5 Be7 7. d4 O-O 8. dxe5 dxe5 9. Bc4 Ng4 10. h3 Bxg5 11. O-O Nf6 12. Nxg5 Qxd1 13. Rfxd1 Nb4 14. Rdc1 Rd8 15. b3 Nxc2 16. Rxc2 Nxe4 17. Ncxe4 Rd4 18. Nxc5 Rxc4 19. bxc4 Bf5 20. Nxb7 Bxc2 21. Nd6 Rd8 22. Nb5 a6 23. Nc7 a5 24. Rc1 Bxa4 25. Ne4 Rd1+ 26. Rxd1 Bxd1 27. Nf6+ gxf6 28. Nd5 f5 29. Ne7+ Kf8 30. Nxf5 Bc2 31. Nd6 Bd3 32. Nb7 Bxc4 33. Nxa5 Ba6 34. Nc6 e4 35. Nd4 e3 36. fxe3 Bc4 37. Nc6 Be2 38. Nd4 Bd3 39. Nc6 Bc4 40. Ne5 Be2 41. Nd7+ Ke7 42. Nc5 Bc4 43. Nb7 Ba6 44. Nc5 Bc4 45. Nb7 Ba6 46. Nc5 Bc4 47. Nb7 Ba6 48. Nc5 Bc4 49. Nb7 Ba6 50. Nc5 Bc4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m54_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 55"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. e3 e6 3. Nf3 Nf6 4. Be2 a6 5. O-O d5 6. Nc3 Bc5 7. Bd3 O-O 8. cxd5 cxd5 9. Ne5 Qd6 10. Nf3 Nc6 11. Qb3 Na5 12. Qc2 Bb4 13. Bxh7+ Kh8 14. Bd3 Nc6 15. Ng5 g6 16. Bxg6 fxg6 17. Qxg6 Ne5 18. Qh6+ Kg8 19. Qh4 Kg7 20. Qg3 Nc4 21. Nf3+ Kh8 22. Qh4+ Kg8 23. Qg5+ Kh8 24. Qh6+ Kg8 25. Qg6+ Kh8 26. Qh6+ Kg8 27. Qg6+ Kh8 28. Qh6+ Kg8 29. Qg6+ Kh8 30. Qh6+ Kg8 31. Qg6+ Kh8 32. Qh6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m54_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 55"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. e3 e6 3. Nf3 Nf6 4. Be2 a6 5. d4 Bb4+ 6. Bd2 Bxd2+ 7. Qxd2 O-O 8. O-O Ne4 9. Qd3 Nf6 10. Nc3 Qb6 11. Rab1 d5 12. cxd5 cxd5 13. Ne5 Qd6 14. Na4 Qxe5 15. dxe5 Ne8 16. Nc5 Nc6 17. Bf3 Nxe5 18. Qxd5 exd5 19. Bxd5 Nf3+ 20. gxf3 Nd6 21. Bb3 Rd8 22. Rbd1 Nb5 23. Rxd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m55_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 56"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 d5 2. Nf3 e6 3. Be2 a6 4. d4 Be7 5. O-O Nf6 6. Nc3 O-O 7. Ne5 Nc6 8. Nf3 h6 9. Bd3 e5 10. dxe5 Nxe5 11. Nxe5 Be6 12. Nf3 Bg4 13. Ne5 Bxd1 14. Nxd1 Qd6 15. Nf3 Ne4 16. Nd4 Bf6 17. Nf5 g6 18. Nxh6+ Kh8 19. Ng4 g5 20. Nh6 Bg7 21. Nf5 Bf6 22. Nh6 Bg7 23. Nf5 Bf6 24. Nh6 Bg7 25. Nf5 Qd7 26. Be2 Qxf5 27. Bd3 Nc5 28. Bxf5 Bf6 29. Bg4 Ne4 30. Bd7 Bxb2 31. Bxb2+ Kh7 32. Bf5+ Kg8 33. Bxe4 dxe4 34. Bf6 Kh7 35. Bxg5 Kh8 36. Bf6+ Kg8 37. Be7 Kh8 38. Bf6+ Kg8 39. Be7 Kh8 40. Bf6+ Kg8 41. Be7 Kh8 42. Bf6+ Kg8 43. Be7 Kh8 44. Bf6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m55_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 56"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 d5 2. Nf3 e6 3. Be2 a6 4. d4 Be7 5. Nc3 Nf6 6. O-O O-O 7. h3 Nc6 8. Bd3 Nxd4 9. exd4 Ne4 10. Ne5 Nxc3 11. bxc3 Re8 12. Bf4 Bd6 13. Re1 Bxe5 14. dxe5 Qh4 15. Be3 Qxf2+ 16. Bxf2 Rd8 17. Bxh7+ Kxh7 18. Qh5+ Kg8 19. Kh1 Re8 20. Kg1 g6 21. Qh4 Rf8 22. Qf6 Re8 23. Qg5 Rf8 24. Qe7 c6 25. Qc7 Re8 26. Qd6 g5 27. Qc7 f5 28. exf6 Rf8 29. f7+ Rxf7 30. Qd8+ Kh7 31. Qxg5 Rxf2 32. Kxf2 Bd7 33. Qe7+ Kg8 34. Qxd7 Rf8+ 35. Kg1 Rb8 36. Qxe6+ Kf8 37. Qf6+ Kg8 38. Qg6+ Kf8 39. Qd6+ Kg8 40. Qxb8+ Kh7 41. Qxb7+ Kg8 42. Re8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m56_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 57"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 c6 4. c3 h6 5. O-O e6 6. Ne5 Bd6 7. Nf3 O-O 8. Nd4 c5 9. Nb3 e5 10. Bf3 Nc6 11. Bg2 c4 12. Qc2 Qb6 13. Bf3 e4 14. Bg2 Be5 15. Bxe4 dxe4 16. Qd1 Nd5 17. Nd4 Bxd4 18. cxd4 Nxd4 19. Re1 Nf3+ 20. exf3 exf3 21. Qxf3 Qd4 22. Rd1 Qxf2+ 23. Kxf2 Nb4 24. Nc3 Nd3+ 25. Qxd3 cxd3 26. Nd5 Be6 27. Ne7+ Kh8 28. Rf1 Rfe8 29. Re1 Rxe7 30. Rxe6 fxe6 31. b3 Rf7+ 32. Ke3 Rd7 33. Ke4 Rd6 34. Ke5 Rd5+ 35. Kxe6 Rdd8 36. Kf7 Rd7+ 37. Ke6 Re8+ 38. Kxd7 Rf8 39. Ke7 Rg8 40. Kf7 Kh7 41. Ke7 Rh8 42. Kf7 Rd8 43. Ke7 Rh8 44. Kf7 Rd8 45. Ke7 Rh8 46. Kf7 Rd8 47. Ke7 Rh8 48. Kf7 Rd8 49. Ke7 Rh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m56_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 57"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 c6 4. c3 h6 5. O-O Ne4 6. Nd4 Nc5 7. e4 Nxe4 8. Qf3 Nxg3 9. fxg3 Qd6 10. Qe3 Qxg3 11. hxg3 Bg4 12. Qe5 Nd7 13. Qc7 b6 14. Nxc6 Nc5 15. Bxd5 Nd3 16. Qxe7+ Bxe7 17. Bxf7+ Kd7 18. Nd4 Nxc1 19. Rxc1 Rhf8 20. Be6+ Bxe6 21. Nb5 Bc5+ 22. Kg2 Bd5+ 23. Kh2 Rf2+ 24. Kh3 Be6+ 25. Kh4 Rh2# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m57_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 58"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. e3 d5 3. Be2 Nf6 4. O-O a6 5. Nc3 e6 6. Ne5 Bd6 7. Nf3 O-O 8. Ng5 h6 9. Nf3 c5 10. Bd3 c4 11. Be2 Nc6 12. Bxc4 dxc4 13. d4 Bxh2+ 14. Kxh2 Ng4+ 15. Kg1 Nf6 16. Ne5 Nd5 17. Nxc4 e5 18. dxe5 Nxe5 19. Nxe5 Qd6 20. Qxd5 Qxd5 21. Nxd5 Rd8 22. Ne7+ Kf8 23. Nc4 Kxe7 24. Ne5 Ke6 25. Nc4 b5 26. Nb6 Ra7 27. Nxc8 Rxc8 28. Rb1 Rxc2 29. Rd1 Rxc1 30. Rdxc1 Kf5 31. Rc5+ Kf6 32. Rc6+ Ke7 33. Rc8 Kd7 34. Rd1+ Kxc8 35. Rc1+ Kd7 36. Rd1+ Kc6 37. Rc1+ Kd6 38. Rd1+ Ke7 39. Rc1 Ke6 40. Rc6+ Kf5 41. Rc5+ Kf6 42. Rc6+ Kf5 43. Rc5+ Kf6 44. Rc6+ Kf5 45. Rc5+ Kf6 46. Rc6+ Kf5 47. Rc5+ Kf6 48. Rc6+ Kf5 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m57_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 58"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. e3 d5 3. Be2 Nf6 4. O-O a6 5. d4 Ne4 6. Ne5 Nxf2 7. Rxf2 Qb6 8. Nxf7 Rg8 9. Nd6+ exd6 10. Bh5+ Kd8 11. Rxf8+ Rxf8 12. Nc3 Rg8 13. Bf7 Rh8 14. Bxd5 cxd5 15. Nxd5 Qa7 16. Nb4 Qxd4 17. exd4 Bd7 18. Bg5+ Kc7 19. Nd5+ Kc8 20. Nb6+ Kc7 21. Nxa8+ Kc8 22. Nb6+ Kc7 23. Nd5+ Kc8 24. Ne7+ Kd8 25. Nd5+ Kc8 26. Nb6+ Kc7 27. Nd5+ Kc8 28. Nb6+ Kc7 29. Nd5+ Kc8 30. Nb6+ Kc7 31. Nd5+ Kc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m58_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 59"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. Nc3 d5 3. d4 e6 4. e3 Bd6 5. Nf3 Nf6 6. cxd5 cxd5 7. Bb5+ Bd7 8. O-O O-O 9. Bd3 Nc6 10. Nxd5 exd5 11. Ng5 h6 12. Nf3 Qc7 13. Qb3 Bxh2+ 14. Kh1 Bd6 15. Qxd5 Nxd5 16. Rd1 Rad8 17. Nd2 Nf4 18. exf4 Bxf4 19. d5 Bxd2 20. Bxd2 Ne5 21. Be4 Nc4 22. b3 Nxd2 23. Rxd2 Qe5 24. Rad1 Qxe4 25. d6 Qh4+ 26. Kg1 Qe4 27. Rb2 Qe5 28. Rbd2 Qe6 29. Rd4 Qe5 30. Rh4 Qe2 31. Ra1 Qxf2+ 32. Kxf2 Be6 33. Rd1 Rd7 34. Rhd4 Rfd8 35. Rh4 Rxd6 36. Rdh1 Rd2+ 37. Kg1 Rxa2 38. Rxh6 Bxb3 39. Rh8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m58_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 59"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. Nc3 d5 3. d4 e6 4. e3 Bd6 5. Nf3 Nf6 6. cxd5 cxd5 7. Bd3 O-O 8. O-O Nc6 9. Bb5 a6 10. Ba4 Nxd4 11. exd4 Bxh2+ 12. Nxh2 Qb6 13. Nf3 Qxd4 14. Nxd4 Rd8 15. Nf3 Ng4 16. g3 Nxf2 17. Rxf2 Rf8 18. Ne5 Rd8 19. Nxf7 Rf8 20. Nh6+ Kh8 21. Rxf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m59_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 60"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. e3 g6 3. Nf3 Nf6 4. d4 a5 5. Qa4+ Nc6 6. Nc3 Bg7 7. Bd3 O-O 8. O-O d5 9. Nxd5 e6 10. Nf4 e5 11. dxe5 Qe7 12. exf6 Qxf6 13. Nd5 Qd6 14. Qb5 Ne5 15. Be2 Nxf3+ 16. gxf3 c6 17. Nb6 cxb5 18. Nxa8 bxc4 19. Bxc4 Bf5 20. Bb5 Rxa8 21. Bc4 Bxb2 22. Bxb2 Qb4 23. Bd5 Qxb2 24. Bc4 Qxa1 25. Rxa1 Bc2 26. Rc1 Bf5 27. Bd5 b6 28. Bxa8 Kh8 29. Bb7 Kg7 30. Rc7 Kh8 31. Rxf7 Kg8 32. Re7 Kh8 33. Re8+ Kg7 34. Re7+ Kh8 35. Re8+ Kg7 36. Re7+ Kh8 37. Re8+ Kg7 38. Re7+ Kh8 39. Re8+ Kg7 40. Re7+ Kh8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m59_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 60"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. e3 g6 3. Nf3 Nf6 4. d4 a5 5. Nc3 Bg7 6. Bd3 O-O 7. O-O Nc6 8. Re1 Bg4 9. h3 Bh5 10. h4 Bxf3 11. gxf3 d5 12. cxd5 Nxd5 13. e4 Nxd4 14. exd5 Qxd5 15. Nxd5 Nxf3+ 16. Qxf3 c6 17. Nxe7+ Kh8 18. Nxg6+ fxg6 19. Rf1 Rxf3 20. Be2 Raf8 21. Bxf3 Rxf3 22. Kg2 Rf8 23. Re1 Rxf2+ 24. Kxf2 Bd4+ 25. Kf3 Bxb2 26. Bxb2+ Kg8 27. Re8+ Kf7 28. Rh8 Ke7 29. Rxh7+ Kf8 30. Rh8+ Ke7 31. Rh7+ Kf8 32. Rxb7 Ke8 33. Rb8+ Kd7 34. Rb7+ Kc8 35. Rb6 c5 36. Rxg6 Kb7 37. Rg7+ Kc8 38. Rg8+ Kd7 39. Rd1+ Ke7 40. Rg7+ Kf8 41. Rd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m60_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 61"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bd3 d6 5. O-O Nf6 6. Ng5 h6 7. Nf3 d5 8. exd5 Nxd5 9. Ne4 f5 10. Ng3 e4 11. Bxe4 Nf6 12. Nxf5 Nxe4 13. Ne3 Nf6 14. Nc4 Qd5 15. Ne3 Qd6 16. Nc4 Ne4 17. Nxd6+ Nxd6 18. Re1+ Kf7 19. Ne5+ Nxe5 20. Rxe5 c4 21. Qf3+ Kg8 22. Qd5+ Kh7 23. Rh5 g6 24. Re5 Bg7 25. Qxd6 Bxe5 26. Qxe5 Kg8 27. Qe8+ Kh7 28. Qf7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m60_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 61"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bd3 d6 5. O-O Nf6 6. Bc4 Qb6 7. d4 cxd4 8. Nxd4 exd4 9. Na4 Nxe4 10. Nxb6 axb6 11. f3 Nf6 12. Qe1+ Kd8 13. Bxf7 Kd7 14. Qe8+ Nxe8 15. Bxe8+ Kxe8 16. Re1+ Kd7 17. Re4 Ra4 18. b3 Ra7 19. Bb2 Nb4 20. Rxd4 Nxc2 21. Rd2 Nxa1 22. Bxa1 Rxa2 23. Rxa2 Kc6 24. Rc2+ Kd7 25. Bxg7 Bxg7 26. Rc4 Rd8 27. Rc1 Bd4+ 28. Kf1 Be3 29. Re1 Bd4 30. Re4 Bc5 31. Re1 Rf8 32. Ke2 Re8+ 33. Kf1 Rxe1+ 34. Kxe1 Bb4+ 35. Kf1 Bd2 36. Kg1 Be3+ 37. Kh1 Bf2 38. g3 Bxg3 39. hxg3 Kc6 40. Kg2 Kd5 41. f4 Ke4 42. Kf2 Kf5 43. g4+ Kxg4 44. Kg2 Kxf4 45. Kf1 Bh3+ 46. Kg1 Bg2 47. Kxg2 Ke3 48. Kf1 Kf3 49. Ke1 Ke3 50. Kd1 Kd3 51. Kc1 Kc3 52. Kb1 Kxb3 53. Ka1 Ka3 54. Kb1 Kb3 55. Ka1 Ka3 56. Kb1 Kb3 57. Ka1 Ka3 58. Kb1 Kb3 59. Ka1 Ka3 60. Kb1 Kb3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m61_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 62"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 e5 3. Nc3 h6 4. a3 d6 5. Bg2 c5 6. Qa4+ Nc6 7. Nf3 d5 8. O-O Qb6 9. Nxd5 Be6 10. Nxb6 axb6 11. Qxa8+ Ke7 12. Qxb7+ Kd8 13. Qxc6 Bxc4 14. Qxb6+ Kc8 15. Nxe5 Bxe2 16. Nxf7 Bxf1 17. Nxh8 Bxg2 18. Kxg2 Be7 19. Qe6+ Kb8 20. Qxe7 Kc8 21. Qxc5+ Kb8 22. Qb6+ Kc8 23. Qe6+ Kb8 24. Qb6+ Kc8 25. Qe6+ Kb8 26. Qb6+ Kc8 27. Qe6+ Kb8 28. Qb6+ Kc8 29. Qe6+ Kb8 30. Qb6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m61_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 62"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 e5 3. Nc3 h6 4. a3 d6 5. Bg2 Nc6 6. Nf3 Bg4 7. O-O Bxf3 8. exf3 Nd4 9. d3 Nxf3+ 10. Bxf3 Rb8 11. Qa4+ Ke7 12. Qxa7 Ra8 13. Qxb7 Rb8 14. Qa7 Qd7 15. Qxb8 Qh3 16. Qxc7+ Ke8 17. Qc6+ Kd8 18. Qa8+ Kc7 19. Qa7+ Kd8 20. Qxf7 Qxf1+ 21. Kxf1 Rh7 22. Qxf8+ Kc7 23. Qe7+ Kc8 24. Qf8+ Kd7 25. Qf7+ Kc8 26. Qe6+ Kd8 27. Qxd6+ Kc8 28. Qf8+ Kd7 29. Qf7+ Kd8 30. Qf8+ Kd7 31. Qf7+ Kd8 32. Qf8+ Kd7 33. Qf7+ Kd8 34. Qf8+ Kd7 35. Qf7+ Kd8 36. Qf8+ Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m62_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 63"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 d5 3. Nbd2 Bf5 4. h3 h5 5. Ne5 e6 6. Nef3 Nf6 7. Ne5 c5 8. c3 cxd4 9. cxd4 Be7 10. Qa4+ Kf8 11. Nd7+ Nfxd7 12. Qb5 Qc7 13. Qa4 Nb6 14. Qb5 Qc2 15. Qa5 Qxc1+ 16. Rxc1 Nc4 17. Nxc4 Nc6 18. Qc7 Bb4+ 19. Kd1 Nxd4 20. Qxb7 Bc2+ 21. Rxc2 Nxc2 22. Qxa8+ Ke7 23. Qxh8 dxc4 24. Kxc2 Kf6 25. Qxh5 Ke7 26. Qg5+ f6 27. Qxg7+ Kd6 28. Qxf6 Kd7 29. Qd4+ Kc8 30. Qxc4+ Kb8 31. Qxb4+ Ka8 32. Qf8+ Kb7 33. Qb4+ Ka6 34. Qa3+ Kb6 35. Qb4+ Kc7 36. Qc4+ Kd8 37. Qxe6 Kc7 38. Qc4+ Kb8 39. Qg8+ Kc7 40. Qc4+ Kb8 41. Qg8+ Kc7 42. Qc4+ Kd8 43. Qg8+ Kc7 44. Qc4+ Kd8 45. Qg8+ Kc7 46. Qc4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m62_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 63"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 d5 3. Nbd2 Bf5 4. h3 h5 5. e4 Bg6 6. Bd3 Nf6 7. O-O Nxe4 8. Bxe4 dxe4 9. Ne5 Qxd4 10. Nb3 Qxe5 11. Nd2 Qd4 12. Nb3 Qb4 13. c3 Qc4 14. Qc2 Qxf1+ 15. Kxf1 Nd7 16. Nd4 O-O-O 17. Kg1 Nc5 18. Be3 Rxd4 19. cxd4 Nd7 20. Rd1 Nf6 21. d5 a6 22. Bb6 Nxd5 23. Ba7 Nf4 24. g3 Nxh3+ 25. Kf1 Nxf2 26. Kxf2 e3+ 27. Kxe3 Bxc2 28. Rd8+ Kxd8 29. Bb6+ Kc8 30. Kf2 Bd3 31. Kg2 Be4+ 32. Kg1 Bd3 33. Ba7 Bc2 34. Kh1 Be4+ 35. Kh2 Bf3 36. Kg1 Bd1 37. Kh2 Bc2 38. Kh1 Be4+ 39. Kg1 Bf3 40. Kh2 Be4 41. Kg1 Bg2 42. Kxg2 Rg8 43. Kh2 Rh8 44. Kh1 Rg8 45. Kh2 Rh8 46. Kh1 Rg8 47. Kh2 Rh8 48. Kh1 Rg8 49. Kh2 Rh8 50. Kh1 Rg8 51. Kh2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m63_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 64"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. c4 d5 3. g3 Nc6 4. d4 Nf6 5. cxd5 exd5 6. Nc3 Bb4 7. Bg2 O-O 8. O-O Be6 9. Ng5 g6 10. Nf3 Nxd4 11. Nxd4 c5 12. Nxd5 Nxd5 13. Nf3 Qd6 14. Ng5 h6 15. Qxd5 Bxd5 16. Nh3 Qf6 17. Bxd5 Rfb8 18. Bxh6 Qxb2 19. e3 Qd2 20. Bf3 Qc3 21. Rac1 Qxc1 22. Rxc1 Kh8 23. Rxc5 Bxc5 24. Bd5 f6 25. Bc4 Bxe3 26. fxe3 Re8 27. Bd5 b6 28. Bxa8 Rxa8 29. Nf4 Rg8 30. Ne6 Kh7 31. Bf4 f5 32. Ng5+ Kh8 33. Nf7+ Kh7 34. Ng5+ Kh8 35. Nf7+ Kh7 36. Ng5+ Kh8 37. Nf7+ Kh7 38. Ng5+ Kh8 39. Nf7+ Kh7 40. Ng5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m63_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 64"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. c4 d5 3. g3 Nc6 4. d4 Nf6 5. Bg2 dxc4 6. O-O Nxd4 7. Qxd4 Qxd4 8. Nxd4 Nd5 9. e4 e5 10. exd5 exd4 11. Re1+ Kd7 12. Bh3+ Kd6 13. Bf4+ Kxd5 14. Bxc7 Bxh3 15. Re5+ Kc6 16. Ba5 d3 17. Kh1 Rc8 18. Kg1 Bd6 19. Re4 c3 20. bxc3 d2 21. Nxd2 Kd5 22. c4+ Kc6 23. g4 Bxh2+ 24. Kxh2 Bxg4 25. Rxg4 Rcg8 26. Kh1 Rc8 27. Rxg7 Rhf8 28. Rxh7 Rg8 29. Rh6+ Kd7 30. Rh7 Rgf8 31. Rxf7+ Rxf7 32. Rf1 Rh8+ 33. Kg1 Rg8+ 34. Kh1 Rh8+ 35. Kg2 Rg8+ 36. Kh3 Rh8+ 37. Kg3 Rg8+ 38. Kh4 Rh8+ 39. Kg5 Rg8+ 40. Kh6 Rh8+ 41. Kg6 Rg8+ 42. Kxf7 Rh8 43. Kg7 Re8 44. Kf6 Rf8+ 45. Ke5 Re8+ 46. Kf5 Rf8+ 47. Kg4 Rg8+ 48. Kf3 Rf8+ 49. Ke3 Re8+ 50. Kf4 Rf8+ 51. Ke3 Re8+ 52. Kf4 Rf8+ 53. Ke3 Re8+ 54. Kd4 Rf8 55. Kd5 Rf5+ 56. Ke4 Rxa5 57. Ra1 Rxa2 58. Rxa2 Kc6 59. Rxa7 b6 60. Ke5 Kc5 61. Rc7+ Kb4 62. Rb7 Kc5 63. Rc7+ Kb4 64. Rb7 Kc5 65. Rc7+ Kb4 66. Rb7 Kc5 67. Rc7+ Kb4 68. Rb7 Kc5 69. Rc7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m64_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 65"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 Nf6 3. e3 e6 4. Bd3 d5 5. O-O Bd6 6. Nc3 O-O 7. e4 Bb4 8. exd5 exd5 9. Ne5 Ba5 10. Nf3 Bb4 11. Ne5 Ba5 12. Nf3 Bb4 13. Ne5 Ba5 14. Nf3 Bb4 15. Ne5 Ba5 16. Nf3 Bb4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m64_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 65"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 Nf6 3. e3 e6 4. Bd3 d5 5. Nc3 Ne4 6. Nxe4 dxe4 7. Bxe4 Bb4+ 8. c3 Ba5 9. O-O O-O 10. Ne5 f6 11. Nc4 Nd7 12. d5 exd5 13. Bf5 dxc4 14. Be6+ Kh8 15. Bxc4 Nc5 16. Qc2 Bxc3 17. bxc3 Nd3 18. Bxd3 Qxd3 19. Qxd3 Bg4 20. h3 Bh5 21. Qd7 b6 22. Qxc6 Rad8 23. Qe6 Rd3 24. Qb3 Rdd8 25. Qe6 Rd3 26. Qe4 Rxc3 27. Bd2 Ra3 28. Rac1 Rxa2 29. Qd3 Rxd2 30. Qxd2 Kg8 31. Qd5+ Kh8 32. Qxh5 Kg8 33. Qd5+ Kh8 34. Rc7 a6 35. Qf7 Rd8 36. Rd7 Rc8 37. Qxg7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m65_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 66"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. Nc3 e6 3. Nf3 d5 4. e3 b6 5. cxd5 cxd5 6. Bb5+ Bd7 7. O-O Nf6 8. Bxd7+ Qxd7 9. Ne5 Bd6 10. Nf3 O-O 11. Ng5 h6 12. Nf3 Nc6 13. Qb3 Na5 14. Qc2 Nc4 15. Nd4 e5 16. Nf3 d4 17. exd4 exd4 18. Nxd4 Bxh2+ 19. Kxh2 Qxd4 20. Rd1 Qxf2 21. Rg1 Ng4+ 22. Kh1 Qh4# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m65_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 66"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. Nc3 e6 3. Nf3 d5 4. e3 b6 5. cxd5 cxd5 6. d4 Nf6 7. Bd3 Bb7 8. O-O Nc6 9. e4 Nxe4 10. Nxe4 dxe4 11. Bxe4 Nxd4 12. Bxb7 Nxf3+ 13. gxf3 Rb8 14. Bc6+ Ke7 15. Bg5+ f6 16. Bf4 Rc8 17. Bb7 Rb8 18. Bc6 Rc8 19. Bb5 Kf7 20. Ba4 Qxd1 21. Bxd1 Rd8 22. Bc7 Rd7 23. Bb8 Rxd1 24. Raxd1 a6 25. Rd7+ Kg8 26. Rd8 Kf7 27. Rd7+ Kg8 28. Rd8 Kf7 29. Rd7+ Kg8 30. Rd8 Kf7 31. Rd7+ Kg8 32. Rd8 Kf7 33. Rd7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m66_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 67"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 g6 2. c3 Nc6 3. Na3 e5 4. Qc2 Nf6 5. Nf3 d5 6. Bg2 Bg7 7. O-O O-O 8. Ng5 h6 9. Nf3 Bd7 10. d4 Nxd4 11. Nxe5 Nxc2 12. Nxc2 Be6 13. Nd4 c5 14. Nb3 c4 15. Nd4 Ne4 16. Nef3 Nc5 17. Nb5 Qb6 18. Na3 Ne4 19. Nc2 Qxf2+ 20. Rxf2 Nf6 21. Ne5 Ne4 22. Nf3 Nxc3 23. bxc3 Bxc3 24. Bxh6 Bxa1 25. Nxa1 Kh8 26. Bxf8 Rxf8 27. Ne5 f6 28. Nxg6+ Kh7 29. Nxf8+ Kg8 30. Nxe6 Kh8 31. Rxf6 Kh7 32. Bxd5 b6 33. Bxc4 Kh8 34. Rf8+ Kh7 35. Rf7+ Kh6 36. Rxa7 Kg6 37. Nf4+ Kf6 38. Nd5+ Ke6 39. Nxb6+ Kf5 40. Rf7+ Kg4 41. Rg7+ Kf5 42. Rf7+ Kg6 43. Bd3+ Kxf7 44. Bc4+ Kg6 45. Bd3+ Kh5 46. g4+ Kxg4 47. h3+ Kxh3 48. Bf5+ Kh4 49. Bh7 Kh5 50. Bg6+ Kxg6 51. Nd5 Kh7 52. Nf6+ Kh8 53. Nd5 Kh7 54. Nf6+ Kh8 55. Nd5 Kh7 56. Nf6+ Kh8 57. Nd5 Kh7 58. Nf6+ Kh8 59. Nd5 Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m66_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 67"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 g6 2. c3 Nc6 3. Na3 e5 4. Qc2 Nf6 5. Nf3 Bg7 6. d4 O-O 7. dxe5 Nxe5 8. Nxe5 Nd5 9. Nf3 Nxc3 10. bxc3 Bxc3+ 11. Qxc3 Re8 12. Nd4 Qf6 13. Qxc7 Qxd4 14. Rb1 Qf6 15. Qc2 d5 16. Qc7 Qd4 17. Qd6 Qc3+ 18. Kd1 Qd4+ 19. Ke1 Qc3+ 20. Kd1 Qd4+ 21. Ke1 Qc3+ 22. Kd1 Qd4+ 23. Ke1 Qc3+ 24. Kd1 Qd4+ 25. Ke1 Qc3+ 26. Kd1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m67_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 68"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 Nc6 3. d4 d5 4. cxd5 Qxd5 5. Nc3 Qxh1 6. h3 Qxg1 7. Qd3 Qxf1+ 8. Kxf1 Bxh3+ 9. Kg1 O-O-O 10. Qb5 Nxd4 11. Qd3 Nxe2+ 12. Nxe2 Rxd3 13. Nf4 Rd1+ 14. Kh2 Ng4+ 15. Kxh3 Nxf2+ 16. Kg2 Ng4 17. Nh5 Ne5 18. Nf4 Re1 19. Bd2 Rxa1 20. a3 Ra2 21. b3 Rxd2+ 22. Kh3 Nf3 23. Nh5 Ng5+ 24. Kh4 Nf3+ 25. Kh3 Ng5+ 26. Kh4 Nf3+ 27. Kh3 Ng5+ 28. Kh4 Nf3+ 29. Kh3 Ng5+ 30. Kh4 Nf3+ 31. Kh3 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m67_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 68"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 Nc6 3. d4 d5 4. cxd5 Qxd5 5. Nc3 Qxh1 6. Qd2 Qxg1 7. Qd1 Qxh2 8. e3 Qxf2+ 9. Kxf2 Ng4+ 10. Qxg4 Bxg4 11. Ne4 O-O-O 12. Kg2 Bd1 13. Nd6+ Rxd6 14. Kh2 Rh6+ 15. Bh3+ Kd8 16. Kg2 Rxh3 17. Kxh3 Rg8 18. Kh2 Bg4 19. Kg2 Bd1 20. Kh3 Bc2 21. Bd2 Bf5+ 22. Kh2 Bd3 23. Kg2 Be4+ 24. Kf1 Bd3+ 25. Ke1 Bc4 26. Bc3 Bd3 27. Bd2 Bc4 28. Bc3 Bd3 29. Bd2 Bc4 30. Bc3 Bd3 31. Bd2 Bc4 32. Bc3 Bd3 33. Bd2 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m68_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 69"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 d5 3. Bf4 Bb4 4. Qd3 c5 5. Qb5+ Kf8 6. dxc5 Bxc3+ 7. bxc3 Nf6 8. O-O-O Kg8 9. Nf3 Ne4 10. Nd4 Nxf2 11. Rg1 Nxd1 12. Kxd1 a6 13. Qd3 Nc6 14. Nxc6 bxc6 15. Qd4 Qd7 16. Qxg7+ Kxg7 17. Be5+ f6 18. Bf4 f5 19. Be5+ Kg8 20. Bf6 Kf8 21. Bxh8 Kf7 22. Be5 Ke7 23. Bd6+ Kf7 24. Be5 Kg8 25. Bf6 Kf8 26. Be5 Kg8 27. Bf6 Kf8 28. Be5 Kg8 29. Bf6 Kf8 30. Be5 Kg8 31. Bf6 Kf7 32. Be5 Kg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m68_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 69"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 d5 3. Bf4 Bb4 4. Qd3 c5 5. a3 Bxc3+ 6. bxc3 cxd4 7. cxd4 Qa5+ 8. Kd1 Nf6 9. Nf3 O-O 10. Qe3 Nc6 11. Kc1 Qxa3+ 12. Rxa3 Nxd4 13. Nxd4 Rd8 14. Be5 Ng4 15. f3 Nxe3 16. Rxe3 Re8 17. Ra3 Rd8 18. Nb5 Re8 19. Nd6 Rd8 20. Nxc8 Rdxc8 21. Ra5 Rd8 22. Bc7 Rdc8 23. Bd6 Rd8 24. Be5 Re8 25. Bc7 Rac8 26. Rxa7 Rxc7 27. Rxb7 Rxb7 28. e4 dxe4 29. fxe4 Rc8 30. e5 Rxc2+ 31. Kxc2 Rc7+ 32. Kb2 Rb7+ 33. Kc3 Rc7+ 34. Kd2 Rd7+ 35. Ke2 Rd5 36. Ke3 Rxe5+ 37. Kf2 Rf5+ 38. Kg1 Rxf1+ 39. Kxf1 e5 40. Kf2 e4 41. g3 e3+ 42. Kxe3 Kf8 43. Kf4 g5+ 44. Kxg5 Kg8 45. Kf6 Kf8 46. Rf1 Kg8 47. Rf5 Kf8 48. Kg5 Kg8 49. Kh6 Kf8 50. Kxh7 Ke8 51. Re5+ Kf8 52. Kh8 f6 53. Re6 f5 54. Rf6+ Ke8 55. Rxf5 Kd8 56. Rf8+ Ke7 57. Rg8 Kf7 58. Rg7+ Kf8 59. Rg8+ Kf7 60. Rg7+ Kf8 61. Rh7 Ke8 62. Kg7 Kd8 63. Rh8+ Ke7 64. Kg6 Kd7 65. Rh7+ Kd8 66. Rh8+ Ke7 67. Rh7+ Kf8 68. Rh8+ Ke7 69. Rh7+ Kf8 70. Rh8+ Ke7 71. Rh7+ Kf8 72. Rh8+ Ke7 73. Rh7+ Kf8 74. Rh8+ Ke7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m69_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 70"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 e5 2. c4 Nf6 3. a3 d5 4. cxd5 Be7 5. Qa4+ Nc6 6. dxc6 O-O 7. Nc3 Qd6 8. Qb5 bxc6 9. Qa4 Nd5 10. Nxd5 cxd5 11. Qb5 Qb6 12. Qxd5 Qa6 13. Qxa8 Kh8 14. Qd5 Qxe2+ 15. Kxe2 Bg4+ 16. Kd3 Bf5+ 17. Kc4 Bd3+ 18. Kxd3 e4+ 19. Kxe4 f5+ 20. Qxf5 Rxf5 21. Kxf5 g6+ 22. Kg4 h5+ 23. Kh3 Kh7 24. Ba6 Kh8 25. Bc8 Kh7 26. Bd7 Kh8 27. Be8 Kh7 28. Bxg6+ Kxg6 29. Nf3 Kh7 30. Ng5+ Bxg5 31. Rg1 Kh8 32. Rh1 Kh7 33. Rg1 Kh8 34. Rh1 Kh7 35. Rg1 Kh8 36. Rh1 Kh7 37. Rg1 Kh8 38. Rh1 Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m69_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 70"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 e5 2. c4 Nf6 3. a3 d5 4. cxd5 Be7 5. Nf3 Nxd5 6. Nxe5 O-O 7. e4 Nf6 8. Nf3 Nxe4 9. Ne5 Qxd2+ 10. Nxd2 Nf6 11. Nec4 Nc6 12. Bd3 Rd8 13. Be2 Nd4 14. f3 Nxf3+ 15. Nxf3 Rxd1+ 16. Bxd1 Ne4 17. O-O Bc5+ 18. Kh1 Nxg3+ 19. hxg3 Bxa3 20. bxa3 Bg4 21. Be3 Bxf3+ 22. Bxf3 b6 23. Bxa8 Kf8 24. Ne5 Ke7 25. Nc6+ Kd6 26. Nxa7 Ke7 27. Nc6+ Kd6 28. Rxf7 g6 29. Rf6+ Kd7 30. Ne5+ Ke7 31. Nc6+ Kxf6 32. Rf1+ Kg7 33. Bd4+ Kg8 34. Ne7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m70_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 71"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Bb4 3. d4 exd4 4. Qxd4 Qf6 5. Qe4+ Kf8 6. Qd5 Bxc3+ 7. Kd1 Qxf2 8. bxc3 Qxf1+ 9. Kc2 Qxc1+ 10. Kxc1 Nf6 11. Qc5+ Kg8 12. Qxc7 Na6 13. Qd8+ Ne8 14. Qxe8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m70_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 71"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 e5 2. Nc3 Bb4 3. d4 exd4 4. Qxd4 Qf6 5. Qe4+ Kd8 6. a3 Bxc3+ 7. Kd1 Qxf2 8. bxc3 Qxf1+ 9. Kd2 Qf2 10. Kd1 Qf1+ 11. Kc2 Qf2 12. Bg5+ Ne7 13. Qxe7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m71_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 72"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. c4 a6 3. g3 d5 4. a4 dxc4 5. Bg2 Nf6 6. O-O Nd5 7. Ne5 f6 8. Nxc4 c5 9. Qb3 b5 10. axb5 axb5 11. Rxa8 Nc6 12. Qxb5 Qd7 13. Qxc5 Qc7 14. Bxd5 e6 15. Qxc6+ Qxc6 16. Bxc6+ Ke7 17. Rxc8 Kf7 18. Rc7+ Kg8 19. Rc8 Kf7 20. Rc7+ Kg8 21. Rc8 Kf7 22. Rc7+ Kg8 23. Rc8 Kf7 24. Rc7+ Kg8 25. Rc8 Kf7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m71_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 72"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. c4 a6 3. g3 d5 4. a4 dxc4 5. Bg2 Nf6 6. b3 cxb3 7. Qxb3 Ne4 8. O-O Nxd2 9. Qe3 Nxf1 10. Bxf1 Qd1 11. Kh1 Qxf1+ 12. Ng1 Qxg1+ 13. Kxg1 Bh3 14. Qf3 Be6 15. Nc3 Bc4 16. Ne4 Bxe2 17. Qxe2 Nd7 18. Kg2 O-O-O 19. Qc4 f5 20. Nc3 Ne5 21. Qe6+ Kb8 22. Qxe5+ Kc8 23. Qxf5+ Kb8 24. Qe5+ Kc8 25. Qe6+ Kb8 26. Bf4+ Ka8 27. Qf7 Rc8 28. Qa2 Re8 29. Qe6 Rd8 30. Qf7 Rc8 31. Qe6 Re8 32. Qf7 Rd8 33. Qe6 Re8 34. Qf7 Rd8 35. Qe6 Re8 36. Qf7 Rd8 37. Qe6 Re8 38. Qf7 Rd8 39. Qe6 Re8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m72_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 73"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 d5 2. d4 c5 3. Bg2 Nf6 4. dxc5 e5 5. Bxd5 Bxc5 6. Nc3 Qxd5 7. Nxd5 O-O 8. Nc7 Bb4+ 9. Kf1 Na6 10. Nxa8 Bh3+ 11. Nxh3 Rxa8 12. Ng5 g6 13. Nf3 e4 14. Ng5 Nc5 15. Qd6 Ne8 16. Qe7 Kh8 17. Nxf7+ Kg8 18. Nh6+ Kh8 19. Qf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m72_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 73"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 d5 2. d4 c5 3. Bg2 Nf6 4. dxc5 e5 5. Nf3 Bxc5 6. Nxe5 Bb4+ 7. Kf1 O-O 8. Nf3 Ne4 9. Be3 Nxg3+ 10. hxg3 Nc6 11. Kg1 Bg4 12. Bf4 Bxf3 13. exf3 Qf6 14. Qxd5 Qxb2 15. Qd3 Qxa1 16. Qd1 Qxa2 17. Qe2 Qxb1+ 18. Kh2 Qxh1+ 19. Bxh1 Nd4 20. Qe3 Nxc2 21. Qe2 Na1 22. Qd3 Rae8 23. Qc4 Ba3 24. Qd3 Bc5 25. Qd2 Ra8 26. Qd5 Bxf2 27. Qxb7 Bxg3+ 28. Bxg3 Nc2 29. Qb3 Na1 30. Qd5 Nc2 31. Qd3 Na1 32. Qd2 Nb3 33. Qd3 Na1 34. Qd2 Nb3 35. Qd3 Na1 36. Qd2 Nb3 37. Qd3 Na1 38. Qd2 Nb3 39. Qd3 Na1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m73_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 74"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 e6 2. c4 a5 3. Bg2 Nf6 4. a3 Nc6 5. Nf3 Bc5 6. O-O O-O 7. Ng5 h6 8. Nf3 d5 9. cxd5 exd5 10. Qb3 Ne4 11. Qd3 Bxf2+ 12. Kh1 Nxg3+ 13. hxg3 Bxg3 14. Rg1 Bf4 15. Bf1 Bd6 16. Qxd5 Ne7 17. Qd3 Nc6 18. Qd5 Bf4 19. Qh5 Kh8 20. Qc5 Qd7 21. Qxf8+ Kh7 22. Qc5 Qxd2 23. Nfxd2 Bxd2 24. Nxd2 Be6 25. Qc2+ Kh8 26. Ne4 Kh7 27. Nc5+ Kh8 28. Nxb7 Bd5+ 29. Kh2 Ne5 30. Qxc7 Kh7 31. Qxe5 Bxb7 32. Qf5+ Kh8 33. Qxf7 Kh7 34. Qxb7 Rh8 35. Rxg7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m73_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 74"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 e6 2. c4 a5 3. Bg2 Nf6 4. a3 Nc6 5. Nf3 Bc5 6. O-O O-O 7. d4 Bxd4 8. Nxd4 Nxd4 9. Qxd4 Qe7 10. Nc3 Rd8 11. Ne4 Nxe4 12. Bxe4 Re8 13. Be3 Rd8 14. Qe5 c6 15. Qc7 Re8 16. Qb6 Rb8 17. Qxa5 Qd6 18. Qa7 Qc7 19. Qc5 Qxg3+ 20. fxg3 Rd8 21. Qe7 Ra8 22. Qxd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m74_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 75"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. h3 Nf6 3. c3 b6 4. Bc4 e6 5. Nf3 Nxe4 6. Bb5+ Bd7 7. Bc4 d5 8. Bb3 Nc5 9. O-O Ne4 10. Ne5 f6 11. Qh5+ Ke7 12. Qf7+ Kd6 13. Nf3 h6 14. Nd4 Qe7 15. Qg6 Rg8 16. Nf5+ exf5 17. Qg3+ Ke6 18. Qxc7 Qf7 19. Qf4 Ke7 20. Qc7 Na6 21. Qb7 Nac5 22. Qxa8 Qe6 23. Qxa7 Ke8 24. Qb8+ Kf7 25. Qf4 Bc6 26. Qc7+ Ke8 27. Qxb6 Qd7 28. Qb8+ Kf7 29. Qf4 Ne6 30. Qxf5 g6 31. Qg4 f5 32. Qh4 Kg7 33. Re1 Kh7 34. Qxe4 fxe4 35. Rxe4 dxe4 36. Bc4 Qc7 37. Bxe6 Qe7 38. Bxg8+ Kxg8 39. d4 exd3 40. Nd2 Qe1+ 41. Kh2 Qxf2 42. Nc4 Qxg2# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m74_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 75"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 d6 2. h3 Nf6 3. c3 b6 4. Bc4 e6 5. Nf3 Nxe4 6. d3 Nf6 7. O-O Bb7 8. Bb5+ Ke7 9. Nd4 Nd5 10. Bg5+ f6 11. Bh4 Nf4 12. g3 Nxh3+ 13. Kh2 Ng5 14. Qh5 Nf3+ 15. Qxf3 Bxf3 16. Nxf3 d5 17. Bxf6+ Kxf6 18. Kg2 Qd6 19. Nd4 Qxg3+ 20. fxg3+ Ke7 21. Nf5+ Kd8 22. Nd4 e5 23. Ne6+ Ke7 24. Nxc7 Kd8 25. Nxa8 Rg8 26. Rxf8+ Rxf8 27. Ba4 Rg8 28. Bb5 Rf8 29. Ba4 Rg8 30. Bb5 Rf8 31. Ba4 Rg8 32. Bb5 Rf8 33. Ba4 Rg8 34. Bb5 Rf8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m75_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 76"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 Nf6 2. a3 d5 3. d4 e6 4. c4 c5 5. Nc3 Nc6 6. Nf3 Nxd4 7. exd4 Bd6 8. Qa4+ Kf8 9. cxd5 exd5 10. Qb5 Qb6 11. dxc5 Qxc5 12. Qa4 Qxc3+ 13. bxc3 Bxa3 14. Bxa3+ Kg8 15. O-O-O Be6 16. Nd4 Ne4 17. f3 Nxc3 18. Qc2 Nxd1 19. Kxd1 Re8 20. Nxe6 fxe6 21. Bd6 Kf7 22. Qc7+ Kg8 23. Qxb7 Rd8 24. Qxa7 Rxd6 25. Qb8+ Kf7 26. Qxd6 Kg6 27. Qxe6+ Kg5 28. Qxd5+ Kg6 29. Qd6+ Kf7 30. Qd7+ Kf6 31. Qd6+ Kg5 32. Qg3+ Kf6 33. Qf4+ Ke7 34. Qc7+ Kf6 35. Qd6+ Kg5 36. Qg3+ Kf6 37. Qd6+ Kg5 38. Qg3+ Kh5 39. Qxg7 Rd8+ 40. Ke2 Re8+ 41. Kd1 Rd8+ 42. Ke2 Re8+ 43. Kd1 Rd8+ 44. Ke2 Re8+ 45. Kd1 Rd8+ 46. Ke2 Re8+ 47. Kd1 Rd8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m75_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 76"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 Nf6 2. a3 d5 3. d4 e6 4. c4 c5 5. Nf3 Nc6 6. Nc3 cxd4 7. exd4 Nxd4 8. Nxd4 dxc4 9. Bxc4 Qxd4 10. Qxd4 Be7 11. O-O O-O 12. Bb3 Re8 13. Bc4 Rd8 14. Rd1 Rxd4 15. Rxd4 e5 16. Rd3 Bf5 17. Bb3 Bxd3 18. Bd2 Rd8 19. Be1 Rd4 20. Rd1 Rg4 21. Rxd3 Rxg2+ 22. Kxg2 Ng4 23. f3 Nf6 24. Re3 e4 25. Bxf7+ Kxf7 26. Rxe4 Nxe4 27. fxe4 Bxa3 28. bxa3 Kf6 29. Nd5+ Ke5 30. Bg3+ Kxe4 31. Nc3+ Kd4 32. Nb5+ Kc5 33. Nxa7 Kb6 34. Nc8+ Kc6 35. Ne7+ Kd7 36. Ng8 Kc6 37. Ne7+ Kd7 38. Ng8 Kc6 39. Ne7+ Kd7 40. Ng8 Kc6 41. Ne7+ Kd7 42. Ng8 Kc6 43. Ne7+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m76_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 77"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 g6 2. Nf3 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Bg5 h6 7. Bh4 e5 8. Nf3 Bg7 9. Bg3 O-O 10. Nxe5 Nxe5 11. Bxe5 d6 12. Bf4 d5 13. cxd5 Qxd5 14. Nxd5 Nxd5 15. Qxd5 Bxb2 16. Bxh6 Bxa1 17. Bxf8 Kxf8 18. Qd8+ Kg7 19. Qe7 Bc3+ 20. Kd1 Bb2 21. Qg5 Bf6 22. Qd5 Bg4 23. Qxb7 Rd8+ 24. Kc2 Bf5+ 25. Kb3 Be6+ 26. Kc2 Bf5+ 27. Kb3 Be6+ 28. Kc2 Bf5+ 29. Kb3 Be6+ 30. Kc2 Bf5+ 31. Kb3 Be6+ 32. Kc2 Bf5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m76_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 77"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 g6 2. Nf3 c5 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 Nf6 6. Nf3 Bg7 7. Be3 O-O 8. Bf4 Qb6 9. Rb1 Qxf2+ 10. Kxf2 Ng4+ 11. Kg1 Bd4+ 12. Qxd4 Nxd4 13. Nxd4 Rd8 14. h3 Nf6 15. Nf3 Re8 16. Ne5 d5 17. Nxd5 Nxd5 18. cxd5 Rd8 19. Rd1 Rxd5 20. Rxd5 Bf5 21. Nc4 Re8 22. Rd4 Rc8 23. Rd5 Rxc4 24. Rd8+ Kg7 25. Be5+ Kh6 26. Re8 e6 27. Rg8 Rc1 28. Bf4+ Kh5 29. Bxc1 Bc2 30. g4+ Kh4 31. Bg5+ Kxg5 32. h4+ Kxg4 33. Bh3+ Kxh4 34. Bg2+ Kg5 35. Bxb7 Bd1 36. Rxh7 Bxe2 37. Rxf7 Bd1 38. Be4 a6 39. Rf5+ exf5 40. Bd5 Bg4 41. Be6 Bf3 42. Bxf5 Kxf5 43. Rf8+ Ke6 44. Rxf3 Kd5 45. Rd3+ Ke6 46. Re3+ Kd5 47. Rd3+ Ke6 48. Re3+ Kd5 49. Rd3+ Ke6 50. Re3+ Kd5 51. Rd3+ Ke6 52. Re3+ Kd5 53. Rd3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m77_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 78"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. Be2 c5 3. d4 d5 4. dxc5 Nf6 5. Bb5+ Bd7 6. Bxd7+ Qxd7 7. exd5 Bxc5 8. Nf3 O-O 9. O-O exd5 10. Nc3 Nc6 11. Ng5 h6 12. Nf3 Bxf2+ 13. Kxf2 Ng4+ 14. Kg3 Qd6+ 15. Kxg4 Qg6+ 16. Kf4 Qxg2 17. Nxd5 Qxf3+ 18. Kxf3 Ne5+ 19. Ke4 f5+ 20. Kxe5 Rfe8+ 21. Kxf5 Rf8+ 22. Nf6+ gxf6 23. Bxh6 Kh8 24. Bxf8 Rxf8 25. Qh5+ Kg8 26. Rg1# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m77_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 78"]
+[Annotator "book moves: 8 plies"]
+
+1. e4 e6 2. Be2 c5 3. d4 d5 4. dxc5 Nf6 5. Bb5+ Ke7 6. exd5 Qa5+ 7. Kf1 Qxb5+ 8. Ke1 Qxc5 9. d6+ Qxd6 10. Nf3 Qxd1+ 11. Kxd1 Ne4 12. Ne5 Nxf2+ 13. Kd2 Nxh1 14. Nc4 Nf2 15. Ke3 Nd1+ 16. Kf3 Nxb2 17. Bxb2 Nc6 18. Ba3+ Kf6 19. Bb2+ Ke7 20. Ba3+ Kf6 21. Bb2+ Ke7 22. Ba3+ Kf6 23. Bb2+ Ke7 24. Ba3+ Kf6 25. Bb2+ Ke7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m78_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 79"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. e4 d5 3. Nd2 Qc7 4. Qe2 e6 5. Ngf3 Nf6 6. exd5 cxd5 7. Qb5+ Qc6 8. c3 a6 9. Qd3 Bd6 10. Ng5 O-O 11. Qh3 g6 12. Qxh7+ Nxh7 13. Ngf3 Nf6 14. Ng5 e5 15. Ngf3 exd4 16. cxd4 Qxc1+ 17. Rxc1 Re8+ 18. Kd1 Bb4 19. Ng5 Bg4+ 20. Kc2 Bf5+ 21. Kd1 Bg4+ 22. Kc2 Bf5+ 23. Kd1 Bg4+ 24. Kc2 Bf5+ 25. Kd1 Bg4+ 26. Kc2 Bf5+ 27. Kd1 Bg4+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m78_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 79"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. e4 d5 3. Nd2 Qc7 4. Qe2 e6 5. Ngf3 Nf6 6. h3 Nxe4 7. Nxe4 dxe4 8. Qxe4 Bb4+ 9. c3 Bxc3+ 10. bxc3 O-O 11. Bc4 Nd7 12. O-O Re8 13. Ne5 Nxe5 14. Bb3 Qd6 15. dxe5 Qe7 16. Bc4 Qc5 17. Bb3 Qxc3 18. Rb1 Qxc1 19. Rbxc1 Bd7 20. Bc4 Rad8 21. Rcd1 c5 22. Qxb7 a5 23. Rxd7 Rxd7 24. Qxd7 Rf8 25. Qxf7+ Kxf7 26. Bxe6+ Kxe6 27. Re1 Re8 28. Re2 Kd5 29. Rd2+ Kxe5 30. Re2+ Kd4 31. Rxe8 Kd5 32. Rd8+ Kc6 33. Rc8+ Kd7 34. Rxc5 a4 35. Rd5+ Kc6 36. Rd8 Kc7 37. Rh8 a3 38. Rxh7 Kd8 39. Rxg7 Kc8 40. Rg8+ Kd7 41. Rg7+ Kd8 42. Rg8+ Kc7 43. Rg7+ Kd8 44. Rg8+ Kc7 45. Rg7+ Kd8 46. Rg8+ Kc7 47. Rg7+ Kd8 48. Rg8+ Kc7 49. Rg7+ Kd8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m79_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 80"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. d4 d5 3. e3 a6 4. Nbd2 h6 5. Ne5 Nf6 6. Nef3 Nc6 7. c3 Bd6 8. Bd3 O-O 9. O-O Bd7 10. e4 dxe4 11. Nxe4 Nd5 12. Bc4 e5 13. Bxd5 exd4 14. cxd4 Nxd4 15. Qxd4 Bxh2+ 16. Kxh2 b5 17. Bxa8 Qxa8 18. Qxd7 Qxe4 19. Qxc7 Qe6 20. Nd4 Qd6+ 21. Qxd6 Kh8 22. Qxf8+ Kh7 23. Qxf7 Kh8 24. Qf8+ Kh7 25. Qf5+ Kh8 26. Qf8+ Kh7 27. Qf5+ Kh8 28. Qf8+ Kh7 29. Qf5+ Kh8 30. Qf8+ Kh7 31. Qf5+ Kh8 32. Qf8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m79_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 80"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 e6 2. d4 d5 3. e3 a6 4. Nbd2 h6 5. Bd3 Nc6 6. O-O Nf6 7. c4 Be7 8. e4 O-O 9. exd5 exd5 10. Re1 Re8 11. cxd5 Nxd5 12. Ne4 Nxd4 13. Nxd4 Nb4 14. Nf3 Nxd3 15. Qd2 Nxe1 16. Nxe1 Qxd2 17. Bxd2 Rd8 18. Rd1 Rxd2 19. Nxd2 Bf5 20. Ndf3 Rd8 21. Rxd8+ Bxd8 22. Ne5 Be4 23. Nd7 Bxg2 24. Nxg2 Be7 25. Ne5 Bb4 26. Nd7 Bd2 27. Ne5 Bc1 28. b3 Bb2 29. Nd7 Bd4 30. Nb8 Bxf2+ 31. Kxf2 Kf8 32. Nd7+ Ke7 33. Nb8 Kd8 34. Nc6+ bxc6 35. Nf4 Ke7 36. Nd3 Kd8 37. Ne5 Ke7 38. Nxc6+ Kd7 39. Ne5+ Ke7 40. Nc6+ Kd7 41. Ne5+ Ke7 42. Nc6+ Kd7 43. Ne5+ Ke7 44. Nc6+ Kd7 45. Ne5+ Ke7 46. Nc6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m80_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 81"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. Nf3 e5 3. e3 g6 4. b3 f5 5. Bb2 Nf6 6. Nc3 Bg7 7. Ng5 h6 8. Nf3 O-O 9. Nd5 c6 10. Nb4 c5 11. Nc2 d5 12. Bxe5 dxc4 13. bxc4 Ne4 14. Bf4 Bxa1 15. Nxa1 Nxd2 16. Bxh6 Nxf3+ 17. gxf3 Qxd1+ 18. Kxd1 Rd8+ 19. Kc2 Rd7 20. Bg5 Kh8 21. Bf6+ Kh7 22. Bg5 Nc6 23. Bf6 Nb4+ 24. Kb3 Rd3+ 25. Ka4 Nxa2 26. Bxd3 Bd7+ 27. Kb3 Ba4+ 28. Kxa4 b5+ 29. Kxb5 Rb8+ 30. Kxc5 Rc8+ 31. Kd6 Rb8 32. Rd1 Rb6+ 33. Kc5 Rxf6 34. Kd5 Nc3+ 35. Kc5 Nxd1 36. Nc2 Nxf2 37. Bf1 Ne4+ 38. Kd5 Nc3+ 39. Kc5 Na4+ 40. Kd5 Nc3+ 41. Kc5 Na4+ 42. Kd5 Nc3+ 43. Kc5 Na4+ 44. Kd5 Nc3+ 45. Kc5 Na4+ 46. Kd5 Nc3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m80_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 81"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 d6 2. Nf3 e5 3. e3 g6 4. b3 f5 5. d4 Bg7 6. Bb2 Nc6 7. Nc3 Nf6 8. dxe5 Nxe5 9. Nd4 O-O 10. e4 fxe4 11. f4 exf3 12. gxf3 Nxf3+ 13. Nxf3 Re8+ 14. Kf2 Ng4+ 15. Kg2 Ne3+ 16. Kg1 Nxd1 17. Rxd1 Bxc3 18. Bxc3 Re3 19. Nd2 Rxc3 20. Ne4 Re3 21. Nf2 Qg5+ 22. Bg2 Qxg2+ 23. Kxg2 Re2 24. Rde1 Rxa2 25. Re8+ Kf7 26. Rxc8 Rxc8 27. Kf1 Ra1+ 28. Kg2 Rxh1 29. Nxh1 Rg8 30. Kg1 Rc8 31. Kg2 Rg8 32. Kg1 Rc8 33. Nf2 Rg8 34. Kg2 Rc8 35. Kg1 Rg8 36. Kg2 Rc8 37. Kg1 Rg8 38. Kg2 Rc8 39. Kg1 Rg8 40. Kg2 Rc8 41. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m81_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 82"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 Nf6 2. Be2 e6 3. b3 h6 4. Nf3 b6 5. O-O Nc6 6. Bb2 d5 7. Nc3 Bc5 8. Bd3 O-O 9. e4 Bxf2+ 10. Kxf2 Ng4+ 11. Kg3 Qd6+ 12. Kxg4 f5+ 13. exf5 exf5+ 14. Bxf5 Qb4+ 15. Kg3 Bxf5 16. Nxd5 Qd6+ 17. Kf2 Qxd5 18. Qe2 Bxc2 19. Rfc1 Qc5+ 20. Kg3 Qd6+ 21. Kf2 Qc5+ 22. Kg3 Qd6+ 23. Kf2 Qc5+ 24. Kg3 Qd6+ 25. Kf2 Qc5+ 26. Kg3 Qd6+ 27. Kf2 Qc5+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m81_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 82"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 Nf6 2. Be2 e6 3. b3 h6 4. Nf3 b6 5. O-O Nc6 6. Bb2 Bb7 7. Nc3 Bc5 8. d4 O-O 9. Qd3 Bxd4 10. exd4 Nxd4 11. Nxd4 Ne4 12. f3 Nxc3 13. Bxc3 Qh4 14. Kh1 Qxh2+ 15. Kxh2 Bxf3 16. gxf3 Rfd8 17. Kg2 Rf8 18. Qa6 Rfb8 19. Qc4 Rc8 20. Qb5 Rd8 21. Qh5 Rf8 22. Qe5 Rac8 23. Nxe6 dxe6 24. Qxg7# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m82_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 83"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. Bg2 e5 3. c4 d6 4. a3 c6 5. Nf3 e4 6. O-O exf3 7. exf3 c5 8. Qa4+ Qd7 9. Re1+ Kd8 10. Qa5+ b6 11. Qc3 d5 12. Qe5 dxc4 13. Qg5 h6 14. Qe5 Qc6 15. Qf4 Nd5 16. Qxf7 Rh7 17. Qxf8+ Kd7 18. Qf7+ Kd6 19. Qg6+ Kd7 20. Qxh7 Kc7 21. Qxg7+ Kd8 22. Qh8+ Kd7 23. Qh7+ Kd8 24. Qh8+ Kd7 25. Qh7+ Kd8 26. Qh8+ Kd7 27. Qh7+ Kd8 28. Qh8+ Kd7 29. Qh7+ Kd8 30. Qh8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m82_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 83"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. Bg2 e5 3. c4 d6 4. a3 c6 5. Nf3 Ne4 6. Nc3 Nf6 7. O-O Bg4 8. h3 Bh5 9. d4 Bxf3 10. exf3 Nbd7 11. dxe5 dxe5 12. Be3 Qc7 13. Re1 O-O-O 14. Bxa7 Qa5 15. Be3 Qxc3 16. bxc3 Re8 17. Ba7 Kc7 18. Qa4 Ra8 19. Qa5+ Kc8 20. Be3 Rxa5 21. Bg5 Rxa3 22. Rec1 Rxa1 23. Rxa1 Nc5 24. Ra8+ Kd7 25. Bxf6 gxf6 26. Rb8 Nd3 27. Rxb7+ Kc8 28. Rxf7 Rg8 29. Rxf6 c5 30. Rc6+ Kd7 31. Rf6 Ne1 32. Rf7+ Kc8 33. Rxh7 Nxg2 34. Kxg2 Rg6 35. Rh8 Rxg3+ 36. Kxg3 Kd7 37. Rxf8 Kc7 38. Rf7+ Kc8 39. Rf8+ Kd7 40. Rf7+ Kc8 41. Rf8+ Kd7 42. Rf7+ Kc8 43. Rf8+ Kd7 44. Rf7+ Kc8 45. Rf8+ Kd7 46. Rf7+ Kc8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m83_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 84"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c5 2. c4 d5 3. cxd5 Nf6 4. e4 e6 5. Nf3 Nxe4 6. Bb5+ Ke7 7. O-O exd5 8. Ne5 Qd6 9. Nf3 a6 10. Ba4 Nc6 11. Bb3 Nf6 12. Re1+ Kd7 13. Ne5+ Qxe5 14. Rxe5 Nxe5 15. Ba4+ Ke7 16. Nc3 Nc4 17. Qe1+ Kd8 18. Bb3 Kd7 19. Ba4+ Kc7 20. Bb3 Kd7 21. Ba4+ Kd8 22. Bb3 Kd7 23. Ba4+ Kd8 24. Bb3 Kd7 25. Ba4+ Kd6 26. Bb3 Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m83_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 84"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c5 2. c4 d5 3. cxd5 Nf6 4. e4 e6 5. Nf3 Nxe4 6. Bb5+ Ke7 7. Ne5 exd5 8. O-O Nxg3 9. fxg3 d4 10. Nc6+ bxc6 11. Qe1+ Kd6 12. Rxf7 cxb5 13. Qe7+ Bxe7 14. Rxg7 Rg8 15. Rxh7 Rxg3+ 16. hxg3 d3 17. Rh6+ Kc7 18. Rh7 Qd4+ 19. Kg2 Bb7+ 20. Kh2 Qf2+ 21. Kh3 Bc8+ 22. g4 Qf3+ 23. Kh2 Bxg4 24. Rxe7+ Kc8 25. Re8+ Kd7 26. Rh8 Qf2+ 27. Kh1 Qe1+ 28. Kh2 Qxc1 29. Rh7+ Kc8 30. Rh8+ Kd7 31. Rh7+ Kc8 32. Rh8+ Kd7 33. Rh7+ Kc8 34. Rh8+ Kd7 35. Rh7+ Kc8 36. Rh8+ Kd7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m84_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 85"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 Nf6 3. h3 e6 4. Bg5 Be7 5. Nc3 O-O 6. Bxf6 gxf6 7. e4 d5 8. exd5 cxd5 9. Bd3 Nc6 10. O-O Bd6 11. Nxd5 exd5 12. Bxh7+ Kxh7 13. Qd3+ Kg8 14. Rad1 Nxd4 15. Nxd4 Be5 16. Qg3+ Kh8 17. Qh4+ Kg8 18. Qg3+ Kh8 19. Qh4+ Kg8 20. Qg3+ Kh8 21. Qh4+ Kg8 22. Qg3+ Kh8 23. Qh4+ Kg8 24. Qg3+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m84_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 85"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nf3 Nf6 3. h3 e6 4. Bg5 Be7 5. Nc3 O-O 6. e3 Qb6 7. Rb1 Qxd4 8. exd4 Rd8 9. Bc4 Bb4 10. O-O Bxc3 11. bxc3 Ne4 12. Bxd8 Nxc3 13. Qd2 Ne4 14. Qe3 Nd6 15. Bd3 Kf8 16. Bxh7 Ke8 17. Bc7 Nc4 18. Bxb8 Rxb8 19. Bg8 Nxe3 20. fxe3 d5 21. Bxf7+ Kxf7 22. Ne5+ Ke7 23. Ng6+ Kd6 24. Nf8 Ke7 25. Ng6+ Ke8 26. Rf8+ Kd7 27. Rf7+ Ke8 28. Rxg7 Kd8 29. Rg8+ Kc7 30. Rg7+ Kd8 31. Rg8+ Kc7 32. Rg7+ Kd8 33. Rg8+ Kc7 34. Rg7+ Kd8 35. Rg8+ Kc7 36. Rg7+ Kd8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m85_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 86"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 d5 2. Nf3 g6 3. c3 c6 4. Qb3 Bh6 5. Ne5 Nf6 6. Nf3 O-O 7. Ne5 e6 8. Nf3 Ne4 9. Ne5 Nc5 10. Qb4 Nca6 11. Qb3 f6 12. Nf3 Nc5 13. Qb4 Nca6 14. Qb3 Bxd2+ 15. Kxd2 Nc5 16. Qb4 Ne4+ 17. Qxe4 dxe4+ 18. Ke3 Qb6+ 19. Kxe4 Qxf2 20. Nbd2 f5+ 21. Ke5 Qe3+ 22. Kd6 Rd8+ 23. Kc7 Na6+ 24. Kxd8 Qb6+ 25. Ke7 Qc7+ 26. Kf6 Qd8+ 27. Ke5 Qc7+ 28. Kf6 Qd8+ 29. Ke5 Qc7+ 30. Kf6 Qd8+ 31. Ke5 Qc7+ 32. Kf6 Qd8+ 33. Ke5 Qc7+ 34. Kf6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m85_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 86"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 d5 2. Nf3 g6 3. c3 c6 4. Qb3 Bh6 5. Bg2 Nf6 6. O-O O-O 7. d4 Bg7 8. Be3 Ne4 9. Nbd2 Nxd2 10. Nxd2 Bxd4 11. cxd4 Qb6 12. Nf3 Qxb3 13. axb3 Bg4 14. h3 Bh5 15. g4 Bxg4 16. hxg4 Nd7 17. Ne5 Nf6 18. g5 Ne8 19. Nd7 Nd6 20. Ne5 Rad8 21. Rxa7 Rb8 22. Ra5 Nf5 23. Nd7 Rfd8 24. Nb6 Nxe3 25. fxe3 Rd6 26. Ra7 Rbd8 27. Rxb7 Re8 28. Ra7 Rb8 29. Rxe7 Rxb6 30. Re8+ Kg7 31. Rb1 Rxb3 32. Re7 Rxe3 33. Rxe3 Rd7 34. Re8 Ra7 35. Rd8 Re7 36. Re1 Rc7 37. Re8 Rd7 38. Re5 Ra7 39. Re8 Rd7 40. Re5 Ra7 41. Re8 Rd7 42. Ra8 Re7 43. Rd8 Rc7 44. Rxd5 cxd5 45. Bxd5 Rd7 46. Ba8 Rxd4 47. e3 Rg4+ 48. Bg2 Rxg5 49. e4 Rxg2+ 50. Kxg2 Kf6 51. e5+ Kg7 52. e6 fxe6 53. Rxe6 Kf7 54. Re5 Kg7 55. Re7+ Kf6 56. Rxh7 g5 57. Rh6+ Kg7 58. Rh5 g4 59. Rg5+ Kf6 60. Rxg4 Kf7 61. Rf4+ Kg7 62. Rg4+ Kf6 63. Rf4+ Kg7 64. Rg4+ Kf6 65. Rf4+ Kg7 66. Rg4+ Kf6 67. Rf4+ Kg7 68. Rg4+ Kf6 69. Rf4+ Kg7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m86_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 87"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. d3 Nf6 3. b3 c5 4. c4 e6 5. Nc3 d5 6. Bg2 Nc6 7. cxd5 exd5 8. Bb2 Ne5 9. Nxd5 Nc6 10. Nxf6+ gxf6 11. Nf3 Qa5+ 12. Kf1 f5 13. Bxh8 Nd4 14. Nxd4 cxd4 15. Bxd4 Qe1+ 16. Kxe1 Bb4+ 17. Kf1 Bd6 18. Bh8 Kf8 19. Bf6 Kg8 20. Bd8 Kh8 21. Bf6+ Kg8 22. Bd8 Kh8 23. Bf6+ Kg8 24. Bd8 Kh8 25. Bf6+ Kg8 26. Bd8 Kh8 27. Bf6+ Kg8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m86_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 87"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. d3 Nf6 3. b3 c5 4. c4 e6 5. Nf3 Qa5+ 6. Nbd2 Nc6 7. Bb2 Qxd2+ 8. Qxd2 Nd4 9. Nxd4 cxd4 10. Bxd4 Bd6 11. O-O-O Ba3+ 12. Kb1 O-O 13. Be5 Rd8 14. Ka1 Re8 15. Rb1 Rd8 16. Bc7 Re8 17. Ba5 Rb8 18. Bc7 Ra8 19. Qa5 Be7 20. Be5 Ng4 21. f3 Nf2 22. Qe1 Nxh1 23. Qc1 Nxg3 24. hxg3 Bc5 25. d4 Bxd4+ 26. Bxd4 Rd8 27. Qd2 Rb8 28. Bxa7 Ra8 29. Bb6 Re8 30. Qd6 Rxa2+ 31. Kxa2 h6 32. Qb8 Kf8 33. Qd6+ Kg8 34. Qc7 Re7 35. Qxc8+ Kh7 36. Qxb7 Kg8 37. Qc8+ Kh7 38. Qb7 Kg8 39. Qa8+ Kh7 40. Qe4+ Kg8 41. Qa8+ Kh7 42. Qf8 Kg6 43. Qxe7 Kh7 44. Qxd7 f6 45. Qxe6 Kh8 46. Qe8+ Kh7 47. Qf7 Kh8 48. Qe8+ Kh7 49. Qe7 Kg8 50. Qd8+ Kh7 51. Qe7 Kg8 52. Qd8+ Kh7 53. Qe7 Kg8 54. Qd8+ Kh7 55. Qe7 Kg8 56. Qe8+ Kh7 57. Qe4+ Kg8 58. Qe8+ Kh7 59. Qe4+ Kg8 60. Qe6+ Kh7 61. Qe4+ Kg8 62. Qe8+ Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m87_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 88"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. d4 Nf6 3. c4 g6 4. Bf4 d6 5. Nc3 Bg7 6. Bg5 O-O 7. Bxf6 exf6 8. Nd5 c5 9. Nf4 f5 10. Nd5 Qa5+ 11. Nc3 Nc6 12. Ng5 f6 13. Nf3 cxd4 14. Nxd4 d5 15. cxd5 Ne5 16. d6 Rd8 17. Qb3+ Kh8 18. Rd1 Rxd6 19. Rd2 Nf3+ 20. Nxf3 Rc6 21. Nd4 Rxc3 22. bxc3 Qe5 23. Qf7 Qd6 24. Qe8+ Qf8 25. Qb5 Qa3 26. Qe8+ Qf8 27. Qb5 Qa3 28. Qe8+ Qf8 29. Qb5 Qa3 30. Qe8+ Qf8 31. Qb5 Qa3 32. Qe8+ Qf8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m87_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 88"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c6 2. d4 Nf6 3. c4 g6 4. Bf4 d6 5. Nc3 Bg7 6. e3 O-O 7. Bd3 Bg4 8. h3 Bh5 9. O-O Bxf3 10. gxf3 c5 11. d5 Nxd5 12. cxd5 Bxc3 13. bxc3 Qb6 14. e4 Re8 15. e5 dxe5 16. Bxe5 Rd8 17. Qd2 Rxd5 18. Bf4 Rxd3 19. Qxd3 Qf6 20. Qd8+ Kg7 21. Qxb8 Qxc3 22. Qxa8 Qxf3 23. Be5+ Kh6 24. Qf8+ Kg5 25. Qxe7+ Kh6 26. Qh4+ Qh5 27. Qxh5+ Kxh5 28. Bf6 Kh6 29. Be7 c4 30. Bf8+ Kg5 31. f4+ Kf6 32. f5 gxf5 33. Rxf5+ Kxf5 34. Rf1+ Ke4 35. Rxf7 c3 36. Re7+ Kf5 37. Rxb7 c2 38. Rb2 c1=Q+ 39. Kg2 Qxb2+ 40. Kf1 Qxa2 41. Kg1 Qa1+ 42. Kg2 Qb2+ 43. Kg3 Qc3+ 44. Kh2 Qb2+ 45. Kh1 Qa1+ 46. Kh2 Qb2+ 47. Kh1 Qa1+ 48. Kh2 Qb2+ 49. Kh1 Qa1+ 50. Kh2 Qb2+ 51. Kh1 Qa1+ 52. Kh2 Qb2+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m88_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 89"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. c4 g6 3. Bg2 Bg7 4. Nc3 c5 5. Nf3 O-O 6. O-O Nc6 7. Nd5 e6 8. Nf4 d5 9. cxd5 exd5 10. Nd3 Ne4 11. Nde5 Nxe5 12. Nxe5 Bxe5 13. Bxe4 dxe4 14. e3 Qd5 15. Qe1 Bd6 16. Qe2 Qf5 17. Qb5 a6 18. Qb6 Be7 19. Qc7 Bf6 20. Qd6 Qxf2+ 21. Kxf2 Bg7 22. Qxc5 Be6 23. Qxf8+ Rxf8 24. Rd1 Rd8 25. Re1 Bd5 26. Rd1 Bc4 27. Re1 Rxd2+ 28. Bxd2 Bxb2 29. Rab1 Bxa2 30. Rxb2 Be6 31. Rxb7 Kh8 32. Rb8+ Kg7 33. Bc3+ Kh6 34. Rh8 Kh5 35. Rxh7+ Kg5 36. Rh8 Kf5 37. g4+ Kxg4 38. Rg1+ Kf5 39. Rxg6 Kxg6 40. Rg8+ Kf5 41. Bd4 Bd7 42. Rd8 Bc6 43. Rg8 Ke6 44. Rd8 Ke7 45. Rg8 Kd7 46. Rd8+ Kxd8 47. Bb6+ Ke7 48. Bc5+ Ke6 49. Bd4 Kd5 50. Bb6 Ke6 51. Bd4 Kd5 52. Bb6 Ke6 53. Bd4 Kd5 54. Bb6 Ke6 55. Bd4 Kd5 56. Bb6 Ke6 57. Bd4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m88_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 89"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 Nf6 2. c4 g6 3. Bg2 Bg7 4. Nc3 c5 5. Nf3 O-O 6. O-O Nc6 7. d4 cxd4 8. Qxd4 Nxd4 9. Nxd4 Qb6 10. Nf3 Qxf2+ 11. Rxf2 Ng4 12. h3 Nf6 13. Nd4 Rd8 14. Be3 Rf8 15. Rd1 Rd8 16. Ne4 Nxe4 17. Bxe4 Bxd4 18. Bxd4 Rf8 19. Be5 Rd8 20. Rd5 Rf8 21. Bc7 Re8 22. Bg2 Rf8 23. Be5 Rd8 24. Bc7 Rf8 25. Be5 Rd8 26. Bc7 Rf8 27. Be5 Rd8 28. Bc7 Rf8 29. Be5 Rd8 30. Bc7 Rf8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m89_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 90"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c3 c5 3. a3 e6 4. e3 h6 5. Nf3 Nf6 6. Bb5+ Bd7 7. Bd3 Nc6 8. O-O a6 9. c4 cxd4 10. exd4 Be7 11. Nc3 O-O 12. cxd5 exd5 13. Nxd5 Nxd5 14. Qb3 Nf6 15. Qxb7 Na5 16. Rb1 Nxb7 17. Ne5 Bd6 18. Nc4 Bxh2+ 19. Kxh2 Ng4+ 20. Kg1 Qh4 21. g3 Qh5 22. Rd1 Qh2+ 23. Kf1 Qh1+ 24. Ke2 Qxd1+ 25. Kxd1 Nxf2+ 26. Ke2 Ng4 27. Nb6 Rae8+ 28. Kd1 Nf2+ 29. Kc2 Bc6 30. Bxa6 Be4+ 31. Kd2 Bxb1 32. Bxb7 Ne4+ 33. Bxe4 Bxe4 34. Nd7 Rd8 35. Nb6 Rxd4+ 36. Kc3 Rd3+ 37. Kc4 Rxg3 38. Nd7 Rc8+ 39. Kd4 Rxc1 40. Kxe4 Rg4+ 41. Kf5 Rh4 42. Nf6+ gxf6 43. Kxf6 Rc6+ 44. Ke7 Rc7+ 45. Ke8 Rc8+ 46. Kd7 Rd4+ 47. Kxc8 Rc4+ 48. Kd8 Rd4+ 49. Ke8 Re4+ 50. Kd7 Rd4+ 51. Ke8 Re4+ 52. Kd7 Rd4+ 53. Ke8 Re4+ 54. Kd7 Rd4+ 55. Ke8 Re4+ 56. Kd7 Rd4+ 57. Ke8 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m89_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 90"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 d5 2. c3 c5 3. a3 e6 4. e3 h6 5. Nf3 Nf6 6. Bb5+ Bd7 7. Bd3 Nc6 8. O-O cxd4 9. cxd4 Nxd4 10. exd4 Ng4 11. h3 Nf6 12. Nc3 Ne4 13. Ne5 Nxc3 14. bxc3 Qe7 15. Bf4 O-O-O 16. c4 dxc4 17. Bxc4 Qh4 18. Nxf7 Qxf4 19. Nxh8 Qxf2+ 20. Rxf2 Re8 21. Nf7 Re7 22. Nd6+ Kd8 23. Rxf8+ Kc7 24. Rc8+ Kxd6 25. Ra8 Rf7 26. Rxa7 b6 27. Ra6 Kc7 28. Ra7+ Kd6 29. Qh5 Rf8 30. Qe5+ Ke7 31. Qxg7+ Kd6 32. Qxf8+ Kc6 33. Qa8+ Kd6 34. Qf8+ Kc6 35. Qxh6 Bc8 36. d5+ Kc5 37. Qf8+ Kxc4 38. Qxc8+ Kxd5 39. Qd7+ Kc5 40. Qc7+ Kb5 41. a4+ Kb4 42. Qxb6+ Kc4 43. Qxe6+ Kc5 44. Qe5+ Kc6 45. Qe6+ Kc5 46. Qc8+ Kd6 47. Qd8+ Kc5 48. Qa5+ Kd6 49. Qa6+ Kc5 50. Qc8+ Kd6 51. Ra6+ Ke7 52. Qc7+ Kf8 53. Qc8+ Kg7 54. Qg4+ Kh8 55. Rh6# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m90_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 91"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c5 2. c3 d5 3. g3 h6 4. a3 e6 5. Bg2 Nf6 6. O-O Nc6 7. d4 cxd4 8. cxd4 Bd6 9. Nc3 O-O 10. Nxd5 exd5 11. Ne5 Bxe5 12. dxe5 Nxe5 13. Bxd5 Qxd5 14. Re1 Qxd1 15. Rxd1 Nc4 16. Rd4 Ne5 17. Rd6 Nc4 18. Rd4 Ne5 19. Rd6 Nc4 20. Rd4 Ne5 21. Rd6 Nc4 22. Rd4 Ne5 23. Rd6 Nc4 24. Rd4 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m90_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 91"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 c5 2. c3 d5 3. g3 h6 4. a3 e6 5. Bg2 Nf6 6. O-O Nc6 7. e4 dxe4 8. d3 exf3 9. Bxf3 Qxd3 10. Qxd3 Ne5 11. Qb5+ Kd8 12. Bg2 Rb8 13. Rd1+ Ke7 14. Qxc5+ Ke8 15. Qxe5 Ra8 16. Qb5+ Ke7 17. Qc5+ Ke8 18. Qb5+ Ke7 19. Qxb7+ Ke8 20. Qxa8 Be7 21. Qxc8+ Bd8 22. Qxd8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m91_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 92"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. e3 d5 3. Nc3 b6 4. d4 e6 5. Nf3 Nf6 6. cxd5 cxd5 7. Bb5+ Bd7 8. O-O Bxb5 9. Nxb5 Nc6 10. Nc3 Bd6 11. Ng5 O-O 12. Nf3 h6 13. Qd3 e5 14. dxe5 Bxe5 15. Nxd5 Nxd5 16. Qxd5 Qxd5 17. Nxe5 Nxe5 18. Re1 Nf3+ 19. gxf3 Qxf3 20. Rf1 Qg4+ 21. Kh1 Qf3+ 22. Kg1 Qg4+ 23. Kh1 Qf3+ 24. Kg1 Qg4+ 25. Kh1 Qf3+ 26. Kg1 Qg4+ 27. Kh1 Qf3+ 28. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m91_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 92"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c6 2. e3 d5 3. Nc3 b6 4. d4 e6 5. Nf3 Nf6 6. cxd5 exd5 7. Bd3 Bb7 8. O-O Ne4 9. Ne5 Nxc3 10. bxc3 Qh4 11. Qf3 Bd6 12. Kh1 O-O 13. Qxf7+ Rxf7 14. Be2 Bxe5 15. dxe5 Qxh2+ 16. Kxh2 Re7 17. Bd3 Rxe5 18. f4 Rh5+ 19. Kg1 Rh1+ 20. Kxh1 Kf7 21. Bxh7 g6 22. Bxg6+ Kxg6 23. f5+ Kf7 24. f6 Kg6 25. f7 Kg7 26. f8=Q+ Kh7 27. Qf7+ Kh8 28. Qxb7 Kg8 29. Qxa8 Kh8 30. Qxb8+ Kg7 31. Qxa7+ Kh8 32. Rf8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m92_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 93"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 Nf6 3. e4 d5 4. e5 Nfd7 5. Nf3 c5 6. Nxd5 exd5 7. dxc5 Nxc5 8. Bb5+ Ke7 9. Bg5+ f6 10. O-O Ne4 11. Bxf6+ gxf6 12. exf6+ Kxf6 13. Qd4+ Kf7 14. Qxh8 Ke7 15. Qxh7+ Kf6 16. Qh8+ Kf7 17. Qh7+ Kf6 18. Qh8+ Kf7 19. Qh7+ Kf6 20. Qh8+ Kf7 21. Qh7+ Kf6 22. Qh8+ Kf7 23. Qh7+ Kf6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m92_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 93"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 e6 2. Nc3 Nf6 3. e4 d5 4. e5 Nfd7 5. Nf3 Nc6 6. Bf4 Ncxe5 7. dxe5 Nxe5 8. Nxe5 Qh4 9. Be3 Qf6 10. Ng4 Qxc3+ 11. bxc3 Be7 12. Bb5+ Kf8 13. O-O Kg8 14. Ne5 Bf6 15. Ng4 Bxc3 16. Rc1 Bb2 17. Qd2 Bxc1 18. Rxc1 Rb8 19. Bxa7 Ra8 20. Be3 Rxa2 21. Qc3 c6 22. Bxc6 bxc6 23. Qxc6 Ba6 24. Qe8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m93_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 94"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c5 2. d3 e6 3. Nf3 b6 4. h3 d5 5. Qa4+ Ke7 6. Bg5+ Nf6 7. Bxf6+ gxf6 8. Qb5 a6 9. Qa4 a5 10. Nc3 Nc6 11. Qxc6 Qd6 12. Qxa8 Bd7 13. Qb7 Qc6 14. Qb8 Rg8 15. Nxd5+ exd5 16. Qa7 Rg7 17. O-O-O dxc4 18. dxc4 Ke8 19. Qb8+ Ke7 20. Qa7 Ke8 21. Qb8+ Ke7 22. Qa7 Ke8 23. Qb8+ Ke7 24. Qa7 Ke8 25. Qb8+ Ke7 26. Qa7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m93_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 94"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 c5 2. d3 e6 3. Nf3 b6 4. h3 d5 5. Nc3 Nf6 6. e4 Nxe4 7. Ne5 Nf6 8. cxd5 exd5 9. Qa4+ Ke7 10. Nxd5+ Nxd5 11. Qh4+ Kd6 12. Qxd8+ Kxe5 13. Qxc8 Bd6 14. Qxh8 Nf6 15. Qxg7 Kf5 16. Qxf7 Nc6 17. g4+ Ke5 18. f4+ Kd4 19. Qxf6+ Kd5 20. Qg5+ Ke6 21. Qh6+ Kf7 22. Qxh7+ Kf8 23. Qh8+ Kf7 24. Qxa8 Ne7 25. Qxa7 b5 26. Qd7 Bb8 27. Qxb5 Bc7 28. Qxc5 Bb8 29. Qh5+ Ng6 30. Qh7+ Kf8 31. Qxg6 Bc7 32. Qh6+ Kg8 33. Qg6+ Kf8 34. Qh6+ Kg8 35. Qe6+ Kf8 36. Qf6+ Kg8 37. Qg5+ Kf8 38. Qh6+ Kg8 39. Qe6+ Kf8 40. Qc8+ Kg7 41. Qxc7+ Kg8 42. Qd8+ Kf7 43. Qc7+ Kg8 44. Qd8+ Kf7 45. Qd7+ Kg8 46. Qe8+ Kg7 47. Qe7+ Kg8 48. Qe8+ Kg7 49. Qe5+ Kg8 50. Qe8+ Kg7 51. Qe7+ Kg8 52. Qe8+ Kg7 53. Qe7+ Kg8 54. Qe8+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m94_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 95"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 c5 3. Nf3 b6 4. Bg2 Bb7 5. O-O Nc6 6. Nc3 d6 7. Nd5 e6 8. Nf4 e5 9. Nd3 d5 10. Ndxe5 Nxe5 11. Nxe5 Bd6 12. Nf3 dxc4 13. Qa4+ Kf8 14. Qxc4 Kg8 15. Qb5 Ne4 16. Qc4 Nxg3 17. fxg3 Bxf3 18. exf3 Be5 19. Qxf7+ Kxf7 20. Re1 Bd4+ 21. Kf1 Bxb2 22. Bxb2 Qxd2 23. Rab1 Qd3+ 24. Kf2 Qd2+ 25. Kf1 Qd3+ 26. Kf2 Qd2+ 27. Kf1 Qd3+ 28. Kf2 Qd2+ 29. Kf1 Qd3+ 30. Kf2 Qd2+ 31. Kf1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m94_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 95"]
+[Annotator "book moves: 8 plies"]
+
+1. c4 Nf6 2. g3 c5 3. Nf3 b6 4. Bg2 Bb7 5. O-O Nc6 6. Nc3 d5 7. cxd5 Nxd5 8. e4 Nxc3 9. dxc3 Qxd1 10. Rxd1 Rc8 11. Be3 Nd4 12. e5 Ne2+ 13. Kh1 Nxg3+ 14. fxg3 Bxf3 15. Bxf3 Rg8 16. Bd5 Rd8 17. Bc6+ Rd7 18. Bxd7+ Kd8 19. Bc6+ Kc7 20. Rd7+ Kxc6 21. Rxa7 Kd5 22. Rd7+ Kxe5 23. Rb7 Kd6 24. Rxb6+ Kc7 25. Bxc5 Kd7 26. Rb7+ Kc6 27. Rb8 Kxc5 28. Rc8+ Kd6 29. Rd8+ Kc7 30. Ra8 Rh8 31. Ra7+ Kc6 32. Ra6+ Kd7 33. Ra7+ Kc6 34. Ra6+ Kd7 35. Ra7+ Kc6 36. Ra6+ Kd7 37. Rd1+ Kc7 38. Ra7+ Kc6 39. Ra6+ Kc7 40. Ra7+ Kc6 41. Ra6+ Kc7 42. Ra7+ Kc6 43. Ra6+ Kc7 44. Ra7+ Kc6 45. Ra6+ Kc7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m95_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 96"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nc3 d5 3. Nf3 Nf6 4. a3 Nbd7 5. e3 e6 6. Bd3 Be7 7. O-O O-O 8. e4 dxe4 9. Nxe4 Nxe4 10. Bxe4 e5 11. Nxe5 Nxe5 12. dxe5 Be6 13. Bf3 Qc7 14. Re1 Rfe8 15. Be4 Qxe5 16. Qf3 Qxe4 17. Rxe4 Bd5 18. Re5 Bxf3 19. gxf3 Bd6 20. Rg5 h6 21. Rh5 Bxh2+ 22. Kxh2 Kh8 23. Rxh6+ gxh6 24. Bxh6 Kg8 25. Rg1+ Kh8 26. Bg7+ Kg8 27. Bh6+ Kh8 28. Bg7+ Kg8 29. Bh6+ Kh8 30. Bg7+ Kg8 31. Bh6+ Kh8 32. Bg7+ Kg8 33. Bh6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m95_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 96"]
+[Annotator "book moves: 8 plies"]
+
+1. d4 c6 2. Nc3 d5 3. Nf3 Nf6 4. a3 Nbd7 5. e4 Nxe4 6. Ne5 Nxe5 7. dxe5 Nxc3 8. bxc3 c5 9. Bb5+ Bd7 10. Qxd5 Bxb5 11. Qxb7 Ba4 12. Qb2 c4 13. Bd2 Qxd2+ 14. Kxd2 O-O-O+ 15. Ke1 Re8 16. Qb4 Bxc2 17. Qxc4+ Kd8 18. Qxf7 Bd3 19. Qd5+ Kc8 20. Qxd3 Kb7 21. Qd7+ Kb8 22. Qxe8+ Kc7 23. Qa8 Kd7 24. Qxa7+ Kc6 25. Qa6+ Kd7 26. e6+ Ke8 27. Qa8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m96_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 97"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. c4 h6 3. Nc3 d5 4. d4 dxc4 5. Bg2 Nf6 6. Nf3 Qb6 7. O-O Nd5 8. Ne5 Be6 9. Nxc4 Nf6 10. Ne5 c5 11. Qa4+ Bd7 12. Qxd7+ Nfxd7 13. d5 Nxe5 14. Ne4 Nc4 15. Nc3 Ne5 16. Ne4 Nc4 17. Nc3 Ne5 18. Ne4 f5 19. Nc3 e6 20. Ne4 exd5 21. Nc3 Bd6 22. Bxd5 Nf3+ 23. exf3 Qb4 24. Re1+ Kf8 25. Be6 Be7 26. Bxf5 Bf6 27. Re8+ Kxe8 28. Bg6+ Kf8 29. Nd5 Qe1+ 30. Kg2 Qe5 31. Nc3 Qxc3 32. bxc3 Bxc3 33. Rb1 Ke7 34. Rxb7+ Kd6 35. Bf4+ Ke6 36. Rc7 Kf6 37. Rxc5 Kxg6 38. Rxc3 Kf5 39. Rc5+ Kf6 40. Bxb8 Raxb8 41. Rc6+ Ke7 42. Rc7+ Kf6 43. Rxa7 Rb2 44. Ra6+ Kf5 45. Ra5+ Kf6 46. Ra6+ Kf5 47. Ra5+ Kf6 48. Ra6+ Kf5 49. Ra5+ Kf6 50. Ra6+ Kf5 51. Ra5+ Kf6 52. Ra6+ 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m96_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 97"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. c4 h6 3. Nc3 d5 4. d4 dxc4 5. b3 cxb3 6. axb3 Nf6 7. Bg2 Bg4 8. h3 Bh5 9. Be3 Bxe2 10. Qxe2 Qb6 11. Na4 Qxb3 12. Nc5 Qc3+ 13. Kf1 Qxa1+ 14. Qe1 Qxe1+ 15. Kxe1 b6 16. Nd3 Nbd7 17. Bxc6 Rc8 18. Bxd7+ Kxd7 19. Ne5+ Ke6 20. d5+ Kxe5 21. Nf3+ Kxd5 22. Nd2 Rc1+ 23. Ke2 Rxh1 24. Bf4 Rxh3 25. f3 Rh2+ 26. Kf1 Rh1+ 27. Kf2 Rh2+ 28. Kg1 Re2 29. Nb3 Re1+ 30. Kg2 Re2+ 31. Kh1 Re1+ 32. Kh2 Re2+ 33. Kh3 Rc2 34. Be3 Rh2+ 35. Kxh2 Ng4+ 36. fxg4 Kc4 37. Nd2+ Kd3 38. Bf4 Kc2 39. Nc4 Kd3 40. Ne5+ Ke4 41. Nxf7 Rh7 42. Nd6+ exd6 43. Bxd6 Bxd6 44. g5 hxg5+ 45. Kg1 Bxg3 46. Kf1 Rh1+ 47. Kg2 Rh2+ 48. Kxg3 Rh1 49. Kf2 Rh2+ 50. Kg1 Rc2 51. Kf1 Rc1+ 52. Kf2 Rc2+ 53. Kg1 Rc1+ 54. Kg2 Rc2+ 55. Kg1 Rc1+ 56. Kg2 Rc2+ 57. Kg1 Rc1+ 58. Kg2 Rc2+ 59. Kg1 Rc1+ 60. Kg2 Rc2+ 61. Kg1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m97_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 98"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 d5 2. a3 c5 3. Bb5+ Nc6 4. Nc3 Nf6 5. Nf3 a6 6. O-O b6 7. Bxc6+ Bd7 8. Bb7 Rb8 9. Bxa6 Ra8 10. Bb7 Ra7 11. Rb1 Rxb7 12. Ne5 e6 13. Nf3 d4 14. exd4 cxd4 15. Nxd4 e5 16. Nf3 e4 17. Nxe4 Nxe4 18. Ne5 Nd6 19. Qh5 h6 20. Qf3 Be6 21. Qc6+ Ke7 22. Qf3 Nb5 23. Qxb7+ Ke8 24. Qc6+ Ke7 25. Qxb5 Qd6 26. Qd7+ Bxd7 27. Nc4 b5 28. Re1+ Kd8 29. Nxd6 Bxd6 30. Rd1 Bxh2+ 31. Kxh2 Kc7 32. Re1 Kc6 33. Rd1 Kd5 34. c4+ bxc4 35. Re1 Kd4 36. Rd1 Ke5 37. Re1+ Kd6 38. Rd1 Ke7 39. Re1+ Kf6 40. Rd1 Kg6 41. Rg1 Kf5 42. g4+ Kf6 43. g5+ hxg5+ 44. Kg3 Rh3+ 45. Kg2 Bc6+ 46. Kxh3 Bd7+ 47. Kg2 Bc6+ 48. Kg3 Ke6 49. Re1+ Kf6 50. Rd1 Kg6 51. Rg1 Kh7 52. Rd1 Kh8 53. Rg1 Kg8 54. Rd1 g6 55. Rg1 Kg7 56. Rd1 Kh7 57. Rg1 Kh8 58. Rd1 Kh7 59. Rg1 Kh8 60. Rd1 Kh7 61. Rg1 Kh8 62. Rd1 Kh7 63. Rg1 Kh8 64. Rd1 Kh7 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m97_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 98"]
+[Annotator "book moves: 8 plies"]
+
+1. e3 d5 2. a3 c5 3. Bb5+ Nc6 4. Nc3 Nf6 5. Nf3 a6 6. O-O axb5 7. Nxb5 Qb6 8. Nc3 c4 9. d3 cxd3 10. cxd3 Bf5 11. Bd2 Bxd3 12. Be1 Qxb2 13. Qxd3 Qxa1 14. Qb5 Rxa3 15. Qxb7 Qxc3 16. Qc8+ Nd8 17. Qxc3 Rxc3 18. Bxc3 Ne4 19. Bxg7 Bxg7 20. Nh4 O-O 21. Nf5 e6 22. Ne7+ Kh8 23. Nc8 Nc3 24. Rc1 Ne2+ 25. Kh1 Nxc1 26. Kg1 Ne2+ 27. Kf1 Nc3 28. Ne7 Re8 29. Nc8 Nd1 30. Na7 Nxe3+ 31. fxe3 Bc3 32. Kf2 Nb7 33. Nb5 Ba1 34. Nc7 Rc8 35. Na6 Rc2+ 36. Kf3 Ra2 37. Nc7 Ra7 38. Nb5 Ra5 39. Nc7 Ra3 40. Nb5 Rb3 41. Nc7 Rc3 42. Ne8 Rxe3+ 43. Kxe3 d4+ 44. Kf2 d3 45. Nc7 Bd4+ 46. Kf3 d2 47. Nxe6 fxe6 48. Kg3 d1=Q 49. Kh3 Qh5+ 50. Kg3 Qg5+ 51. Kf3 Qf6+ 52. Ke2 Qe5+ 53. Kf1 Qxh2 54. Ke1 Qxg2 55. Kd1 Qf1+ 56. Kc2 Qe2+ 57. Kc1 Qc4+ 58. Kb1 Qb5+ 59. Kc2 Qc4+ 60. Kd1 Qd3+ 61. Ke1 Bc3+ 62. Kf2 Bd4+ 63. Ke1 Bc3+ 64. Kf2 Bd4+ 65. Ke1 Bc3+ 66. Kf2 Bd4+ 67. Ke1 Bc3+ 68. Kf2 Bd4+ 69. Ke1 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m98_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 99"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. Bg2 g6 3. e4 Bg7 4. f4 h5 5. Nf3 Nf6 6. e5 O-O 7. O-O e6 8. exf6 Bxf6 9. Ne5 Bxe5 10. fxe5 Qb6+ 11. Kh1 Qd4 12. Qf3 Qxe5 13. Qd3 Qg5 14. Qd6 e5 15. Qc7 Na6 16. Qd6 Rd8 17. Qd3 Nc5 18. Qd6 Na6 19. Qd3 Nc5 20. Qd6 Na6 21. Qd3 Nc5 22. Qd6 Na6 23. Qd3 Nc5 24. Qd6 Na6 1/2-1/2
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m98_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1-0"]
+[Termination "checkmate"]
+[Opening "Random-walk line 99"]
+[Annotator "book moves: 8 plies"]
+
+1. g3 c6 2. Bg2 g6 3. e4 Bg7 4. f4 h5 5. Nf3 Nf6 6. O-O Nxe4 7. Nc3 Nxc3 8. bxc3 O-O 9. d3 Bxc3 10. Rb1 Qb6+ 11. Kh1 Qxb1 12. a3 Qxc1 13. Qxc1 d5 14. Qe3 Re8 15. Qc1 Bg4 16. Ng5 Rf8 17. Qe3 Re8 18. Qf2 Bf6 19. h3 Bxg5 20. fxg5 Bxh3 21. Bxh3 Rf8 22. Qd4 Rd8 23. Qe5 Re8 24. Re1 Rd8 25. Qxe7 b6 26. Qxd8+ Kg7 27. Qe8 d4 28. Qe5+ Kf8 29. Qh8# 1-0
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m99_jevW"]
+[White "Jev 1.13"]
+[Black "StartLux-Decision-27B"]
+[Result "0-1"]
+[Termination "checkmate"]
+[Opening "Random-walk line 100"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. h3 Bf5 3. d3 Nc6 4. g4 Bg6 5. Ng5 h6 6. Nf3 Nf6 7. Nc3 e6 8. Bxh6 gxh6 9. Nh4 h5 10. Nf3 hxg4 11. Ng5 Rh6 12. hxg4 Rxh1 13. Nf3 Nxg4 14. Nd2 Nge5 15. Nb5 Nxd3+ 16. cxd3 Rxf1+ 17. Kxf1 Qh4 18. Nxc7+ Kd8 19. Nxa8 Qh1# 0-1
+
+[Event "StartLux-Decision-27B vs Jev 1.13, rich level"]
+[Site "wondertwins/jev-benchmark harness"]
+[Date "2026.10.01"]
+[Round "m99_oursW"]
+[White "StartLux-Decision-27B"]
+[Black "Jev 1.13"]
+[Result "1/2-1/2"]
+[Termination "fivefold repetition"]
+[Opening "Random-walk line 100"]
+[Annotator "book moves: 8 plies"]
+
+1. Nf3 d5 2. h3 Bf5 3. d3 Nc6 4. g4 Bg6 5. Nc3 Nf6 6. Bg2 Nxg4 7. hxg4 Qd6 8. O-O O-O-O 9. e4 dxe4 10. Nxe4 Qxd3 11. cxd3 Bxe4 12. dxe4 Rxd1 13. Rxd1 Nb4 14. a3 Nc6 15. Rd5 Rg8 16. Be3 Kb8 17. Rd7 Kc8 18. Rd5 Kb8 19. Rd7 Kc8 20. Rd5 Kb8 21. Rd7 Kc8 22. Rd5 Kb8 23. Rd7 Kc8 24. Rd5 1/2-1/2
+

@@ -1,0 +1,4610 @@
+[
+ {
+  "game": "o000_jevW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Morphy Defence: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 54.6,
+   "Jev 1.13": 57.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o000_oursW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Morphy Defence: e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.9,
+   "Jev 1.13": 86.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o001_jevW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Berlin Defence: e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 127,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 145.5,
+   "Jev 1.13": 99.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o001_oursW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Berlin Defence: e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Nxe4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.2,
+   "Jev 1.13": 221.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o002_jevW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Exchange Variation: e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 70.2,
+   "Jev 1.13": 76.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o002_oursW",
+  "level": "tactical",
+  "start": "Ruy Lopez, Exchange Variation: e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.4,
+   "Jev 1.13": 155.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o003_jevW",
+  "level": "tactical",
+  "start": "Italian Game, Giuoco Piano: e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 61.6,
+   "Jev 1.13": 68.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o003_oursW",
+  "level": "tactical",
+  "start": "Italian Game, Giuoco Piano: e4 e5 Nf3 Nc6 Bc4 Bc5 c3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 127,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 80.4,
+   "Jev 1.13": 41.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o004_jevW",
+  "level": "tactical",
+  "start": "Italian Game, Two Knights: e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.9,
+   "Jev 1.13": 84.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o004_oursW",
+  "level": "tactical",
+  "start": "Italian Game, Two Knights: e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.1,
+   "Jev 1.13": 194.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o005_jevW",
+  "level": "tactical",
+  "start": "Scotch Game: e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 62,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 163.3,
+   "Jev 1.13": 235.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o005_oursW",
+  "level": "tactical",
+  "start": "Scotch Game: e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 377.7,
+   "Jev 1.13": 207.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o006_jevW",
+  "level": "tactical",
+  "start": "Four Knights, Spanish: e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 190.9,
+   "Jev 1.13": 334.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o006_oursW",
+  "level": "tactical",
+  "start": "Four Knights, Spanish: e4 e5 Nf3 Nc6 Nc3 Nf6 Bb5 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 152.2,
+   "Jev 1.13": 119.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o007_jevW",
+  "level": "tactical",
+  "start": "Petrov Defence: e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 149.7,
+   "Jev 1.13": 230.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o007_oursW",
+  "level": "tactical",
+  "start": "Petrov Defence: e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 44.3,
+   "Jev 1.13": 115.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o008_jevW",
+  "level": "tactical",
+  "start": "Philidor Defence: e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 72.1,
+   "Jev 1.13": 52.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o008_oursW",
+  "level": "tactical",
+  "start": "Philidor Defence: e4 e5 Nf3 d6 d4 Nf6 Nc3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 126.6,
+   "Jev 1.13": 53.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o009_jevW",
+  "level": "tactical",
+  "start": "Vienna Game: e4 e5 Nc3 Nf6 Bc4 Nc6 d3 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 63,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 164.0,
+   "Jev 1.13": 96.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o009_oursW",
+  "level": "tactical",
+  "start": "Vienna Game: e4 e5 Nc3 Nf6 Bc4 Nc6 d3 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 87,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 225.8,
+   "Jev 1.13": 217.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o010_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Najdorf: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 162.4,
+   "Jev 1.13": 94.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o010_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Najdorf: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 131,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 182.8,
+   "Jev 1.13": 154.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o011_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Dragon: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.6,
+   "Jev 1.13": 156.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o011_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Dragon: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 g6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 155.7,
+   "Jev 1.13": 149.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o012_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Scheveningen: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 122.2,
+   "Jev 1.13": 183.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o012_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Scheveningen: e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 397.5,
+   "Jev 1.13": 207.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o013_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Sveshnikov: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 158.8,
+   "Jev 1.13": 153.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o013_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Sveshnikov: e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 245.0,
+   "Jev 1.13": 164.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o014_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Taimanov: e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 71,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.5,
+   "Jev 1.13": 178.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o014_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Taimanov: e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nc6 Nc3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 447.0,
+   "Jev 1.13": 200.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o015_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Kan: e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 135,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 107.7,
+   "Jev 1.13": 164.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o015_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Kan: e4 c5 Nf3 e6 d4 cxd4 Nxd4 a6 Bd3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 146.3,
+   "Jev 1.13": 126.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o016_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Rossolimo: e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.5,
+   "Jev 1.13": 44.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o016_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Rossolimo: e4 c5 Nf3 Nc6 Bb5 g6 O-O Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 232.5,
+   "Jev 1.13": 299.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o017_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Alapin: e4 c5 c3 Nf6 e5 Nd5 d4 cxd4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 157,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 81.9,
+   "Jev 1.13": 70.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o017_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Alapin: e4 c5 c3 Nf6 e5 Nd5 d4 cxd4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 72.2,
+   "Jev 1.13": 66.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o018_jevW",
+  "level": "tactical",
+  "start": "Sicilian, Closed: e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.7,
+   "Jev 1.13": 133.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o018_oursW",
+  "level": "tactical",
+  "start": "Sicilian, Closed: e4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 320.4,
+   "Jev 1.13": 213.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o019_jevW",
+  "level": "tactical",
+  "start": "French, Winawer: e4 e6 d4 d5 Nc3 Bb4 e5 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 120,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.2,
+   "Jev 1.13": 89.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o019_oursW",
+  "level": "tactical",
+  "start": "French, Winawer: e4 e6 d4 d5 Nc3 Bb4 e5 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 74,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 137.2,
+   "Jev 1.13": 85.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o020_jevW",
+  "level": "tactical",
+  "start": "French, Tarrasch: e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 118,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.4,
+   "Jev 1.13": 81.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o020_oursW",
+  "level": "tactical",
+  "start": "French, Tarrasch: e4 e6 d4 d5 Nd2 Nf6 e5 Nfd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.9,
+   "Jev 1.13": 129.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o021_jevW",
+  "level": "tactical",
+  "start": "French, Advance: e4 e6 d4 d5 e5 c5 c3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.4,
+   "Jev 1.13": 101.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o021_oursW",
+  "level": "tactical",
+  "start": "French, Advance: e4 e6 d4 d5 e5 c5 c3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.9,
+   "Jev 1.13": 80.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o022_jevW",
+  "level": "tactical",
+  "start": "French, Classical: e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 80.7,
+   "Jev 1.13": 60.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o022_oursW",
+  "level": "tactical",
+  "start": "French, Classical: e4 e6 d4 d5 Nc3 Nf6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 150.8,
+   "Jev 1.13": 150.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o023_jevW",
+  "level": "tactical",
+  "start": "Caro-Kann, Classical: e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 58.1,
+   "Jev 1.13": 58.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o023_oursW",
+  "level": "tactical",
+  "start": "Caro-Kann, Classical: e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 201.9,
+   "Jev 1.13": 171.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o024_jevW",
+  "level": "tactical",
+  "start": "Caro-Kann, Advance: e4 c6 d4 d5 e5 Bf5 Nf3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 37.4,
+   "Jev 1.13": 35.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o024_oursW",
+  "level": "tactical",
+  "start": "Caro-Kann, Advance: e4 c6 d4 d5 e5 Bf5 Nf3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 233.6,
+   "Jev 1.13": 167.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o025_jevW",
+  "level": "tactical",
+  "start": "Caro-Kann, Panov Attack: e4 c6 d4 d5 exd5 cxd5 c4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 111,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 61.2,
+   "Jev 1.13": 64.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o025_oursW",
+  "level": "tactical",
+  "start": "Caro-Kann, Panov Attack: e4 c6 d4 d5 exd5 cxd5 c4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 115.5,
+   "Jev 1.13": 181.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o026_jevW",
+  "level": "tactical",
+  "start": "Pirc Defence: e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 133.8,
+   "Jev 1.13": 166.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o026_oursW",
+  "level": "tactical",
+  "start": "Pirc Defence: e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.4,
+   "Jev 1.13": 61.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o027_jevW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Orthodox: d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 158,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 307.1,
+   "Jev 1.13": 141.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o027_oursW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Orthodox: d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.4,
+   "Jev 1.13": 84.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o028_jevW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Exchange: d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.6,
+   "Jev 1.13": 146.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o028_oursW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Exchange: d4 d5 c4 e6 Nc3 Nf6 cxd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 121.6,
+   "Jev 1.13": 190.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o029_jevW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Tarrasch: d4 d5 c4 e6 Nc3 c5 cxd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.9,
+   "Jev 1.13": 68.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o029_oursW",
+  "level": "tactical",
+  "start": "Queen's Gambit Declined, Tarrasch: d4 d5 c4 e6 Nc3 c5 cxd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 102.6,
+   "Jev 1.13": 164.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o030_jevW",
+  "level": "tactical",
+  "start": "Queen's Gambit Accepted: d4 d5 c4 dxc4 Nf3 Nf6 e3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.9,
+   "Jev 1.13": 133.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o030_oursW",
+  "level": "tactical",
+  "start": "Queen's Gambit Accepted: d4 d5 c4 dxc4 Nf3 Nf6 e3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 136.6,
+   "Jev 1.13": 118.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o031_jevW",
+  "level": "tactical",
+  "start": "Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 128.7,
+   "Jev 1.13": 215.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o031_oursW",
+  "level": "tactical",
+  "start": "Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 50.0,
+   "Jev 1.13": 65.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o032_jevW",
+  "level": "tactical",
+  "start": "Semi-Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 161.9,
+   "Jev 1.13": 127.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o032_oursW",
+  "level": "tactical",
+  "start": "Semi-Slav Defence: d4 d5 c4 c6 Nf3 Nf6 Nc3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 96.7,
+   "Jev 1.13": 77.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o033_jevW",
+  "level": "tactical",
+  "start": "Nimzo-Indian, Rubinstein: d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.6,
+   "Jev 1.13": 82.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o033_oursW",
+  "level": "tactical",
+  "start": "Nimzo-Indian, Rubinstein: d4 Nf6 c4 e6 Nc3 Bb4 e3 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.6,
+   "Jev 1.13": 136.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o034_jevW",
+  "level": "tactical",
+  "start": "Nimzo-Indian, Classical: d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 91,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 60.0,
+   "Jev 1.13": 51.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o034_oursW",
+  "level": "tactical",
+  "start": "Nimzo-Indian, Classical: d4 Nf6 c4 e6 Nc3 Bb4 Qc2 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.9,
+   "Jev 1.13": 59.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o035_jevW",
+  "level": "tactical",
+  "start": "Queen's Indian Defence: d4 Nf6 c4 e6 Nf3 b6 g3 Ba6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.6,
+   "Jev 1.13": 84.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o035_oursW",
+  "level": "tactical",
+  "start": "Queen's Indian Defence: d4 Nf6 c4 e6 Nf3 b6 g3 Ba6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 106,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 121.8,
+   "Jev 1.13": 80.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o036_jevW",
+  "level": "tactical",
+  "start": "Bogo-Indian Defence: d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 85,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.4,
+   "Jev 1.13": 103.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o036_oursW",
+  "level": "tactical",
+  "start": "Bogo-Indian Defence: d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.2,
+   "Jev 1.13": 66.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o037_jevW",
+  "level": "tactical",
+  "start": "King's Indian, Classical: d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 117.2,
+   "Jev 1.13": 145.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o037_oursW",
+  "level": "tactical",
+  "start": "King's Indian, Classical: d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Nf3 O-O",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 300.5,
+   "Jev 1.13": 141.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o038_jevW",
+  "level": "tactical",
+  "start": "Grunfeld, Exchange: d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 134,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 42.1,
+   "Jev 1.13": 39.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o038_oursW",
+  "level": "tactical",
+  "start": "Grunfeld, Exchange: d4 Nf6 c4 g6 Nc3 d5 cxd5 Nxd5 e4 Nxc3",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.2,
+   "Jev 1.13": 192.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o039_jevW",
+  "level": "tactical",
+  "start": "Dutch, Leningrad: d4 f5 g3 Nf6 Bg2 g6 Nf3 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 142,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 52.9,
+   "Jev 1.13": 62.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o039_oursW",
+  "level": "tactical",
+  "start": "Dutch, Leningrad: d4 f5 g3 Nf6 Bg2 g6 Nf3 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 192.0,
+   "Jev 1.13": 261.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o040_jevW",
+  "level": "tactical",
+  "start": "Catalan Opening: d4 Nf6 c4 e6 g3 d5 Bg2 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 40.3,
+   "Jev 1.13": 40.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o040_oursW",
+  "level": "tactical",
+  "start": "Catalan Opening: d4 Nf6 c4 e6 g3 d5 Bg2 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 144,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 164.8,
+   "Jev 1.13": 209.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o041_jevW",
+  "level": "tactical",
+  "start": "London System: d4 d5 Bf4 Nf6 e3 e6 Nf3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 111,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 223.1,
+   "Jev 1.13": 171.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o041_oursW",
+  "level": "tactical",
+  "start": "London System: d4 d5 Bf4 Nf6 e3 e6 Nf3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 116.7,
+   "Jev 1.13": 83.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o042_jevW",
+  "level": "tactical",
+  "start": "Trompowsky Attack: d4 Nf6 Bg5 e6 e4 h6 Bxf6 Qxf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 158,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 61.8,
+   "Jev 1.13": 53.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o042_oursW",
+  "level": "tactical",
+  "start": "Trompowsky Attack: d4 Nf6 Bg5 e6 e4 h6 Bxf6 Qxf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 151,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 76.1,
+   "Jev 1.13": 82.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o043_jevW",
+  "level": "tactical",
+  "start": "English, Symmetrical: c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 80,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 37.8,
+   "Jev 1.13": 54.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o043_oursW",
+  "level": "tactical",
+  "start": "English, Symmetrical: c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.1,
+   "Jev 1.13": 124.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o044_jevW",
+  "level": "tactical",
+  "start": "English, Reversed Sicilian: c4 e5 Nc3 Nf6 g3 d5 cxd5 Nxd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 161.9,
+   "Jev 1.13": 130.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o044_oursW",
+  "level": "tactical",
+  "start": "English, Reversed Sicilian: c4 e5 Nc3 Nf6 g3 d5 cxd5 Nxd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.2,
+   "Jev 1.13": 59.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o045_jevW",
+  "level": "tactical",
+  "start": "Reti Opening: Nf3 d5 c4 e6 g3 Nf6 Bg2 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 116.7,
+   "Jev 1.13": 145.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o045_oursW",
+  "level": "tactical",
+  "start": "Reti Opening: Nf3 d5 c4 e6 g3 Nf6 Bg2 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 351.4,
+   "Jev 1.13": 174.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o046_jevW",
+  "level": "tactical",
+  "start": "King's Indian Attack: Nf3 d5 g3 Nf6 Bg2 c6 O-O Bg4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 159,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 131.5,
+   "Jev 1.13": 258.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o046_oursW",
+  "level": "tactical",
+  "start": "King's Indian Attack: Nf3 d5 g3 Nf6 Bg2 c6 O-O Bg4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 140,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 68.2,
+   "Jev 1.13": 72.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o047_jevW",
+  "level": "tactical",
+  "start": "Bird Opening: f4 d5 Nf3 Nf6 e3 g6 Be2 Bg7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 305.1,
+   "Jev 1.13": 140.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o047_oursW",
+  "level": "tactical",
+  "start": "Bird Opening: f4 d5 Nf3 Nf6 e3 g6 Be2 Bg7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 192.0,
+   "Jev 1.13": 294.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o048_jevW",
+  "level": "tactical",
+  "start": "Nimzo-Larsen Attack: b3 e5 Bb2 Nc6 e3 d5 Bb5 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 43.6,
+   "Jev 1.13": 43.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o048_oursW",
+  "level": "tactical",
+  "start": "Nimzo-Larsen Attack: b3 e5 Bb2 Nc6 e3 d5 Bb5 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 95.5,
+   "Jev 1.13": 149.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o049_jevW",
+  "level": "tactical",
+  "start": "Scotch Four Knights: e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 135.3,
+   "Jev 1.13": 94.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o049_oursW",
+  "level": "tactical",
+  "start": "Scotch Four Knights: e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.5,
+   "Jev 1.13": 135.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o050_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 51: Nf3 e6 g3 c6 Bg2 Nf6 d3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.0,
+   "Jev 1.13": 62.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o050_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 51: Nf3 e6 g3 c6 Bg2 Nf6 d3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 85,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 163.2,
+   "Jev 1.13": 168.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o051_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 52: c4 e5 Nc3 Nf6 e4 Nc6 Nf3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 101.4,
+   "Jev 1.13": 183.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o051_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 52: c4 e5 Nc3 Nf6 e4 Nc6 Nf3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 118.7,
+   "Jev 1.13": 97.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o052_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 53: e4 e5 Bc4 Nf6 d4 exd4 Nf3 Bb4+",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 40.1,
+   "Jev 1.13": 48.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o052_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 53: e4 e5 Bc4 Nf6 d4 exd4 Nf3 Bb4+",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.6,
+   "Jev 1.13": 77.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o053_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 54: e4 d6 Nf3 e5 a4 Nf6 d3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 44.9,
+   "Jev 1.13": 48.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o053_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 54: e4 d6 Nf3 e5 a4 Nf6 d3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 96.2,
+   "Jev 1.13": 90.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o054_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 55: c4 c6 e3 e6 Nf3 Nf6 Be2 a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.6,
+   "Jev 1.13": 274.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o054_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 55: c4 c6 e3 e6 Nf3 Nf6 Be2 a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 59.7,
+   "Jev 1.13": 52.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o055_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 56: e3 d5 Nf3 e6 Be2 a6 d4 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 92.5,
+   "Jev 1.13": 88.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o055_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 56: e3 d5 Nf3 e6 Be2 a6 d4 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 73.8,
+   "Jev 1.13": 46.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o056_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 57: g3 Nf6 Bg2 d5 Nf3 c6 c3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 103.6,
+   "Jev 1.13": 125.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o056_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 57: g3 Nf6 Bg2 d5 Nf3 c6 c3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 229.7,
+   "Jev 1.13": 171.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o057_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 58: Nf3 c6 e3 d5 Be2 Nf6 O-O a6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 135,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 111.3,
+   "Jev 1.13": 124.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o057_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 58: Nf3 c6 e3 d5 Be2 Nf6 O-O a6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 57.5,
+   "Jev 1.13": 59.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o058_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 59: c4 c6 Nc3 d5 d4 e6 e3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 132,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 62.6,
+   "Jev 1.13": 112.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o058_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 59: c4 c6 Nc3 d5 d4 e6 e3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 43.9,
+   "Jev 1.13": 82.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o059_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 60: c4 d6 e3 g6 Nf3 Nf6 d4 a5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 222.4,
+   "Jev 1.13": 153.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o059_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 60: c4 d6 e3 g6 Nf3 Nf6 d4 a5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 83.6,
+   "Jev 1.13": 153.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o060_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 61: e4 c5 Nf3 Nc6 Nc3 e5 Bd3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.3,
+   "Jev 1.13": 87.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o060_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 61: e4 c5 Nf3 Nc6 Nc3 e5 Bd3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 39.1,
+   "Jev 1.13": 49.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o061_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 62: c4 Nf6 g3 e5 Nc3 h6 a3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 84,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.5,
+   "Jev 1.13": 51.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o061_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 62: c4 Nf6 g3 e5 Nc3 h6 a3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 147.5,
+   "Jev 1.13": 96.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o062_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 63: d4 c6 Nf3 d5 Nbd2 Bf5 h3 h5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 159,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 126.2,
+   "Jev 1.13": 161.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o062_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 63: d4 c6 Nf3 d5 Nbd2 Bf5 h3 h5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 37,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 17.5,
+   "Jev 1.13": 126.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o063_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 64: Nf3 e6 c4 d5 g3 Nc6 d4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 363.0,
+   "Jev 1.13": 157.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o063_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 64: Nf3 e6 c4 d5 g3 Nc6 d4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 107,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 54.7,
+   "Jev 1.13": 97.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o064_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 65: d4 c6 Nf3 Nf6 e3 e6 Bd3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 103.4,
+   "Jev 1.13": 100.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o064_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 65: d4 c6 Nf3 Nf6 e3 e6 Bd3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 66.3,
+   "Jev 1.13": 67.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o065_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 66: c4 c6 Nc3 e6 Nf3 d5 e3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 82,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.9,
+   "Jev 1.13": 84.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o065_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 66: c4 c6 Nc3 e6 Nf3 d5 e3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 79,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 169.5,
+   "Jev 1.13": 148.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o066_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 67: g3 g6 c3 Nc6 Na3 e5 Qc2 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 120.1,
+   "Jev 1.13": 88.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o066_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 67: g3 g6 c3 Nc6 Na3 e5 Qc2 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 184.3,
+   "Jev 1.13": 121.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o067_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 68: c4 Nf6 g3 Nc6 d4 d5 cxd5 Qxd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 39,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 190.5,
+   "Jev 1.13": 46.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o067_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 68: c4 Nf6 g3 Nc6 d4 d5 cxd5 Qxd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.5,
+   "Jev 1.13": 132.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o068_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 69: d4 e6 Nc3 d5 Bf4 Bb4 Qd3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 79.0,
+   "Jev 1.13": 83.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o068_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 69: d4 e6 Nc3 d5 Bf4 Bb4 Qd3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 108,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.1,
+   "Jev 1.13": 116.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o069_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 70: g3 e5 c4 Nf6 a3 d5 cxd5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.8,
+   "Jev 1.13": 73.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o069_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 70: g3 e5 c4 Nf6 a3 d5 cxd5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 124.5,
+   "Jev 1.13": 162.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o070_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 71: c4 e5 Nc3 Bb4 d4 exd4 Qxd4 Qf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 18,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 2.8,
+   "Jev 1.13": 397.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o070_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 71: c4 e5 Nc3 Bb4 d4 exd4 Qxd4 Qf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 313.1,
+   "Jev 1.13": 229.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o071_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 72: Nf3 c6 c4 a6 g3 d5 a4 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 87.6,
+   "Jev 1.13": 120.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o071_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 72: Nf3 c6 c4 a6 g3 d5 a4 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 122,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.4,
+   "Jev 1.13": 76.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o072_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 73: g3 d5 d4 c5 Bg2 Nf6 dxc5 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 137,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 123.9,
+   "Jev 1.13": 94.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o072_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 73: g3 d5 d4 c5 Bg2 Nf6 dxc5 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 77,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 64.5,
+   "Jev 1.13": 100.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o073_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 74: g3 e6 c4 a5 Bg2 Nf6 a3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 81,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.7,
+   "Jev 1.13": 113.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o073_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 74: g3 e6 c4 a5 Bg2 Nf6 a3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 209.1,
+   "Jev 1.13": 178.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o074_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 75: e4 d6 h3 Nf6 c3 b6 Bc4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.4,
+   "Jev 1.13": 93.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o074_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 75: e4 d6 h3 Nf6 c3 b6 Bc4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.5,
+   "Jev 1.13": 67.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o075_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 76: e3 Nf6 a3 d5 d4 e6 c4 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 94.7,
+   "Jev 1.13": 179.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o075_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 76: e3 Nf6 a3 d5 d4 e6 c4 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 109,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 193.1,
+   "Jev 1.13": 139.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o076_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 77: c4 g6 Nf3 c5 Nc3 Nc6 d4 cxd4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 31.8,
+   "Jev 1.13": 31.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o076_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 77: c4 g6 Nf3 c5 Nc3 Nc6 d4 cxd4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.7,
+   "Jev 1.13": 34.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o077_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 78: e4 e6 Be2 c5 d4 d5 dxc5 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 70,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 273.5,
+   "Jev 1.13": 245.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o077_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 78: e4 e6 Be2 c5 d4 d5 dxc5 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 110,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 165.2,
+   "Jev 1.13": 244.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o078_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 79: d4 c6 e4 d5 Nd2 Qc7 Qe2 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 84,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 186.9,
+   "Jev 1.13": 182.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o078_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 79: d4 c6 e4 d5 Nd2 Qc7 Qe2 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 190.5,
+   "Jev 1.13": 157.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o079_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 80: Nf3 e6 d4 d5 e3 a6 Nbd2 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 127.9,
+   "Jev 1.13": 154.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o079_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 80: Nf3 e6 d4 d5 e3 a6 Nbd2 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 98.9,
+   "Jev 1.13": 90.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o080_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 81: c4 d6 Nf3 e5 e3 g6 b3 f5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 99,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 159.9,
+   "Jev 1.13": 206.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o080_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 81: c4 d6 Nf3 e5 e3 g6 b3 f5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 69.6,
+   "Jev 1.13": 85.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o081_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 82: e3 Nf6 Be2 e6 b3 h6 Nf3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.8,
+   "Jev 1.13": 94.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o081_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 82: e3 Nf6 Be2 e6 b3 h6 Nf3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 102,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 93.2,
+   "Jev 1.13": 136.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o082_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 83: g3 Nf6 Bg2 e5 c4 d6 a3 c6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 164.9,
+   "Jev 1.13": 148.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o082_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 83: g3 Nf6 Bg2 e5 c4 d6 a3 c6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 108.2,
+   "Jev 1.13": 128.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o083_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 84: g3 c5 c4 d5 cxd5 Nf6 e4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 196.4,
+   "Jev 1.13": 139.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o083_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 84: g3 c5 c4 d5 cxd5 Nf6 e4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 294.1,
+   "Jev 1.13": 235.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o084_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 85: d4 c6 Nf3 Nf6 h3 e6 Bg5 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 51.9,
+   "Jev 1.13": 51.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o084_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 85: d4 c6 Nf3 Nf6 h3 e6 Bg5 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 116.7,
+   "Jev 1.13": 101.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o085_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 86: g3 d5 Nf3 g6 c3 c6 Qb3 Bh6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 422.6,
+   "Jev 1.13": 138.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o085_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 86: g3 d5 Nf3 g6 c3 c6 Qb3 Bh6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 109,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.6,
+   "Jev 1.13": 98.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o086_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 87: g3 c6 d3 Nf6 b3 c5 c4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 122,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 149.9,
+   "Jev 1.13": 132.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o086_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 87: g3 c6 d3 Nf6 b3 c5 c4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 113,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.9,
+   "Jev 1.13": 87.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o087_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 88: Nf3 c6 d4 Nf6 c4 g6 Bf4 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 106.9,
+   "Jev 1.13": 126.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o087_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 88: Nf3 c6 d4 Nf6 c4 g6 Bf4 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 277.8,
+   "Jev 1.13": 169.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o088_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 89: g3 Nf6 c4 g6 Bg2 Bg7 Nc3 c5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 139,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.8,
+   "Jev 1.13": 107.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o088_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 89: g3 Nf6 c4 g6 Bg2 Bg7 Nc3 c5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 42.2,
+   "Jev 1.13": 41.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o089_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 90: d4 d5 c3 c5 a3 e6 e3 h6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 76,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 153.5,
+   "Jev 1.13": 186.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o089_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 90: d4 d5 c3 c5 a3 e6 e3 h6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 115,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 93.4,
+   "Jev 1.13": 76.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o090_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 91: Nf3 c5 c3 d5 g3 h6 a3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 101.5,
+   "Jev 1.13": 131.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o090_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 91: Nf3 c5 c3 d5 g3 h6 a3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 276.6,
+   "Jev 1.13": 266.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o091_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 92: c4 c6 e3 d5 Nc3 b6 d4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 60,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 37.9,
+   "Jev 1.13": 107.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o091_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 92: c4 c6 e3 d5 Nc3 b6 d4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 114.9,
+   "Jev 1.13": 77.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o092_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 93: d4 e6 Nc3 Nf6 e4 d5 e5 Nfd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 187.1,
+   "Jev 1.13": 119.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o092_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 93: d4 e6 Nc3 Nf6 e4 d5 e5 Nfd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 231.7,
+   "Jev 1.13": 152.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o093_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 94: c4 c5 d3 e6 Nf3 b6 h3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.0,
+   "Jev 1.13": 66.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o093_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 94: c4 c5 d3 e6 Nf3 b6 h3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.8,
+   "Jev 1.13": 182.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o094_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 95: c4 Nf6 g3 c5 Nf3 b6 Bg2 Bb7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 117.9,
+   "Jev 1.13": 142.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o094_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 95: c4 Nf6 g3 c5 Nf3 b6 Bg2 Bb7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 84,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 131.3,
+   "Jev 1.13": 146.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o095_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 96: d4 c6 Nc3 d5 Nf3 Nf6 a3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 82,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 55.1,
+   "Jev 1.13": 111.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o095_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 96: d4 c6 Nc3 d5 Nf3 Nf6 a3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 113,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 155.0,
+   "Jev 1.13": 99.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o096_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 97: g3 c6 c4 h6 Nc3 d5 d4 dxc4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 134,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 157.7,
+   "Jev 1.13": 144.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o096_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 97: g3 c6 c4 h6 Nc3 d5 d4 dxc4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 79.1,
+   "Jev 1.13": 66.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o097_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 98: e3 d5 a3 c5 Bb5+ Nc6 Nc3 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 46,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 15.3,
+   "Jev 1.13": 109.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o097_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 98: e3 d5 a3 c5 Bb5+ Nc6 Nc3 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 97.0,
+   "Jev 1.13": 159.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o098_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 99: g3 c6 Bg2 g6 e4 Bg7 f4 h5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 83,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 155.2,
+   "Jev 1.13": 116.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o098_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 99: g3 c6 Bg2 g6 e4 Bg7 f4 h5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 50,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 139.9,
+   "Jev 1.13": 72.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o099_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 100: Nf3 d5 h3 Bf5 d3 Nc6 g4 Bg6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 45.3,
+   "Jev 1.13": 42.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o099_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 100: Nf3 d5 h3 Bf5 d3 Nc6 g4 Bg6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 118,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.6,
+   "Jev 1.13": 184.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o100_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 101: Nf3 c6 d4 d5 g3 Be6 Bg2 g6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 119,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 119.3,
+   "Jev 1.13": 99.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o100_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 101: Nf3 c6 d4 d5 g3 Be6 Bg2 g6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 110,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 74.5,
+   "Jev 1.13": 51.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o101_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 102: d4 c6 Nd2 g6 Ngf3 Nf6 e4 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 87.5,
+   "Jev 1.13": 127.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o101_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 102: d4 c6 Nd2 g6 Ngf3 Nf6 e4 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 89.0,
+   "Jev 1.13": 88.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o102_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 103: Nf3 c6 e4 d5 d3 Qc7 Nbd2 Bg4",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 87.0,
+   "Jev 1.13": 89.4
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o102_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 103: Nf3 c6 e4 d5 d3 Qc7 Nbd2 Bg4",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 100.7,
+   "Jev 1.13": 96.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o103_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 104: e4 e5 Nf3 Nc6 Be2 Nf6 d3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 204.9,
+   "Jev 1.13": 147.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o103_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 104: e4 e5 Nf3 Nc6 Be2 Nf6 d3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 63.9,
+   "Jev 1.13": 146.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o104_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 105: e4 d6 g3 c6 c3 d5 d3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 108,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 160.9,
+   "Jev 1.13": 158.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o104_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 105: e4 d6 g3 c6 c3 d5 d3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 62.8,
+   "Jev 1.13": 63.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o105_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 106: Nf3 e6 g3 Be7 e4 h5 e5 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 133.4,
+   "Jev 1.13": 271.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o105_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 106: Nf3 e6 g3 Be7 e4 h5 e5 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 267.6,
+   "Jev 1.13": 117.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o106_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 107: c4 e6 g3 d5 Bg2 d4 e3 Be7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 90.0,
+   "Jev 1.13": 142.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o106_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 107: c4 e6 g3 d5 Bg2 d4 e3 Be7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 177.1,
+   "Jev 1.13": 334.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o107_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 108: d4 d5 c4 Nf6 Nf3 c6 Qb3 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 111.8,
+   "Jev 1.13": 137.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o107_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 108: d4 d5 c4 Nf6 Nf3 c6 Qb3 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 158.9,
+   "Jev 1.13": 173.2
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o108_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 109: e3 e6 Nf3 c5 d4 Nf6 Bd3 Qc7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 89,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 156.3,
+   "Jev 1.13": 141.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o108_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 109: e3 e6 Nf3 c5 d4 Nf6 Bd3 Qc7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.3,
+   "Jev 1.13": 61.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o109_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 110: e4 c6 c3 d5 exd5 cxd5 d4 Bf5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 172.9,
+   "Jev 1.13": 129.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o109_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 110: e4 c6 c3 d5 exd5 cxd5 d4 Bf5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 78,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 140.3,
+   "Jev 1.13": 92.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o110_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 111: Nf3 Nf6 d4 e6 Bf4 Be7 c4 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 73,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 88.2,
+   "Jev 1.13": 36.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o110_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 111: Nf3 Nf6 d4 e6 Bf4 Be7 c4 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 65,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 29.8,
+   "Jev 1.13": 125.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o111_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 112: Nf3 c5 c3 Nf6 e3 Nc6 d4 e6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 82,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 64.8,
+   "Jev 1.13": 97.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o111_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 112: Nf3 c5 c3 Nf6 e3 Nc6 d4 e6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 44.1,
+   "Jev 1.13": 42.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o112_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 113: Nf3 d5 g3 Nf6 d3 Nc6 Nc3 e5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 222.9,
+   "Jev 1.13": 97.7
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o112_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 113: Nf3 d5 g3 Nf6 d3 Nc6 Nc3 e5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 276.4,
+   "Jev 1.13": 188.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o113_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 114: d4 e6 Nd2 c5 e3 Qc7 c3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 84.8,
+   "Jev 1.13": 73.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o113_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 114: d4 e6 Nd2 c5 e3 Qc7 c3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 206.2,
+   "Jev 1.13": 184.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o114_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 115: g3 g6 c3 d6 d4 e5 e4 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1/2-1/2",
+  "termination": "insufficient material",
+  "plies": 144,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 53.0,
+   "Jev 1.13": 79.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o114_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 115: g3 g6 c3 d6 d4 e5 e4 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 85.1,
+   "Jev 1.13": 60.9
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o115_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 116: e3 e5 d4 exd4 exd4 d5 Nf3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 109,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 128.7,
+   "Jev 1.13": 94.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o115_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 116: e3 e5 d4 exd4 exd4 d5 Nf3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 111.8,
+   "Jev 1.13": 99.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o116_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 117: d4 e6 Nc3 a6 Nh3 Nf6 e4 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 56.3,
+   "Jev 1.13": 53.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o116_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 117: d4 e6 Nc3 a6 Nh3 Nf6 e4 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 75.2,
+   "Jev 1.13": 63.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o117_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 118: c4 e6 d4 Be7 e4 d5 exd5 exd5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 61,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 134.8,
+   "Jev 1.13": 86.9
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o117_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 118: c4 e6 d4 Be7 e4 d5 exd5 exd5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1/2-1/2",
+  "termination": "stalemate",
+  "plies": 124,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 52.4,
+   "Jev 1.13": 70.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o118_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 119: e3 e5 Nc3 Nf6 d4 d6 Bd3 Nbd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 44,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 71.4,
+   "Jev 1.13": 148.1
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o118_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 119: e3 e5 Nc3 Nf6 d4 d6 Bd3 Nbd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 59,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 113.7,
+   "Jev 1.13": 193.6
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o119_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 120: d4 d5 g3 c6 Nf3 g6 Bg2 Nf6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 290.1,
+   "Jev 1.13": 125.6
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o119_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 120: d4 d5 g3 c6 Nf3 g6 Bg2 Nf6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 239.7,
+   "Jev 1.13": 122.4
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o120_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 121: c4 d6 Nf3 e5 d3 Be7 e3 f5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 86.7,
+   "Jev 1.13": 109.3
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o120_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 121: c4 d6 Nf3 e5 d3 Be7 e3 f5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 128,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 144.2,
+   "Jev 1.13": 191.0
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o121_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 122: e4 d6 Nf3 e5 Nc3 Nf6 a4 Bd7",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 113.3,
+   "Jev 1.13": 50.2
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o121_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 122: e4 d6 Nf3 e5 Nc3 Nf6 a4 Bd7",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 99.8,
+   "Jev 1.13": 159.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o122_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 123: d4 Nf6 c3 d5 a4 e6 e3 Bd6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 122,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 213.8,
+   "Jev 1.13": 115.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o122_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 123: d4 Nf6 c3 d5 a4 e6 e3 Bd6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 112,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 65.6,
+   "Jev 1.13": 142.8
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o123_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 124: e3 e6 a3 a6 Be2 c5 c3 d5",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 115,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 110.2,
+   "Jev 1.13": 173.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o123_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 124: e3 e6 a3 a6 Be2 c5 c3 d5",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 44.8,
+   "Jev 1.13": 46.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o124_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 125: c4 Nf6 Nc3 e5 e3 Bb4 d4 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 155.5,
+   "Jev 1.13": 98.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o124_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 125: c4 Nf6 Nc3 e5 e3 Bb4 d4 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 138.5,
+   "Jev 1.13": 108.1
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o125_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 126: c4 e5 d3 Be7 Nc3 f5 Nf3 Nc6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 262.0,
+   "Jev 1.13": 193.0
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o125_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 126: c4 e5 d3 Be7 Nc3 f5 Nf3 Nc6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "1-0",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 343.6,
+   "Jev 1.13": 246.3
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o126_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 127: c4 e6 Nf3 Nf6 a3 d5 e3 b6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "1-0",
+  "termination": "checkmate",
+  "plies": 57,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 184.5,
+   "Jev 1.13": 110.5
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o126_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 127: c4 e6 Nf3 Nf6 a3 d5 e3 b6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 52,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 132.3,
+   "Jev 1.13": 45.7
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ },
+ {
+  "game": "o127_jevW",
+  "level": "tactical",
+  "start": "Random-walk line 128: c4 Nf6 g3 c6 Bg2 e5 Nf3 d6",
+  "white": "Jev 1.13",
+  "black": "StartLux-Decision-27B",
+  "result": "0-1",
+  "termination": "checkmate",
+  "plies": 156,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 135.4,
+   "Jev 1.13": 114.8
+  },
+  "versions": {
+   "Jev 1.13": "jev-1.13.0",
+   "StartLux-Decision-27B": "startlux-decision-27b"
+  }
+ },
+ {
+  "game": "o127_oursW",
+  "level": "tactical",
+  "start": "Random-walk line 128: c4 Nf6 g3 c6 Bg2 e5 Nf3 d6",
+  "white": "StartLux-Decision-27B",
+  "black": "Jev 1.13",
+  "result": "0-1",
+  "termination": "adjudicated by Stockfish at the 160-ply cap",
+  "plies": 160,
+  "mean_cp_loss": {
+   "StartLux-Decision-27B": 49.0,
+   "Jev 1.13": 46.5
+  },
+  "versions": {
+   "StartLux-Decision-27B": "startlux-decision-27b",
+   "Jev 1.13": "jev-1.13.0"
+  }
+ }
+]

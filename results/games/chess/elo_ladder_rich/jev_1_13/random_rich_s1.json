@@ -1,0 +1,113 @@
+{
+ "experiment": "G_play_game",
+ "level": "rich",
+ "opponent": "random",
+ "filter_blunders": false,
+ "seed": 1,
+ "code_forced_moves": 0,
+ "adjudicated_result": null,
+ "model_color": "white",
+ "summary": {
+  "result": "1-0",
+  "termination": "CHECKMATE",
+  "plies": 19,
+  "model_mean_cp_loss": 248.4,
+  "model_pct_best_move": 40.0,
+  "model_blunders_200cp": 1,
+  "final_eval_cp_white": null
+ },
+ "pgn_moves": "1. e4 Nc6 2. Nf3 h5 3. Ng5 a6 4. Nf3 Nb8 5. Ng5 Rh7 6. Nxh7 g5 7. Qxh5 Nh6 8. Nxg5 Nf5 9. exf5 Ra7 10. Qxf7#",
+ "final_fen": "1nbqkb2/rppppQ2/p7/5PN1/8/8/PPPP1PPP/RNB1KB1R b KQ - 0 10",
+ "model_moves": [
+  {
+   "ply": 0,
+   "san": "e4",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.64,
+   "n_legal": 20,
+   "n_offered": 20
+  },
+  {
+   "ply": 2,
+   "san": "Nf3",
+   "cp_loss": 21,
+   "rank": 2,
+   "confidence": 0.36,
+   "n_legal": 30,
+   "n_offered": 30
+  },
+  {
+   "ply": 4,
+   "san": "Ng5",
+   "cp_loss": 152,
+   "rank": 21,
+   "confidence": 0.23,
+   "n_legal": 28,
+   "n_offered": 28
+  },
+  {
+   "ply": 6,
+   "san": "Nf3",
+   "cp_loss": 107,
+   "rank": 8,
+   "confidence": 0.1,
+   "n_legal": 33,
+   "n_offered": 33
+  },
+  {
+   "ply": 8,
+   "san": "Ng5",
+   "cp_loss": 110,
+   "rank": 18,
+   "confidence": 0.17,
+   "n_legal": 28,
+   "n_offered": 28
+  },
+  {
+   "ply": 10,
+   "san": "Nxh7",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.99,
+   "n_legal": 33,
+   "n_offered": 33
+  },
+  {
+   "ply": 12,
+   "san": "Qxh5",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.44,
+   "n_legal": 31,
+   "n_offered": 31
+  },
+  {
+   "ply": 14,
+   "san": "Nxg5",
+   "cp_loss": 94,
+   "rank": 17,
+   "confidence": 0.56,
+   "n_legal": 38,
+   "n_offered": 38
+  },
+  {
+   "ply": 16,
+   "san": "exf5",
+   "cp_loss": 2000,
+   "rank": 3,
+   "confidence": 0.95,
+   "n_legal": 42,
+   "n_offered": 42
+  },
+  {
+   "ply": 18,
+   "san": "Qxf7#",
+   "cp_loss": 0,
+   "rank": 1,
+   "confidence": 0.19,
+   "n_legal": 42,
+   "n_offered": 42
+  }
+ ]
+}

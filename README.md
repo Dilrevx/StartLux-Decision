@@ -22,7 +22,7 @@ the evaluation scripts, the results and the raw game logs. The weights are on Hu
 <table align="center">
   <tr>
     <td width="50%" align="center"><a href="media/computer_use_store_27b.mp4"><img src="media/computer_use_store_27b.gif" alt="StartLux-Decision-27B orders batteries in a web store"></a><br><sub>StartLux-Decision-27B finds the cheapest AA 8-pack with free delivery and orders it to the right address</sub></td>
-    <td width="50%" align="center"><a href="media/computer_use_workspace_27b.mp4"><img src="media/computer_use_workspace_27b.gif" alt="StartLux-Decision-27B invites a teammate in a workspace app"></a><br><sub>StartLux-Decision-27B invites a teammate to a team as an Editor</sub></td>
+    <td width="50%" align="center"><a href="media/chess_vs_jev_27b.mp4"><img src="media/chess_vs_jev_27b.gif" alt="StartLux-Decision-27B plays chess against Jev 1.13"></a><br><sub>StartLux-Decision-27B, with White, checkmates Jev 1.13 in 19 moves; neither side searches</sub></td>
   </tr>
   <tr>
     <td width="50%" align="center"><a href="media/mario_1-1_27b.mp4"><img src="media/mario_1-1_27b.gif" alt="StartLux-Decision-27B plays Super Mario Bros."></a><br><sub>StartLux-Decision-27B clears World 1-1 of Super Mario Bros.</sub></td>
@@ -39,9 +39,16 @@ All six are real runs of StartLux-Decision-27B; click a preview for the video.
 **Computer use** (our own harness). A real Chrome window opens a small mock site, and every step is one request with two
 typed questions: which of the controls visible on the page to use next, and whether the task is done. The harness
 carries out the chosen action and nothing else. The model never types text; a text box it clicks only opens its
-suggestion list. Both tasks were completed, and the harness checked the result against the task. The side panel lists
+suggestion list. The task was completed, and the harness checked the result against it. The side panel lists
 the four likeliest controls and the rest in one row, so that block adds up to 100%; below it, set apart, is the
 probability that the task is done. The harness and the two sites are in [demos/computer_use](demos/computer_use).
+
+**Chess** (wondertwins/jev-benchmark). StartLux-Decision-27B plays Jev 1.13 through the harness at its default rich
+level: every turn is one request with one choice question over all legal moves, given the board, the move history and
+the pieces in text. Both sides get the same request, neither searches, and code never overrides a move; Stockfish only
+draws the evaluation bar. This game starts from the usual position. Over 256 games from 128 openings, each played with
+both colours, StartLux-Decision-27B scores 58.4% against Jev 1.13 (see [Games](#games)). The match tools are in
+[demos/chess](demos/chess).
 
 **Super Mario Bros.** (4esv/jev-mario). Every step is one request with one choice question over eleven moves. The
 harness plays each move ahead in the emulator and describes the outcome in text, such as progress and whether Mario
@@ -244,14 +251,19 @@ python -m startlux_decision.gguf_server --model-dir . --llama http://127.0.0.1:8
 | NPC addressee detection, clean text | lines with a wrong answer, of 75 (fewer is better) | 1 | 6 | name matching: 27 |
 | NPC addressee detection, misheard names | lines with a wrong answer, of 75 (fewer is better) | 5 | 12 | name matching: 29 |
 | NPC addressee detection, clean text | F1 over the yes/no answers | 0.990 | 0.962 | name matching: 0.820 |
-| Chess, full games | Elo on the harness ladder, no search | 1348 | 968 | Stockfish skill 0: 1166 |
+| Chess, against each other | points in 256 games at the rich level, no search | 149.5 | 106.5 | 64 wins, 171 draws, 21 losses |
 | Mate in one | puzzles solved, of 25 | 10 | 6 | a random legal move: 3% |
 | Dino Run | runs that reach the 300-obstacle cap, of 20 | 20 | 20 | StartLux-Decision-4B and 9B: 20 |
 
 </div>
 
-Jev's numbers are the ones its harness authors report, except Dino Run, which we ran for Jev through its API in the
-same harness as ours. Jev's chess rating comes from 11 games, ours from 28. The misheard-names variant is the same set
+Jev's numbers are the ones its harness authors report, except Dino Run and the chess match, which we ran for Jev
+through its API in the same harness as ours. The chess match is 256 games: 128 level openings (within 0.6 pawns by
+Stockfish), each played once with each colour, at the harness's default rich level. Games end by the rules or are
+adjudicated at ±300 centipawns after 160 plies; since neither side searches, most draws are fivefold repetitions.
+StartLux-Decision-27B scores 58.4%, +59 Elo (95% interval +37 to +82), and wins 64 of the 85 decisive games. With the
+harness's tactical hints, which give both sides the one-move consequences of every move, the two are even (48.6% and
+46.1% over 256 games each); all four conditions are in [docs/results.md](docs/results.md). The misheard-names variant is the same set
 of lines as a lower-case speech-to-text transcript in which names are misheard.
 The 0.8B and 2B models do much worse on these games. Every game, position and line is in
 [results/games](results/games): Elo ladder games with PGN, chess positions and mate-in-one answers, and NPC predictions
@@ -316,7 +328,7 @@ Index runner. [docs/finetuning.md](docs/finetuning.md) shows how to adapt a mode
 
 ```
 startlux_decision/       inference: prompt rendering, letter readout, CUDA graphs, MLX for Apple Silicon, HTTP servers (also for GGUF), kernel check
-demos/          the computer-use harness and its two mock sites
+demos/          the computer-use harness and its two mock sites, and the chess match tools
 eval/           evaluation: Intern-Decision suites and JevBench public tiers, Typed Decisions, Decision Index, latency
 finetune/       LoRA fine-tuning on your own data and temperature calibration
 docs/           inference, evaluation, fine-tuning and full results
