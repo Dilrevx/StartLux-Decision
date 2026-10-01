@@ -333,10 +333,9 @@ rest. With the tactical facts the games are decisive (160 and 140 of the 256 rea
 and the two are even. Jev answered as jev-1.13.0 in all 1,024 games, and no request failed. Mean centipawn loss caps
 each move at 1,000.
 
-Before this match we played 36 exploratory games under mixed conditions: the two rich games from the standard
-position (StartLux-Decision-27B won both; the README demo is one of them), 16 rich and 16 tactical Chess960 games, and
-two tactical games from the standard position. StartLux-Decision-27B scored 22 of the 36 points. We report the match
-above instead, because its conditions were fixed before it was played and it is large enough to measure.
+Before this match we played 36 exploratory games. In 21 of them every request to Jev failed (its API key was empty)
+and the harness played a random legal move for it, so that batch is not a comparison and we do not count it. The
+match above was checked move by move: no request failed on either side.
 
 **Dino Run** (surafel-kindu/system-one-models-game-test). One decision per obstacle (jump, duck or keep running);
 a wrong answer ends the run. 20 runs per model, capped at 300 obstacles.
@@ -380,12 +379,9 @@ StartLux-Decision-27B on one H200, 739 to 2,515 input tokens per request. The lo
 
 - [media/computer_use_store_27b.gif](../media/computer_use_store_27b.gif) ([MP4](../media/computer_use_store_27b.mp4)) and
   [media/computer_use_workspace_27b.gif](../media/computer_use_workspace_27b.gif)
-  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above (the README shows the first). The side panel lists the four
+  ([MP4](../media/computer_use_workspace_27b.mp4)): the two computer-use runs above. The side panel lists the four
   likeliest controls and the rest in one row (the block adds up to 100%), and below it the probability that the task
   is done, which is a separate question.
-- [media/chess_vs_jev_27b.gif](../media/chess_vs_jev_27b.gif) ([MP4](../media/chess_vs_jev_27b.mp4)):
-  StartLux-Decision-27B, with White, against Jev 1.13 at the rich level from the usual starting position; checkmate on
-  move 19. The panel shows each move with its probability, and Stockfish only draws the evaluation bar.
 - [media/mario_1-1_27b.gif](../media/mario_1-1_27b.gif) ([MP4](../media/mario_1-1_27b.mp4)),
   [media/sc2_hard_27b.gif](../media/sc2_hard_27b.gif) ([MP4](../media/sc2_hard_27b.mp4)),
   [media/doom_deathmatch_27b.gif](../media/doom_deathmatch_27b.gif) ([MP4](../media/doom_deathmatch_27b.mp4)) and

@@ -23,7 +23,7 @@ the evaluation scripts, the results and the raw game logs. The weights are on Hu
 <table align="center">
   <tr>
     <td width="50%" align="center"><a href="media/computer_use_store_27b.mp4"><img src="media/computer_use_store_27b.gif" alt="StartLux-Decision-27B orders batteries in a web store"></a><br><sub>StartLux-Decision-27B finds the cheapest AA 8-pack with free delivery and orders it to the right address</sub></td>
-    <td width="50%" align="center"><a href="media/chess_vs_jev_27b.mp4"><img src="media/chess_vs_jev_27b.gif" alt="StartLux-Decision-27B plays chess against Jev 1.13"></a><br><sub>StartLux-Decision-27B, with White, checkmates Jev 1.13 in 19 moves; neither side searches</sub></td>
+    <td width="50%" align="center"><a href="media/computer_use_workspace_27b.mp4"><img src="media/computer_use_workspace_27b.gif" alt="StartLux-Decision-27B invites a teammate in a workspace app"></a><br><sub>StartLux-Decision-27B invites a teammate to a team as an Editor</sub></td>
   </tr>
   <tr>
     <td width="50%" align="center"><a href="media/mario_1-1_27b.mp4"><img src="media/mario_1-1_27b.gif" alt="StartLux-Decision-27B plays Super Mario Bros."></a><br><sub>StartLux-Decision-27B clears World 1-1 of Super Mario Bros.</sub></td>
@@ -40,16 +40,9 @@ All six are real runs of StartLux-Decision-27B; click a preview for the video.
 **Computer use** (our own harness). A real Chrome window opens a small mock site, and every step is one request with two
 typed questions: which of the controls visible on the page to use next, and whether the task is done. The harness
 carries out the chosen action and nothing else. The model never types text; a text box it clicks only opens its
-suggestion list. The task was completed, and the harness checked the result against it. The side panel lists
+suggestion list. Both tasks were completed, and the harness checked the result against the task. The side panel lists
 the four likeliest controls and the rest in one row, so that block adds up to 100%; below it, set apart, is the
 probability that the task is done. The harness and the two sites are in [demos/computer_use](demos/computer_use).
-
-**Chess** (wondertwins/jev-benchmark). StartLux-Decision-27B plays Jev 1.13 through the harness at its default rich
-level: every turn is one request with one choice question over all legal moves, given the board, the move history and
-the pieces in text. Both sides get the same request, neither searches, and code never overrides a move; Stockfish only
-draws the evaluation bar. This game starts from the usual position. Over 256 games from 128 openings, each played with
-both colours, StartLux-Decision-27B scores 58.4% against Jev 1.13 (see [Games](#games)). The match tools are in
-[demos/chess](demos/chess).
 
 **Super Mario Bros.** (4esv/jev-mario). Every step is one request with one choice question over eleven moves. The
 harness plays each move ahead in the emulator and describes the outcome in text, such as progress and whether Mario
