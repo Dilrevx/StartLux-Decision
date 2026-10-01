@@ -9,7 +9,8 @@
   <a href="results/">Raw results</a>
 </p>
 
-StartLux-Decision is a family of typed decision models in five sizes, from 0.8B to 27B. You send a state and a set of
+StartLux-Decision is a family of typed decision models: five dense sizes from 0.8B to 27B, and a 35B-A3B mixture of
+experts. You send a state and a set of
 questions: pick one of several options, yes or no, or a rating on a scale. Every question comes back with a probability
 for each option. Nothing is generated; the answer is read from the option letters after one forward pass, so a short
 question takes a few milliseconds and the probabilities can be used as confidence. Requests and responses use the
@@ -72,8 +73,8 @@ game's built-in policy.
 
 <p align="center"><img src="media/di_chart.png" alt="Decision Index 0.2.1: StartLux-Decision, Jev and other systems" width="100%"></p>
 
-StartLux-Decision-27B reaches 63.88 on Decision Index 0.2.1 and StartLux-Decision-9B 58.63, scored with the board's own kit on the full
-suite. The highest entry on the public board (2026-09-28) is Jev 1.13 at 57.91; our runs are not on the board.
+StartLux-Decision-27B reaches 63.88 on Decision Index 0.2.1, StartLux-Decision-35B-A3B 61.55 and StartLux-Decision-9B 58.63,
+scored with the board's own kit on the full suite. The highest entry on the public board (2026-09-28) is Jev 1.13 at 57.91; our runs are not on the board.
 StartLux-Decision-27B scores higher than Jev on 31 of the 38 benchmarks in the index. Our training data includes the public
 train splits of 14 of them, marked † below; their test items were filtered out of it.
 
@@ -82,57 +83,57 @@ and 100% is perfect. The index is a weighted mean of these cells, which is why t
 
 <div align="center">
 
-| | StartLux-Decision-27B | StartLux-Decision-9B | StartLux-Decision-4B | Jev 1.13 | Rune 26B-A4B | Decider chat 31B | AutoJev-27B |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Decision Index 0.2.1** | **63.88** | 58.63 | 52.75 | 57.91 | 57.44 | 57.33 | 56.40 |
-| **Knowledge & Reasoning** | 44.3 | 38.0 | 32.1 | **51.4** | 43.4 | 44.3 | 40.9 |
-| GSM8K † | **95.3** | 94.3 | 87.8 | 75.6 | 75.7 | 78.8 | 61.1 |
-| ChessBench | 10.7 | 5.3 | 4.0 | 9.8 | 11.5 | **15.4** | 9.8 |
-| MuSR | **48.8** | 34.9 | 30.0 | 46.1 | 44.2 | 43.1 | 39.3 |
-| SATA-Bench | 9.3 | 25.3 | 14.0 | 25.4 | **34.0** | 28.4 | 28.9 |
-| GPQA Diamond ★ | 34.0 | 33.3 | 22.4 | **71.4** | 29.2 | 32.0 | 32.6 |
-| CRUXEval | 61.6 | 36.5 | 27.6 | 57.1 | 59.4 | **67.2** | 60.2 |
-| CLadder | 47.3 | 36.1 | 31.8 | 45.3 | 45.5 | **49.2** | 49.0 |
-| HLE ★ | 0.0 | 0.0 | 0.0 | **4.7** | 0.0 | 0.0 | 0.0 |
-| MMLU-Pro ★ | 66.0 | 56.5 | 51.6 | **80.5** | 63.1 | 65.8 | 60.1 |
-| BBH ★ | 71.3 | 58.2 | 52.0 | **89.7** | 72.7 | 65.5 | 68.3 |
-| **Language Understanding** | **74.5** | 71.3 | 63.9 | 62.0 | 63.1 | 60.4 | 63.5 |
-| ContractNLI † | 80.3 | **80.6** | 76.8 | 59.1 | 66.7 | 61.8 | 68.4 |
-| ANLI ★ † | **67.0** | 64.6 | 54.9 | 62.2 | 60.3 | 59.8 | 56.0 |
-| WinoGrande ★ | **87.1** | 83.0 | 70.3 | 83.9 | 71.9 | 67.3 | 70.3 |
-| HellaSwag ★ | **96.8** | 95.7 | 92.4 | 92.7 | 89.9 | 89.4 | 92.0 |
-| ACOS † | **50.4** | 46.2 | 32.2 | 27.3 | 24.4 | 16.2 | 17.8 |
-| FinEntity | 89.3 | 82.6 | 86.6 | 80.8 | 83.0 | 86.6 | **89.6** |
-| iSarcasmEval † | **52.4** | 51.9 | 37.3 | 36.3 | 49.0 | 37.0 | 49.0 |
-| VAST † | **73.4** | 68.7 | 65.0 | 46.9 | 64.9 | 59.8 | 56.2 |
-| NLI4CT † | **72.3** | 66.1 | 60.0 | 69.0 | 62.0 | 66.6 | 70.5 |
-| RAGTruth † | **70.1** | 67.5 | 58.5 | 51.3 | 51.9 | 52.2 | 59.2 |
-| **Retrieval & Classification** | **66.8** | 64.1 | 56.7 | 55.4 | 63.5 | 63.1 | 54.9 |
-| BANKING77 ★ † | 90.9 | **91.3** | 85.7 | 79.5 | 83.5 | 78.8 | 78.8 |
-| CLINC150 ★ † | 92.9 | **93.1** | 91.5 | 89.2 | 87.3 | 91.1 | 87.7 |
-| BRIGHT ★ | **43.5** | 41.3 | 38.2 | 40.6 | 39.3 | 36.2 | 41.9 |
-| Amazon ESCI † | **47.9** | 47.4 | 43.2 | 43.8 | 43.9 | 41.2 | 43.7 |
-| PhishNChips | 40.9 | 28.5 | 19.8 | 25.1 | 61.8 | **75.0** | 19.9 |
-| HoVer † | **79.2** | 76.5 | 52.8 | 45.7 | 61.3 | 52.8 | 48.4 |
-| **Tools & Automation** | **82.2** | 73.2 | 72.3 | 75.1 | 71.2 | 75.6 | 79.3 |
-| BFCL ★ | 96.7 | 97.0 | 94.7 | 94.3 | 93.0 | **97.3** | 96.8 |
-| ToolRet | **64.3** | 61.5 | 62.5 | 59.9 | 58.9 | 58.0 | 62.4 |
-| API-Bank ★ | 83.8 | 77.9 | 86.0 | **88.0** | 83.0 | 84.8 | 83.8 |
-| Home appliances | **77.3** | 38.6 | 30.7 | 52.3 | 46.6 | 62.5 | 73.9 |
-| When2Call | **85.7** | 85.2 | 80.3 | 74.6 | 68.0 | 69.2 | 75.6 |
-| **Arts & Human Taste** | **47.9** | 41.8 | 33.7 | 37.7 | 41.9 | 38.3 | 39.4 |
-| BPoMP | **90.6** | 82.1 | 66.3 | 81.8 | 79.9 | 81.2 | 87.8 |
-| Humicroedit † | 25.8 | 24.3 | 19.6 | 23.7 | 24.4 | **27.6** | 24.8 |
-| POP909 | 50.6 | 25.5 | 16.0 | 15.9 | **65.8** | 27.3 | 37.3 |
-| cfcolor | **43.6** | 42.4 | 30.5 | 28.8 | 25.1 | 25.2 | 28.8 |
-| ForecastBench ★ | **34.3** | 26.6 | 24.6 | 30.6 | 18.9 | 19.2 | 22.1 |
-| Habermas | 18.4 | 22.5 | 17.7 | 21.5 | 16.2 | **24.4** | 15.5 |
-| New Yorker † | **74.2** | 72.1 | 63.3 | 62.6 | 67.6 | 67.3 | 62.8 |
+| | StartLux-Decision-27B | StartLux-Decision-35B-A3B | StartLux-Decision-9B | StartLux-Decision-4B | Jev 1.13 | Rune 26B-A4B | Decider chat 31B | AutoJev-27B |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Decision Index 0.2.1** | **63.88** | 61.55 | 58.63 | 52.75 | 57.91 | 57.44 | 57.33 | 56.40 |
+| **Knowledge & Reasoning** | 44.3 | 42.4 | 38.0 | 32.1 | **51.4** | 43.4 | 44.3 | 40.9 |
+| GSM8K † | 95.3 | **95.6** | 94.3 | 87.8 | 75.6 | 75.7 | 78.8 | 61.1 |
+| ChessBench | 10.7 | 8.8 | 5.3 | 4.0 | 9.8 | 11.5 | **15.4** | 9.8 |
+| MuSR | **48.8** | 36.8 | 34.9 | 30.0 | 46.1 | 44.2 | 43.1 | 39.3 |
+| SATA-Bench | 9.3 | 27.5 | 25.3 | 14.0 | 25.4 | **34.0** | 28.4 | 28.9 |
+| GPQA Diamond ★ | 34.0 | 34.7 | 33.3 | 22.4 | **71.4** | 29.2 | 32.0 | 32.6 |
+| CRUXEval | 61.6 | 54.4 | 36.5 | 27.6 | 57.1 | 59.4 | **67.2** | 60.2 |
+| CLadder | 47.3 | 39.1 | 36.1 | 31.8 | 45.3 | 45.5 | **49.2** | 49.0 |
+| HLE ★ | 0.0 | 0.0 | 0.0 | 0.0 | **4.7** | 0.0 | 0.0 | 0.0 |
+| MMLU-Pro ★ | 66.0 | 63.0 | 56.5 | 51.6 | **80.5** | 63.1 | 65.8 | 60.1 |
+| BBH ★ | 71.3 | 65.4 | 58.2 | 52.0 | **89.7** | 72.7 | 65.5 | 68.3 |
+| **Language Understanding** | **74.5** | 73.6 | 71.3 | 63.9 | 62.0 | 63.1 | 60.4 | 63.5 |
+| ContractNLI † | 80.3 | 78.9 | **80.6** | 76.8 | 59.1 | 66.7 | 61.8 | 68.4 |
+| ANLI ★ † | **67.0** | 66.8 | 64.6 | 54.9 | 62.2 | 60.3 | 59.8 | 56.0 |
+| WinoGrande ★ | **87.1** | 86.0 | 83.0 | 70.3 | 83.9 | 71.9 | 67.3 | 70.3 |
+| HellaSwag ★ | 96.8 | **97.0** | 95.7 | 92.4 | 92.7 | 89.9 | 89.4 | 92.0 |
+| ACOS † | 50.4 | **50.5** | 46.2 | 32.2 | 27.3 | 24.4 | 16.2 | 17.8 |
+| FinEntity | 89.3 | 83.3 | 82.6 | 86.6 | 80.8 | 83.0 | 86.6 | **89.6** |
+| iSarcasmEval † | 52.4 | **58.7** | 51.9 | 37.3 | 36.3 | 49.0 | 37.0 | 49.0 |
+| VAST † | **73.4** | 70.3 | 68.7 | 65.0 | 46.9 | 64.9 | 59.8 | 56.2 |
+| NLI4CT † | **72.3** | 70.0 | 66.1 | 60.0 | 69.0 | 62.0 | 66.6 | 70.5 |
+| RAGTruth † | **70.1** | 68.7 | 67.5 | 58.5 | 51.3 | 51.9 | 52.2 | 59.2 |
+| **Retrieval & Classification** | **66.8** | 65.8 | 64.1 | 56.7 | 55.4 | 63.5 | 63.1 | 54.9 |
+| BANKING77 ★ † | 90.9 | 91.0 | **91.3** | 85.7 | 79.5 | 83.5 | 78.8 | 78.8 |
+| CLINC150 ★ † | 92.9 | **93.7** | 93.1 | 91.5 | 89.2 | 87.3 | 91.1 | 87.7 |
+| BRIGHT ★ | **43.5** | 41.7 | 41.3 | 38.2 | 40.6 | 39.3 | 36.2 | 41.9 |
+| Amazon ESCI † | **47.9** | 46.3 | 47.4 | 43.2 | 43.8 | 43.9 | 41.2 | 43.7 |
+| PhishNChips | 40.9 | 38.2 | 28.5 | 19.8 | 25.1 | 61.8 | **75.0** | 19.9 |
+| HoVer † | **79.2** | 78.1 | 76.5 | 52.8 | 45.7 | 61.3 | 52.8 | 48.4 |
+| **Tools & Automation** | **82.2** | 76.2 | 73.2 | 72.3 | 75.1 | 71.2 | 75.6 | 79.3 |
+| BFCL ★ | 96.7 | 96.7 | 97.0 | 94.7 | 94.3 | 93.0 | **97.3** | 96.8 |
+| ToolRet | **64.3** | 64.0 | 61.5 | 62.5 | 59.9 | 58.9 | 58.0 | 62.4 |
+| API-Bank ★ | 83.8 | 79.5 | 77.9 | 86.0 | **88.0** | 83.0 | 84.8 | 83.8 |
+| Home appliances | **77.3** | 51.1 | 38.6 | 30.7 | 52.3 | 46.6 | 62.5 | 73.9 |
+| When2Call | **85.7** | 84.7 | 85.2 | 80.3 | 74.6 | 68.0 | 69.2 | 75.6 |
+| **Arts & Human Taste** | **47.9** | 44.7 | 41.8 | 33.7 | 37.7 | 41.9 | 38.3 | 39.4 |
+| BPoMP | **90.6** | 85.7 | 82.1 | 66.3 | 81.8 | 79.9 | 81.2 | 87.8 |
+| Humicroedit † | 25.8 | 24.7 | 24.3 | 19.6 | 23.7 | 24.4 | **27.6** | 24.8 |
+| POP909 | 50.6 | 32.0 | 25.5 | 16.0 | 15.9 | **65.8** | 27.3 | 37.3 |
+| cfcolor | **43.6** | 42.5 | 42.4 | 30.5 | 28.8 | 25.1 | 25.2 | 28.8 |
+| ForecastBench ★ | **34.3** | 30.6 | 26.6 | 24.6 | 30.6 | 18.9 | 19.2 | 22.1 |
+| Habermas | 18.4 | **26.2** | 22.5 | 17.7 | 21.5 | 16.2 | 24.4 | 15.5 |
+| New Yorker † | **74.2** | **74.2** | 72.1 | 63.3 | 62.6 | 67.6 | 67.3 | 62.8 |
 
 </div>
 
 ★ benchmarks weigh 1.2 in the index. The rows with bold names are the index's own area scores; a bold value marks the
-best score in its row. The other systems' values come from the public board. The metric of each benchmark and the raw scores of all five sizes are in [docs/results.md](docs/results.md)
+best score in its row. The other systems' values come from the public board. The metric of each benchmark and the raw scores of all six models are in [docs/results.md](docs/results.md)
 and [results/decision_index_benchmarks.csv](results/decision_index_benchmarks.csv).
 
 ## At every size
@@ -146,7 +147,8 @@ in the Intern-Decision bundle next to ours; a blank cell means the number is not
 
 | Model | JevBench public, of 231 | Intern avg | DI 0.2 / 0.2.1 | Latency, 3 questions |
 |:---:|:---:|:---:|:---:|:---:|
-| StartLux-Decision-27B | **208** | **91.82** | **59.54 / 63.88** | 102.3 ms |
+| StartLux-Decision-35B-A3B | **210** | **92.29** | 57.24 / 61.55 | 52.5 ms |
+| StartLux-Decision-27B | 208 | 91.82 | **59.54 / 63.88** | 102.3 ms |
 | StartLux-Decision-9B | 201 | 91.08 | 54.37 / 58.63 | 35.7 ms |
 | StartLux-Decision-4B | 204 | 91.17 | 48.38 / 52.75 | 26.0 ms |
 | Intern-Decision-4B | 201 | 90.02 | 35.90 / 37.81 | 44.2 ms ¹ |
@@ -186,6 +188,10 @@ score, which adds a sealed tier, speed and cost and is measured only by the main
 
 <p align="center"><img src="media/latency.png" alt="Latency on one H200" width="100%"></p>
 
+StartLux-Decision-35B-A3B, a mixture of experts with about 3B of its 35B parameters active for each token, answers the
+same request in 52.5 ms, half the time of the 27B; its experts run as grouped matrix multiplications, so the CUDA graphs
+cover them too. It fits one 80 GB GPU (about 71 GiB at its peak).
+
 The fast linear-attention kernels (`flash-linear-attention`, `causal-conv1d`) are required; the server refuses to
 start on a GPU without them. All questions of a request run in one forward pass, and CUDA graphs remove most of the
 launch overhead for short requests: StartLux-Decision-4B takes 90.3 ms for the same request without them. Bulk evaluation goes through a batched path instead. Details in
@@ -193,7 +199,7 @@ launch overhead for short requests: StartLux-Decision-4B takes 90.3 ms for the s
 
 ## GGUF
 
-Every size also comes as GGUF files for llama.cpp: BF16, which keeps the weights unchanged, and llama.cpp's standard
+Every dense size also comes as GGUF files for llama.cpp: BF16, which keeps the weights unchanged, and llama.cpp's standard
 Q8_0 and Q4_K_M quantizations of it. Each file has its own Hugging Face repository,
 `startlux-models/StartLux-Decision-<size>-<precision>-GGUF`, linked from the table below. The decision procedure is not
 in the weights; `python -m startlux_decision.gguf_server` runs it in front of llama-server (see
@@ -229,6 +235,7 @@ in the weights; `python -m startlux_decision.gguf_server` runs it in front of ll
 BF16 and Q8_0 give the original answer on 99 to 100% of the items. Q4_K_M keeps 96.5 to 98.3% from 4B up; at 0.8B and
 2B it changes more answers, so Q8_0 is the better choice there. The original rows are the same weights run through this
 repository's package on the same machine; they differ from the tables above by one or two items of bf16 rounding.
+StartLux-Decision-35B-A3B is not available as GGUF yet.
 
 To run one, download its repository (the GGUF file plus the small files the decision server needs), then start
 llama.cpp and the server (for another precision, replace `Q8_0`):

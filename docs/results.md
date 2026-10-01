@@ -1,7 +1,7 @@
 # Results
 
-All numbers are for the five released models in bf16 with the per-type temperatures in their `decision_config.json`,
-measured on H200 GPUs between 2026-09-27 and 2026-09-29. Numbers for other systems come from the sources named under
+All numbers are for the six released models in bf16 with the per-type temperatures in their `decision_config.json`,
+measured on H200 GPUs between 2026-09-27 and 2026-10-01. Numbers for other systems come from the sources named under
 each table; we did not rerun them unless we say so. A machine-readable copy of our numbers is in
 [results/summary.json](../results/summary.json) and [results/summary.csv](../results/summary.csv).
 
@@ -17,7 +17,8 @@ rounding between batch shapes), Typed Decisions accuracy 0.799 (same), pilot Bri
 The five models as published on Hugging Face were checked the same way, each folder run through all seven
 Intern-Decision suites with this repository's code. They answer 178, 194, 204, 201 and 209 of the 231 public JevBench
 items (0.8B to 27B) against 179, 196, 204, 201 and 208 in the tables below: a few borderline items flip between the
-two inference paths, in both directions.
+two inference paths, in both directions. StartLux-Decision-35B-A3B, checked the same way, answers 208 against 210, with
+an Intern-Decision average of 92.00 against 92.29.
 
 ## Intern-Decision suites and JevBench public tiers
 
@@ -33,6 +34,7 @@ Accuracy in percent. Easy, Original and Hard are the 48, 72 and 111 public JevBe
 | StartLux-Decision-4B | 100.00 | 100.00 | 75.68 | 79.95 | 94.19 | 90.91 | 97.47 | **91.17** | 90.67 |
 | StartLux-Decision-9B | 100.00 | 97.22 | 74.77 | 81.45 | 94.84 | 91.97 | 97.33 | **91.08** | 90.46 |
 | StartLux-Decision-27B | 100.00 | 100.00 | 79.28 | 80.20 | 94.52 | 90.57 | 98.19 | **91.82** | 91.37 |
+| StartLux-Decision-35B-A3B | 100.00 | 98.61 | 81.98 | 81.30 | 95.48 | 91.00 | 97.65 | **92.29** | 91.76 |
 | Jev 1.13 | 100.00 | 98.61 | 72.07 | 73.35 | 91.29 | 89.57 | 96.29 | 88.74 | 88.31 |
 | Laya | 95.83 | 72.22 | 28.83 | 35.95 | 63.87 | 92.84 | 14.84 | 57.77 | 56.75 |
 | SemIf | 100.00 | 98.61 | 61.26 | 62.80 | 85.16 | 89.22 | 92.53 | 84.23 | 84.07 |
@@ -50,7 +52,8 @@ Counted in items (231 public JevBench items; other systems converted from the ta
 
 | System | Correct of 231 | Easy (48) | Original (72) | Hard (111) |
 |:---:|:---:|:---:|:---:|:---:|
-| StartLux-Decision-27B | **208** | 48 | 72 | **88** |
+| StartLux-Decision-35B-A3B | **210** | 48 | 71 | **91** |
+| StartLux-Decision-27B | 208 | 48 | 72 | 88 |
 | StartLux-Decision-4B | 204 | 48 | 72 | 84 |
 | Intern-Decision-4B | 201 | 48 | 71 | 82 |
 | StartLux-Decision-9B | 201 | 48 | 70 | 83 |
@@ -85,11 +88,12 @@ rows are from the Intern-Decision README; it reports the pilot only for Jev and 
 | StartLux-Decision-4B | 0.375 | 0.104 | 0.499 | 0.059 |
 | StartLux-Decision-9B | 0.355 | 0.056 | 0.477 | 0.038 |
 | StartLux-Decision-27B | **0.265** | 0.054 | 0.478 | 0.064 |
+| StartLux-Decision-35B-A3B | 0.280 | **0.039** | 0.502 | 0.061 |
 | Jev 1.13 | 0.358 | 0.095 | 0.595 | 0.130 |
 | Laya | 0.804 | 0.246 | | |
 | SemIf | 0.498 | 0.112 | | |
 | Kev (size not stated) | 0.738 | 0.262 | | |
-| JevK5 | 0.366 | **0.047** | | |
+| JevK5 | 0.366 | 0.047 | | |
 | Intern-Decision-0.8B | 0.530 | 0.066 | | |
 | Intern-Decision-2B | 0.437 | 0.100 | | |
 | Intern-Decision-4B | 0.347 | 0.065 | 0.550 | 0.089 |
@@ -108,8 +112,9 @@ are from the dataset card (revision f7a2487e).
 | StartLux-Decision-0.8B | 0.758 | 0.602 | 0.639 | 0.148 | 0.204 | 0.079 | 0.295 |
 | StartLux-Decision-2B | 0.779 | 0.608 | 0.688 | 0.102 | 0.161 | 0.055 | 0.230 |
 | StartLux-Decision-4B | 0.799 | 0.615 | 0.709 | 0.080 | 0.136 | 0.044 | 0.203 |
-| StartLux-Decision-9B | **0.815** | **0.619** | **0.716** | 0.080 | 0.134 | 0.044 | 0.201 |
-| StartLux-Decision-27B | 0.802 | 0.616 | 0.701 | **0.079** | **0.128** | **0.042** | **0.194** |
+| StartLux-Decision-9B | **0.815** | 0.619 | 0.716 | 0.080 | 0.134 | 0.044 | 0.201 |
+| StartLux-Decision-27B | 0.802 | 0.616 | 0.701 | 0.079 | 0.128 | 0.042 | **0.194** |
+| StartLux-Decision-35B-A3B | 0.813 | **0.620** | **0.717** | **0.075** | **0.127** | **0.040** | 0.195 |
 | meraGPT Decider 1 (general) | 0.768 | 0.608 | 0.641 | 0.096 | 0.149 | 0.052 | 0.219 |
 | Jev 1.13.0 (general) | 0.727 | 0.580 | 0.613 | 1.442 | 0.251 | 0.148 | 0.391 |
 | Featherless Simple Jev (general) | 0.716 | | | 0.488 | | 0.176 | |
@@ -131,6 +136,7 @@ Full suite, scored with the 0.2.1 kit under both editions. The area columns are 
 | StartLux-Decision-4B | 48.38 | **52.75** | 32.1 | 63.9 | 56.7 | 72.3 | 33.7 |
 | StartLux-Decision-9B | 54.37 | **58.63** | 38.0 | 71.3 | 64.1 | 73.2 | 41.8 |
 | StartLux-Decision-27B | 59.54 | **63.88** | 44.3 | 74.5 | 66.8 | 82.2 | 47.9 |
+| StartLux-Decision-35B-A3B | 57.24 | **61.55** | 42.4 | 73.6 | 65.8 | 76.2 | 44.7 |
 
 </div>
 
@@ -170,48 +176,48 @@ whose public train split is part of our training data; their test items were fil
 
 <div align="center">
 
-| Area | Benchmark | Metric | 0.8B | 2B | 4B | 9B | 27B | Jev 1.13 |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Knowledge & Reasoning | GSM8K † | accuracy | 92.0 | 87.4 | 90.4 | 95.7 | **96.4** | 79.9 |
-| Knowledge & Reasoning | ChessBench | accuracy | 10.7 | 11.2 | 11.9 | 13.0 | **18.0** | 17.2 |
-| Knowledge & Reasoning | MuSR | accuracy | 54.8 | 56.0 | 56.0 | 59.0 | **67.8** | 66.1 |
-| Knowledge & Reasoning | SATA-Bench | case exact accuracy | 16.5 | 25.4 | 15.2 | 26.3 | 10.5 | **26.4** |
-| Knowledge & Reasoning | GPQA Diamond ★ | accuracy | 32.1 | 42.4 | 41.8 | 50.0 | 50.5 | **78.6** |
-| Knowledge & Reasoning | CRUXEval | accuracy | 31.9 | 37.4 | 54.4 | 60.0 | **75.8** | 73.0 |
-| Knowledge & Reasoning | CLadder | accuracy | 56.3 | 58.6 | 65.9 | 68.1 | **73.7** | 72.6 |
-| Knowledge & Reasoning | HLE ★ | accuracy | 12.8 | 14.2 | 12.8 | 10.2 | 12.4 | **20.4** |
-| Knowledge & Reasoning | MMLU-Pro ★ | accuracy | 31.5 | 41.0 | 56.9 | 61.3 | 69.8 | **82.7** |
-| Knowledge & Reasoning | BBH ★ | accuracy | 50.3 | 57.4 | 66.9 | 71.2 | 80.2 | **92.9** |
-| Language Understanding | ContractNLI † | macro-F1 | 83.2 | 83.4 | 83.9 | **86.6** | 86.4 | 71.7 |
-| Language Understanding | ANLI ★ † | macro-F1 | 55.7 | 61.5 | 69.9 | 76.4 | **77.9** | 74.8 |
-| Language Understanding | WinoGrande ★ | accuracy | 67.8 | 74.3 | 85.2 | 91.5 | **93.5** | 92.0 |
-| Language Understanding | HellaSwag ★ | accuracy | 82.4 | 89.0 | 94.3 | 96.8 | **97.6** | 94.5 |
-| Language Understanding | ACOS † | per-review F1 | 45.1 | 35.5 | 34.3 | 47.8 | **52.0** | 29.5 |
-| Language Understanding | FinEntity | macro-F1 | 77.8 | 76.2 | 90.9 | 88.2 | **92.7** | 87.0 |
-| Language Understanding | iSarcasmEval † | Sarcasm F1 · track A, English | 18.4 | 30.9 | 51.3 | 62.6 | **63.0** | 50.5 |
-| Language Understanding | VAST † | macro-F1 | 74.6 | 76.9 | 76.7 | 79.1 | **82.3** | 64.6 |
-| Language Understanding | NLI4CT † | macro-F1 | 66.3 | 70.3 | 79.4 | 82.6 | **85.8** | 84.1 |
-| Language Understanding | RAGTruth † | F1 on hallucinated class | 76.8 | 79.1 | 80.0 | 84.3 | **85.6** | 76.5 |
-| Retrieval & Classification | BANKING77 ★ † | macro-F1 | 89.9 | 86.1 | 85.9 | **91.4** | 91.0 | 79.7 |
-| Retrieval & Classification | CLINC150 ★ † | macro-F1 | 90.3 | 86.8 | 91.5 | **93.2** | 93.0 | 89.3 |
-| Retrieval & Classification | BRIGHT ★ | nDCG@10 | 38.7 | 40.4 | 45.4 | 48.1 | **50.0** | 47.5 |
-| Retrieval & Classification | Amazon ESCI † | macro-F1 | 51.1 | 52.0 | 54.7 | 58.1 | **58.5** | 55.2 |
-| Retrieval & Classification | PhishNChips | accuracy | 50.1 | 56.5 | 59.9 | 64.2 | **70.5** | 62.5 |
-| Retrieval & Classification | HoVer † | accuracy | 77.2 | 75.0 | 76.4 | 88.2 | **89.6** | 72.9 |
-| Retrieval & Classification | SGD (0.2 only) | macro-F1 | 69.8 | 70.8 | 67.9 | 71.9 | **74.0** |  |
-| Tools & Automation | BFCL ★ | case exact accuracy | 93.5 | 95.5 | 96.1 | **97.8** | 97.6 | 95.8 |
-| Tools & Automation | ToolRet | nDCG@10 | 63.2 | 64.2 | 67.5 | 66.6 | **69.1** | 65.3 |
-| Tools & Automation | API-Bank ★ | accuracy | 17.9 | 50.4 | 86.2 | 78.3 | 84.1 | **88.2** |
-| Tools & Automation | Home appliances | case exact accuracy | 0.0 | 17.1 | 30.7 | 38.6 | **77.3** | 52.3 |
-| Tools & Automation | When2Call | accuracy | 79.5 | 80.3 | 85.2 | 88.9 | **89.2** | 81.0 |
-| Tools & Automation | RouterBench (0.2 only) | selected quality (quality objective) | 75.9 | 78.9 | **80.0** | 79.9 | 79.7 | 79.9 |
-| Arts & Human Taste | BPoMP | accuracy | 59.8 | 67.6 | 83.1 | 91.0 | **95.3** | 90.9 |
-| Arts & Human Taste | Humicroedit † | accuracy | 56.7 | 61.6 | 59.8 | 62.2 | **62.9** | 61.9 |
-| Arts & Human Taste | POP909 | accuracy | 6.4 | 3.1 | 16.6 | 26.1 | **51.0** | 16.6 |
-| Arts & Human Taste | cfcolor | accuracy | 64.2 | 62.0 | 65.2 | 71.2 | **71.8** | 64.4 |
-| Arts & Human Taste | ForecastBench ★ | (0.25 - Brier) / 0.25, higher is better | 0.8 | 13.8 | 24.6 | 26.6 | **34.3** | 30.6 |
-| Arts & Human Taste | Habermas | accuracy | 44.0 | 45.1 | 43.3 | **46.6** | 43.8 | 45.9 |
-| Arts & Human Taste | New Yorker † | accuracy | 58.3 | 66.5 | 70.6 | 77.6 | **79.4** | 70.1 |
+| Area | Benchmark | Metric | 0.8B | 2B | 4B | 9B | 27B | 35B-A3B | Jev 1.13 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Knowledge & Reasoning | GSM8K † | accuracy | 92.0 | 87.4 | 90.4 | 95.7 | 96.4 | **96.6** | 79.9 |
+| Knowledge & Reasoning | ChessBench | accuracy | 10.7 | 11.2 | 11.9 | 13.0 | **18.0** | 16.3 | 17.2 |
+| Knowledge & Reasoning | MuSR | accuracy | 54.8 | 56.0 | 56.0 | 59.0 | **67.8** | 60.2 | 66.1 |
+| Knowledge & Reasoning | SATA-Bench | case exact accuracy | 16.5 | 25.4 | 15.2 | 26.3 | 10.5 | **28.5** | 26.4 |
+| Knowledge & Reasoning | GPQA Diamond ★ | accuracy | 32.1 | 42.4 | 41.8 | 50.0 | 50.5 | 51.0 | **78.6** |
+| Knowledge & Reasoning | CRUXEval | accuracy | 31.9 | 37.4 | 54.4 | 60.0 | **75.8** | 71.2 | 73.0 |
+| Knowledge & Reasoning | CLadder | accuracy | 56.3 | 58.6 | 65.9 | 68.1 | **73.7** | 69.6 | 72.6 |
+| Knowledge & Reasoning | HLE ★ | accuracy | 12.8 | 14.2 | 12.8 | 10.2 | 12.4 | 10.2 | **20.4** |
+| Knowledge & Reasoning | MMLU-Pro ★ | accuracy | 31.5 | 41.0 | 56.9 | 61.3 | 69.8 | 67.1 | **82.7** |
+| Knowledge & Reasoning | BBH ★ | accuracy | 50.3 | 57.4 | 66.9 | 71.2 | 80.2 | 76.1 | **92.9** |
+| Language Understanding | ContractNLI † | macro-F1 | 83.2 | 83.4 | 83.9 | **86.6** | 86.4 | 85.4 | 71.7 |
+| Language Understanding | ANLI ★ † | macro-F1 | 55.7 | 61.5 | 69.9 | 76.4 | **77.9** | 77.8 | 74.8 |
+| Language Understanding | WinoGrande ★ | accuracy | 67.8 | 74.3 | 85.2 | 91.5 | **93.5** | 93.0 | 92.0 |
+| Language Understanding | HellaSwag ★ | accuracy | 82.4 | 89.0 | 94.3 | 96.8 | 97.6 | **97.7** | 94.5 |
+| Language Understanding | ACOS † | per-review F1 | 45.1 | 35.5 | 34.3 | 47.8 | **52.0** | **52.0** | 29.5 |
+| Language Understanding | FinEntity | macro-F1 | 77.8 | 76.2 | 90.9 | 88.2 | **92.7** | 88.6 | 87.0 |
+| Language Understanding | iSarcasmEval † | Sarcasm F1 · track A, English | 18.4 | 30.9 | 51.3 | 62.6 | 63.0 | **67.9** | 50.5 |
+| Language Understanding | VAST † | macro-F1 | 74.6 | 76.9 | 76.7 | 79.1 | **82.3** | 80.2 | 64.6 |
+| Language Understanding | NLI4CT † | macro-F1 | 66.3 | 70.3 | 79.4 | 82.6 | **85.8** | 84.6 | 84.1 |
+| Language Understanding | RAGTruth † | F1 on hallucinated class | 76.8 | 79.1 | 80.0 | 84.3 | **85.6** | 84.9 | 76.5 |
+| Retrieval & Classification | BANKING77 ★ † | macro-F1 | 89.9 | 86.1 | 85.9 | **91.4** | 91.0 | 91.1 | 79.7 |
+| Retrieval & Classification | CLINC150 ★ † | macro-F1 | 90.3 | 86.8 | 91.5 | 93.2 | 93.0 | **93.7** | 89.3 |
+| Retrieval & Classification | BRIGHT ★ | nDCG@10 | 38.7 | 40.4 | 45.4 | 48.1 | **50.0** | 48.4 | 47.5 |
+| Retrieval & Classification | Amazon ESCI † | macro-F1 | 51.1 | 52.0 | 54.7 | 58.1 | **58.5** | 57.2 | 55.2 |
+| Retrieval & Classification | PhishNChips | accuracy | 50.1 | 56.5 | 59.9 | 64.2 | **70.5** | 69.1 | 62.5 |
+| Retrieval & Classification | HoVer † | accuracy | 77.2 | 75.0 | 76.4 | 88.2 | **89.6** | 89.0 | 72.9 |
+| Retrieval & Classification | SGD (0.2 only) | macro-F1 | 69.8 | 70.8 | 67.9 | 71.9 | **74.0** | 73.2 |  |
+| Tools & Automation | BFCL ★ | case exact accuracy | 93.5 | 95.5 | 96.1 | **97.8** | 97.6 | 97.5 | 95.8 |
+| Tools & Automation | ToolRet | nDCG@10 | 63.2 | 64.2 | 67.5 | 66.6 | **69.1** | 68.8 | 65.3 |
+| Tools & Automation | API-Bank ★ | accuracy | 17.9 | 50.4 | 86.2 | 78.3 | 84.1 | 79.9 | **88.2** |
+| Tools & Automation | Home appliances | case exact accuracy | 0.0 | 17.1 | 30.7 | 38.6 | **77.3** | 51.1 | 52.3 |
+| Tools & Automation | When2Call | accuracy | 79.5 | 80.3 | 85.2 | 88.9 | **89.2** | 88.5 | 81.0 |
+| Tools & Automation | RouterBench (0.2 only) | selected quality (quality objective) | 75.9 | 78.9 | **80.0** | 79.9 | 79.7 | **80.0** | 79.9 |
+| Arts & Human Taste | BPoMP | accuracy | 59.8 | 67.6 | 83.1 | 91.0 | **95.3** | 92.8 | 90.9 |
+| Arts & Human Taste | Humicroedit † | accuracy | 56.7 | 61.6 | 59.8 | 62.2 | **62.9** | 62.4 | 61.9 |
+| Arts & Human Taste | POP909 | accuracy | 6.4 | 3.1 | 16.6 | 26.1 | **51.0** | 32.5 | 16.6 |
+| Arts & Human Taste | cfcolor | accuracy | 64.2 | 62.0 | 65.2 | 71.2 | **71.8** | 71.3 | 64.4 |
+| Arts & Human Taste | ForecastBench ★ | (0.25 - Brier) / 0.25, higher is better | 0.8 | 13.8 | 24.6 | 26.6 | **34.3** | 30.6 | 30.6 |
+| Arts & Human Taste | Habermas | accuracy | 44.0 | 45.1 | 43.3 | 46.6 | 43.8 | **49.2** | 45.9 |
+| Arts & Human Taste | New Yorker † | accuracy | 58.3 | 66.5 | 70.6 | 77.6 | **79.4** | **79.4** | 70.1 |
 
 </div>
 
@@ -219,7 +225,8 @@ whose public train split is part of our training data; their test items were fil
 
 Latency and FP8 numbers are in [inference.md](inference.md). In short, with one request at a time over HTTP on one
 H200, a request with one choice, one yes/no and one score field, answered in one forward pass, takes 12.2 ms on
-StartLux-Decision-0.8B, 26.0 ms on StartLux-Decision-4B and 102.3 ms on StartLux-Decision-27B. Jev 1.13 spends 64.0 ms of server time on
+StartLux-Decision-0.8B, 26.0 ms on StartLux-Decision-4B, 52.5 ms on StartLux-Decision-35B-A3B and 102.3 ms on
+StartLux-Decision-27B. Jev 1.13 spends 64.0 ms of server time on
 the same request.
 
 ![Latency by model size on one H200](../media/latency.png)

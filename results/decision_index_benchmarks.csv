@@ -1,41 +1,41 @@
-area,benchmark,metric,in_index_0.2.1,StartLux-Decision-0.8B_native_x_coverage,StartLux-Decision-2B_native_x_coverage,StartLux-Decision-4B_native_x_coverage,StartLux-Decision-9B_native_x_coverage,StartLux-Decision-27B_native_x_coverage,Jev_1.13_board
-Knowledge & Reasoning,GPQA Diamond,accuracy,True,32.14,42.35,41.84,50.0,50.51,78.57
-Knowledge & Reasoning,GSM8K,accuracy,True,91.96,87.38,90.41,95.68,96.4,79.87
-Knowledge & Reasoning,ChessBench,accuracy,True,10.66,11.24,11.86,13.04,18.0,17.22
-Knowledge & Reasoning,MuSR,accuracy,True,54.79,55.98,55.98,59.04,67.82,66.09
-Knowledge & Reasoning,SATA-Bench,case exact accuracy,True,16.48,25.45,15.15,26.3,10.48,26.42
-Knowledge & Reasoning,CRUXEval,accuracy,True,31.93,37.37,54.39,60.0,75.79,72.98
-Knowledge & Reasoning,CLadder,accuracy,True,56.3,58.62,65.9,68.06,73.66,72.64
-Knowledge & Reasoning,HLE,accuracy,True,12.77,14.17,12.77,10.18,12.38,20.36
-Knowledge & Reasoning,MMLU-Pro,accuracy,True,31.48,41.03,56.93,61.29,69.77,82.7
-Knowledge & Reasoning,BBH,accuracy,True,50.32,57.36,66.88,71.18,80.23,92.92
-Language Understanding,ContractNLI,macro-F1,True,83.25,83.37,83.92,86.58,86.36,71.69
-Language Understanding,ANLI,macro-F1,True,55.68,61.49,69.86,76.39,77.94,74.79
-Language Understanding,WinoGrande,accuracy,True,67.8,74.27,85.16,91.48,93.53,91.95
-Language Understanding,HellaSwag,accuracy,True,82.37,89.04,94.3,96.76,97.56,94.52
-Language Understanding,ACOS,per-review F1,True,45.15,35.46,34.31,47.82,51.99,29.52
-Language Understanding,FinEntity,macro-F1,True,77.77,76.18,90.86,88.2,92.72,86.98
-Language Understanding,iSarcasmEval,"Sarcasm F1 · track A, English",True,18.42,30.89,51.27,62.59,62.99,50.51
-Language Understanding,VAST,macro-F1,True,74.61,76.9,76.7,79.13,82.27,64.63
-Language Understanding,NLI4CT,macro-F1,True,66.33,70.29,79.44,82.6,85.78,84.06
-Language Understanding,RAGTruth,F1 on hallucinated class,True,76.75,79.07,80.0,84.32,85.57,76.53
-Retrieval & Classification,BANKING77,macro-F1,True,89.88,86.07,85.85,91.4,90.98,79.74
-Retrieval & Classification,CLINC150,macro-F1,True,90.32,86.79,91.5,93.15,92.97,89.27
-Retrieval & Classification,BRIGHT,nDCG@10,True,38.73,40.44,45.36,48.08,50.05,47.52
-Retrieval & Classification,Amazon ESCI,macro-F1,True,51.13,51.98,54.71,58.07,58.48,55.21
-Retrieval & Classification,PhishNChips,accuracy,True,50.1,56.55,59.9,64.25,70.45,62.55
-Retrieval & Classification,HoVer,accuracy,True,77.25,74.98,76.42,88.25,89.62,72.85
-Retrieval & Classification,SGD,macro-F1,False,69.83,70.82,67.92,71.88,74.04,
-Tools & Automation,BFCL,case exact accuracy,True,93.45,95.45,96.1,97.76,97.58,95.75
-Tools & Automation,ToolRet,nDCG@10,True,63.23,64.17,67.54,66.63,69.07,65.28
-Tools & Automation,API-Bank,accuracy,True,17.91,50.39,86.22,78.35,84.06,88.19
-Tools & Automation,Home appliances,case exact accuracy,True,0.0,17.05,30.68,38.64,77.27,52.27
-Tools & Automation,When2Call,accuracy,True,79.46,80.31,85.21,88.86,89.24,80.97
-Tools & Automation,RouterBench,selected quality (quality objective),False,75.91,78.86,79.98,79.9,79.73,79.92
-Arts & Human Taste,BPoMP,accuracy,True,59.77,67.61,83.14,91.04,95.33,90.92
-Arts & Human Taste,Humicroedit,accuracy,True,56.74,61.61,59.82,62.18,62.9,61.87
-Arts & Human Taste,POP909,accuracy,True,6.41,3.15,16.63,26.12,51.0,16.58
-Arts & Human Taste,cfcolor,accuracy,True,64.16,62.03,65.24,71.18,71.8,64.41
-Arts & Human Taste,ForecastBench,"(0.25 - Brier) / 0.25, higher is better",True,0.76,13.84,24.56,26.6,34.32,30.56
-Arts & Human Taste,Habermas,accuracy,True,44.03,45.05,43.32,46.6,43.79,45.94
-Arts & Human Taste,New Yorker,accuracy,True,58.33,66.48,70.64,77.65,79.36,70.08
+area,benchmark,metric,in_index_0.2.1,StartLux-Decision-0.8B_native_x_coverage,StartLux-Decision-2B_native_x_coverage,StartLux-Decision-4B_native_x_coverage,StartLux-Decision-9B_native_x_coverage,StartLux-Decision-27B_native_x_coverage,StartLux-Decision-35B-A3B_native_x_coverage,Jev_1.13_board
+Knowledge & Reasoning,GPQA Diamond,accuracy,True,32.14,42.35,41.84,50.0,50.51,51.02,78.57
+Knowledge & Reasoning,GSM8K,accuracy,True,91.96,87.38,90.41,95.68,96.4,96.63,79.87
+Knowledge & Reasoning,ChessBench,accuracy,True,10.66,11.24,11.86,13.04,18.0,16.26,17.22
+Knowledge & Reasoning,MuSR,accuracy,True,54.79,55.98,55.98,59.04,67.82,60.24,66.09
+Knowledge & Reasoning,SATA-Bench,case exact accuracy,True,16.48,25.45,15.15,26.3,10.48,28.48,26.42
+Knowledge & Reasoning,CRUXEval,accuracy,True,31.93,37.37,54.39,60.0,75.79,71.23,72.98
+Knowledge & Reasoning,CLadder,accuracy,True,56.3,58.62,65.9,68.06,73.66,69.56,72.64
+Knowledge & Reasoning,HLE,accuracy,True,12.77,14.17,12.77,10.18,12.38,10.18,20.36
+Knowledge & Reasoning,MMLU-Pro,accuracy,True,31.48,41.03,56.93,61.29,69.77,67.1,82.7
+Knowledge & Reasoning,BBH,accuracy,True,50.32,57.36,66.88,71.18,80.23,76.1,92.92
+Language Understanding,ContractNLI,macro-F1,True,83.25,83.37,83.92,86.58,86.36,85.44,71.69
+Language Understanding,ANLI,macro-F1,True,55.68,61.49,69.86,76.39,77.94,77.85,74.79
+Language Understanding,WinoGrande,accuracy,True,67.8,74.27,85.16,91.48,93.53,92.98,91.95
+Language Understanding,HellaSwag,accuracy,True,82.37,89.04,94.3,96.76,97.56,97.74,94.52
+Language Understanding,ACOS,per-review F1,True,45.15,35.46,34.31,47.82,51.99,52,29.52
+Language Understanding,FinEntity,macro-F1,True,77.77,76.18,90.86,88.2,92.72,88.63,86.98
+Language Understanding,iSarcasmEval,"Sarcasm F1 · track A, English",True,18.42,30.89,51.27,62.59,62.99,67.87,50.51
+Language Understanding,VAST,macro-F1,True,74.61,76.9,76.7,79.13,82.27,80.18,64.63
+Language Understanding,NLI4CT,macro-F1,True,66.33,70.29,79.44,82.6,85.78,84.56,84.06
+Language Understanding,RAGTruth,F1 on hallucinated class,True,76.75,79.07,80.0,84.32,85.57,84.89,76.53
+Retrieval & Classification,BANKING77,macro-F1,True,89.88,86.07,85.85,91.4,90.98,91.14,79.74
+Retrieval & Classification,CLINC150,macro-F1,True,90.32,86.79,91.5,93.15,92.97,93.7,89.27
+Retrieval & Classification,BRIGHT,nDCG@10,True,38.73,40.44,45.36,48.08,50.05,48.44,47.52
+Retrieval & Classification,Amazon ESCI,macro-F1,True,51.13,51.98,54.71,58.07,58.48,57.18,55.21
+Retrieval & Classification,PhishNChips,accuracy,True,50.1,56.55,59.9,64.25,70.45,69.1,62.55
+Retrieval & Classification,HoVer,accuracy,True,77.25,74.98,76.42,88.25,89.62,89.05,72.85
+Retrieval & Classification,SGD,macro-F1,False,69.83,70.82,67.92,71.88,74.04,73.23,
+Tools & Automation,BFCL,case exact accuracy,True,93.45,95.45,96.1,97.76,97.58,97.52,95.75
+Tools & Automation,ToolRet,nDCG@10,True,63.23,64.17,67.54,66.63,69.07,68.82,65.28
+Tools & Automation,API-Bank,accuracy,True,17.91,50.39,86.22,78.35,84.06,79.92,88.19
+Tools & Automation,Home appliances,case exact accuracy,True,0.0,17.05,30.68,38.64,77.27,51.14,52.27
+Tools & Automation,When2Call,accuracy,True,79.46,80.31,85.21,88.86,89.24,88.53,80.97
+Tools & Automation,RouterBench,selected quality (quality objective),False,75.91,78.86,79.98,79.9,79.73,80.03,79.92
+Arts & Human Taste,BPoMP,accuracy,True,59.77,67.61,83.14,91.04,95.33,92.84,90.92
+Arts & Human Taste,Humicroedit,accuracy,True,56.74,61.61,59.82,62.18,62.9,62.37,61.87
+Arts & Human Taste,POP909,accuracy,True,6.41,3.15,16.63,26.12,51.0,32.51,16.58
+Arts & Human Taste,cfcolor,accuracy,True,64.16,62.03,65.24,71.18,71.8,71.27,64.41
+Arts & Human Taste,ForecastBench,"(0.25 - Brier) / 0.25, higher is better",True,0.76,13.84,24.56,26.6,34.32,30.64,30.56
+Arts & Human Taste,Habermas,accuracy,True,44.03,45.05,43.32,46.6,43.79,49.16,45.94
+Arts & Human Taste,New Yorker,accuracy,True,58.33,66.48,70.64,77.65,79.36,79.36,70.08

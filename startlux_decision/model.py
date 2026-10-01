@@ -55,11 +55,15 @@ def fast_kernels_active(path):
 
 def load_model(path, device):
     """The checkpoint's own transformers class in bf16 on `device`, and its text decoder (the stack without the
-    output head; checkpoints that also carry other towers keep the text decoder under .language_model)."""
+    output head; checkpoints that also carry other towers keep the text decoder under .language_model).  The experts
+    of a mixture-of-experts checkpoint run as grouped matrix multiplications: one kernel per projection for all
+    experts and no host synchronisation, so the CUDA graphs can record them."""
     import transformers
 
-    arch = transformers.AutoConfig.from_pretrained(path).architectures[0]
-    model = getattr(transformers, arch).from_pretrained(path, dtype=torch.bfloat16, device_map={"": device})
+    config = transformers.AutoConfig.from_pretrained(path)
+    extra = {"experts_implementation": "grouped_mm"} if getattr(config.get_text_config(), "num_experts", 0) else {}
+    model = getattr(transformers, config.architectures[0]).from_pretrained(path, dtype=torch.bfloat16,
+                                                                           device_map={"": device}, **extra)
     return model, getattr(model.model, "language_model", model.model)
 
 

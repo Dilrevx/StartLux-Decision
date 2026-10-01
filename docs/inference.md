@@ -7,7 +7,7 @@ hf download startlux-models/StartLux-Decision-4B --local-dir StartLux-Decision-4
 pip install -r requirements.txt
 ```
 
-The five models are in the [StartLux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493) on Hugging Face: StartLux-Decision-0.8B, 2B, 4B, 9B and 27B, under
+The six models are in the [StartLux-Decision collection](https://huggingface.co/collections/startlux-models/startlux-decision-6abba92b301b573fa154d493) on Hugging Face: StartLux-Decision-0.8B, 2B, 4B, 9B, 27B and 35B-A3B, under
 `startlux-models/`. The examples below use a local folder called `StartLux-Decision-4B`.
 
 `requirements.txt` includes `flash-linear-attention` and `causal-conv1d`. They matter more than anything else on this
@@ -102,14 +102,15 @@ Three things, in order of how much they matter.
    matrix are ever multiplied.
 3. CUDA graphs. At start-up the model records graphs in a single shared memory pool: one per padded input length
    (128, 192, 256 ... 4096 tokens) for a single question, and one per question count and length for requests with two
-   to four questions of up to 1024 tokens (40 graphs in all). A short request is right-padded to the next length and
+   to four questions of up to 1024 tokens (40 graphs in all). The experts of StartLux-Decision-35B-A3B run as grouped
+   matrix multiplications, with no synchronisation with the host, so they are recorded as well. A short request is right-padded to the next length and
    all its questions are replayed as one graph, which removes the per-layer kernel launch overhead that dominates small
    inputs. Padding goes after the last prompt token, every layer is causal and the rows never mix, so it never affects
    the position that is read. Recording adds to start-up time; set `STARTLUX_GRAPHS=0` to skip it. Requests with more
    or longer questions run on the eager path, still as one batch, and bulk work belongs in `decide_batch`.
    Eager and batched inputs are padded to a fixed ladder of lengths, because the linear-attention kernels are compiled
    once per sequence length. At start-up the server runs one request through both the graph and the eager path and
-   prints the largest probability difference (0.0 for all five models); above 0.02 it drops the graphs.
+   prints the largest probability difference (0.0 for all six models); above 0.02 it drops the graphs.
 
 ![Latency by model size on one H200](../media/latency.png)
 
@@ -127,6 +128,7 @@ Intern-Decision's fields do.
 | StartLux-Decision-4B | 26.0 ms | 26.0 ms | 27.3 ms | 14.7 ms |
 | StartLux-Decision-9B | 35.7 ms | 36.2 ms | 37.4 ms | 17.6 ms |
 | StartLux-Decision-27B | 102.3 ms | 102.5 ms | 104.3 ms | 50.7 ms |
+| StartLux-Decision-35B-A3B | 52.5 ms | 52.9 ms | 54.5 ms | 36.4 ms |
 | StartLux-Decision-4B, graphs off | 90.3 ms | 89.5 ms | 92.5 ms | 87.5 ms |
 
 </div>

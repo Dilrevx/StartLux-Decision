@@ -35,6 +35,10 @@ class MLXDecision(StartLuxDecision):
         from mlx_lm import load
         from transformers import AutoTokenizer
 
+        config = json.load(open(os.path.join(path, "config.json")))
+        if config.get("text_config", config).get("num_experts"):
+            raise NotImplementedError("mixture-of-experts checkpoints such as StartLux-Decision-35B-A3B run on the torch "
+                                      "backend: start the server with --backend torch")
         cfg = json.load(open(os.path.join(path, "decision_config.json")))
         self.tok = AutoTokenizer.from_pretrained(path)
         self.letters = J.check_tokenizer(self.tok)
