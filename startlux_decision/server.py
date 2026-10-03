@@ -23,6 +23,12 @@ from concurrent.futures import CancelledError, Future, TimeoutError
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 
+class DecisionHTTPServer(ThreadingHTTPServer):
+    # Batched responses release clients together; give their reconnect bursts more room than the default five slots.
+    request_queue_size = 128
+    daemon_threads = True
+
+
 class BatchDispatcher:
     """One model worker, a bounded waiting queue, and a fixed batch collection window."""
 
@@ -242,8 +248,7 @@ def main():
     print(f"{name} serving on http://{a.host}:{a.port}/v1/systemone ({detail}; batch <= {batch_size}, "
           f"wait {batch_wait_ms:g} ms)", flush=True)
     try:
-        with ThreadingHTTPServer((a.host, a.port), Handler) as server:
-            server.daemon_threads = True
+        with DecisionHTTPServer((a.host, a.port), Handler) as server:
             server.serve_forever()
     finally:
         dispatcher.close()
