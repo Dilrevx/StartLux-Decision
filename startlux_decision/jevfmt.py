@@ -169,10 +169,14 @@ def from_systemone(state, spec, qid="q"):
     if t == "choice":
         if isinstance(crit, (list, tuple)):
             crit = {str(c): None for c in crit}
+        if not isinstance(crit, dict):
+            raise ValueError("choice criteria must be an object or a list of options")
         opts = [{"id": str(k), "criterion": value_text(v)} for k, v in crit.items()]
     elif t == "score":
         if isinstance(crit, dict):
             crit = [crit[k] for k in score_keys(crit)]
+        if not isinstance(crit, (list, tuple)):
+            raise ValueError("score criteria must be a list of levels or an object legend")
         opts = [{"id": str(i), "criterion": value_text(c)} for i, c in enumerate(crit)]
     elif t == "noul":
         c = crit if isinstance(crit, dict) else {}

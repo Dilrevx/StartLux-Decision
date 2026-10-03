@@ -274,14 +274,17 @@ class StartLuxDecision:
                 answers[k] = self._answer(row, p, questions[k])
         return answers, {"input_tokens": tokens, "output_tokens": 0}
 
-    def decide_batch(self, requests):
+    def decide_batch(self, requests, return_usage=False):
         """[(state, questions), ...] -> [answers, ...].  Every question of every request goes through one length-sorted
         set of padded forward passes (up to max_batch_tokens each), which is much faster than calling decide() in a loop
-        when the requests are short.  Answers are the same as decide() up to bf16 rounding."""
+        when the requests are short.  Answers are the same as decide() up to bf16 rounding.  With return_usage=True,
+        return [(answers, usage), ...], counting each request's unpadded prompts and wide-choice rounds separately."""
         parts, flat = [], []
         for state, questions in requests:
-            answers, rows, _ = self._split(state, questions)
-            parts.append((answers, rows, questions))
+            answers, rows, tokens = self._split(state, questions)
+            if return_usage:
+                tokens += sum(len(J.render_ids(r, self.tok, max_length=self.max_length)[0]) for _, r in rows)
+            parts.append((answers, rows, questions, tokens))
             flat.extend(r for _, r in rows)
         graphs, self.graphs = self.graphs, {}        # batched eager path; graphs are sized for one request
         try:
@@ -289,9 +292,9 @@ class StartLuxDecision:
         finally:
             self.graphs = graphs
         out, i = [], 0
-        for answers, rows, questions in parts:
+        for answers, rows, questions, tokens in parts:
             for k, row in rows:
                 answers[k] = self._answer(row, probs[i], questions[k])
                 i += 1
-            out.append(answers)
+            out.append((answers, {"input_tokens": tokens, "output_tokens": 0}) if return_usage else answers)
         return out

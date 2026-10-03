@@ -33,8 +33,31 @@ python -m startlux_decision.server --model StartLux-Decision-4B --port 8090
 curl -s localhost:8090/health        # {"status": "ok", "model": "StartLux-Decision-4B", "fast_kernels": true}
 ```
 
-The server speaks the TypeSafe `/v1/systemone` format and serves one request at a time per GPU. Run one server per GPU
-and put a load balancer in front if you need more throughput. The official TypeSafe SDK works against it:
+The server speaks the TypeSafe `/v1/systemone` format. With the torch backend, one inference worker collects concurrent HTTP requests for up
+to 5 ms and combines up to 8 requests with `decide_batch`; model calls remain serial on each GPU. A batch containing
+one request uses `decide`, retaining its CUDA-graph path. Each response keeps its own answers and token usage.
+
+Batching and memory limits can be configured, for example for a 9B model on a 32 GiB GPU:
+
+```bash
+python -m startlux_decision.server --model StartLux-Decision-9B --backend torch \
+  --batch-size 8 --batch-wait-ms 5 --queue-size 64 --request-timeout 120 \
+  --max-length 8192 --max-batch-tokens 8192
+```
+
+`--batch-size 1 --batch-wait-ms 0` disables cross-request batching. The waiting queue returns HTTP 503 when full;
+requests exceeding the queue-plus-inference timeout return 504. A timed-out request still waiting is skipped, while
+in-progress inference finishes normally. Invalid question inputs return 422 without failing valid requests in the
+same batch. `latency_ms` includes queue and collection time, and `/health` reports the batching configuration, queue
+depth, and largest observed batch. This changes throughput, not the model's decision prompt or temperatures.
+
+`--max-length` rejects oversized question prompts rather than truncating them (default 65,536). The torch
+`--max-batch-tokens` budget bounds padded tokens in each forward pass (default 8,192), except that a single prompt
+longer than the budget still runs alone; choose `--max-length` at or below the budget when a strict bound is needed.
+MLX keeps singleton HTTP dispatch, without a collection wait, because its shared-prefix path does not bound
+cross-request batch memory. Multi-request torch batches can differ from singleton results by bf16
+rounding; see the Python section below. Run one server per GPU and put a load balancer in front for more capacity.
+The official TypeSafe SDK works against it:
 
 ```bash
 export TYPESAFE_BASE_URL=http://127.0.0.1:8090
@@ -84,6 +107,8 @@ from startlux_decision import StartLuxDecision
 m = StartLuxDecision("StartLux-Decision-4B")                   # device defaults to cuda when available
 answers, usage = m.decide(state, questions)
 answers_list = m.decide_batch([(state1, questions1), (state2, questions2), ...])
+results = m.decide_batch([(state1, questions1), (state2, questions2), ...], return_usage=True)
+# results: [(answers1, usage1), (answers2, usage2), ...]; the default remains answers-only
 ```
 
 `decide` is the latency path. `decide_batch` is the throughput path: every question of every request is sorted by
